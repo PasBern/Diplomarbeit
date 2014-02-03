@@ -1,0 +1,245 @@
+\documentclass[11pt,a4paper,ngerman]{scrartcl}
+\usepackage[T1]{fontenc}
+\usepackage{parskip}
+\pagestyle{empty}
+\usepackage[ansinew]{inputenc}
+
+
+\usepackage{xcolor}
+\usepackage[ngerman]{babel}
+\usepackage{relsize}
+\usepackage{paralist}
+\usepackage{typearea}
+\usepackage{setspace}
+\usepackage{textcomp}
+\usepackage{layouts}
+\usepackage{amsmath}
+\usepackage{fancybox}
+\usepackage{graphicx}
+\usepackage{calc}
+
+
+
+%%%vordefinierte Farben für Seitenfarben
+%  \usepackage[usenames,dvipsnames]{color}
+
+\definecolor{dunkelgrau.80}{gray}{0.20}
+\definecolor{dunkelgrau.60}{gray}{0.40}
+\definecolor{Dschungelgr\"{u}n}{cmyk}{0.99,0,0.52,0.2}
+\definecolor{midblue}{rgb}{0.173,0.212,0.597}
+
+%%%Seitenränder einstellen
+\usepackage[top=10mm,bottom=10mm,left=15mm,right=35mm,marginparsep=12pt]{geometry}
+
+
+
+%%%-----------------------------------------------------------------------
+\begin{document}
+
+
+
+ 
+ 	\begin{flushright}
+ 			{\small \sffamily{\textcolor{dunkelgrau.60}{Fragestellung\\
+ 							\emph{Pascal Bernhard}\\
+ 							Diplomarbeit\\
+ 							\emph{Prof. Dr. Manfred Kerner \& Prof. Dr. Miranda Schreurs}}}}
+ 	\end{flushright}						
+
+	
+
+	\begin{center}
+			{\shadowbox{\sffamily{\textbf{ 
+				Energie im Baltikum
+			\texttwelveudash{} Mehr Versorgungssicherheit durch gemeinsame europ\"{a}ische Energiepolitik?}}}}
+	\end{center} 	
+
+	
+ 
+		
+\begin{itemize}
+		
+			
+			
+			\item{\textcolor{midblue}{\sffamily{\textbf{\emph{Kann die EU-Energiepolitik die Versorgungssicherheit der baltischen Länder verbessern? -- Ist die Energiepolitik Lettlands und Litauens mit den europäischen Zielen vereinbar?}}}}}
+ 
+ 
+\end{itemize}
+
+
+			\normalmarginpar
+
+\section{Litauens Nationale Energiestrategie}
+
+Das litauische Parlament verabschiedete am 26. Juni 2012 eine \textsl{Nationale Energieunabhängigkeitsstrategie der Republik Litauen} \marginpar{\scriptsize{\textcolor{purple}{Inwieweit ist diese Vorgehensweise in Ordnung? Welche anderen Akteure, bzw. ihre Positionen sollten bedacht werden?}}}. Dieses Papier soll vorerst einmal repräsentativ für die litauischen Energiestrategie der kommenden Jahre genommen werden. In der Nationalen Energieunabhängigkeitsstrategie werden die Schwachpunkte des litauischen Energiemarktes benannt, insbesondere was die Versorgungssicherheit mit fossilen Brennstoffen angeht und langfristige Ziele definiert, wie diese Situation behoben werden kann.\par
+
+
+\section{Ziele der Nationalen Energiestrategie}
+
+\begin{enumerate}
+
+\item \textbf{Energieunabhängigkeit:} In dem Strategiepapier ist von Energieunabhängigkeit und nicht von Versorgungssicherheit die Rede. Ziel ist es, unabhängig von einem einzelnen Lieferanten zu werden (Russland), nicht unbedingt einen 'sicheren' Mix an Quellen zu erreichen. Litauen ist sehr stark von Energieimporten abhängig, sowohl bei den fossilen Brennstoffe insbesondere Erdgas, welches sowohl für die Strom- , als auch für die Wärmeerzeugung (Anteil des Erdgases als Primärenergie: über 60 \%). Nach der Abschaltung des Atomkraftwerkes Ignalina, als Bedingung für den Beitritt zur EU, ist Litauen auch gezwungen, Strom aus dem Ausland einzuführen, wiederum zu einem beträchtlichen Teil aus Russland.
+
+Die Frage nach der Energieversorgung wird eng mit der Zugehörigkeit zu einem geopolitischen Raum verknüpft und ist von einem solchen nicht trennbar. (\textsl{\textcolor{dunkelgrau.60}{Macht in neo-realistischer Perspektive und nicht nur in dieser Hinsicht durchaus Sinn}}) Erst die energetische Unabhängigkeit von Russland ermögliche Litauen die vollständige Integration in die transatlantische Gemeinschaft, die bisher nur militärisch und politisch erreicht wurde. Von europäische Seite wird eine Stärkung der Rolle der EU in den Beziehungen/Verhandlungen mit Moskau erwartet. Die Energiebeziehungen mit Russland sollen auf bestimmten Werten beruhen (Transparenz, Nicht-Diskriminierung, Marktprinzipien, Rechtsstaatsnormen) 
+
+
+\item \textbf{Wettbewerbsfähigkeit:} Mit Wettbewerbsfähigkeit meint die Nationale Energiestrategie die Einführung von mehr Wettbewerb auf dem internen litauischen Energie-, insbesondere Strommarkt. Hierdurch soll einerseits langfristig eine Senkung der Preise für die Endverbraucher erreicht werden, wie auch ihnen die Möglichkeit gegeben, zwischen verschiedenen Anbietern und Ursprungsquellen zu wählen (\textsl{\textcolor{dunkelgrau.60}{Auch hier spielt Russland als monopolistischer Energielieferant im Hintergrund eine wichtige Rolle}}). Weniger das Prinzip einer freien Marktwirtschaft mit möglichst geringer staatlicher Intervention, denn die Diversifizierung weg von russischen Quellen, erscheint das Hauptaugenmerk zu sein.
+
+
+\item \textbf{Nachhaltigkeit:} Auch in Litauen sollen langfristig die erneuerbaren Energien gestärkt werden. Neben den klassischen Quellen wie Windkraft und Biomasse baut das Strategiepapier weiterhin auf Atomkraft als $CO_{2}$-neutrale Technik der Stromerzeugung. Der Neubau eines Atomreaktor in Visaginas ist seit Jahren in Planung, aber bisher steht die Finanzierung noch nicht fest. Atomkraft ist fester Bestandteil der litauischen Energiepolitik, an einen Ausstieg wie in anderen europäischen Ländern wird nicht gedacht. 
+
+
+\end{enumerate}
+
+
+Diese drei Ziele sollen zu unterschiedlichen Zeitpunkten realisiert werden, und haben entsprechend nicht die gleiche Priorität. Wichtigstes Ziel ist die Energieunabhängigkeit, sie soll bis 2020 erreicht werden (genauer gesagt, bis zu diesem Jahr soll der Anteil der Energieimporte am Gesamtbedarf auf 35 \% reduziert werden), durch die vollständige Integration in das westeuropäische Stromnetz ENTSO-E und die zeitgleiche Entkopplung vom GUS-Netz UPS. Der Bau des Atomreaktor soll abgeschlossen werden, sowie ein LNG-Terminal an der Ostseeküste in Betrieb genommen werden. Bis 2030 soll die Wettbewerbsfähigkeit des litauischen Energiesektors mittels der Umsetzung des dritten EU-Energiepakets verbessert werden. Liberalisierung der Energiemärkte, mehr Energieeffizienz, etc. Das Thema \textit{erneuerbare Energiequellen} hat die geringste Priorität in der litauischen Strategie. Erst bis zum Jahre 2050 wird ein bedeutender Anteil der Öko-Energien am Energie-Mix angestrebt. 
+
+
+\vspace{2cm}
+
+\noindent\Ovalbox{%
+   \begin{minipage}{0.98\linewidth-2\fboxsep-2\fboxrule}%
+    \sffamily{% 
+    \begin{itemize}
+
+     \item{\textsl{\textcolor{purple}{Wie mache ich aus diesen ersten Informationen nun ein vernünftige Fragestellung?} -- \textcolor{dunkelgrau.60}{Hatte bisher noch nicht die Zeit/bzw. psychische Verfassung, mir die Situation in Lettland anzuschauen, dass soll aber noch erfolgen}}}
+
+     \item{\textsl{\textcolor{purple}{Ein Vergleich der nationalen Energiestrategien mit den EU-Zielen ist rein deskriptiv, hier fehlt der wissenschaftliche (theoretische Ansatz!}}}
+		       
+		       \item{\textsl{\textcolor{purple}{Die Region als gemeinsamer Nenner? Welche Bedeutung in der noch zu findenden Fragestellung sollen die Unterschiede, Ähnlichkeiten zwischen Lettland \& Litauen haben?} -- \textcolor{dunkelgrau.60}{Also: \textsl{most-similiar} oder \textsl{most-dissimiliar} Case Design?}}}
+
+
+     \end{itemize}}
+
+    \end{minipage}}
+
+
+			
+\end{document}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+			      \begin{itemize}
+
+			       \item{Mit welchem theoretischen Ansatz kann Energiepolitik im Bereich Versorgung mit Erdgas in Europa heute besser erklärt werden?}
+
+				\begin{itemize}
+
+				  \item{baltische Länder haben eine zu schwache Position gegenüber Russland und müssen somit auf eine Integration der Energiepolitik in der Europäischen Union setzen}
+
+				  \item{der \textsl{Neo-Realismus} würde voraussagen, dass Energiepolitik in Europa weiterhin von den Nationalstaaten auf bilateraler Ebene geregelt werden\\
+				  $\Rightarrow$ große  Mitglieder (Deutschlandk, Frankreich, Italien z.B.) schließen separat Lieferverträge mit Russland ab\\
+				  $\Rightarrow$ schwächere  Mitglieder der EU sehen ihre Interessen missachtet}
+
+				  \item{laut \textsl{Supranationalismus\textendash Institutionalismus} wird Energiepolitik in Europa nicht mehr von den Nationlstaaten sondern über gemeinschaftliche Institutionen bestimmt\\
+				  $\Rightarrow$ auch die Anliegen der kleinen Mitglieder werden berücksichtigt}\\
+				  \textcolor{purple}{$\Rightarrow$ ein umfassendes supranationales legislativ-exekutives Gefüge ist hierfür ausreichend}
+	    \
+
+
+
+				\end{itemize}
+
+			       \item{Welche Faktoren treiben die Integration von Energiepolitik auf europäischer Ebene?}
+
+			      \end{itemize}
+
+
+
+ 				\item{\textsl{aktuelle politische Relevanz}}
+ 				
+ 					\begin{itemize}
+
+ 					\item{\textcolor{dunkelgrau.60}{extreme Abhängigkeiten des Baltikums von russischem Gas}} 					
+ 					\item{\textcolor{dunkelgrau.60}{Energieversorgungssicherheit als gesamteurop\"{a}ische Herausforderung \texttwelveudash{} Energieversorgung in Osteuropa idealer \marginpar{\scriptsize{\textcolor{purple}{Welche Bedeutung hat Gazprom für den litauischen Energiemarkt? Inwiefern ist die Rolle des Unternehmens als schädlich für die Versorgungssicherheit zu sehen?}}} Testfall für Effektivität einer gemeinsamen europäischen Energiepolitik}}
+
+ 					\item{\textcolor{dunkelgrau.60}{Russland betreibt forsche bis aggressive Außenpolitik gegenüber seinen Nachbarn (Beispiel: {} \textsl{Cyberattacken gegen Estland  im Jahre 2007, Streitigkeiten über Gaslieferung nach Westeuropa über die Ukraine \& Gazproms Rolle auf dem litauischen Energiemarkt)}}}
+ 					\end{itemize}
+
+
+				\item{\textbf{Annahme: \emph{Aufgrund ihrer starken Abhängigkeit von russischen Gaslieferungen und schwachen Position in internationalen Verhandlungen, ist eine starke gemeinsame Energiepolitik von Interesse für die baltischen Staaten}}}
+ 					
+ 			\end{itemize}
+ 
+		\end{itemize} 
+ 
+ 		\begin{itemize}
+ 			
+ 			\item{\textcolor{midblue}{\sffamily{\textbf{\textsl{Theoretische Grundlagen}}}}}
+ 				
+ 				\begin{itemize}
+ 					
+ 					\item{Energie \marginpar{\scriptsize{\textcolor{purple}{Belege?\\ Beispiele?}}}als klassischer Bereich für neo-realistische Ansätze \texttwelveudash {} Energiesektor ist eng mit dem Nationalstaat verbunden}
+
+ 					\item{Erklärung \marginpar{\scriptsize{\textcolor{purple}{Theoretische Ansätze sollten erläutert werden. Wieso können gerade diese Ansätze zur Bearbeitung der Fragestellung hilfreich sein?}}} der Integrationsfortschritte in der Europäischen Union auf dem Gebiet der Energiepolitik}
+ 						
+ 						\begin{itemize}
+ 							
+ 							\item{\textcolor{dunkelgrau.60}{liberaler  Intergouvernementalismus}} 
+ 							\item{\textcolor{dunkelgrau.60}{Spill-over Effekte durch gemeinsamen Markt}}
+							\item{\textcolor{dunkelgrau.60}{Problem kollektiver Handlungen \texttwelveudash {} \"{U}berwindung \marginpar{\scriptsize{\textcolor{purple}{Kommt hier nur eine theoretische Darstellung, oder auch konkrete Beispiele?}}} des Kooperationsdilemmas (Abwehr einer \textsl{divide-et-impera} \texttwelveudash {} Strategie der F\"{o}rderl\"{a}nder)}}
+ 										
+ 						\end{itemize}
+ 	
+ 	
+ 	
+ 						
+ 
+ 	
+ 	
+ 							
+
+ 		
+				  \end{itemize}
+ 			
+ 		\end{itemize}
+ 		
+
+ 							
+	\begin{itemize}
+		
+		
+		\item{\textcolor{midblue}{\textbf{\sffamily{\textsl{abh\"{a}ngige Variable:  Handlungsspielraum der EU-Energiepolitik}}}}}	
+			
+			\begin{itemize}
+				\item{Grad der Integration in Bezug auf Energiepolitik}
+				\item{\textsl{Operationalisierung}}
+							
+					\begin{itemize}
+						\item{\textcolor{dunkelgrau.60}{\"{U}bertragung \marginpar{\scriptsize{\textcolor{purple}{Wie sieht die aktuelle Lage der EU-Institutionen aus?}}} von Kompetenzen an europ\"{a}ische Organe samt Sanktionsinstrumente gegen widerwillige Mitgliedsstaaten}}
+						\item{\textcolor{dunkelgrau.60}{Bewilligung von Mitteln zur Fortentwicklung eines einheitlichen europäischen Energiemarktes (Zusammenschluss von Netzen)}}
+						\item{\textcolor{dunkelgrau.60}{politische Beschl\"{u}sse zur \marginpar{\scriptsize{\textbf{\textcolor{purple}{Wichtiger Punkt!}}}} Koordination nationaler Politiken, bzw. gemeinsame Verhandlungen mit Russland}}
+						\item{\textcolor{dunkelgrau.60}{Umfang autonomer Handlungen einzelner Mitgliedsstaaten an der gemeinsamen Position vorbei}}
+					\end{itemize}
+					
+			\end{itemize}
+			
+		\item{\textcolor{midblue}{\sffamily{\textbf{\textsl{unabh\"{a}ngige Variablen}}}}}
+		
+			\begin{itemize}
+				\item{Pr\"{a}ferenzen \marginpar{\scriptsize{\textcolor{purple}{Wer sind die Key-Mitgliedsstaaten?}}} der Mitgliedsstaaten zu Integration von Energiepolitik}
+				\item{Integrationswille der Gemeinschaftsorgane: {} Kommission (Vorschläge für neue Direktiven) \& Europ\"{a}ischen Parlament (Abstimmungsverhalten)}
+				\item{\textsl{Operationalisierung:}}
+
+									
+				\begin{itemize}
+					
+					\item{\textcolor{dunkelgrau.60}{Kompetenzverteilung nach Europäischen Verträgen}}
+
+					\item{\textcolor{dunkelgrau.60}{\textsl{Kommission:} {} Gr\"{u}nbuch und White Papers, Statements, Entw\"{u}rfe des DG TREN, Staff Working Documents}}			
+																	\item{\textcolor{dunkelgrau.60}	
+					{\textsl{Mitgliedsstaaten:} {} Stellungnahmen des Rates,  Protokolle (soweit zug\"{a}nglich), COREPER und Energiekommittee}}			
+	
+					\item{\textcolor{dunkelgrau.60}{\textsl{Energiepolitik im Baltikum:} {} Handeln die baltischen Länder auch gemeinschaftlich? Gibt es auf regionaler Ebene Bestrebungen die Energiemärkte miteinander zu koppeln und gemeinsame Infrastruktur zu Nutzen (LNG-Terminal für Gaslieferungen aus anderen Ländern}}					
+				\end{itemize}
+							
+			\end{itemize}
+				
+	\end{itemize} 						
+	
+
+
+
+
+				
+
