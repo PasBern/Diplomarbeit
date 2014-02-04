@@ -3,15 +3,16 @@
 \contentsline {chapter}{\numberline {2}Untersuchungsgegenstand und Fragestellung}{8}{chapter.2}
 \contentsline {section}{\numberline {2.1}Stand der Forschung}{9}{section.2.1}
 \contentsline {section}{\numberline {2.2}Forschungsdesign}{9}{section.2.2}
-\contentsline {paragraph}{\textsl {Transaction Cost Economics} -- Ansatz}{9}{section*.2}
-\contentsline {paragraph}{Ebene 1}{10}{section*.3}
-\contentsline {paragraph}{Ebene 2}{10}{section*.4}
-\contentsline {paragraph}{Ebene 3}{11}{section*.5}
-\contentsline {paragraph}{Ebene 4}{11}{section*.6}
-\contentsline {paragraph}{Kritik des Modells}{11}{section*.7}
-\contentsline {paragraph}{Die Verwendung des Ansatzes}{13}{section*.8}
-\contentsline {paragraph}{Ausgangsbedingungen f\"ur Reformen}{14}{section*.9}
-\contentsline {paragraph}{Das Verh\"altnis zu Russland}{16}{section*.10}
+\contentsline {subsection}{\numberline {2.2.1}Transaction Cost Economics}{9}{subsection.2.2.1}
+\contentsline {paragraph}{Ebene 1}{10}{section*.2}
+\contentsline {paragraph}{Ebene 2}{10}{section*.3}
+\contentsline {paragraph}{Ebene 3}{11}{section*.4}
+\contentsline {paragraph}{Ebene 4}{11}{section*.5}
+\contentsline {paragraph}{Kritik des Modells}{11}{section*.6}
+\contentsline {subsubsection}{Die Verwendung des Ansatzes}{13}{section*.7}
+\contentsline {subsection}{\numberline {2.2.2}Die erkl\"arenden Variablen}{14}{subsection.2.2.2}
+\contentsline {subsubsection}{Ausgangsbedingungen f\"ur Reformen}{14}{section*.8}
+\contentsline {subsubsection}{Das Verh\"altnis zu Russland}{16}{section*.9}
 \contentsline {chapter}{\numberline {3}Energiem\"arkte im Baltikum}{19}{chapter.3}
 \contentsline {section}{\numberline {3.1}Litauen}{19}{section.3.1}
 \contentsline {subsection}{\numberline {3.1.1}Der Gasmarkt in Litauen}{19}{subsection.3.1.1}
@@ -26,9 +27,9 @@
 \contentsline {subsection}{\numberline {4.2.2}Marktreformen im Kontext des Europ\"aischen Integrationsprozesses}{21}{subsection.4.2.2}
 \contentsline {section}{\numberline {4.3}Bestimmungen des Dritten Liberalisierungspakets f\"ur die Europ\"aischen Energiem\"arkte}{21}{section.4.3}
 \contentsline {subsection}{\numberline {4.3.1}Modelle der vertikalen Entflechtung auf dem Gasmarkt}{21}{subsection.4.3.1}
-\contentsline {paragraph}{Ownership Unbundling}{21}{section*.11}
-\contentsline {paragraph}{Independent System Operator}{21}{section*.12}
-\contentsline {paragraph}{Independent Transmission Operator}{22}{section*.13}
+\contentsline {paragraph}{Ownership Unbundling}{21}{section*.10}
+\contentsline {paragraph}{Independent System Operator}{21}{section*.11}
+\contentsline {paragraph}{Independent Transmission Operator}{22}{section*.12}
 \contentsline {section}{\numberline {4.4}Auswirkungen auf die baltischen Gasm\"arkte}{22}{section.4.4}
 \contentsline {chapter}{\numberline {5}Das Verh\"altnis zu Russland: historische Belastungen}{23}{chapter.5}
 \contentsline {section}{\numberline {5.1}Der Faktor Gazprom}{23}{section.5.1}
@@ -42,7 +43,7 @@
 \contentsline {chapter}{\numberline {9}Europ\"aische Energiepolitik}{27}{chapter.9}
 \contentsline {chapter}{\numberline {10}Fazit}{28}{chapter.10}
 \contentsline {chapter}{\numberline {11}Anhang -- Erl\"auterungen}{29}{chapter.11}
-\contentsline {paragraph}{Bruttoinlandsprodukt zu Marktpreisen}{29}{section*.14}
-\contentsline {paragraph}{Nat\"urliches Monopol}{29}{section*.15}
-\contentsline {paragraph}{'Sunk Costs'}{29}{section*.16}
+\contentsline {paragraph}{Bruttoinlandsprodukt zu Marktpreisen}{29}{section*.13}
+\contentsline {paragraph}{Nat\"urliches Monopol}{29}{section*.14}
+\contentsline {paragraph}{'Sunk Costs'}{29}{section*.15}
 \contentsline {chapter}{\numberline {12}Literaturverzeichnis}{31}{chapter.12}
