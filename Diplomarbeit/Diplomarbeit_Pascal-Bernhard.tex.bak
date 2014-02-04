@@ -197,7 +197,7 @@ An keiner Stelle soll impliziert werden, die Motivation, \emph{Gazprom} Macht au
 \section{Forschungsdesign}
 
 
-\subsection{Transaction Cost Economics}
+\subsection*{\emph{Transaction Cost Economics}--Ansatz}
 
 Für die Untersuchung der Umsetzung des 3. Liberalisierungspaketes will ich den Ansatz der \glqq Transaction Cost Economics\grqq{} von \textit{Williamson}\footnote{siehe Williamson (1998)} zur Hilfe nehmen, um die Problemstellung analytisch zu strukturieren und somit besser bearbeitbar zu machen. Diese Herangehensweise versucht Entscheidungsfindungen auf vier Ebenen zu gliedern, auf denen jeweils andere endogene Faktoren als erklärende Variablen wirken. Prozesse auf diesen vier Level, von Williamson als \glqq Transkationen\grqq{} bezeichnet, führen zu Ergebnissen, die auf Transaktionen anderer Ebenen einwirken. Die Richtung der Kausalität verläuft nach diesem Ansatz hauptsächlich in hierarchischer Ordnung vom ersten zum zweiten Level, von dort zum dritten und schließlich vom dritten zum vierten Level. Feedback-Mechanismen in entgegengesetzter Richtung werden zwar in Williamsons Arbeit erwähnt, diese jedoch als weniger effektiv eingestuft. Diese Annahme werde ich meiner Kritik des Modell unten noch einmal aufgreifen. Der Autor selbst hat seinen Ansatz explizit für Fallstudien zu Regulierungspolitik entwickelt.
 
@@ -231,7 +231,7 @@ Im Falle der Energiemarktregulierung erscheint es wenig plausibel anzunehmen, di
 
 Als weiterer Kritikpunkt muss angemerkt werden, dass die dritte Ebene konzeptionell unscharf definiert ist. Hier identifiziert \textit{Williamson} n\footnote{Für eine ausführlichere Erläuterung siehe: \textsf{\textcolor{NavyBlue}{\nameref{sec:Sunk Costs}}}}eben Regulierung als formeller Institution parallel auch informelle Arrangements wie handelsübliches Marktverhalten von Unternehmen. Dieses erfolgt jedoch in der Regel als direkte Reaktion auf das regulative Umfeld und politische Anreizstrukturen. Es bleibt unklar, weshalb letzteres nicht der hierarchisch nachgeordneten Ebene 4 zugewiesen wird, wenn dieses informell-institutionalisierte Marktverhalten doch eindeutig als Antwort auf formelle Regulierung zu sehen ist.
 
-Gleichermaßen unpräzise bleibt die Unterscheidung zwischen der zweiten und dritten Ebene. \textit{Correlj\'{e}} und \textit{de Vries} finden die Unterscheidung zwischen Level 2 und 3 problematisch \marginpar{\scriptsize{\textcolor{Dschungel}{\textbf{Hier muss ich noch genauer überlegen, welche Implikationen dies für mein Vorgehen hat!!!}}}}in ihrer Studie zur Strommarktliberalisierung\footnote{siehe Correlj\'{e} \& de Vries (2006)}. Die letztendlich gleichen, von der EU determinierten, Faktoren treten auf der einen Seite für Institutionen der zweiten Ebene auf, \textemdash{} die Richtlinie zu Gasmarktliberalisierung. Zugleich stellen sie auch Variablen auf Ebene der sektor-spezifischen institutionellen Arrangements dar: Vorgaben der Europäischen Union legen ein Minimum an Unbundling fest (Level 2), gleichzeitig bestimmt die nationale Aufsichtsbehörde den konkreten Grad der Entflechtung, was nach \textit{Williamsons} Modell der dritten Schicht zuzuordnen ist. Haase\footnote{Haase (2006), S.12} identifiziert als Ursache dieser konzeptionellen Uneindeutigkeit die Eigenschaft von Regulierung als einem Prozess, der auf mehreren Ebenen stattfindet. Letztendlich entscheidet die Kategorisierung, ob ein Thema in erster Linie sektorbezogen der dritten Ebene zugeordnet wird, oder orientiert an den Entscheidungsträgern auf Level 2, Die Festlegung bestimmt aber, wie das Modell eine Fragestellung bearbeiten hilft. An dieser soll angemerkt werden, dass diese Arbeit nicht anstrebt, diesbezüglich eine zu verallgemeinernde Antwort auf diese Problematik anzubieten.   
+Gleichermaßen unpräzise bleibt die Unterscheidung zwischen der zweiten und dritten Ebene. \textit{Correlj\'{e}} und \textit{de Vries} finden die Unterscheidung zwischen Level 2 und 3 problematisch \marginpar{\scriptsize{\textcolor{Dschungel}{\textbf{Hier muss ich noch genauer überlegen, welche Implikationen dies für mein Vorgehen hat!!!}}}}in ihrer Studie zur Strommarktliberalisierung\footnote{siehe Correlj\'{e} \& de Vries (2006)}. Die letztendlich gleichen, von der EU \reversemarginpar{\scriptsize{\textcolor{Dschungel}{\textbf{Die Verbindung zwischen den Ansätze \textsl{Transaction Costs Economics} und \textsl{Pfadabhängigkeiten} muss im Methodenteil besser herges!!!}}}}determinierten, Faktoren treten auf der einen Seite für Institutionen der zweiten Ebene auf, \textemdash{} die Richtlinie zu Gasmarktliberalisierung. Zugleich stellen sie auch Variablen auf Ebene der sektor-spezifischen institutionellen Arrangements dar: Vorgaben der Europäischen Union legen ein Minimum an Unbundling fest (Level 2), gleichzeitig bestimmt die nationale Aufsichtsbehörde den konkreten Grad der Entflechtung, was nach \textit{Williamsons} Modell der dritten Schicht zuzuordnen ist. Haase\footnote{Haase (2006), S.12} identifiziert als Ursache dieser konzeptionellen Uneindeutigkeit die Eigenschaft von Regulierung als einem Prozess, der auf mehreren Ebenen stattfindet. Letztendlich entscheidet die Kategorisierung, ob ein Thema in erster Linie sektorbezogen der dritten Ebene zugeordnet wird, oder orientiert an den Entscheidungsträgern auf Level 2, Die Festlegung bestimmt aber, wie das Modell eine Fragestellung bearbeiten hilft. An dieser soll angemerkt werden, dass diese Arbeit nicht anstrebt, diesbezüglich eine zu verallgemeinernde Antwort auf diese Problematik anzubieten.   
 
 
 \subsubsection{Die Verwendung des Ansatzes}
@@ -239,13 +239,21 @@ Gleichermaßen unpräzise bleibt die Unterscheidung zwischen der zweiten und dritt
 Weshalb wurde der Konzept von \textit{Williamson} ausgewählt, um die Frage nach der Wahl des Entflechtungsmodells zu bearbeiten?
 Für meinen Fall der Energiepolitik im Baltikum eignet sich dieses Konzept, um das erwähnte Russland-Bild als Parameter von anderen möglichen Ursachen analytisch zu trennen. Zugleich bietet \marginpar{\scriptsize{\textcolor{Dschungel}{\textbf{Das Konzept des Framings muss recherchiert und erläutert, bzw. in Zusammenhang mit Pfadabhängigkeiten gebracht werden!!!}}}} der \textsl{Transaction Cost Economics}--Ansatz die Möglichkeit zu untersuchen, ob diese Weltsicht im Sinne eines \glqq Framings\grqq{} für Entscheidungsprozesse auf höheren Ebenen ein Denkmuster vorgegeben hat, welches für diese Transaktionen einen Pfad markiert hat. Dieses Denkmuster kann aber kaum die einzige Ursache für die Wahl eines bestimmten Entflechtungsmodell gewesen, sonst wäre ein gleiches Ergebnis zu erwarten, vorausgesetzt diese Weltsicht kann als operationalisierte unabhängige Variable für Litauen und Lettland als gleich stark identifiziert werden.
 
-Weiterer Faktor auf dem ersten könnte Level die wirtschaftspolitische Position der federführenden Regierung, bzw. Regierungskoalition sein, die je nach ideologischer Ausrichtung ein Modell favorisieren wird, dass \marginpar{\scriptsize{\textcolor{purple}{\textbf{Hier ist noch einige Denkarbeit und Präzisierung notwendig!!!}}}}mehr oder weniger einem freien Markt entspricht. 
-Die Richtlinie zu Liberalisierung der Gasmärkte kann als Parameter der nächsten Ebene operationalisiert werden, indem hiermit ein institutionelle Vorgaben für nationale Politik gemacht werden.
-Die bisherige Marktstruktur andererseits, der vierten Ebene des \textsl{Transaction Cost Economics}--Modells zuzuordnen bietet einen Ansatz, Zusammenhänge im Entscheidungsprozess aufzuzeigen, die entgegen der Prämisse uni-direktioneller Mechanismen wirken.
+Weiterer Faktor auf dem ersten Level könnte die wirtschaftspolitische Position der federführenden Regierung, bzw. Regierungskoalition sein, die je nach ideologischer Ausrichtung ein Modell favorisieren wird, dass \marginpar{\scriptsize{\textcolor{purple}{\textbf{Hier ist noch einige Denkarbeit und Präzisierung notwendig!!!}}}}mehr oder weniger einem freien Markt entspricht. 
+Die Richtlinie zu Liberalisierung der Gasmärkte kann als Parameter der nächsten Ebene operationalisiert werden, indem hiermit ein institutionelle Vorgaben für nationale Politik gemacht werden. Die bisherige Marktstruktur andererseits, der vierten Ebene des \textsl{Transaction Cost Economics}--Modells zuzuordnen bietet einen Ansatz, Zusammenhänge im Entscheidungsprozess aufzuzeigen, die entgegen der Prämisse uni-direktioneller Mechanismen wirken.
 
 
+\subsection*{Konzept der \emph{Pfadabhängigkeiten}}
 
-\subsection{Die erklärenden Variablen}
+
+\vspace{1cm}
+							\begin{center}
+							\textcolor {dunkelgrau.60}{\textbf{[.........Hier kommt noch ein Teil zum Ansatz der 														Pfadabhängigkeiten...........]}}
+							\end{center}
+\vspace{1cm}
+
+
+\section{Die erklärenden Variablen}
 
 
 
@@ -255,7 +263,7 @@ Ausgangspunkt nationaler Energiepolitik und Marktregulierung ist die Struktur de
 
 Energieunternehmen, ob in öffentlicher oder privater Hand, haben aufgrund ihrer Sunk Costs und wachsender Erträge im Laufe eines Investitionszykluses, wenig Interesse daran, den Status Quo verändert zu sehen. Der Zwang, Geschäftsbereiche zu veräußern oder Konkurrenten Zugang zur ihrer Netzinfrastruktur gewähren zu müssen, würde mit dem bestehenden Geschäftsmodell in der Zukunft niedrigere Gewinne bedeuten. Von Seiten der betroffenen Energieunternehmen ist entsprechend Widerstand zu erwarten gegen eine Entflechtung der Besitzformen und mehr Wettbewerb allgemein auf dem Gasmarkt. Wie im Überblick zu den baltischen Gasmärkten zu zeigen sein wird, wirken die Eigenschaften des Marktgefüges als Schleuse, welche die Akteure nur bestimmte Strategien als Antwort auf Liberalisierungsbetrebungen verfolgen lässt. Die Form des Marktes bildet Verhaltensmuster heraus, die entsprechend den Anreizstrukturen die Unternehmen auf potentielle Veränderungen ihrer Umgebung auf bestimmte Weise handeln lassen.  
 
-In den \emph{Transaction Costs Economics}--Ansatz einbe
+In den Analyserahmen der \emph{Transaction Costs Economics} eingebettet bietet die hier kurz erläuterte Struktur von Energiemärkten einen ersten Ansatz mögliche Gründe für eine unterschiedliche Gasmarktentflechtung in Lettland und Litauen zu benennen. Der Parameter \glqq Struktur der Gasmärkte\grqq ist der Ebene 3 zuzuordnen.
 
 
 
