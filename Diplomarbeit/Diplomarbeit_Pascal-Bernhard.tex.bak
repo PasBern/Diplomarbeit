@@ -544,7 +544,7 @@ Kosten, die bereits entstanden sind und nicht mehr rückgängig gemacht werden kön
 	
 	\sffamily
 	
-\itemsep5pt %%%Abstand der zwischen den einzelnen Items verkleinern
+\setlength{itemsep}{0pt} %%%Abstand der zwischen den einzelnen Items verkleinern
 
 	\item [\Rectsteel] \textbf{Arthur, W. Brian (1994):} Increasing Returns And Path Dependence In The Economy, Ann Arbor, Michigan, 							USA.
 
