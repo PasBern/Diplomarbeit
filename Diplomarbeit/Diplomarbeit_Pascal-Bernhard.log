@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013) (format=pdflatex 2014.1.19)  5 FEB 2014 19:35
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013) (format=pdflatex 2013.12.28)  5 FEB 2014 23:15
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1254,78 +1254,67 @@ Package babel Info: Redefining ngerman shorthand "|
 (babel)             in language  on input line 555.
 Package babel Info: Redefining ngerman shorthand "~
 (babel)             in language  on input line 555.
-LaTeX Font Info:    Try loading font information for U+mvs on input line 566.
+LaTeX Font Info:    Try loading font information for U+mvs on input line 569.
 (/usr/share/texmf-dist/tex/latex/marvosym/umvs.fd)
-Overfull \hbox (2.52664pt too wide) in paragraph at lines 569--570
-\T1/lmss/m/n/10.95 Con-se-quences In Ma-nu-fac-tu-ting In-dus-tries, Cam-bridge
-, Massa-chus-setts, USA. 
- []
-
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 601.
+(babel)             in language  on input line 612.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 601.
+(babel)             in language  on input line 612.
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 601.
+(babel)             in language  on input line 612.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 601.
-[32
+(babel)             in language  on input line 612.
+ [32
 
 ]
-Overfull \hbox (17.98972pt too wide) in paragraph at lines 620--621
-\T1/lmss/m/n/10.95 schrif-ten für den Erd-gas-bin-nen-markt und zur Auf-he-bung
- der Richt-li-nie 98/30/EG,
+Package babel Info: Redefining ngerman shorthand "|
+(babel)             in language  on input line 652.
+Package babel Info: Redefining ngerman shorthand "~
+(babel)             in language  on input line 652.
+Package babel Info: Redefining ngerman shorthand "|
+(babel)             in language  on input line 652.
+Package babel Info: Redefining ngerman shorthand "~
+(babel)             in language  on input line 652.
+ [33]
+Overfull \hbox (0.45703pt too wide) in paragraph at lines 685--687
+[]\T1/lmss/bx/n/10 Springer Gabler Ver-lag [Her-aus-ge-ber] (2014b): \T1/lmss/m
+/n/10 Gabler Wirt-schafts-le-xi-kon, Stich-
  []
 
-
-Overfull \hbox (1.90852pt too wide) in paragraph at lines 638--640
-\T1/lmss/m/n/10.95 s a t i o n A r e r R e g u l a t o r y R e g i m e sM o v i
- n g T o w a r d sC o n v e r g e n c e-[]N a d i n e H a a s e-[] 2 0 0
- []
-
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 640.
+(babel)             in language  on input line 706.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 640.
+(babel)             in language  on input line 706.
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 640.
+(babel)             in language  on input line 706.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 640.
-[33]
+(babel)             in language  on input line 706.
+[34]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 720.
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 673.
+(babel)             in language  on input line 720.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 673.
+(babel)             in language  on input line 720.
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 673.
+(babel)             in language  on input line 720.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 673.
- [34]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 716.
-Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 716.
-Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 716.
-Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 716.
-Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 716.
+(babel)             in language  on input line 720.
  [35]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 716.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 720.
  (./Diplomarbeit_Pascal-Bernhard.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 716.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 716.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 720.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 720.
 Package rerunfilecheck Info: File `Diplomarbeit_Pascal-Bernhard.out' has not ch
 anged.
 (rerunfilecheck)             Checksum: 90C70B481376F0A7F55362F2DCAC3006;2642.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 716.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 720.
  ) 
 Here is how much of TeX's memory you used:
- 9500 strings out of 493853
- 135825 string characters out of 6157277
- 251564 words of memory out of 5000000
- 12485 multiletter control sequences out of 15000+600000
- 70390 words of font info for 94 fonts, out of 8000000 for 9000
+ 9516 strings out of 493853
+ 136053 string characters out of 6157276
+ 253564 words of memory out of 5000000
+ 12501 multiletter control sequences out of 15000+600000
+ 83684 words of font info for 108 fonts, out of 8000000 for 9000
  788 hyphenation exceptions out of 8191
  38i,8n,47p,2713b,507s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texmf-dist/fonts/enc/dvips/lm/lm-ec.enc}{/usr/share/texmf-dist/fo
@@ -1339,10 +1328,10 @@ latino/uplb8a.pfb></usr/share/texmf-dist/fonts/type1/urw/palatino/uplbi8a.pfb><
 /usr/share/texmf-dist/fonts/type1/urw/palatino/uplr8a.pfb></usr/share/texmf-dis
 t/fonts/type1/urw/palatino/uplr8a.pfb></usr/share/texmf-dist/fonts/type1/urw/pa
 latino/uplri8a.pfb>
-Output written on Diplomarbeit_Pascal-Bernhard.pdf (35 pages, 313390 bytes).
+Output written on Diplomarbeit_Pascal-Bernhard.pdf (35 pages, 313166 bytes).
 PDF statistics:
- 515 PDF objects out of 1000 (max. 8388607)
- 461 compressed objects within 5 object streams
+ 514 PDF objects out of 1000 (max. 8388607)
+ 460 compressed objects within 5 object streams
  123 named destinations out of 1000 (max. 500000)
  265 words of extra memory for PDF output out of 10000 (max. 10000000)
 
