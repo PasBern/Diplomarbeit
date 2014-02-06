@@ -21,14 +21,14 @@
 \contentsline {subsection}{\numberline {3.2.2}Die Versorgungssituation}{20}{subsection.3.2.2}
 \contentsline {chapter}{\numberline {4}Die Europ\"aische Richtlinie zur Liberalisierung der Gasm\"arkte}{21}{chapter.4}
 \contentsline {section}{\numberline {4.1}Die Liberalisierung von Energiem\"arkten}{21}{section.4.1}
-\contentsline {section}{\numberline {4.2}Der Europ\"aische Kontext der Regulierungsharmonisierung}{21}{section.4.2}
-\contentsline {subsection}{\numberline {4.2.1}Besonderheiten von Netzwerkindustrien}{21}{subsection.4.2.1}
-\contentsline {subsection}{\numberline {4.2.2}Marktreformen im Kontext des Europ\"aischen Integrationsprozesses}{21}{subsection.4.2.2}
-\contentsline {section}{\numberline {4.3}Bestimmungen des Dritten Liberalisierungspakets f\"ur die Europ\"aischen Energiem\"arkte}{21}{section.4.3}
-\contentsline {subsection}{\numberline {4.3.1}Modelle der vertikalen Entflechtung auf dem Gasmarkt}{21}{subsection.4.3.1}
-\contentsline {paragraph}{Ownership Unbundling}{21}{section*.12}
+\contentsline {section}{\numberline {4.2}Der Europ\"aische Kontext der Regulierungsharmonisierung}{22}{section.4.2}
+\contentsline {subsection}{\numberline {4.2.1}Besonderheiten von Netzwerkindustrien}{22}{subsection.4.2.1}
+\contentsline {subsection}{\numberline {4.2.2}Marktreformen im Kontext des Europ\"aischen Integrationsprozesses}{22}{subsection.4.2.2}
+\contentsline {section}{\numberline {4.3}Bestimmungen des Dritten Liberalisierungspakets f\"ur die Europ\"aischen Energiem\"arkte}{22}{section.4.3}
+\contentsline {subsection}{\numberline {4.3.1}Modelle der vertikalen Entflechtung auf dem Gasmarkt}{22}{subsection.4.3.1}
+\contentsline {paragraph}{Ownership Unbundling}{22}{section*.12}
 \contentsline {paragraph}{Independent System Operator}{22}{section*.13}
-\contentsline {paragraph}{Independent Transmission Operator}{22}{section*.14}
+\contentsline {paragraph}{Independent Transmission Operator}{23}{section*.14}
 \contentsline {section}{\numberline {4.4}Auswirkungen auf die baltischen Gasm\"arkte}{23}{section.4.4}
 \contentsline {chapter}{\numberline {5}Das Verh\"altnis zu Russland: historische Belastungen}{24}{chapter.5}
 \contentsline {section}{\numberline {5.1}Der Faktor Gazprom}{24}{section.5.1}
