@@ -13,33 +13,33 @@
 \contentsline {subsubsection}{Ausgangsbedingungen f\"ur Reformen}{14}{section*.10}
 \contentsline {subsubsection}{Das Verh\"altnis zu Russland}{17}{section*.11}
 \contentsline {chapter}{\numberline {3}Gasm\"arkte}{20}{chapter.3}
-\contentsline {section}{\numberline {3.1}Gasm\"arkte und ihre Merkmale als Netzwerkindustrie}{20}{section.3.1}
+\contentsline {section}{\numberline {3.1}Eigenschaften von Gasm\"arkten als Netzwerkindustrie}{20}{section.3.1}
 \contentsline {section}{\numberline {3.2}Die Liberalisierung von Gasm\"arkten}{20}{section.3.2}
 \contentsline {section}{\numberline {3.3}Gasmarktliberalisierung in Europa}{21}{section.3.3}
 \contentsline {subsection}{\numberline {3.3.1}Marktreformen im Kontext des Europ\"aischen Integrationsprozesses}{21}{subsection.3.3.1}
 \contentsline {subsubsection}{Das zweite Liberalisierungspaket}{21}{section*.13}
 \contentsline {section}{\numberline {3.4}Bestimmungen des Dritten Liberalisierungspakets f\"ur die Europ\"aischen Energiem\"arkte}{21}{section.3.4}
-\contentsline {chapter}{\numberline {4}Energiem\"arkte im Baltikum}{23}{chapter.4}
-\contentsline {section}{\numberline {4.1}Litauen}{23}{section.4.1}
-\contentsline {subsection}{\numberline {4.1.1}Der Gasmarkt in Litauen}{23}{subsection.4.1.1}
-\contentsline {subsection}{\numberline {4.1.2}Die Versorgungssituation}{23}{subsection.4.1.2}
-\contentsline {section}{\numberline {4.2}Lettland}{23}{section.4.2}
-\contentsline {subsection}{\numberline {4.2.1}Der Gasmarkt in Lettland}{23}{subsection.4.2.1}
-\contentsline {subsection}{\numberline {4.2.2}Die Versorgungssituation}{23}{subsection.4.2.2}
-\contentsline {section}{\numberline {4.3}Auswirkungen auf die baltischen Gasm\"arkte}{23}{section.4.3}
-\contentsline {chapter}{\numberline {5}Das Verh\"altnis zu Russland: historische Belastungen}{24}{chapter.5}
-\contentsline {section}{\numberline {5.1}Der Faktor Gazprom}{24}{section.5.1}
-\contentsline {subsection}{\numberline {5.1.1}Gazproms Rolle auf den baltischen Gasm\"arkten}{24}{subsection.5.1.1}
-\contentsline {subsection}{\numberline {5.1.2}Gazprom in der lettischen/litauischen Wahrnehmung}{24}{subsection.5.1.2}
-\contentsline {chapter}{\numberline {6}Die bisherige Umsetzung der EU-Richtlinie}{25}{chapter.6}
-\contentsline {section}{\numberline {6.1}Die Umsetzung in Litauen}{25}{section.6.1}
-\contentsline {section}{\numberline {6.2}Der 'lettische Weg'}{25}{section.6.2}
-\contentsline {chapter}{\numberline {7}Nationale Energiepolitik und Energiemarktliberalisierung}{26}{chapter.7}
-\contentsline {chapter}{\numberline {8}Lobby-Einfluss als Erkl\"arungsfaktor f\"ur nationale Energiepolitik}{27}{chapter.8}
-\contentsline {chapter}{\numberline {9}Europ\"aische Energiepolitik als externe Faktor}{28}{chapter.9}
-\contentsline {chapter}{\numberline {10}Fazit}{29}{chapter.10}
-\contentsline {chapter}{\numberline {11}Anhang -- Erl\"auterungen}{30}{chapter.11}
-\contentsline {paragraph}{Bruttoinlandsprodukt zu Marktpreisen}{30}{section*.18}
-\contentsline {paragraph}{Nat\"urliches Monopol}{30}{section*.19}
-\contentsline {paragraph}{'Sunk Costs'}{30}{section*.20}
-\contentsline {chapter}{\numberline {12}Literaturverzeichnis}{32}{chapter.12}
+\contentsline {chapter}{\numberline {4}Energiem\"arkte im Baltikum}{24}{chapter.4}
+\contentsline {section}{\numberline {4.1}Litauen}{24}{section.4.1}
+\contentsline {subsection}{\numberline {4.1.1}Der Gasmarkt in Litauen}{24}{subsection.4.1.1}
+\contentsline {subsection}{\numberline {4.1.2}Die Versorgungssituation}{24}{subsection.4.1.2}
+\contentsline {section}{\numberline {4.2}Lettland}{24}{section.4.2}
+\contentsline {subsection}{\numberline {4.2.1}Der Gasmarkt in Lettland}{24}{subsection.4.2.1}
+\contentsline {subsection}{\numberline {4.2.2}Die Versorgungssituation}{24}{subsection.4.2.2}
+\contentsline {section}{\numberline {4.3}Auswirkungen auf die baltischen Gasm\"arkte}{24}{section.4.3}
+\contentsline {chapter}{\numberline {5}Das Verh\"altnis zu Russland: historische Belastungen}{25}{chapter.5}
+\contentsline {section}{\numberline {5.1}Der Faktor Gazprom}{25}{section.5.1}
+\contentsline {subsection}{\numberline {5.1.1}Gazproms Rolle auf den baltischen Gasm\"arkten}{25}{subsection.5.1.1}
+\contentsline {subsection}{\numberline {5.1.2}Gazprom in der lettischen/litauischen Wahrnehmung}{25}{subsection.5.1.2}
+\contentsline {chapter}{\numberline {6}Die bisherige Umsetzung der EU-Richtlinie}{26}{chapter.6}
+\contentsline {section}{\numberline {6.1}Die Umsetzung in Litauen}{26}{section.6.1}
+\contentsline {section}{\numberline {6.2}Der 'lettische Weg'}{26}{section.6.2}
+\contentsline {chapter}{\numberline {7}Nationale Energiepolitik und Energiemarktliberalisierung}{27}{chapter.7}
+\contentsline {chapter}{\numberline {8}Lobby-Einfluss als Erkl\"arungsfaktor f\"ur nationale Energiepolitik}{28}{chapter.8}
+\contentsline {chapter}{\numberline {9}Europ\"aische Energiepolitik als externe Faktor}{29}{chapter.9}
+\contentsline {chapter}{\numberline {10}Fazit}{30}{chapter.10}
+\contentsline {chapter}{\numberline {11}Anhang -- Erl\"auterungen}{31}{chapter.11}
+\contentsline {paragraph}{Bruttoinlandsprodukt zu Marktpreisen}{31}{section*.18}
+\contentsline {paragraph}{Nat\"urliches Monopol}{31}{section*.19}
+\contentsline {paragraph}{'Sunk Costs'}{31}{section*.20}
+\contentsline {chapter}{\numberline {12}Literaturverzeichnis}{33}{chapter.12}
