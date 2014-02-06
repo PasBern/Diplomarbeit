@@ -1,4 +1,4 @@
-\documentclass[11pt,a4paper,ngerman]{scrreprt} % parskip- herausgenommen
+\documentclass[11pt,a4paper,ngerman,DIV12]{scrreprt} % parskip- herausgenommen
 \usepackage[T1]{fontenc}
 \usepackage{lmodern}
 \usepackage[sc]{mathpazo}
@@ -30,8 +30,6 @@
 \usepackage{nameref}
 
 
-\usepackage{paralist}
-
 %%% Abstände zwischen Überschrift und Textkörper modifizieren [PAKET NICHT INSTALLIERT!!!!]
 %\titlesec
 
@@ -55,6 +53,9 @@
 %%% Hier kommen Optionen der KOMA-Klasse zu Überschriften
 
 \KOMAoptions{headings=small}
+
+
+
 
 %%% Abstände vor und nach Überschriften beeinflussen
 %\titlespacing*{\section}{0pt}{*2.0}{*0.5}
@@ -563,6 +564,9 @@ Kosten, die bereits entstanden sind und nicht mehr rückgängig gemacht werden kön
 	\sffamily
 	
 
+\begin{small}
+
+
 	\item [\Rectsteel] \textbf{Arthur, W. Brian (1994):} Increasing Returns And Path Dependence In The Economy, Ann Arbor, Michigan, 							USA.
 
 
@@ -705,7 +709,8 @@ Kosten, die bereits entstanden sind und nicht mehr rückgängig gemacht werden kön
 
 	\item [\Rectsteel] \textbf{Ziegler, Charles E. (2012):} Energy Pipeline Networks And Trust: The European Union And Russia In 								Comparative Perspective, in: \textsl{International Relations}, Vol.27 (1), S.3-29.
 
-	
+
+\end{small}	
 	
 	
 
