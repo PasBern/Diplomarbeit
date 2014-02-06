@@ -41,5 +41,5 @@
 \contentsline {chapter}{\numberline {11}Anhang -- Erl\"auterungen}{31}{chapter.11}
 \contentsline {paragraph}{Bruttoinlandsprodukt zu Marktpreisen}{31}{section*.18}
 \contentsline {paragraph}{Nat\"urliches Monopol}{31}{section*.19}
-\contentsline {paragraph}{'Sunk Costs'}{31}{section*.20}
+\contentsline {paragraph}{Sunk Costs}{31}{section*.20}
 \contentsline {chapter}{\numberline {12}Literaturverzeichnis}{33}{chapter.12}
