@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013) (format=pdflatex 2014.1.19)  7 FEB 2014 10:50
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013) (format=pdflatex 2014.1.19)  7 FEB 2014 10:54
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -996,6 +996,12 @@ Package babel Info: Redefining ngerman shorthand "|
 (babel)             in language  on input line 375.
 Package babel Info: Redefining ngerman shorthand "~
 (babel)             in language  on input line 375.
+
+Overfull \hbox (2.19975pt too wide) in paragraph at lines 377--380
+\T1/pplx/m/n/10.95 Gasmärkte kön-nen in drei Be-rei-che ge-glie-dert wer-den: E
+rd-gas-för-de-rung, auch
+ []
+
 Package babel Info: Redefining ngerman shorthand "|
 (babel)             in language  on input line 380.
 Package babel Info: Redefining ngerman shorthand "~
@@ -1351,7 +1357,7 @@ latino/uplb8a.pfb></usr/share/texmf-dist/fonts/type1/urw/palatino/uplbi8a.pfb><
 /usr/share/texmf-dist/fonts/type1/urw/palatino/uplr8a.pfb></usr/share/texmf-dis
 t/fonts/type1/urw/palatino/uplr8a.pfb></usr/share/texmf-dist/fonts/type1/urw/pa
 latino/uplri8a.pfb>
-Output written on Diplomarbeit_Pascal-Bernhard.pdf (37 pages, 319587 bytes).
+Output written on Diplomarbeit_Pascal-Bernhard.pdf (37 pages, 319559 bytes).
 PDF statistics:
  545 PDF objects out of 1000 (max. 8388607)
  489 compressed objects within 5 object streams
