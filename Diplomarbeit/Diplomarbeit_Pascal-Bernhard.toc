@@ -14,10 +14,11 @@
 \contentsline {subsubsection}{Das Verh\"altnis zu Russland}{17}{section*.11}
 \contentsline {chapter}{\numberline {3}Gasm\"arkte}{20}{chapter.3}
 \contentsline {section}{\numberline {3.1}Eigenschaften von Gasm\"arkten als Netzwerkindustrie}{20}{section.3.1}
+\contentsline {subsection}{\numberline {3.1.1}Schl\"usselstellung der Netzwerkinfrastruktur}{22}{subsection.3.1.1}
 \contentsline {section}{\numberline {3.2}Die Liberalisierung von Gasm\"arkten}{22}{section.3.2}
 \contentsline {section}{\numberline {3.3}Gasmarktliberalisierung in Europa}{23}{section.3.3}
 \contentsline {subsection}{\numberline {3.3.1}Marktreformen im Kontext des Europ\"aischen Integrationsprozesses}{23}{subsection.3.3.1}
-\contentsline {subsubsection}{Das zweite Liberalisierungspaket}{23}{section*.13}
+\contentsline {subsubsection}{Das zweite Liberalisierungspaket}{23}{section*.14}
 \contentsline {section}{\numberline {3.4}Bestimmungen des Dritten Liberalisierungspakets f\"ur die Europ\"aischen Energiem\"arkte}{23}{section.3.4}
 \contentsline {subsection}{\numberline {3.4.1}Modelle der vertikalen Entflechtung auf dem Gasmarkt}{23}{subsection.3.4.1}
 \contentsline {chapter}{\numberline {4}Energiem\"arkte im Baltikum}{26}{chapter.4}
@@ -40,7 +41,7 @@
 \contentsline {chapter}{\numberline {9}Europ\"aische Energiepolitik als externe Faktor}{31}{chapter.9}
 \contentsline {chapter}{\numberline {10}Fazit}{32}{chapter.10}
 \contentsline {chapter}{\numberline {11}Anhang -- Erl\"auterungen}{33}{chapter.11}
-\contentsline {paragraph}{Bruttoinlandsprodukt zu Marktpreisen}{33}{section*.17}
-\contentsline {paragraph}{Nat\"urliches Monopol}{33}{section*.18}
-\contentsline {paragraph}{Sunk Costs}{33}{section*.19}
+\contentsline {paragraph}{Bruttoinlandsprodukt zu Marktpreisen}{33}{section*.18}
+\contentsline {paragraph}{Nat\"urliches Monopol}{33}{section*.19}
+\contentsline {paragraph}{Sunk Costs}{33}{section*.20}
 \contentsline {chapter}{\numberline {12}Literaturverzeichnis}{35}{chapter.12}
