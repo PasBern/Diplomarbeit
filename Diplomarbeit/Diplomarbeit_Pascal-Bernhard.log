@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013) (format=pdflatex 2014.1.19)  7 FEB 2014 10:12
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013) (format=pdflatex 2014.1.19)  7 FEB 2014 10:50
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1046,6 +1046,10 @@ Package babel Info: Redefining ngerman shorthand "|
 (babel)             in language  on input line 428.
 Package babel Info: Redefining ngerman shorthand "~
 (babel)             in language  on input line 428.
+Package babel Info: Redefining ngerman shorthand "|
+(babel)             in language  on input line 433.
+Package babel Info: Redefining ngerman shorthand "~
+(babel)             in language  on input line 433.
 LaTeX Font Info:    Try loading font information for TS1+pplx on input line 442
 .
  (/usr/share/texmf-dist/tex/latex/psnfss/ts1pplx.fd
@@ -1325,14 +1329,14 @@ Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 766.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 766.
 Package rerunfilecheck Info: File `Diplomarbeit_Pascal-Bernhard.out' has not ch
 anged.
-(rerunfilecheck)             Checksum: ED769F03A2A11FC6453E3CD70570AFA8;2482.
+(rerunfilecheck)             Checksum: 3E3EE00E654F3833D82C1880FA7E8EBA;2588.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 766.
  ) 
 Here is how much of TeX's memory you used:
- 9530 strings out of 493853
- 136188 string characters out of 6157277
+ 9531 strings out of 493853
+ 136211 string characters out of 6157277
  253581 words of memory out of 5000000
- 12503 multiletter control sequences out of 15000+600000
+ 12504 multiletter control sequences out of 15000+600000
  83684 words of font info for 108 fonts, out of 8000000 for 9000
  788 hyphenation exceptions out of 8191
  38i,8n,47p,2713b,507s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -1347,10 +1351,10 @@ latino/uplb8a.pfb></usr/share/texmf-dist/fonts/type1/urw/palatino/uplbi8a.pfb><
 /usr/share/texmf-dist/fonts/type1/urw/palatino/uplr8a.pfb></usr/share/texmf-dis
 t/fonts/type1/urw/palatino/uplr8a.pfb></usr/share/texmf-dist/fonts/type1/urw/pa
 latino/uplri8a.pfb>
-Output written on Diplomarbeit_Pascal-Bernhard.pdf (37 pages, 319103 bytes).
+Output written on Diplomarbeit_Pascal-Bernhard.pdf (37 pages, 319587 bytes).
 PDF statistics:
- 541 PDF objects out of 1000 (max. 8388607)
- 485 compressed objects within 5 object streams
+ 545 PDF objects out of 1000 (max. 8388607)
+ 489 compressed objects within 5 object streams
  134 named destinations out of 1000 (max. 500000)
- 257 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 265 words of extra memory for PDF output out of 10000 (max. 10000000)
 
