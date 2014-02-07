@@ -15,12 +15,12 @@
 \contentsline {chapter}{\numberline {3}Gasm\"arkte}{20}{chapter.3}
 \contentsline {section}{\numberline {3.1}Eigenschaften von Gasm\"arkten als Netzwerkindustrie}{20}{section.3.1}
 \contentsline {subsection}{\numberline {3.1.1}Schl\"usselstellung der Netzwerkinfrastruktur}{22}{subsection.3.1.1}
-\contentsline {section}{\numberline {3.2}Die Liberalisierung von Gasm\"arkten}{22}{section.3.2}
-\contentsline {section}{\numberline {3.3}Gasmarktliberalisierung in Europa}{23}{section.3.3}
-\contentsline {subsection}{\numberline {3.3.1}Marktreformen im Kontext des Europ\"aischen Integrationsprozesses}{23}{subsection.3.3.1}
-\contentsline {subsubsection}{Das zweite Liberalisierungspaket}{23}{section*.14}
-\contentsline {section}{\numberline {3.4}Bestimmungen des Dritten Liberalisierungspakets f\"ur die Europ\"aischen Energiem\"arkte}{23}{section.3.4}
-\contentsline {subsection}{\numberline {3.4.1}Modelle der vertikalen Entflechtung auf dem Gasmarkt}{23}{subsection.3.4.1}
+\contentsline {section}{\numberline {3.2}Die Liberalisierung von Gasm\"arkten}{23}{section.3.2}
+\contentsline {section}{\numberline {3.3}Gasmarktliberalisierung in Europa}{24}{section.3.3}
+\contentsline {subsection}{\numberline {3.3.1}Marktreformen im Kontext des Europ\"aischen Integrationsprozesses}{24}{subsection.3.3.1}
+\contentsline {subsubsection}{Das zweite Liberalisierungspaket}{24}{section*.14}
+\contentsline {section}{\numberline {3.4}Bestimmungen des Dritten Liberalisierungspakets f\"ur die Europ\"aischen Energiem\"arkte}{24}{section.3.4}
+\contentsline {subsection}{\numberline {3.4.1}Modelle der vertikalen Entflechtung auf dem Gasmarkt}{24}{subsection.3.4.1}
 \contentsline {chapter}{\numberline {4}Energiem\"arkte im Baltikum}{26}{chapter.4}
 \contentsline {section}{\numberline {4.1}Litauen}{26}{section.4.1}
 \contentsline {subsection}{\numberline {4.1.1}Der Gasmarkt in Litauen}{26}{subsection.4.1.1}
