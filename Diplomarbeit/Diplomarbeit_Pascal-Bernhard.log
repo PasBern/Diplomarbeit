@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013) (format=pdflatex 2014.1.19)  8 FEB 2014 17:27
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013) (format=pdflatex 2014.1.19)  8 FEB 2014 18:04
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1413,10 +1413,6 @@ Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 826.
 Package rerunfilecheck Info: File `Diplomarbeit_Pascal-Bernhard.out' has not ch
 anged.
 (rerunfilecheck)             Checksum: 11D10395CB48AB010F662A529C05D6F5;2751.
-
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 826.
  ) 
 Here is how much of TeX's memory you used:
@@ -1438,7 +1434,7 @@ ino/uplb8a.pfb></usr/share/texmf-dist/fonts/type1/urw/palatino/uplb8a.pfb></usr
 /share/texmf-dist/fonts/type1/urw/palatino/uplbi8a.pfb></usr/share/texmf-dist/f
 onts/type1/urw/palatino/uplr8a.pfb></usr/share/texmf-dist/fonts/type1/urw/palat
 ino/uplr8a.pfb></usr/share/texmf-dist/fonts/type1/urw/palatino/uplri8a.pfb>
-Output written on Diplomarbeit_Pascal-Bernhard.pdf (39 pages, 355850 bytes).
+Output written on Diplomarbeit_Pascal-Bernhard.pdf (39 pages, 355959 bytes).
 PDF statistics:
  584 PDF objects out of 1000 (max. 8388607)
  524 compressed objects within 6 object streams
