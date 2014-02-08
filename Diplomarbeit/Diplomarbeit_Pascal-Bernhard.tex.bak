@@ -1,7 +1,10 @@
-\documentclass[11pt,a4paper,ngerman,BCOR=0pt,DIV15]{scrreprt} % parskip- herausgenommen
+\documentclass[11pt,a4paper,ngerman,BCOR=0pt,DIVcalc]{scrreprt}
 \usepackage[T1]{fontenc}
 \usepackage{lmodern}
 \usepackage[sc]{mathpazo}
+
+%%% Satzspiegel neu berechnen (funktioniert irgendwie nicht)
+\typearea[current]{calc}
 
 \usepackage[ansinew]{inputenc}
 
@@ -715,6 +718,9 @@ Kosten, die bereits entstanden sind und nicht mehr rückgängig gemacht werden kön
 
 
 	\item [\Rectsteel] \textbf{International Gas Union [Herausgeber](2006):} The Paradigm Change In International Gas Markets And The 							Impact On Regulation, International Gas Union/The Clingendael Institute, Den Haag, Niederlande. 
+
+
+	
 
 
 	\item [\Rectsteel] \textbf{Kessides, Ioannis N. (1990):} Market Concentration, Contestability And Sunk Costs, in: \textsl{The Review 					of Economics and Statistics}, Vol. 72 (4), S.614-622.
