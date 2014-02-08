@@ -1,4 +1,4 @@
-\documentclass[11pt,a4paper,ngerman,DIV12]{scrreprt} % parskip- herausgenommen
+\documentclass[11pt,a4paper,ngerman,BCOR=0pt,DIV15]{scrreprt} % parskip- herausgenommen
 \usepackage[T1]{fontenc}
 \usepackage{lmodern}
 \usepackage[sc]{mathpazo}
