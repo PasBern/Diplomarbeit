@@ -13,6 +13,7 @@
 \usepackage[ngerman]{babel}
 \usepackage{relsize}
 \usepackage{paralist}
+\usepackage{mdwlist}
 \usepackage{typearea}
 \usepackage{setspace}
 \usepackage{textcomp}
@@ -22,7 +23,7 @@
 \usepackage{array}
 
 
-\usepackage{mdwlist}
+
 
 %%% Rahmen um Hyperlinks unterbinden
 \usepackage[hidelinks,breaklinks=true]{hyperref}
@@ -509,7 +510,7 @@ Zusammenfassend gab die erste Liberalisierungsrichtlinie von 1998 den Mitgliedss
 
 Diese unterschiedlichen Gestaltungsmöglichkeiten erlaubten es, nationale Besonderheiten zu berücksichtigen. Eine von den Empfehlungen der Kommission abweichende Umsetzung unter folgenden Bedingungen gestattet:
 
-\begin{enumerate}
+\begin{compactitem}
 
 	\item Für den Fall, dass eine Marktöffnung die Erbringungen öffentlicher Dienstleistungen verhindert
 
@@ -523,7 +524,7 @@ Diese unterschiedlichen Gestaltungsmöglichkeiten erlaubten es, nationale Besonde
 
 	\item Im Falle sich noch entwickelnder Gasmärkte, auf denen noch Investitionsbedarf besteht
 
-\end{enumerate}
+\end{compactitem}
 
 
 
@@ -710,7 +711,7 @@ Kosten, die bereits entstanden sind und nicht mehr rückgängig gemacht werden kön
 
 
 
-\begin{itemize*}
+\begin{compactitem}
 
 
 	
@@ -910,7 +911,7 @@ Kosten, die bereits entstanden sind und nicht mehr rückgängig gemacht werden kön
 	
 	
 
-	\end{itemize*}
+	\end{compactitem}
 
 
 
