@@ -19,9 +19,9 @@
 \contentsline {section}{\numberline {3.3}Die Liberalisierung von Gasm\"arkten}{25}{section.3.3}
 \contentsline {section}{\numberline {3.4}Gasmarktliberalisierung in Europa}{26}{section.3.4}
 \contentsline {subsection}{\numberline {3.4.1}Marktreformen im Kontext des Europ\"aischen Integrationsprozesses}{26}{subsection.3.4.1}
-\contentsline {subsubsection}{Das zweite Liberalisierungspaket}{27}{section*.15}
-\contentsline {section}{\numberline {3.5}Bestimmungen des Dritten Liberalisierungspakets f\"ur die Europ\"aischen Energiem\"arkte}{27}{section.3.5}
-\contentsline {subsection}{\numberline {3.5.1}Modelle der vertikalen Entflechtung auf dem Gasmarkt}{27}{subsection.3.5.1}
+\contentsline {subsubsection}{Das zweite Liberalisierungspaket}{28}{section*.15}
+\contentsline {section}{\numberline {3.5}Bestimmungen des Dritten Liberalisierungspakets f\"ur die Europ\"aischen Energiem\"arkte}{28}{section.3.5}
+\contentsline {subsection}{\numberline {3.5.1}Modelle der vertikalen Entflechtung auf dem Gasmarkt}{28}{subsection.3.5.1}
 \contentsline {chapter}{\numberline {4}Energiem\"arkte im Baltikum}{30}{chapter.4}
 \contentsline {section}{\numberline {4.1}Litauen}{30}{section.4.1}
 \contentsline {subsection}{\numberline {4.1.1}Der Gasmarkt in Litauen}{30}{subsection.4.1.1}
