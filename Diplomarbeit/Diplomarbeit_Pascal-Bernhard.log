@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013) (format=pdflatex 2014.1.19)  11 FEB 2014 11:20
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013) (format=pdflatex 2014.1.19)  11 FEB 2014 11:31
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1148,15 +1148,9 @@ Package babel Info: Redefining ngerman shorthand "|
 Package babel Info: Redefining ngerman shorthand "~
 (babel)             in language  on input line 523.
 [27]
-Overfull \hbox (0.94844pt too wide) in paragraph at lines 537--538
-\T1/pplx/m/n/10.95 ner Markt-li-be-ra-li-sie-rung in Form nied-ri-ger Ver-brau-
-cher-prei-se noch nicht Rea-
- []
-
-
-Overfull \hbox (0.80614pt too wide) in paragraph at lines 537--538
-\T1/pplx/m/n/10.95 Ent-schei-dungs-trä-gern der EU zu ei-nem Um-den-ken, wo-nac
-h nicht mehr Preis-
+Overfull \hbox (4.73412pt too wide) in paragraph at lines 537--538
+[]\T1/pplx/m/n/10.95 Zu die-sem Zeit-punkt wa-ren al-ler-dings die er-hoff-ten 
+Ef-fek-te ei-ner Markt-
  []
 
 Package babel Info: Redefining ngerman shorthand "|
@@ -1495,7 +1489,7 @@ ino/uplb8a.pfb></usr/share/texmf-dist/fonts/type1/urw/palatino/uplb8a.pfb></usr
 /share/texmf-dist/fonts/type1/urw/palatino/uplbi8a.pfb></usr/share/texmf-dist/f
 onts/type1/urw/palatino/uplr8a.pfb></usr/share/texmf-dist/fonts/type1/urw/palat
 ino/uplr8a.pfb></usr/share/texmf-dist/fonts/type1/urw/palatino/uplri8a.pfb>
-Output written on Diplomarbeit_Pascal-Bernhard.pdf (45 pages, 366762 bytes).
+Output written on Diplomarbeit_Pascal-Bernhard.pdf (45 pages, 366774 bytes).
 PDF statistics:
  635 PDF objects out of 1000 (max. 8388607)
  569 compressed objects within 6 object streams
