@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013) (format=pdflatex 2014.1.19)  11 FEB 2014 15:46
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013) (format=pdflatex 2014.1.19)  11 FEB 2014 15:57
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1065,14 +1065,19 @@ dem \T1/pplx/m/it/10.95 Down-stream\T1/pplx/m/n/10.95 -Segment
  []
 
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 445.
+(babel)             in language  on input line 442.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 445.
+(babel)             in language  on input line 442.
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 445.
+(babel)             in language  on input line 442.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 445.
+(babel)             in language  on input line 442.
 [23]
+LaTeX Font Info:    Try loading font information for TS1+pplx on input line 443
+.
+ (/usr/share/texmf-dist/tex/latex/psnfss/ts1pplx.fd
+File: ts1pplx.fd 2004/09/06 font definitions for TS1/pplx.
+)
 Package babel Info: Redefining ngerman shorthand "|
 (babel)             in language  on input line 457.
 Package babel Info: Redefining ngerman shorthand "~
@@ -1099,13 +1104,13 @@ Package babel Info: Redefining ngerman shorthand "|
 Package babel Info: Redefining ngerman shorthand "~
 (babel)             in language  on input line 478.
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 486.
+(babel)             in language  on input line 482.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 486.
+(babel)             in language  on input line 482.
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 486.
+(babel)             in language  on input line 482.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 486.
+(babel)             in language  on input line 482.
  [25]
 Package babel Info: Redefining ngerman shorthand "|
 (babel)             in language  on input line 491.
@@ -1130,19 +1135,14 @@ Overfull \hbox (1.21927pt too wide) in paragraph at lines 515--516
  []
 
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 521.
+(babel)             in language  on input line 516.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 521.
+(babel)             in language  on input line 516.
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 521.
+(babel)             in language  on input line 516.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 521.
+(babel)             in language  on input line 516.
 [27]
-LaTeX Font Info:    Try loading font information for TS1+pplx on input line 521
-.
- (/usr/share/texmf-dist/tex/latex/psnfss/ts1pplx.fd
-File: ts1pplx.fd 2004/09/06 font definitions for TS1/pplx.
-)
 Overfull \hbox (10.3225pt too wide) in paragraph at lines 525--526
 []\T1/pplx/m/n/10.95 Wenn die Markt-li-be-ra-li-sie-rung nicht ver-ein-bar ist,
  mit lang-fris-ti-gen ^^RTake-
@@ -1163,13 +1163,13 @@ Ef-fek-te ei-ner Markt-
  []
 
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 554.
+(babel)             in language  on input line 548.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 554.
+(babel)             in language  on input line 548.
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 554.
+(babel)             in language  on input line 548.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 554.
+(babel)             in language  on input line 548.
 [29]
 Package babel Info: Redefining ngerman shorthand "|
 (babel)             in language  on input line 571.
@@ -1472,15 +1472,11 @@ Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 957.
 Package rerunfilecheck Info: File `Diplomarbeit_Pascal-Bernhard.out' has not ch
 anged.
 (rerunfilecheck)             Checksum: 11D10395CB48AB010F662A529C05D6F5;2751.
-
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 957.
  ) 
 Here is how much of TeX's memory you used:
- 9587 strings out of 493853
- 136860 string characters out of 6157277
+ 9588 strings out of 493853
+ 136872 string characters out of 6157277
  252657 words of memory out of 5000000
  12519 multiletter control sequences out of 15000+600000
  86966 words of font info for 113 fonts, out of 8000000 for 9000
@@ -1497,10 +1493,10 @@ ino/uplb8a.pfb></usr/share/texmf-dist/fonts/type1/urw/palatino/uplb8a.pfb></usr
 /share/texmf-dist/fonts/type1/urw/palatino/uplbi8a.pfb></usr/share/texmf-dist/f
 onts/type1/urw/palatino/uplr8a.pfb></usr/share/texmf-dist/fonts/type1/urw/palat
 ino/uplr8a.pfb></usr/share/texmf-dist/fonts/type1/urw/palatino/uplri8a.pfb>
-Output written on Diplomarbeit_Pascal-Bernhard.pdf (46 pages, 368715 bytes).
+Output written on Diplomarbeit_Pascal-Bernhard.pdf (46 pages, 369148 bytes).
 PDF statistics:
- 650 PDF objects out of 1000 (max. 8388607)
- 583 compressed objects within 6 object streams
- 169 named destinations out of 1000 (max. 500000)
+ 652 PDF objects out of 1000 (max. 8388607)
+ 585 compressed objects within 6 object streams
+ 170 named destinations out of 1000 (max. 500000)
  281 words of extra memory for PDF output out of 10000 (max. 10000000)
 
