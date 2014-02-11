@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013) (format=pdflatex 2014.1.19)  10 FEB 2014 20:31
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013) (format=pdflatex 2014.1.19)  11 FEB 2014 11:12
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1148,6 +1148,17 @@ Package babel Info: Redefining ngerman shorthand "|
 Package babel Info: Redefining ngerman shorthand "~
 (babel)             in language  on input line 523.
 [27]
+Overfull \hbox (0.94844pt too wide) in paragraph at lines 535--536
+\T1/pplx/m/n/10.95 ner Markt-li-be-ra-li-sie-rung in Form nied-ri-ger Ver-brau-
+cher-prei-se noch nicht Rea-
+ []
+
+
+Overfull \hbox (0.80614pt too wide) in paragraph at lines 535--536
+\T1/pplx/m/n/10.95 Ent-schei-dungs-trä-gern der EU zu ei-nem Um-den-ken, wo-nac
+h nicht mehr Preis-
+ []
+
 Package babel Info: Redefining ngerman shorthand "|
 (babel)             in language  on input line 536.
 Package babel Info: Redefining ngerman shorthand "~
@@ -1156,20 +1167,20 @@ Package babel Info: Redefining ngerman shorthand "|
 (babel)             in language  on input line 536.
 Package babel Info: Redefining ngerman shorthand "~
 (babel)             in language  on input line 536.
- [28]
+[28]
 Overfull \hbox (14.68048pt too wide) in paragraph at lines 556--558
 \T1/pplx/m/n/10.95 son-der-ten Di-rek-ti-ve be-han-delt wer-den, die im Jah-re 
 dar-auf er-las-sen \T1/pplx/b/n/10.95 (2004/67/EC)
  []
 
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 560.
+(babel)             in language  on input line 559.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 560.
+(babel)             in language  on input line 559.
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 560.
+(babel)             in language  on input line 559.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 560.
+(babel)             in language  on input line 559.
 [29]
 Package babel Info: Redefining ngerman shorthand "|
 (babel)             in language  on input line 563.
@@ -1484,7 +1495,7 @@ ino/uplb8a.pfb></usr/share/texmf-dist/fonts/type1/urw/palatino/uplb8a.pfb></usr
 /share/texmf-dist/fonts/type1/urw/palatino/uplbi8a.pfb></usr/share/texmf-dist/f
 onts/type1/urw/palatino/uplr8a.pfb></usr/share/texmf-dist/fonts/type1/urw/palat
 ino/uplr8a.pfb></usr/share/texmf-dist/fonts/type1/urw/palatino/uplri8a.pfb>
-Output written on Diplomarbeit_Pascal-Bernhard.pdf (45 pages, 366472 bytes).
+Output written on Diplomarbeit_Pascal-Bernhard.pdf (45 pages, 366693 bytes).
 PDF statistics:
  635 PDF objects out of 1000 (max. 8388607)
  569 compressed objects within 6 object streams
