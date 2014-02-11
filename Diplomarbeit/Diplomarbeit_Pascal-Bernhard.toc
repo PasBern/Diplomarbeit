@@ -22,27 +22,27 @@
 \contentsline {subsubsection}{Das zweite Liberalisierungspaket}{28}{section*.15}
 \contentsline {section}{\numberline {3.5}Bestimmungen des Dritten Liberalisierungspakets f\"ur die Europ\"aischen Energiem\"arkte}{30}{section.3.5}
 \contentsline {subsection}{\numberline {3.5.1}Modelle der vertikalen Entflechtung auf dem Gasmarkt}{30}{subsection.3.5.1}
-\contentsline {chapter}{\numberline {4}Energiem\"arkte im Baltikum}{32}{chapter.4}
-\contentsline {section}{\numberline {4.1}Litauen}{32}{section.4.1}
-\contentsline {subsection}{\numberline {4.1.1}Der Gasmarkt in Litauen}{32}{subsection.4.1.1}
-\contentsline {subsection}{\numberline {4.1.2}Die Versorgungssituation}{32}{subsection.4.1.2}
-\contentsline {section}{\numberline {4.2}Lettland}{32}{section.4.2}
-\contentsline {subsection}{\numberline {4.2.1}Der Gasmarkt in Lettland}{32}{subsection.4.2.1}
-\contentsline {subsection}{\numberline {4.2.2}Die Versorgungssituation}{32}{subsection.4.2.2}
-\contentsline {section}{\numberline {4.3}Auswirkungen auf die baltischen Gasm\"arkte}{32}{section.4.3}
-\contentsline {chapter}{\numberline {5}Das Verh\"altnis zu Russland: historische Belastungen}{33}{chapter.5}
-\contentsline {section}{\numberline {5.1}Der Faktor Gazprom}{33}{section.5.1}
-\contentsline {subsection}{\numberline {5.1.1}Gazproms Rolle auf den baltischen Gasm\"arkten}{33}{subsection.5.1.1}
-\contentsline {subsection}{\numberline {5.1.2}Gazprom in der lettischen/litauischen Wahrnehmung}{33}{subsection.5.1.2}
-\contentsline {chapter}{\numberline {6}Die bisherige Umsetzung der EU-Richtlinie}{34}{chapter.6}
-\contentsline {section}{\numberline {6.1}Die Umsetzung in Litauen}{34}{section.6.1}
-\contentsline {section}{\numberline {6.2}Der 'lettische Weg'}{34}{section.6.2}
-\contentsline {chapter}{\numberline {7}Nationale Energiepolitik und Energiemarktliberalisierung}{35}{chapter.7}
-\contentsline {chapter}{\numberline {8}Lobby-Einfluss als Erkl\"arungsfaktor f\"ur nationale Energiepolitik}{36}{chapter.8}
-\contentsline {chapter}{\numberline {9}Europ\"aische Energiepolitik als externe Faktor}{37}{chapter.9}
-\contentsline {chapter}{\numberline {10}Fazit}{38}{chapter.10}
-\contentsline {chapter}{\numberline {11}Anhang -- Erl\"auterungen}{39}{chapter.11}
-\contentsline {paragraph}{Bruttoinlandsprodukt zu Marktpreisen}{39}{section*.19}
-\contentsline {paragraph}{Nat\"urliches Monopol}{39}{section*.20}
-\contentsline {paragraph}{Sunk Costs}{39}{section*.21}
-\contentsline {chapter}{\numberline {12}Literaturverzeichnis}{41}{chapter.12}
+\contentsline {chapter}{\numberline {4}Energiem\"arkte im Baltikum}{33}{chapter.4}
+\contentsline {section}{\numberline {4.1}Litauen}{33}{section.4.1}
+\contentsline {subsection}{\numberline {4.1.1}Der Gasmarkt in Litauen}{33}{subsection.4.1.1}
+\contentsline {subsection}{\numberline {4.1.2}Die Versorgungssituation}{33}{subsection.4.1.2}
+\contentsline {section}{\numberline {4.2}Lettland}{33}{section.4.2}
+\contentsline {subsection}{\numberline {4.2.1}Der Gasmarkt in Lettland}{33}{subsection.4.2.1}
+\contentsline {subsection}{\numberline {4.2.2}Die Versorgungssituation}{33}{subsection.4.2.2}
+\contentsline {section}{\numberline {4.3}Auswirkungen auf die baltischen Gasm\"arkte}{33}{section.4.3}
+\contentsline {chapter}{\numberline {5}Das Verh\"altnis zu Russland: historische Belastungen}{34}{chapter.5}
+\contentsline {section}{\numberline {5.1}Der Faktor Gazprom}{34}{section.5.1}
+\contentsline {subsection}{\numberline {5.1.1}Gazproms Rolle auf den baltischen Gasm\"arkten}{34}{subsection.5.1.1}
+\contentsline {subsection}{\numberline {5.1.2}Gazprom in der lettischen/litauischen Wahrnehmung}{34}{subsection.5.1.2}
+\contentsline {chapter}{\numberline {6}Die bisherige Umsetzung der EU-Richtlinie}{35}{chapter.6}
+\contentsline {section}{\numberline {6.1}Die Umsetzung in Litauen}{35}{section.6.1}
+\contentsline {section}{\numberline {6.2}Der 'lettische Weg'}{35}{section.6.2}
+\contentsline {chapter}{\numberline {7}Nationale Energiepolitik und Energiemarktliberalisierung}{36}{chapter.7}
+\contentsline {chapter}{\numberline {8}Lobby-Einfluss als Erkl\"arungsfaktor f\"ur nationale Energiepolitik}{37}{chapter.8}
+\contentsline {chapter}{\numberline {9}Europ\"aische Energiepolitik als externe Faktor}{38}{chapter.9}
+\contentsline {chapter}{\numberline {10}Fazit}{39}{chapter.10}
+\contentsline {chapter}{\numberline {11}Anhang -- Erl\"auterungen}{40}{chapter.11}
+\contentsline {paragraph}{Bruttoinlandsprodukt zu Marktpreisen}{40}{section*.19}
+\contentsline {paragraph}{Nat\"urliches Monopol}{40}{section*.20}
+\contentsline {paragraph}{Sunk Costs}{40}{section*.21}
+\contentsline {chapter}{\numberline {12}Literaturverzeichnis}{42}{chapter.12}
