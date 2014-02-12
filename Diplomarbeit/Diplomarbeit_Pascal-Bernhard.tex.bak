@@ -379,7 +379,7 @@ Analytischer Ausgangspunkt dieses Kapitels sind Abweichungen des Gasmarktes von 
 
 
 
-\section{Eigenschaften von Gasmärkten als Netzwerkindustrie}
+\section{Die besonderen Eigenschaften von Gasmärkten}
 
 Gasmärkte können in drei Bereiche gegliedert werden: Erdgasförderung, auch als \glqq Upstream\grqq{} bezeichnet, Fernleitung mittels Pipelines und Verteilung an die Endverbraucher, \glqq Downstream\grqq{} genannt. Nebst der kostenträchtigen Erforschung potentieller Erdgasvorkommen, erfordern die Förderung und der Transport von Erdgas Anlagen und Netzinfrastruktur. Entsprechende Investitionen sind stets langfristiger Natur und zugleich irreversibel, das heißt, die Kosten können später nicht durch Verkauf der Anlagen oder nur schwer zurückgewonnen werden\footnote{Spanjer (2009), S.3251}.  In der Fachliteratur wird diese Situation als \textsl{Sunk Costs} bezeichnet\footnote{Für eine ausführlichere Erläuterung siehe: \textsf{\textcolor{NavyBlue}{\nameref{sec:Sunk Costs}}}}.
 Eine Pipeline beispielsweise verbindet ein Fördergebiet mit einem Abnehmer und ihr Verlauf ist nach dem Bau für ihre Lebensdauer festgelegt. Weder kann Netzwerkinfrastruktur geographisch versetzt werden, noch sind alternative Verwendungsmöglichkeiten außer dem Transport von Gas denkbar. Diese Besonderheit, \emph{Spanjer} spricht von \glqq Asset Specifity \grqq{}\footnote{ebenda (2009), S.3252}, ist auch bei Erdgaslagerstätten und ihren Förderanlagen gegeben.
@@ -387,21 +387,14 @@ Eine Pipeline beispielsweise verbindet ein Fördergebiet mit einem Abnehmer und i
 
 Zu diesen Eigenschaften gesellen sich beträchtliche Skalenerträge für Gasförderung und Gasfernleitung. Unternehmen können eine entwickelte Technologie ohne nennenswerte Zusatzkosten in neuen Einsatzgebieten und Märkten einführen. Mit jedem weiteren Einsatzort lassen sich die Kosten für die Entwicklung solcher Technologien besser amortisieren. Häufig ist erst die Erwartung, Technik in größerem Maßstab verwenden zu können, ausreichend Anreiz diese zu entwickeln. In der Energiebranche kommen viele solcher Technologien zum Einsatz, die erst ab einer bestimmten Skalierung betriebswirtschaftlich rentabel sind\footnote{siehe Christensen \& Greene (1976)}. Insbesondere Netzwerkinfrastruktur zeichnet sich neben zuvor angeführten \textsl{Sunk Costs} zudem durch wachsende Erträge im Laufe eines Investitionszykluses aus\footnote{Haase (2008), S.12}. 
 
-Diese Merkmale zusammen genommen lassen auf Gasmärkten langfristig wenige große Energiekonzerne entstehen. Nur sie sehen sich in der Lage, die für Forschung \& Entwicklung sowie Investitionen erforderlichen Mittel aufzubringen aus eigenen Reserven oder über Kapitalmärkte.\footnote{Stigler (1958), S.56}. Ebenso fördert das hierdurch zu schulternde Risiko die Herausbildung solcher Unternehmensformen. Ergebnis ist eine starke Konzentration auf Gasmärkten, auf denen die Akteure entsprechend beträchtliche Marktmacht innehaben angesichts des geringen Wettbewerbs. Wie im Abschnitt \textsf{\textcolor{NavyBlue}{\nameref{sec:Public Service}}} genauer zu erläutern sein wird, waren angesichts der Herausforderungen, die Gasversorger, wie auch Unternehmen anderer Netzwerkindustrien in den meisten Ländern staatliche Monopole\footnote{Jaag \& Trinkner (2009), S.26}. Die Eigenarten des Sektors mit Skalenerträgen, \textsl{Sunk Costs} und natürlicher Monopole begr 
-
 
 Auch durch die Bedeutung von firmeninternem Know-How, um Technologien auch erfolgreich unter vielfältigen Marktbedingungen zum Einsatz bringen zu können, bilden sich auf Gasmärkten große Akteure (\texttt{beschissene Formulierung}).
 
-\vspace{0.5cm}
-							\begin{center}
-							\textcolor {hellgrau}{\textbf{[........]}}
-							\end{center}
-\vspace{0.5cm}
 
 
 \subsection{Schlüsselstellung der Netzwerkinfrastruktur}
 
-Unter den drei Segmenten der Wertschöpfungskette des Gasmarktes, kommt dem mittleren Glied des Gastransports eine besondere Bedeutung zu. 
+Unter den drei Teilen der Wertschöpfungskette des Gasmarktes, hat das mittlere Segment "Fernleitung" eine Sonderstellung. Die Netzinfrastruktur hat die Eigenschaft eines \glqq natürlichen Monopols\grqq{}. Da es am wirtschaftlichsten ist, wenn nur ein Unternehmen, die Dienstleistung 'Gastransport' anbietet -- parallel zu bestehenden Pipelines weitere zu bauen ist unrentabel -- kommt Wettbewerb auf diesem Gebiet nicht zu Stande. Die Eigentümer der Netze befinden sich in der Position bestimmen zu können, wer Gas durch ihre Pipeline leiten kann und wer nicht, alternative Transportmöglichkeiten für die gleiche Route \footnote{von der Verflüssigung von Erdgas und anschließender Verschiffung, die nur für einige Szenarien möglich ist, wird hier abgesehen} sind aus den genannten Gründen nicht vorhanden.
 
 
 \vspace{0.5cm}
@@ -409,6 +402,9 @@ Unter den drei Segmenten der Wertschöpfungskette des Gasmarktes, kommt dem mittl
 							\textcolor {hellgrau}{\textbf{[........]}}
 							\end{center}
 \vspace{0.5cm}
+
+
+Diese Merkmale zusammen genommen lassen auf Gasmärkten langfristig wenige große Energiekonzerne entstehen. Nur sie sehen sich in der Lage, die für Forschung \& Entwicklung sowie Investitionen erforderlichen Mittel aufzubringen aus eigenen Reserven oder über Kapitalmärkte.\footnote{Stigler (1958), S.56}. Ebenso fördert das hierdurch zu schulternde Risiko die Herausbildung solcher Unternehmensformen. Ergebnis ist eine starke Konzentration auf Gasmärkten, auf denen die Akteure entsprechend beträchtliche Marktmacht innehaben angesichts des geringen Wettbewerbs. Wie im Abschnitt \textsf{\textcolor{NavyBlue}{\nameref{sec:Public Service}}} genauer zu erläutern sein wird, waren angesichts der Herausforderungen, die Gasversorger, wie auch Unternehmen anderer Netzwerkindustrien in den meisten Ländern staatliche Monopole\footnote{Jaag \& Trinkner (2009), S.26}. Die Eigenarten des Sektors mit Skalenerträgen, \textsl{Sunk Costs} und natürlicher Monopole gekoppelt mit der Verpflichtung Gasversorgung im Sinne eines öffentlichen Gutes bereitzustellen begründeten die gesetzlich festgelegte Monopolstellung\footnote{Finger \& Finon (2010), S.3}. 
 
 
 \subsubsection*{Textfragmente für das Kapitel \textsl{Gasmärkte}}
@@ -451,7 +447,14 @@ Die Eingliederung der drei Marktbereiche innerhalb eines Unternehmens, ermöglich
 
 
 
-\subsection{Energieversorgung als öffentliches Gut}\label{Public Service}
+
+
+
+
+\chapter{Liberalisierung und Regulierung}
+
+
+\section{Energieversorgung als öffentliches Gut}\label{Public Service}
 
 
 Die Versorgung mit Energie und dies sozial akzeptablen Preisen wurde und wird in zahlreichen Ländern als Gemeinschaftsaufgabe gesehen. Das öffentliche Gut "Versorgung" und seine Erbringung, die öffentliche Dienstleistung, wurden in Europa im Allgemeinen stets von staatlichen Unternehmen sichergestellt\footnote{Finger \& Finon (2010), S.1}. Das Konzept der öffentlichen Güter und die Auswirkungen auf Liberalisierungsprozesse lässt sich nach der Begriffklärung von \emph{Finger} \& \emph{Finon}\footnote{ebenda (2010), S.1} auch auf Gasmärkte anwenden und hilft uns besser zu verstehen, weshalb in der Liberalisierungsdirektiven Spielräume bei der Umsetzung vorgesehen waren.  
@@ -461,8 +464,6 @@ Bezogen auf den Gasmarkt kann die Idee von öffentlichen Gütern mehrere Aspekte u
 Obwohl nicht in ganz Europa alle diese Punkte als Gemeinschaftsaufgabe angesehen werden, beinhalten alle nationalen Konzepte der öffentlichen Dienstleistung, dass die Kosten ihrer Erbringung nicht von den Nutzern zurückgewonnen werden kann. Auf diesen Umstand fand man das Modell des staatlichen Versorgers, welcher in der Lage war öffentliche Güter bereitzustellen mittels Quersubventionierung aus ertragreicheren Geschäftsfeldern und direkten staatlichen Subventionen. Öffentliche Unternehmen mussten in Folge der gesetzlich gewährten Monopolstellung auf dem Markt mit niemanden konkurrieren. Dies erlaubte es ihnen auch, Verluste in einem Geschäftsbereich durch sogenannte \glqq Monopolrenten\grqq{} aus anderen Tätigkeitsfeldern auszugleichen.
 
 Jenes Modell der Bereitstellung öffentlicher Dienstleistung wurde nun, wie Details im Abschnitt \textsf{\textcolor{NavyBlue}{\nameref{sec:Gasmarktliberalisierung}}} bestätigen werden, durch die Einführung von Wettbewerb in Frage gestellt\footnote{Finger \& Finon (2010), S.5}. Private Konkurrenten drängten in die lukrativen Segmente des Marktes und ließen dort die bisherigen Gewinne der staatlichen Monopolisten schrumpfen. Diese waren jedoch weiterhin mit der verlustreichen Erbringung öffentlicher Güter betraut, wofür ihnen nunmehr weniger Mittel zur Quersubventionierung zur Verfügung standen. Die Ausnahmeregelungen der Gasmarktrichtlinien entstammen dieser Situation, da es politisch undenkbar war, die Bereitstellung öffentlicher Dienstleistung zu beenden. Das Entflechtung, welches die Netzinfrastruktur beim vertikal integrierten Ex-Monopolisten belässt, erlaubt es in beschränktem Maße weiterhin, die durch Nutzungsentgelte erwirtschafteten Gewinne für eine flächendeckende Versorgung der Endverbraucher zu verwenden.
-
-
 
 
 
@@ -488,7 +489,7 @@ Die als \textit{Drittes Liberalisierungspaket} bekannte Richtlinie \textbf{2009/
 
 
 
-\section{Gasmarktliberalisierung in Europa}\label{Gasmarktliberalisierung}
+\chapter{Gasmarktliberalisierung in Europa}\label{Gasmarktliberalisierung}
 
 
 
@@ -500,7 +501,7 @@ Die als \textit{Drittes Liberalisierungspaket} bekannte Richtlinie \textbf{2009/
 
 
 
-\subsubsection*{Die erste Liberalisierungsrichtlinie von 1998}
+\subsection{Die erste Liberalisierungsrichtlinie von 1998}
 
 
 Die erste EU-Richtlinie \textbf{(98/30/EC)} folgte der zwei Jahre zuvor erlassenen Direktive zum Strommarkt \textbf{(96/92/EC)}, wodurch erste gemeinsame Regelwerke für die europäischen Energiemärkte aufgestellt wurden. Bis zu diesem Zeitpunkt war zwar ein einheitlicher europäischer Energiemarkt in den Europäischen Verträgen als Ziel festgeschrieben gewesen, eine konkrete europarechtliche Ausführung jedoch hatte diese Idee bisher nicht erfahren\footnote{\textcolor{purple}{Zitat hier!!!}}. Die Europäische Kommission hatte die Kontrolle der Netzinfrastruktur durch vertikal integrierte Energieunternehmen als Haupthindernis für Wettbewerb auf den Gasmärkten erkannt. 
@@ -531,7 +532,7 @@ Diese unterschiedlichen Gestaltungsmöglichkeiten erlaubten es, nationale Besonde
 
 
 
-\subsubsection{Das zweite Liberalisierungspaket}
+\subsection{Das zweite Liberalisierungspaket}
 
 Noch bevor die erste Liberalisierungsrichtlinie gänzlich umgesetzt war, die Mitgliedsstaaten hatten hierfür zwei Jahre Zeit, forderte der Europäische Rat von Lissabon 2000 die Kommission auf, weitere Schritte zur Vollendung des Energiebinnenmarktes einzuleiten\footnote{Haase (2008), S.24}. Von den damals 15 Mitgliedsstaaten der Europäischen Union beabsichtigten neun in den kommenden Jahren ihre Gasmärkte vollständig für den freien Wettbewerb zu öffnen. Acht Mitglieder hatten bereits den \emph{ex ante}-regulierten Zugang zur Netzinfrastruktur implementiert, das von der Europäischen Kommission favorisierte Modell der Zugangsregelung. 
 
