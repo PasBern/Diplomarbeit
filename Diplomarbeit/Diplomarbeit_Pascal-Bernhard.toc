@@ -21,7 +21,7 @@
 \contentsline {section}{\numberline {4.3}Die Liberalisierung von Gasm\"arkten}{27}{section.4.3}
 \contentsline {chapter}{\numberline {5}Gasmarktliberalisierung in Europa}{28}{chapter.5}
 \contentsline {section}{\numberline {5.1}Die erste Liberalisierungsrichtlinie von 1998}{28}{section.5.1}
-\contentsline {section}{\numberline {5.2}Das zweite Liberalisierungspaket}{30}{section.5.2}
+\contentsline {section}{\numberline {5.2}Das zweite Liberalisierungspaket 2003}{30}{section.5.2}
 \contentsline {section}{\numberline {5.3}Bestimmungen des Dritten Liberalisierungspakets f\"ur die Europ\"aischen Energiem\"arkte}{32}{section.5.3}
 \contentsline {subsection}{\numberline {5.3.1}Modelle der vertikalen Entflechtung auf dem Gasmarkt}{32}{subsection.5.3.1}
 \contentsline {chapter}{\numberline {6}Energiem\"arkte im Baltikum}{34}{chapter.6}
