@@ -14,11 +14,11 @@
 \contentsline {subsubsection}{Das Verh\"altnis zu Russland}{17}{section*.11}
 \contentsline {chapter}{\numberline {3}Gasm\"arkte}{20}{chapter.3}
 \contentsline {section}{\numberline {3.1}Eigenschaften von Gasm\"arkten als Netzwerkindustrie}{20}{section.3.1}
-\contentsline {subsection}{\numberline {3.1.1}Schl\"usselstellung der Netzwerkinfrastruktur}{22}{subsection.3.1.1}
+\contentsline {subsection}{\numberline {3.1.1}Schl\"usselstellung der Netzwerkinfrastruktur}{21}{subsection.3.1.1}
 \contentsline {subsection}{\numberline {3.1.2}Energieversorgung als \"offentliches Gut}{24}{subsection.3.1.2}
 \contentsline {section}{\numberline {3.2}Marktregulierung}{25}{section.3.2}
 \contentsline {section}{\numberline {3.3}Die Liberalisierung von Gasm\"arkten}{26}{section.3.3}
-\contentsline {section}{\numberline {3.4}Gasmarktliberalisierung in Europa}{26}{section.3.4}
+\contentsline {section}{\numberline {3.4}Gasmarktliberalisierung in Europa}{27}{section.3.4}
 \contentsline {subsubsection}{Das zweite Liberalisierungspaket}{29}{section*.14}
 \contentsline {section}{\numberline {3.5}Bestimmungen des Dritten Liberalisierungspakets f\"ur die Europ\"aischen Energiem\"arkte}{31}{section.3.5}
 \contentsline {subsection}{\numberline {3.5.1}Modelle der vertikalen Entflechtung auf dem Gasmarkt}{31}{subsection.3.5.1}
