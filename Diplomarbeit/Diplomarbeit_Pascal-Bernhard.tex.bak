@@ -1,4 +1,4 @@
-\documentclass[11pt,a4paper,ngerman,BCOR=0pt,DIVcalc]{scrreprt}
+\documentclass[11pt,paper=a4,ngerman,BCOR=0pt,DIV=15]{scrreprt}
 \usepackage[T1]{fontenc}
 \usepackage{lmodern}
 \usepackage[sc]{mathpazo}
@@ -381,13 +381,17 @@ Analytischer Ausgangspunkt dieses Kapitels sind Abweichungen des Gasmarktes von 
 
 \section{Die besonderen Eigenschaften von Gasmärkten}
 
+
+\paragraph {Sunk Costs}
 Gasmärkte können in drei Bereiche gegliedert werden: Erdgasförderung, auch als \glqq Upstream\grqq{} bezeichnet, Fernleitung mittels Pipelines und Verteilung an die Endverbraucher, \glqq Downstream\grqq{} genannt. Nebst der kostenträchtigen Erforschung potentieller Erdgasvorkommen, erfordern die Förderung und der Transport von Erdgas Anlagen und Netzinfrastruktur. Entsprechende Investitionen sind stets langfristiger Natur und zugleich irreversibel, das heißt, die Kosten können später nicht durch Verkauf der Anlagen oder nur schwer zurückgewonnen werden\footnote{Spanjer (2009), S.3251}.  In der Fachliteratur wird diese Situation als \textsl{Sunk Costs} bezeichnet\footnote{Für eine ausführlichere Erläuterung siehe: \textsf{\textcolor{NavyBlue}{\nameref{sec:Sunk Costs}}}}.
 Eine Pipeline beispielsweise verbindet ein Fördergebiet mit einem Abnehmer und ihr Verlauf ist nach dem Bau für ihre Lebensdauer festgelegt. Weder kann Netzwerkinfrastruktur geographisch versetzt werden, noch sind alternative Verwendungsmöglichkeiten außer dem Transport von Gas denkbar. Diese Besonderheit, \emph{Spanjer} spricht von \glqq Asset Specifity \grqq{}\footnote{ebenda (2009), S.3252}, ist auch bei Erdgaslagerstätten und ihren Förderanlagen gegeben.
 
-Solche irreversiblen Kosten stellen für potentielle Wettbewerber auf Gasmärkten nennenswerte Markteintrittsbarrieren\footnote{nach \textbf{Stigler} (1967) kann eine Barriere für den Markteintritt definiert werden als: \textsl{\glqq als Produktionskosten (über einen Teil oder der gesamten Menge des Outputs), die von einem Unternehmen getragen werden müssen, welches in den Markt eintreten will, jedoch nicht von Firmen, die dort bereits tätig sind\grqq}, S.67} dar. Die mit ihnen verbundenen unternehmerischen Risiken machen es weitaus unwahrscheinlicher, dass neue Konkurrenten mit etablierten Firmen in den Wettbewerb treten werden. Dieses Verhalten ist jedoch nach neo-klassischer Theorie Voraussetzung für effiziente, möglichst niedrige Preise, da ansonsten Firmen den Preisbildungsprozess für Monopolrenten steuern können, was wiederum der Gesamtwohlfahrt einer Volkswirtschaft schadet.
+Solche irreversiblen Kosten stellen für potentielle Wettbewerber auf Gasmärkten nennenswerte Markteintrittsbarrieren\footnote{nach \textbf{Stigler} (1967) kann eine Barriere für den Markteintritt definiert werden als: \textsl{\glqq als Produktionskosten (über einen Teil oder der gesamten Menge der Produktion), die von einem Unternehmen getragen werden müssen, welches in den Markt eintreten will, jedoch nicht von Firmen, die dort bereits tätig sind\grqq}, S.67} dar. Die mit ihnen verbundenen unternehmerischen Risiken machen es weitaus unwahrscheinlicher, dass neue Konkurrenten mit etablierten Firmen in den Wettbewerb treten werden. Dieses Verhalten ist jedoch nach neo-klassischer Theorie Voraussetzung für effiziente, möglichst niedrige Preise, da ansonsten Firmen den Preisbildungsprozess für Monopolrenten steuern können, was wiederum der Gesamtwohlfahrt einer Volkswirtschaft schadet.
 
-Basieren auf \emph{Bains}\footnote{siehe Bain (1958)} und \emph{Stiglers}\footnote{Stigler (1967), S.67} Konzept der Markteintrittsbarrieren kann für Gasmärkte eine Marktmacht der Infrastrukturinhaber identifiziert werden. Diese erlaubt Preisverzerrungen und führt letztendlich zu Marktversagen, was von Seiten der Politik wiederum Bestrebungen nach Marktregulierung hervorruft (siehe \textsf{\textcolor{NavyBlue}{\nameref{sec:Marktregulierung}}}).
+Basierend auf \emph{Bains}\footnote{siehe Bain (1958)} und \emph{Stiglers}\footnote{Stigler (1967), S.67} Konzept der Markteintrittsbarrieren kann für Gasmärkte eine Marktmacht der Infrastrukturinhaber identifiziert werden. Diese Marktmacht erlaubt Preisverzerrungen und führt letztendlich zu Marktversagen, was von Seiten der Politik wiederum Bestrebungen nach Regulierung hervorruft (siehe \textsf{\textcolor{NavyBlue}{\nameref{sec:Marktregulierung}}}).
 
+
+\paragraph{Skalenerträge}
 Zu diesen Eigenschaften gesellen sich beträchtliche Skalenerträge für Gasförderung und Gasfernleitung. Unternehmen können eine entwickelte Technologie ohne nennenswerte Zusatzkosten in neuen Einsatzgebieten und Märkten einführen. Mit jedem weiteren Einsatzort lassen sich die Kosten für die Entwicklung solcher Technologien besser amortisieren. Häufig ist erst die Erwartung, Technik in größerem Maßstab verwenden zu können, ausreichend Anreiz diese zu entwickeln. In der Energiebranche kommen viele solcher Technologien zum Einsatz, die erst ab einer bestimmten Skalierung betriebswirtschaftlich rentabel sind\footnote{siehe Christensen \& Greene (1976)}. Insbesondere Netzwerkinfrastruktur zeichnet sich neben zuvor angeführten \textsl{Sunk Costs} zudem durch wachsende Erträge im Laufe eines Investitionszykluses aus\footnote{Haase (2008), S.12}. 
 
 
@@ -459,8 +463,7 @@ Die Eingliederung der drei Marktbereiche innerhalb eines Unternehmens, ermöglich
 \chapter{Liberalisierung und Regulierung}
 
 
-\section{Energieversorgung als öffentliches Gut}\label{Public Service}
-
+\section{Energieversorgung als öffentliches Gut}\label{sec:Public Service}
 
 Die Versorgung mit Energie und dies sozial akzeptablen Preisen wurde und wird in zahlreichen Ländern als Gemeinschaftsaufgabe gesehen. Das öffentliche Gut "Versorgung" und seine Erbringung, die öffentliche Dienstleistung, wurden in Europa im Allgemeinen stets von staatlichen Unternehmen sichergestellt\footnote{Finger \& Finon (2010), S.1}. Das Konzept der öffentlichen Güter und die Auswirkungen auf Liberalisierungsprozesse lässt sich nach der Begriffklärung von \emph{Finger} \& \emph{Finon}\footnote{ebenda (2010), S.1} auch auf Gasmärkte anwenden und hilft uns besser zu verstehen, weshalb in der Liberalisierungsdirektiven Spielräume bei der Umsetzung vorgesehen waren.  
 
@@ -473,7 +476,7 @@ Jenes Modell der Bereitstellung öffentlicher Dienstleistung wurde nun, wie Detai
 
 
 
-\section{Marktregulierung}\label{Regulierung}
+\section{Marktregulierung}\label{sec:Marktregulierung}
 
 Allgemein formuliert ist stets Marktversagen Ausgangspunkt und Anlass für staatliche Marktregelung\footnote{Jaag \& Trinkner (2011), S.26; ebenso Balwin \& Cave (1999)}. Gasmärkten und andere Netzwerkindustrien entsprechen nicht dem neo-klassischen Modell eines perfekten Marktes mit freiem Wettbewerb und vollständigen Kontrakten, die eine Abwesenheit von Externalitäten implizieren. Für eine politikwissenschaftliche Herangehensweise an Märkte entscheidend ist jedoch in erster Linie die Frage, ob diese gesellschaftlich erwünschte Ergebnisse hervorbringen und somit normativ anzustreben sind, weniger ob sie den stringenten formalen Kriterien der neo-klassischen Lehre entsprechen. In den Worten von \emph{Jaag} \& \emph{Trinkner}, können wir von einem freien, funktionierenden Markt sprechen, wenn dieser \glqq \textsl{für Unternehmen die richtigen Anreize bietet, auf einem \textbf{gesellschaftlich erwünschten Niveau} in Märkte einzutreten, Preise zu bilden und in Innovation zu investieren}\grqq \footnote{ebenda (2011), S.27 -- \textsl{eigene Paraphrasierung, Hervorhebung hinzugefügt}}.
 
@@ -494,7 +497,7 @@ Die als \textit{Drittes Liberalisierungspaket} bekannte Richtlinie \textbf{2009/
 
 
 
-\chapter{Gasmarktliberalisierung in Europa}\label{Gasmarktliberalisierung}
+\chapter{Gasmarktliberalisierung in Europa}\label{sec:Gasmarktliberalisierung}
 
 
 

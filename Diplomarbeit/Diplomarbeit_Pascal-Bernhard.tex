@@ -1,4 +1,4 @@
-\documentclass[11pt,a4paper,ngerman,BCOR=0pt,DIVcalc]{scrreprt}
+\documentclass[11pt,paper=a4,ngerman,BCOR=0pt,DIV=calc]{scrreprt}
 \usepackage[T1]{fontenc}
 \usepackage{lmodern}
 \usepackage[sc]{mathpazo}
@@ -8,6 +8,8 @@
 
 \usepackage[ansinew]{inputenc}
 
+%%% Paket für besseres Schriftbild
+\usepackage{microtype}
 
 \usepackage{xcolor}
 \usepackage[ngerman]{babel}
@@ -382,14 +384,20 @@ Analytischer Ausgangspunkt dieses Kapitels sind Abweichungen des Gasmarktes von 
 \section{Die besonderen Eigenschaften von Gasmärkten}
 
 
+%%%%%%%%Irreversible Kosten & Markteintrittsbarrieren
+
 \paragraph {Sunk Costs}
 Gasmärkte können in drei Bereiche gegliedert werden: Erdgasförderung, auch als \glqq Upstream\grqq{} bezeichnet, Fernleitung mittels Pipelines und Verteilung an die Endverbraucher, \glqq Downstream\grqq{} genannt. Nebst der kostenträchtigen Erforschung potentieller Erdgasvorkommen, erfordern die Förderung und der Transport von Erdgas Anlagen und Netzinfrastruktur. Entsprechende Investitionen sind stets langfristiger Natur und zugleich irreversibel, das heißt, die Kosten können später nicht durch Verkauf der Anlagen oder nur schwer zurückgewonnen werden\footnote{Spanjer (2009), S.3251}.  In der Fachliteratur wird diese Situation als \textsl{Sunk Costs} bezeichnet\footnote{Für eine ausführlichere Erläuterung siehe: \textsf{\textcolor{NavyBlue}{\nameref{sec:Sunk Costs}}}}.
 Eine Pipeline beispielsweise verbindet ein Fördergebiet mit einem Abnehmer und ihr Verlauf ist nach dem Bau für ihre Lebensdauer festgelegt. Weder kann Netzwerkinfrastruktur geographisch versetzt werden, noch sind alternative Verwendungsmöglichkeiten außer dem Transport von Gas denkbar. Diese Besonderheit, \emph{Spanjer} spricht von \glqq Asset Specifity \grqq{}\footnote{ebenda (2009), S.3252}, ist auch bei Erdgaslagerstätten und ihren Förderanlagen gegeben.
 
-Solche irreversiblen Kosten stellen für potentielle Wettbewerber auf Gasmärkten nennenswerte Markteintrittsbarrieren\footnote{nach \textbf{Stigler} (1967) kann eine Barriere für den Markteintritt definiert werden als: \textsl{\glqq als Produktionskosten (über einen Teil oder der gesamten Menge des Outputs), die von einem Unternehmen getragen werden müssen, welches in den Markt eintreten will, jedoch nicht von Firmen, die dort bereits tätig sind\grqq}, S.67} dar. Die mit ihnen verbundenen unternehmerischen Risiken machen es weitaus unwahrscheinlicher, dass neue Konkurrenten mit etablierten Firmen in den Wettbewerb treten werden. Dieses Verhalten ist jedoch nach neo-klassischer Theorie Voraussetzung für effiziente, möglichst niedrige Preise, da ansonsten Firmen den Preisbildungsprozess für Monopolrenten steuern können, was wiederum der Gesamtwohlfahrt einer Volkswirtschaft schadet.
+Solche irreversiblen Kosten stellen für potentielle Wettbewerber auf Gasmärkten nennenswerte Markteintrittsbarrieren\footnote{nach \textbf{Stigler} (1967) kann eine Barriere für den Markteintritt definiert werden als: \textsl{\glqq als Produktionskosten (über einen Teil oder der gesamten Menge der Produktion), die von einem Unternehmen getragen werden müssen, welches in den Markt eintreten will, jedoch nicht von Firmen, die dort bereits tätig sind\grqq}, S.67} dar. Die mit ihnen verbundenen unternehmerischen Risiken machen es weitaus unwahrscheinlicher, dass neue Konkurrenten mit etablierten Firmen in den Wettbewerb treten werden. Dieses Verhalten ist jedoch nach neo-klassischer Theorie Voraussetzung für effiziente, möglichst niedrige Preise, da ansonsten Firmen den Preisbildungsprozess für Monopolrenten steuern können, was wiederum der Gesamtwohlfahrt einer Volkswirtschaft schadet.
 
-Basieren auf \emph{Bains}\footnote{siehe Bain (1958)} und \emph{Stiglers}\footnote{Stigler (1967), S.67} Konzept der Markteintrittsbarrieren kann für Gasmärkte eine Marktmacht der Infrastrukturinhaber identifiziert werden. Diese erlaubt Preisverzerrungen und führt letztendlich zu Marktversagen, was von Seiten der Politik wiederum Bestrebungen nach Marktregulierung hervorruft (siehe \textsf{\textcolor{NavyBlue}{\nameref{sec:Marktregulierung}}}).
+Basierend auf \emph{Bains}\footnote{siehe Bain (1958)} und \emph{Stiglers}\footnote{Stigler (1967), S.67} Konzept der Markteintrittsbarrieren kann für Gasmärkte eine Marktmacht der Infrastrukturinhaber identifiziert werden. Diese Marktmacht erlaubt Preisverzerrungen\footnote{Jaag \& Trinkner (2011, S.30} und führt letztendlich zu Marktversagen, was von Seiten der Politik wiederum Bestrebungen nach Regulierung hervorruft (siehe \textsf{\textcolor{NavyBlue}{\nameref{sec:Marktregulierung}}}). 
 
+
+
+
+%%%%%%%Skaleneträge
 
 \paragraph{Skalenerträge}
 Zu diesen Eigenschaften gesellen sich beträchtliche Skalenerträge für Gasförderung und Gasfernleitung. Unternehmen können eine entwickelte Technologie ohne nennenswerte Zusatzkosten in neuen Einsatzgebieten und Märkten einführen. Mit jedem weiteren Einsatzort lassen sich die Kosten für die Entwicklung solcher Technologien besser amortisieren. Häufig ist erst die Erwartung, Technik in größerem Maßstab verwenden zu können, ausreichend Anreiz diese zu entwickeln. In der Energiebranche kommen viele solcher Technologien zum Einsatz, die erst ab einer bestimmten Skalierung betriebswirtschaftlich rentabel sind\footnote{siehe Christensen \& Greene (1976)}. Insbesondere Netzwerkinfrastruktur zeichnet sich neben zuvor angeführten \textsl{Sunk Costs} zudem durch wachsende Erträge im Laufe eines Investitionszykluses aus\footnote{Haase (2008), S.12}. 
