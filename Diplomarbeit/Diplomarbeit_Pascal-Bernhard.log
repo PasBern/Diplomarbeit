@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013) (format=pdflatex 2014.1.19)  13 FEB 2014 17:11
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013) (format=pdflatex 2014.1.19)  13 FEB 2014 17:49
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1513,25 +1513,25 @@ Package babel Info: Redefining ngerman shorthand "|
 Package babel Info: Redefining ngerman shorthand "~
 (babel)             in language  on input line 932.
  [51]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 981.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 987.
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 981.
+(babel)             in language  on input line 987.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 981.
+(babel)             in language  on input line 987.
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 981.
+(babel)             in language  on input line 987.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 981.
+(babel)             in language  on input line 987.
  [52]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 981.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 987.
 
 (./Diplomarbeit_Pascal-Bernhard.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 981.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 981.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 987.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 987.
 Package rerunfilecheck Info: File `Diplomarbeit_Pascal-Bernhard.out' has not ch
 anged.
 (rerunfilecheck)             Checksum: 15743E5641C48A190A54EBE449D9D3E0;3014.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 981.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 987.
  ) 
 Here is how much of TeX's memory you used:
  11466 strings out of 493853
@@ -1552,7 +1552,7 @@ arvosym.pfb></usr/share/texmf-dist/fonts/type1/urw/palatino/uplb8a.pfb></usr/sh
 are/texmf-dist/fonts/type1/urw/palatino/uplbi8a.pfb></usr/share/texmf-dist/font
 s/type1/urw/palatino/uplr8a.pfb></usr/share/texmf-dist/fonts/type1/urw/palatino
 /uplr8a.pfb></usr/share/texmf-dist/fonts/type1/urw/palatino/uplri8a.pfb>
-Output written on Diplomarbeit_Pascal-Bernhard.pdf (52 pages, 393336 bytes).
+Output written on Diplomarbeit_Pascal-Bernhard.pdf (52 pages, 393598 bytes).
 PDF statistics:
  721 PDF objects out of 1000 (max. 8388607)
  647 compressed objects within 7 object streams
