@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013) (format=pdflatex 2014.1.19)  14 FEB 2014 13:26
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013) (format=pdflatex 2014.1.19)  14 FEB 2014 14:29
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1488,67 +1488,70 @@ Package babel Info: Redefining ngerman shorthand "~
 
 ]
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 855.
+(babel)             in language  on input line 858.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 855.
+(babel)             in language  on input line 858.
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 855.
+(babel)             in language  on input line 858.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 855.
+(babel)             in language  on input line 858.
  [49]
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 886.
+(babel)             in language  on input line 889.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 886.
+(babel)             in language  on input line 889.
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 886.
+(babel)             in language  on input line 889.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 886.
+(babel)             in language  on input line 889.
  [50]
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 930.
+(babel)             in language  on input line 932.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 930.
+(babel)             in language  on input line 932.
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 930.
+(babel)             in language  on input line 932.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 930.
+(babel)             in language  on input line 932.
  [51]
+LaTeX Font Info:    Font shape `T1/lmss/m/it' in size <10> not available
+(Font)              Font shape `T1/lmss/m/sl' tried instead on input line 937.
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 979.
+(babel)             in language  on input line 973.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 979.
+(babel)             in language  on input line 973.
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 979.
+(babel)             in language  on input line 973.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 979.
+(babel)             in language  on input line 973.
  [52]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 995.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 1006.
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 995.
+(babel)             in language  on input line 1006.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 995.
+(babel)             in language  on input line 1006.
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 995.
+(babel)             in language  on input line 1006.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 995.
+(babel)             in language  on input line 1006.
  [53]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 995.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 1006.
 
 (./Diplomarbeit_Pascal-Bernhard.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 995.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 995.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 1006.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 1006.
+
 Package rerunfilecheck Info: File `Diplomarbeit_Pascal-Bernhard.out' has not ch
 anged.
 (rerunfilecheck)             Checksum: 15743E5641C48A190A54EBE449D9D3E0;3014.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 995.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 1006.
  ) 
 Here is how much of TeX's memory you used:
- 11470 strings out of 493853
- 168918 string characters out of 6157277
+ 11468 strings out of 493853
+ 168907 string characters out of 6157277
  308032 words of memory out of 5000000
- 14007 multiletter control sequences out of 15000+600000
- 113119 words of font info for 345 fonts, out of 8000000 for 9000
+ 14009 multiletter control sequences out of 15000+600000
+ 115652 words of font info for 344 fonts, out of 8000000 for 9000
  788 hyphenation exceptions out of 8191
  36i,8n,43p,2751b,536s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texmf-dist/fonts/enc/dvips/base/8r.enc}{/usr/share/texmf-dist/fon
@@ -1562,7 +1565,7 @@ ino/uplb8a.pfb></usr/share/texmf-dist/fonts/type1/urw/palatino/uplbi8a.pfb></us
 r/share/texmf-dist/fonts/type1/urw/palatino/uplr8a.pfb></usr/share/texmf-dist/f
 onts/type1/urw/palatino/uplr8a.pfb></usr/share/texmf-dist/fonts/type1/urw/palat
 ino/uplri8a.pfb>
-Output written on Diplomarbeit_Pascal-Bernhard.pdf (53 pages, 373398 bytes).
+Output written on Diplomarbeit_Pascal-Bernhard.pdf (53 pages, 375887 bytes).
 PDF statistics:
  722 PDF objects out of 1000 (max. 8388607)
  648 compressed objects within 7 object streams
