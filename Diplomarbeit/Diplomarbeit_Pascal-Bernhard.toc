@@ -17,7 +17,7 @@
 \contentsline {paragraph}{Sunk Costs}{21}{section*.12}
 \contentsline {paragraph}{Eintrittsbarrieren}{22}{section*.13}
 \contentsline {paragraph}{Skalenertr\"age}{23}{section*.14}
-\contentsline {subsection}{\numberline {3.1.1}Schl\"usselstellung der Netzwerkinfrastruktur}{23}{subsection.3.1.1}
+\contentsline {subsection}{\numberline {3.1.1}Schl\"usselstellung der Netzwerkinfrastruktur}{24}{subsection.3.1.1}
 \contentsline {section}{\numberline {3.2}Pfadabh\"angigkeiten}{27}{section.3.2}
 \contentsline {chapter}{\numberline {4}Liberalisierung und Regulierung}{28}{chapter.4}
 \contentsline {section}{\numberline {4.1}Energieversorgung als \"offentliches Gut}{28}{section.4.1}
