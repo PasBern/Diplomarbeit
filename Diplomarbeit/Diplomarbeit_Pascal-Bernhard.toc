@@ -18,8 +18,8 @@
 \contentsline {paragraph}{Eintrittsbarrieren}{22}{section*.13}
 \contentsline {paragraph}{Skalenertr\"age}{23}{section*.14}
 \contentsline {paragraph}{Vertikale Integration}{24}{section*.15}
-\contentsline {subsection}{\numberline {3.1.1}Schl\"usselstellung der Netzwerkinfrastruktur}{24}{subsection.3.1.1}
-\contentsline {section}{\numberline {3.2}Pfadabh\"angigkeiten}{28}{section.3.2}
+\contentsline {subsection}{\numberline {3.1.1}Schl\"usselstellung der Netzwerkinfrastruktur}{25}{subsection.3.1.1}
+\contentsline {section}{\numberline {3.2}Pfadabh\"angigkeiten}{26}{section.3.2}
 \contentsline {chapter}{\numberline {4}Liberalisierung und Regulierung}{29}{chapter.4}
 \contentsline {section}{\numberline {4.1}Energieversorgung als \"offentliches Gut}{29}{section.4.1}
 \contentsline {section}{\numberline {4.2}Marktregulierung}{30}{section.4.2}
