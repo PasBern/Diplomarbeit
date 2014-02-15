@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013) (format=pdflatex 2014.1.19)  14 FEB 2014 15:58
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013) (format=pdflatex 2014.1.19)  15 FEB 2014 10:50
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1090,13 +1090,13 @@ Underfull \hbox (badness 10000) in paragraph at lines 423--423
  []
 
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 430.
+(babel)             in language  on input line 428.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 430.
+(babel)             in language  on input line 428.
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 430.
+(babel)             in language  on input line 428.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 430.
+(babel)             in language  on input line 428.
 [24]
 Package babel Info: Redefining ngerman shorthand "|
 (babel)             in language  on input line 446.
@@ -1108,13 +1108,13 @@ Package babel Info: Redefining ngerman shorthand "~
 (babel)             in language  on input line 446.
  [25]
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 467.
+(babel)             in language  on input line 464.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 467.
+(babel)             in language  on input line 464.
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 467.
+(babel)             in language  on input line 464.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 467.
+(babel)             in language  on input line 464.
  [26]
 Package babel Info: Redefining ngerman shorthand "|
 (babel)             in language  on input line 475.
@@ -1563,7 +1563,7 @@ ino/uplb8a.pfb></usr/share/texmf-dist/fonts/type1/urw/palatino/uplbi8a.pfb></us
 r/share/texmf-dist/fonts/type1/urw/palatino/uplr8a.pfb></usr/share/texmf-dist/f
 onts/type1/urw/palatino/uplr8a.pfb></usr/share/texmf-dist/fonts/type1/urw/palat
 ino/uplri8a.pfb>
-Output written on Diplomarbeit_Pascal-Bernhard.pdf (53 pages, 376158 bytes).
+Output written on Diplomarbeit_Pascal-Bernhard.pdf (53 pages, 376283 bytes).
 PDF statistics:
  722 PDF objects out of 1000 (max. 8388607)
  648 compressed objects within 7 object streams
