@@ -17,6 +17,7 @@
 \contentsline {paragraph}{Sunk Costs}{21}{section*.12}
 \contentsline {paragraph}{Eintrittsbarrieren}{22}{section*.13}
 \contentsline {paragraph}{Skalenertr\"age}{23}{section*.14}
+\contentsline {paragraph}{Vertikale Integration}{24}{section*.15}
 \contentsline {subsection}{\numberline {3.1.1}Schl\"usselstellung der Netzwerkinfrastruktur}{24}{subsection.3.1.1}
 \contentsline {section}{\numberline {3.2}Pfadabh\"angigkeiten}{27}{section.3.2}
 \contentsline {chapter}{\numberline {4}Liberalisierung und Regulierung}{28}{chapter.4}
@@ -48,7 +49,7 @@
 \contentsline {chapter}{\numberline {11}Europ\"aische Energiepolitik als externe Faktor}{44}{chapter.11}
 \contentsline {chapter}{\numberline {12}Fazit}{45}{chapter.12}
 \contentsline {chapter}{\numberline {13}Anhang -- Erl\"auterungen}{46}{chapter.13}
-\contentsline {paragraph}{Bruttoinlandsprodukt zu Marktpreisen}{46}{section*.19}
-\contentsline {paragraph}{Nat\"urliches Monopol}{46}{section*.20}
-\contentsline {paragraph}{Sunk Costs}{46}{section*.21}
+\contentsline {paragraph}{Bruttoinlandsprodukt zu Marktpreisen}{46}{section*.20}
+\contentsline {paragraph}{Nat\"urliches Monopol}{46}{section*.21}
+\contentsline {paragraph}{Sunk Costs}{46}{section*.22}
 \contentsline {chapter}{\numberline {14}Literaturverzeichnis}{48}{chapter.14}
