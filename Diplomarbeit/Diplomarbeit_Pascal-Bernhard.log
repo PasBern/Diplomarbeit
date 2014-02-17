@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013) (format=pdflatex 2014.2.16)  17 FEB 2014 15:49
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013) (format=pdflatex 2014.2.16)  17 FEB 2014 17:22
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1491,88 +1491,75 @@ Package babel Info: Redefining ngerman shorthand "~
 (babel)             in language  on input line 877.
  [50]
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 905.
+(babel)             in language  on input line 906.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 905.
+(babel)             in language  on input line 906.
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 905.
+(babel)             in language  on input line 906.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 905.
+(babel)             in language  on input line 906.
  [51]
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 947.
+(babel)             in language  on input line 949.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 947.
+(babel)             in language  on input line 949.
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 947.
+(babel)             in language  on input line 949.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 947.
+(babel)             in language  on input line 949.
  [52]
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 999.
+(babel)             in language  on input line 996.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 999.
+(babel)             in language  on input line 996.
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 999.
+(babel)             in language  on input line 996.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 999.
+(babel)             in language  on input line 996.
  [53]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 1016.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 1019.
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 1016.
+(babel)             in language  on input line 1019.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 1016.
+(babel)             in language  on input line 1019.
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 1016.
+(babel)             in language  on input line 1019.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 1016.
+(babel)             in language  on input line 1019.
 
 [54]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 1016.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 1019.
  (./Diplomarbeit_Pascal-Bernhard.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 1016.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 1016.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 1019.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 1019.
 
-
-
-Package rerunfilecheck Warning: File `Diplomarbeit_Pascal-Bernhard.out' has cha
-nged.
-(rerunfilecheck)                Rerun to get outlines right
-(rerunfilecheck)                or use package `bookmark'.
-
-Package rerunfilecheck Info: Checksums for `Diplomarbeit_Pascal-Bernhard.out':
-(rerunfilecheck)             Before: 15743E5641C48A190A54EBE449D9D3E0;3014
-(rerunfilecheck)             After:  A832EB54F08EA6F16118EC01DE121BE8;3021.
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 1016.
+Package rerunfilecheck Info: File `Diplomarbeit_Pascal-Bernhard.out' has not ch
+anged.
+(rerunfilecheck)             Checksum: A832EB54F08EA6F16118EC01DE121BE8;3021.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 1019.
  ) 
 Here is how much of TeX's memory you used:
- 11478 strings out of 493853
- 168976 string characters out of 6157277
- 308075 words of memory out of 5000000
+ 11477 strings out of 493853
+ 168970 string characters out of 6157277
+ 308085 words of memory out of 5000000
  14004 multiletter control sequences out of 15000+600000
  112289 words of font info for 345 fonts, out of 8000000 for 9000
  788 hyphenation exceptions out of 8191
  36i,8n,43p,2751b,536s stack positions out of 5000i,500n,10000p,200000b,80000s
-pdfTeX warning (dest): name{section.4.3} has been referenced but does not exi
-st, replaced by a fixed one
-
-{/usr/share/texmf-dist/fonts/enc/dvips/base/8r.enc}{/usr/share/texmf-dist/fonts
-/enc/dvips/lm/lm-ec.enc}</usr/share/texmf-dist/fonts/type1/public/lm/lmss10.pfb
-></usr/share/texmf-dist/fonts/type1/public/lm/lmss9.pfb></usr/share/texmf-dist/
-fonts/type1/public/lm/lmssbo10.pfb></usr/share/texmf-dist/fonts/type1/public/lm
-/lmssbx10.pfb></usr/share/texmf-dist/fonts/type1/public/lm/lmsso10.pfb></usr/sh
-are/texmf-dist/fonts/type1/public/marvosym/marvosym.pfb></usr/share/texmf-dist/
-fonts/type1/urw/palatino/uplb8a.pfb></usr/share/texmf-dist/fonts/type1/urw/pala
-tino/uplbi8a.pfb></usr/share/texmf-dist/fonts/type1/urw/palatino/uplr8a.pfb></u
-sr/share/texmf-dist/fonts/type1/urw/palatino/uplr8a.pfb></usr/share/texmf-dist/
-fonts/type1/urw/palatino/uplri8a.pfb>
-Output written on Diplomarbeit_Pascal-Bernhard.pdf (54 pages, 364727 bytes).
+{/usr/share/texmf-dist/fonts/enc/dvips/base/8r.enc}{/usr/share/texmf-dist/fon
+ts/enc/dvips/lm/lm-ec.enc}</usr/share/texmf-dist/fonts/type1/public/lm/lmss10.p
+fb></usr/share/texmf-dist/fonts/type1/public/lm/lmss9.pfb></usr/share/texmf-dis
+t/fonts/type1/public/lm/lmssbo10.pfb></usr/share/texmf-dist/fonts/type1/public/
+lm/lmssbx10.pfb></usr/share/texmf-dist/fonts/type1/public/lm/lmsso10.pfb></usr/
+share/texmf-dist/fonts/type1/public/marvosym/marvosym.pfb></usr/share/texmf-dis
+t/fonts/type1/urw/palatino/uplb8a.pfb></usr/share/texmf-dist/fonts/type1/urw/pa
+latino/uplbi8a.pfb></usr/share/texmf-dist/fonts/type1/urw/palatino/uplr8a.pfb><
+/usr/share/texmf-dist/fonts/type1/urw/palatino/uplr8a.pfb></usr/share/texmf-dis
+t/fonts/type1/urw/palatino/uplri8a.pfb>
+Output written on Diplomarbeit_Pascal-Bernhard.pdf (54 pages, 365102 bytes).
 PDF statistics:
- 738 PDF objects out of 1000 (max. 8388607)
- 664 compressed objects within 7 object streams
- 199 named destinations out of 1000 (max. 500000)
+ 736 PDF objects out of 1000 (max. 8388607)
+ 662 compressed objects within 7 object streams
+ 198 named destinations out of 1000 (max. 500000)
  49977 words of extra memory for PDF output out of 51595 (max. 10000000)
 
