@@ -22,8 +22,8 @@
 \contentsline {section}{\numberline {3.2}Pfadabh\"angigkeiten}{26}{section.3.2}
 \contentsline {chapter}{\numberline {4}Liberalisierung und Regulierung}{28}{chapter.4}
 \contentsline {section}{\numberline {4.1}Energieversorgung als \"offentliches Gut}{28}{section.4.1}
-\contentsline {section}{\numberline {4.2}Marktregulierung}{30}{section.4.2}
-\contentsline {section}{\numberline {4.3}Die Liberalisierung von Gasm\"arkten}{31}{section.4.3}
+\contentsline {section}{\numberline {4.2}Die Liberalisierung von Gasm\"arkten}{30}{section.4.2}
+\contentsline {subsection}{\numberline {4.2.1}Marktregulierung}{31}{subsection.4.2.1}
 \contentsline {chapter}{\numberline {5}Gasmarktliberalisierung in Europa}{32}{chapter.5}
 \contentsline {section}{\numberline {5.1}Die erste Liberalisierungsrichtlinie von 1998}{32}{section.5.1}
 \contentsline {section}{\numberline {5.2}Das zweite Liberalisierungspaket 2003}{34}{section.5.2}
