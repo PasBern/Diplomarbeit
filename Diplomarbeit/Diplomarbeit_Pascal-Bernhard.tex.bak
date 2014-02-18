@@ -67,7 +67,7 @@ headinclude		%Kopfzeile bei Saztspiegelberechnung mit einbeziehen
 
 \KOMAoptions{headings=small}
 
-
+\setfootnoterule[0.8pt]{10cm} % Höhe und Länge des Trennstriches für Fußnoten anpassen
 
 
 %%% Abstände vor und nach Überschriften beeinflussen
@@ -491,7 +491,7 @@ Vor dem Abschnitt zum Hergang der Liberalisierungsbemühungen in Europa stellt si
 
 \subsection{Marktregulierung}\label{sec:Marktregulierung}
 
-Anlass für staatliche Marktregelung ist stets Marktversagen, eine Situation, die unterschiedlich definiert werden kann\footnote{Jaag \& Trinkner (2011), S.26; ebenso Balwin \& Cave (1999)}. Aufgabe dieser Arbeit ist nicht, an dieser Stelle eine präzise Definition von Makrtversagen herauszuarbeiten, sondern es gilt darzulegen, welche Gründe es für Regulierung von Märkten gibt. Eine Bewertung, inwieweit Eingriffe in das Marktgeschehen nach unterschiedlichen Gesichtspunkten gerechtfertigt ist ist ebensowenig Gegenstand der vorliegenden Fragestellung. Für eine Diskussion über die Effektivät verschiedenartiger Regulierungsmodell sei für ein allgemeine Betrachtung auf \emph{Baldwin} \& \emph{Cave}\footnote{Baldwin \& Cave (1999)} und \emph{Viscusi}\footnote{Viscusi} verwiesen. Wie Regulierung sich auf Gaspreise für Endverbraucher in der Europäischen Union ausgewirkt hat wird von \emph{Brau}, \emph{Doronzo}, \emph{Fiorio} \& \emph{Florio}\footnote{Brau, Doronzo, Fiorio \& Florio (2010)} diskutiert. 
+Anlass für staatliche Marktregelung ist stets Marktversagen, eine Situation, die unterschiedlich definiert werden kann\footnote{Jaag \& Trinkner (2011), S.26; ebenso Balwin \& Cave (1999)}. Aufgabe dieser Arbeit ist nicht, an dieser Stelle eine präzise Definition von Makrtversagen herauszuarbeiten, sondern es gilt darzulegen, welche Gründe es für Regulierung von Märkten gibt. Eine Bewertung, inwieweit Eingriffe in das Marktgeschehen nach unterschiedlichen Gesichtspunkten gerechtfertigt ist ist ebensowenig Gegenstand der vorliegenden Fragestellung. Für eine Diskussion über die Effektivät verschiedenartiger Regulierungsmodell sei für ein allgemeine Betrachtung auf \emph{Baldwin} \& \emph{Cave}\footnote{siehe: Baldwin \& Cave (1999)} sowie \emph{Harrington}, \emph{Vernon} \& \emph{Viscusi}\footnote{siehe: Harrington, Vernon \& Viscusi (2005)} verwiesen. Wie Regulierung sich auf Gaspreise für Endverbraucher in der Europäischen Union ausgewirkt hat wird von \emph{Brau}, \emph{Doronzo}, \emph{Fiorio} \& \emph{Florio}\footnote{siehe: Brau, Doronzo, Fiorio \& Florio (2010)} diskutiert. Konsequenzen für Investitionsanreize sind Thema bei \emph{Joskow} am Beispiel des US-amerikanischen Strommarkts\footnote{siehe: Joskow (2000)} und allgemeiner für den Aspekt Forschung \& Entwicklung bei \emph{Jamasb} \& \emph{Pollitt}\footnote{siehe: Jamasb \& Pollitt (2008)}{}\footnote{Die angeführte Literatur beschäftigt sich mit Beispielen des Elektrizitätsmarktes. Dennoch können ihre Ergebnisse aufgrund der gemeinsamen Eigenschaften von Netzwerkindustrien weitgehend auf Gasmärkte übertragen werden. An dieser Stelle ist anzumerken, dass für Strommärkte umfangreichere Literatur vorliegt, die sich auf langfristigere Erfahrungen stützen kann, da diese Märkte früher liberalisiert wurden als das Gasgeschäft.}.
 
 Gasmärkten und andere Netzwerkindustrien entsprechen nicht dem neo-klassischen Modell eines perfekten Marktes mit freiem Wettbewerb und vollständigen Kontrakten, die eine Abwesenheit von Externalitäten implizieren. Für eine politikwissenschaftliche Herangehensweise an Märkte entscheidend ist jedoch in erster Linie die Frage, ob diese gesellschaftlich erwünschte Ergebnisse hervorbringen und somit normativ anzustreben sind, weniger ob sie den stringenten formalen Kriterien der neo-klassischen Lehre entsprechen. In den Worten von \emph{Jaag} \& \emph{Trinkner}, können wir von einem freien, funktionierenden Markt sprechen, wenn dieser \glqq \textsl{für Unternehmen die richtigen Anreize bietet, auf einem \textbf{gesellschaftlich erwünschten Niveau} in Märkte einzutreten, Preise zu bilden und in Innovation zu investieren}\grqq \footnote{ebenda (2011), S.27 -- \textsl{eigene Paraphrasierung, Hervorhebung hinzugefügt}}.
 
@@ -862,11 +862,10 @@ Kosten, die bereits entstanden sind und nicht mehr rückgängig gemacht werden kön
 	\item [\Rectsteel] \textbf{Eurostat:} \textcolor{MidnightBlue}{\url{http://www.ec.europa.eu/eurostat}}	
 
 
-	\item [\Rectsteel] \textbf{Finger, Matthias \& Dominique Finon (2010):} From The "Public Service" Model To The "Universal Service" 							Obligation, zu erscheinen in: \textsl{Finger, Matthias \& Rolf W. Künneke (Hrsg.):} Handbook Of Liberalised 								Infrastructure Sectors, London, UK. 
+	\item [\Rectsteel] \textbf{Finger, Matthias \& Dominique Finon (2010):} From The 'Public Service' Model To The 'Universal Service' 							Obligation, zu erscheinen in: \textsl{Finger, Matthias \& Rolf W. Künneke (Hrsg.):} Handbook Of Liberalised 								Infrastructure Sectors, London, UK. 
 
 
 	\item [\Rectsteel] \textbf{Frumkin, Peter \& Gabriel Kaplan (2000):} Institutional Theory And The Micro-Macro Link, 										\textsl{unveröffentlichtes Forschungspapier}, Kennedy School Of Government, Harvard University 												\textcolor{MidnightBlue}{\url{http://www.ibrarian.net/navon/page.jsp?paperid=154995&searchTerm=micro+and}} -- 								Zugriff: 27.01.2014.
-
 
 
 
@@ -889,6 +888,9 @@ Kosten, die bereits entstanden sind und nicht mehr rückgängig gemacht werden kön
 					-- Zugriff: 20.11.2013.
 
 
+	\item [\Rectsteel] \textbf{Harrington, Joseph Emmett; Vernon, John Mitcham \& W. Kip Viscusi (2005):} Economics Of Regulation And 							Antitrust, Cambridge, Massachussetts, USA.
+
+
 	\item [\Rectsteel] \textbf{Heine, Klaus \& Wolfgang Kerber (2002):} European Corporate Laws, Regulatory Competition And Path 								Dependence, in: \textsl{European Journal of Law and Economics}, Vol.13 (1), S.47-71. 
 
 
@@ -907,7 +909,13 @@ Kosten, die bereits entstanden sind und nicht mehr rückgängig gemacht werden kön
 	\item [\Rectsteel] \textbf{Jaag, Christian \& Urs Trinker (2011):} A General Framework For Regulation And Liberalization In Network 						Industries, in:  \textsl{Finger, Matthias \& Rolf W. Künneke (Hrsg.):} International Handbook Of Network Industries, 					Cheltenham, Gloucestershire, UK, S.26-53.
 
 
+	\item [\Rectsteel] \textbf{Jamasb, Tooraj \& Michael Pollitt (2008):} Liberalisation And R \& D In Network Industries : The Case Of 						The Electricity Industry, in:  \textsl{Research Policy}, Vol.37 (6-7), S.995-1008.
+
+
 	\item [\Rectsteel] \textbf{Jones, Christopher W. \& Luc Werring [Hrsg.] (2006):} EU Energy Law: The Internal Energy Market, Band 1 							von \textsl{EU Energy Law Series}, Deventer, Niederlande.
+
+
+	\item [\Rectsteel] \textbf{Joskow, Paul L. (2013):} Incentive Regulation In Theory And Practice: Electricity Distribution And 								Transmission Networks, zu erscheinen in: \textsl{Rose, Nancy L. (Hrsg:):} Economic Regulation And Its Reform: What 							Have We Learned, Chicago, USA. 
 
 
 	\item [\Rectsteel] \textbf{Katz, Michael L. \& Carl Shapiro (1986):} Network Externalities, Competition, And Compatibility, in: 							\textsl{American Economic Review}, Vol.75 (3), S.424-440.
