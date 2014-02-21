@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013) (format=pdflatex 2014.2.16)  21 FEB 2014 20:37
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013) (format=pdflatex 2014.2.16)  21 FEB 2014 21:40
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -704,13 +704,13 @@ Package tocbasic Info: character protrusion at toc deactivated on input line 17
 4.
  (./Diplomarbeit_Pascal-Bernhard.toc
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 35.
+(babel)             in language  on input line 38.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 35.
+(babel)             in language  on input line 38.
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 35.
+(babel)             in language  on input line 38.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 35.
+(babel)             in language  on input line 38.
  [2
 
 ])
@@ -1257,24 +1257,24 @@ Package babel Info: Redefining ngerman shorthand "|
 Package babel Info: Redefining ngerman shorthand "~
 (babel)             in language  on input line 589.
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 595.
+(babel)             in language  on input line 594.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 595.
+(babel)             in language  on input line 594.
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 595.
+(babel)             in language  on input line 594.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 595.
+(babel)             in language  on input line 594.
  [38]
 LaTeX Font Info:    Font shape `TS1/pplx/bx/n' in size <10.95> not available
-(Font)              Font shape `TS1/pplx/b/n' tried instead on input line 598.
+(Font)              Font shape `TS1/pplx/b/n' tried instead on input line 597.
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 601.
+(babel)             in language  on input line 602.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 601.
+(babel)             in language  on input line 602.
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 601.
+(babel)             in language  on input line 602.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 601.
+(babel)             in language  on input line 602.
  [39]
 Package babel Info: Redefining ngerman shorthand "|
 (babel)             in language  on input line 610.
@@ -1607,8 +1607,8 @@ anged.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 1075.
  ) 
 Here is how much of TeX's memory you used:
- 11522 strings out of 493853
- 169441 string characters out of 6157277
+ 11524 strings out of 493853
+ 169465 string characters out of 6157277
  311088 words of memory out of 5000000
  14002 multiletter control sequences out of 15000+600000
  113000 words of font info for 351 fonts, out of 8000000 for 9000
@@ -1624,10 +1624,10 @@ t/fonts/type1/urw/palatino/uplb8a.pfb></usr/share/texmf-dist/fonts/type1/urw/pa
 latino/uplbi8a.pfb></usr/share/texmf-dist/fonts/type1/urw/palatino/uplr8a.pfb><
 /usr/share/texmf-dist/fonts/type1/urw/palatino/uplr8a.pfb></usr/share/texmf-dis
 t/fonts/type1/urw/palatino/uplri8a.pfb>
-Output written on Diplomarbeit_Pascal-Bernhard.pdf (61 pages, 385801 bytes).
+Output written on Diplomarbeit_Pascal-Bernhard.pdf (61 pages, 387111 bytes).
 PDF statistics:
- 837 PDF objects out of 1000 (max. 8388607)
- 755 compressed objects within 8 object streams
- 233 named destinations out of 1000 (max. 500000)
+ 842 PDF objects out of 1000 (max. 8388607)
+ 760 compressed objects within 8 object streams
+ 235 named destinations out of 1000 (max. 500000)
  49977 words of extra memory for PDF output out of 51595 (max. 10000000)
 
