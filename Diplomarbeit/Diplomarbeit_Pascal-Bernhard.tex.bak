@@ -10,7 +10,7 @@ headinclude		%Kopfzeile bei Saztspiegelberechnung mit einbeziehen
 \usepackage{lmodern}
 \usepackage[sc]{mathpazo}
 
-%%% Satzspiegel neu berechnen (funktioniert irgendwie nicht)
+
 \typearea[current]{calc}
 
 \usepackage[ansinew]{inputenc}
