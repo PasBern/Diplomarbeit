@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013) (format=pdflatex 2014.2.16)  21 FEB 2014 14:44
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013) (format=pdflatex 2014.2.16)  21 FEB 2014 19:57
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1594,12 +1594,12 @@ Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 1071.
 
 Package rerunfilecheck Info: File `Diplomarbeit_Pascal-Bernhard.out' has not ch
 anged.
-(rerunfilecheck)             Checksum: A832EB54F08EA6F16118EC01DE121BE8;3021.
+(rerunfilecheck)             Checksum: C47F79808E2CAA427CDBB3BAE6F943C5;3022.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 1071.
  ) 
 Here is how much of TeX's memory you used:
- 11517 strings out of 493853
- 169386 string characters out of 6157277
+ 11518 strings out of 493853
+ 169398 string characters out of 6157277
  311088 words of memory out of 5000000
  14002 multiletter control sequences out of 15000+600000
  113000 words of font info for 351 fonts, out of 8000000 for 9000
@@ -1615,10 +1615,10 @@ t/fonts/type1/urw/palatino/uplb8a.pfb></usr/share/texmf-dist/fonts/type1/urw/pa
 latino/uplbi8a.pfb></usr/share/texmf-dist/fonts/type1/urw/palatino/uplr8a.pfb><
 /usr/share/texmf-dist/fonts/type1/urw/palatino/uplr8a.pfb></usr/share/texmf-dis
 t/fonts/type1/urw/palatino/uplri8a.pfb>
-Output written on Diplomarbeit_Pascal-Bernhard.pdf (60 pages, 383373 bytes).
+Output written on Diplomarbeit_Pascal-Bernhard.pdf (60 pages, 383526 bytes).
 PDF statistics:
- 823 PDF objects out of 1000 (max. 8388607)
- 742 compressed objects within 8 object streams
- 228 named destinations out of 1000 (max. 500000)
+ 826 PDF objects out of 1000 (max. 8388607)
+ 745 compressed objects within 8 object streams
+ 229 named destinations out of 1000 (max. 500000)
  49977 words of extra memory for PDF output out of 51595 (max. 10000000)
 
