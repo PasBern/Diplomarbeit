@@ -71,7 +71,7 @@ headinclude		%Kopfzeile bei Saztspiegelberechnung mit einbeziehen
 \KOMAoptions{headings=small}
 
 \setfootnoterule[0.8pt]{10cm} % Höhe und Länge des Trennstriches für Fußnoten anpassen
-
+\setkomafont{captionlabel}{\sffamily\bfseries} % Beschreibungen von Bilder werden serifenlos und fett gesetzt
 
 %%% Abstände vor und nach Überschriften beeinflussen
 %\titlespacing*{\section}{0pt}{*2.0}{*0.5}
@@ -614,7 +614,7 @@ Die Bestimmung des Dritten Liberalisierungspakets richten sich erstmals auch an 
 \label{sec:Energiem\"arkte}
 
 
-\begin{figure}
+\begin{figure}[htp]
 
 \thisfloatpagestyle{empty} %%% Seitenzahl für Floating-Umgebung unterdrücken
 
