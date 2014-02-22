@@ -32,6 +32,9 @@ headinclude		%Kopfzeile bei Saztspiegelberechnung mit einbeziehen
 \usepackage{array}
 
 
+\usepackage{graphicx}
+\usepackage{floatrow}
+\usepackage{floatpag}
 
 
 %%% Rahmen um Hyperlinks unterbinden
@@ -610,6 +613,18 @@ Die Bestimmung des Dritten Liberalisierungspakets richten sich erstmals auch an 
 \chapter{Energiemärkte im Baltikum}
 \label{sec:Energiem\"arkte}
 
+
+\begin{figure}
+
+\thisfloatpagestyle{empty} %%% Seitenzahl für Floating-Umgebung unterdrücken
+
+  \begin{centering}
+   \includegraphics{Gas Pipelines Baltic States.png} % Herausgenommen: [scale=0.8]
+   \caption{Netz der Gaspipelines im Baltikum (\small{\textit{Quelle:
+	Eesti Gaas - \textcolor{MidnightBlue}{\url{http://www.eegas.com/estonia.htm}}})}}					
+  \end{centering}
+
+\end{figure}
 
 \section{Litauen}
 
