@@ -10,7 +10,7 @@ headinclude		%Kopfzeile bei Saztspiegelberechnung mit einbeziehen
 \usepackage{lmodern}
 \usepackage[sc]{mathpazo}
 
-
+%%% Satzspiegel wird neu berechnet
 \typearea[current]{calc}
 
 \usepackage[ansinew]{inputenc}
@@ -31,11 +31,14 @@ headinclude		%Kopfzeile bei Saztspiegelberechnung mit einbeziehen
 \usepackage{fancybox}
 \usepackage{array}
 
-
+%%% Pakete für Abbildungen
 \usepackage{graphicx}
 \usepackage{floatrow}
 \usepackage{floatpag}
 
+
+%%% Fußnotengefrickel muss vor HYPERREF geladen werden
+\usepackage[bottom,flushmargin,hang,multiple]{footmisc}
 
 %%% Rahmen um Hyperlinks unterbinden
 \usepackage[hidelinks,breaklinks=true]{hyperref}
@@ -614,14 +617,15 @@ Die Bestimmung des Dritten Liberalisierungspakets richten sich erstmals auch an 
 \label{sec:Energiem\"arkte}
 
 
-\begin{figure}[htp]
+\begin{figure}[htb]
 
 \thisfloatpagestyle{empty} %%% Seitenzahl für Floating-Umgebung unterdrücken
 
   \begin{centering}
-   \includegraphics{Gas Pipelines Baltic States.png} % Herausgenommen: [scale=0.8]
-   \caption{Netz der Gaspipelines im Baltikum (\small{\textit{Quelle:
-	Eesti Gaas - \textcolor{MidnightBlue}{\url{http://www.eegas.com/estonia.htm}}})}}					
+   \includegraphics[width=1\textwidth]{Pipelines.png} % Herausgenommen: [scale=0.8]
+    \caption{Netz der Gaspipelines im Baltikum (\small{\textit{Quelle:
+	Eesti Gaas -\textcolor{MidnightBlue}{\url{http://www.eegas.com/estonia.htm}}})}}
+	\label{fig:Pipelines im Baltikum}					
   \end{centering}
 
 \end{figure}
@@ -677,7 +681,7 @@ Wiederkehrende Streitigkeiten über Gaslieferungen zwischen Russland und seinen N
 
 An der Sichtweise auf \textit{Gazprom} und seine Unternehmensstrategie manifestiert sich konkret die tieferliegende, kritische Haltung in den baltischen Ländern gegenüber Russland. Diesem Blickwinkel zugrunde liegt die Annahme, der russische Erdgaskonzern verfolge letztendlich außenpolitische Ziele des Kremls, die wiederum gegen die nationalen Interessen Litauens und Lettland gerichtet seien. Wie eingangs erwähnt werde ich diese Haltung als konstruierte Variable behandeln, die in unterschiedlicher Ausprägung vorliegt, wodurch sie Erklärungskraft gewinnt. Ursachen und Entstehungsprozess dieser konstruierten Anschauung kann im Rahmen dieser Arbeit nicht weiter thematisiert werden. Dennoch soll an dieser Stelle ein knapper Überblick der Literatur gegeben werden zur Diskussion, in welcher Beziehung das Verhalten Gazproms zur russischen Politik steht. 
 
-Ein Argument für die Position, der staatlich kontrollierte Erdgaskonzern verfolge nicht rein ökonomische Absichten, sondern sei zugleich ein Instrument der russischen Führung, sind wiederholte Unterbrechungen der Erdgaslieferungen an Länder in Ost- \& Mitteleuropa bzw. ehemalige Sowjetrepubliken. In manchen Fällen führte das Unternehmen technische Schwierigkeiten an\footnote{\textcolor{purple}{Zitat hier!!!}}, in anderen waren Streitigkeiten über die Bezahlung des Erdgases der Anlass\footnote{Im Juni 2010 drohten Gazproms Vorstandsvorsitzender Alexei Miller und Russlands Präsident Dmitri Medvedev mit einem Stopp der Gaslieferungen, sollte Belarus nicht in Kürze seine ausstehenden Rechnungen von \$200 Mio. US begleichen. \textbf{Quelle:} \textsl{Natural Gas Europe (2010)}}. Den meisten dieser Lieferstopps gemein ist der Umstand, dass im Vorfeld dieser drastischen Schritte seitens Gazprom im betroffenen Abnehmer- oder Transitland politische, bzw. wirtschaftliche Entscheidungen getroffen wurden, die aus Sicht des Kremls gegen russische Interessen gerichtet waren. Auch die Unternehmensstrategie einerseits in den Downstream-Bereich auf europäischen Gasmärkten zu expandieren und zudem, teilweise gestützt durch politischen Druck aus Moskau, im Ausland Netzinfrastruktur zu kaufen\footnote{Gazprom übernahm im November 2010 für \$2,5 Mrd. US die Kontrolle über den belorussischen Netzbetreiber \textsl{BelTransGaz} mit dem Kauf der restlichen 50 \% der Anteile, welche sich noch nicht in seinem Besitz befanden. Im Gegenzug wurden Belarus günstigere Gaspreise gewährt gegenüber vorherigen Preisanpassungen in Richtung der Abnehmerpreise für westeuropäische Kunden. \textbf{Quelle:} \textsl{Natural Gas Europe (2011)}}, kann als Bestandteil russischer Außenpolitik interpretiert werden.
+Ein Argument für die Position, der staatlich kontrollierte Erdgaskonzern verfolge nicht rein ökonomische Absichten, sondern sei zugleich ein Instrument der russischen Führung, sind wiederholte Unterbrechungen der Erdgaslieferungen an Länder in Ost- \& Mitteleuropa bzw. ehemalige Sowjetrepubliken. In manchen Fällen führte das Unternehmen technische Schwierigkeiten an\footnote{\textcolor{purple}{Zitat hier!!!}}, in anderen waren Streitigkeiten über die Bezahlung des Erdgases der Anlass\footnote{Im Juni 2010 drohten Gazproms Vorstandsvorsitzender Alexei Miller und Russlands Präsident Dmitri Medvedev mit einem Stopp der Gaslieferungen, sollte Belarus nicht in Kürze seine ausstehenden Rechnungen von \$200 Mio. US begleichen. \textbf{Quelle:} \textsl{Natural Gas Europe (2010)}}. Den meisten dieser Lieferstopps gemein ist der Umstand, dass im Vorfeld dieser drastischen Schritte seitens Gazprom im betroffenen Abnehmer- oder Transitland politische, bzw. wirtschaftliche Entscheidungen getroffen wurden, die aus Sicht des Kremls gegen russische Interessen gerichtet waren. Auch die Unternehmensstrategie einerseits in den Downstream-Bereich auf europäischen Gasmärkten zu expandieren und zudem, teilweise gestützt durch politischen Druck aus Moskau, im Ausland Netzinfrastruktur zu kaufen\footnote{Gazprom übernahm im November 2010 für \$2,5 Mrd. US die Kontrolle über den belorussischen Netzbetreiber \textsl{BelTransGaz} mit dem Kauf der restlichen 50 \% der Anteile, welche sich noch nicht in seinem Besitz befanden. Im Gegenzug wurden Belarus günstigere Gaspreise gewährt gegenüber vorherigen Preisanpassungen in Richtung der Abnehmerpreise für westeuropäische Kunden. \textbf{Quelle:} \textsl{Natural Gas Europe (2011)} -- siehe auch: \textsl{La Tribune} (2011) \flqq Nouveau bras de fer gazier en vue entre la Russie et l'Ukraine\frqq}, kann als Bestandteil russischer Außenpolitik interpretiert werden.
 
 Da Gazproms Aktienanteile mehrheitlich vom russischen Staat gehalten werden\footnote{Der russische Staat besitzt 50,002 \% der Anteile an der Aktiengesellschaft Gazprom. Diese wiederum befinden sich in den Händen der Staatlichen Agentur für Vermögensverwaltung (38,737 \%), und den staatlichen Gasunternehmen \emph{Rosneftegaz} (10,740 \%) und \emph{Rosgazifikatsiya} (0,889 \%) -- \textbf{Quelle:} \textsl{Webseite Gazprom}} und dieser das Unternehmensmanagement bestimmt, liegt die Vermutung nahe, die Regierung Russlands bestimme zumindest in Teilen die Strategie des Erdgaskonzerns. Personelle Überschneidungen zwischen Gazprom und der Staatsführung lassen diese Annahme umso plausibler erscheinen. Dmitri Medvedev war ab dem Jahr 2000 für den damaligen Präsidenten Vladimir Putin im Präsidialamt für die Koordination mit der Regierung beauftragt, ab 2003 übernahm er die Leitung der Präsidialverwaltung. Zeitgleich gehörte er ab Juni 2000 dem Aufsichtsrat von Gazprom an, dessen Vorsitz er zwischen 2002 und 2008 innehatte.
 
@@ -982,8 +986,10 @@ Kosten, die bereits entstanden sind und nicht mehr rückgängig gemacht werden kön
 	\item [\Rectsteel] \textbf{Koshal, Rajindar K. (1972):} Economies Of Scale, in: \textsl{Journal of Transport Economics and Policy}, 						Vol. 6 (2), S.147-153. 
 
 
-	\item [\Rectsteel] \textbf{Laffont, Jean-Jacques \& Jean Tirole (1986):} Using Cost Observation To Regulate Firms, in: 										\textsl{Journal of Political Economy}, Vol. 94 (3) Part 1, S.614-641.
+	\item [\Rectsteel] \textbf{Laffont, Jean-Jacques \& Jean Tirole (1986):} Using Cost Observation To Regulate Firms, in: 		\textsl{Journal of Political Economy}, Vol. 94 (3) Part 1, S.614-641.
 
+
+	\item [\Rectsteel] \textbf{La Tribune (2011):} Nouveau bras de fer gazier en vue entre la Russie et l'Ukraine, 28. Dezember 2011, 	S.4, Paris, Frankreich
 
 
 	\item [\Rectsteel] \textbf{Molis, Ar\={unas} (2011):} Building Methodology, Assessing The Risks: The Case Of Energy Security In The 						Baltic States, in: \textsl{Baltic Journal of Economics}, Vol.11 (2), S.59-80.	
