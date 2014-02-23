@@ -4,7 +4,9 @@ paper=a4,		%Papierformat
 ngerman,		%Deutsche Silbentrennung
 BCOR=0pt,		%Bindekorrektureinstellung=AUS
 DIV=calc,		%Satzspiegelberechnung
-headinclude		%Kopfzeile bei Saztspiegelberechnung mit einbeziehen
+headinclude,	%Kopfzeile bei Saztspiegelberechnung mit einbeziehen
+headsepline,	%Trennlinie unter der Kopfzeile#
+tocbasic,
 ]{scrreprt}
 \usepackage[T1]{fontenc}
 \usepackage{lmodern}
@@ -31,6 +33,8 @@ headinclude		%Kopfzeile bei Saztspiegelberechnung mit einbeziehen
 \usepackage{fancybox}
 \usepackage{array}
 
+\usepackage{scrpage2}
+
 %%% Pakete für Abbildungen
 \usepackage{graphicx}
 \usepackage{floatrow}
@@ -49,14 +53,15 @@ headinclude		%Kopfzeile bei Saztspiegelberechnung mit einbeziehen
 \usepackage{nameref}
 
 
-%%% Abstände zwischen Überschrift und Textkörper modifizieren [PAKET NICHT INSTALLIERT!!!!]
+
+% Abstände zwischen Überschrift und Textkörper modifizieren [PAKET NICHT INSTALLIERT!!!!]
 %\titlesec
 
-%%% Gleiche Schriftart für Hyperlinks
+% Gleiche Schriftart für Hyperlinks
 \urlstyle{same}
 
 
-%%%  Gefrickel um URL-Links vernünftig umzubrechen
+%  Gefrickel um URL-Links vernünftig umzubrechen
 \makeatletter
 \g@addto@macro\UrlBreaks{
   \do\a\do\b\do\c\do\d\do\e\do\f\do\g\do\h\do\i\do\j
@@ -65,16 +70,23 @@ headinclude		%Kopfzeile bei Saztspiegelberechnung mit einbeziehen
   \do\4\do\5\do\6\do\7\do\8\do\9\do\0}
 % \def\do@url@hyp{\do\-}
 
-%%% Hiermit soll einer übervolle Box verhindert werden -- funktioniert sogar irgendwie
+% Hiermit soll einer übervolle Box verhindert werden -- funktioniert sogar irgendwie
 \g@addto@macro\UrlSpecials{\do\/{\mbox{\UrlFont/}\hskip 0pt plus 1pt}}
 \makeatother
 
-%%% Hier kommen Optionen der KOMA-Klasse zu Überschriften
-
+% Hier kommen Optionen der KOMA-Klasse zu Überschriften
 \KOMAoptions{headings=small}
+
+% Einstellungen fpr Kopfzeilen
+\ihead{\leftmark} 
+\ohead{\rightmark} 
+\chead{} 
+\pagestyle{scrheadings} 
+\automark[section]{chapter}
 
 \setfootnoterule[0.8pt]{10cm} % Höhe und Länge des Trennstriches für Fußnoten anpassen
 \setkomafont{captionlabel}{\sffamily\bfseries} % Beschreibungen von Bilder werden serifenlos und fett gesetzt
+\renewcommand{\headfont}{\small\sffamily\bfseries} % Schriftart der Kopfzeile ändern
 
 %%% Abstände vor und nach Überschriften beeinflussen
 %\titlespacing*{\section}{0pt}{*2.0}{*0.5}
@@ -518,7 +530,7 @@ Für eine Diskussion, wie Regulierung als Ergebnis des politischen Prozesses das 
 
 
 
-\section{Die erste Liberalisierungsrichtlinie von 1998}
+\section{Die erste Liberalisierungsrichtlinie}
 
 
 Die erste EU-Richtlinie \textbf{(98/30/EC)} folgte der zwei Jahre zuvor erlassenen Direktive zum Strommarkt \textbf{(96/92/EC)}, wodurch erste gemeinsame Regelwerke für die europäischen Energiemärkte aufgestellt wurden. Bis zu diesem Zeitpunkt war zwar ein einheitlicher europäischer Energiemarkt in den Europäischen Verträgen als Ziel festgeschrieben gewesen, eine konkrete europarechtliche Ausführung jedoch hatte diese Idee bisher nicht erfahren\footnote{\textcolor{purple}{Zitat hier!!!}}. Die Europäische Kommission hatte die Kontrolle der Netzinfrastruktur durch vertikal integrierte Energieunternehmen als Haupthindernis für Wettbewerb auf den Gasmärkten erkannt. 
@@ -548,7 +560,7 @@ Diese unterschiedlichen Gestaltungsmöglichkeiten erlaubten es, nationale Besonde
 
 
 
-\section{Das zweite Liberalisierungspaket 2003}
+\section{Das zweite Liberalisierungspaket}
 
 Noch bevor die erste Liberalisierungsrichtlinie gänzlich umgesetzt war, die Mitgliedsstaaten hatten hierfür zwei Jahre Zeit, forderte der Europäische Rat von Lissabon 2000 die Kommission auf, weitere Schritte zur Vollendung des Energiebinnenmarktes einzuleiten\footnote{Haase (2008), S.24}. Von den damals 15 Mitgliedsstaaten der Europäischen Union beabsichtigten neun, in den kommenden Jahren ihre Gasmärkte vollständig für den freien Wettbewerb zu öffnen. Acht Mitglieder hatten bereits den \emph{ex ante}-regulierten Zugang zur Netzinfrastruktur implementiert, das von der Europäischen Kommission favorisierte Modell der Zugangsregelung. 
 
@@ -582,7 +594,7 @@ Eine zweite Liberalisierungsdirektive wurde 2003 verabschiedet, nachdem zuvor di
 
 
 
-\section{Bestimmungen des Dritten Liberalisierungspakets für die Europäischen Energiemärkte}
+\section{Bestimmungen des Dritten Liberalisierungspakets}
 
 Auch der sechsten Fortschrittsbericht zum Stand der Energiemarktliberalisierung im Jahre 2007 stellte eine weiterhin nur sehr langsame Entwicklung hin zu mehr Wettbewerb fest\footnote{Europäische Kommission (2008)}. Ein Dorn im Auge der Kommission war insbesondere die fortwährende Marktkonzentration in vielen Mitgliedsstaaten, da die Netzbetreiber immer noch nicht hinreichend unabhängig von vertikal integrierten Ex-Monopolisten und Politik waren\footnote{ebenda (2008), S.6}. Angesichts der gleichbleibenden Ergebnisse in den Fortschrittsberichten konzentrierte sich die Kommission nunmehr auf eine Änderung der Marktstrukturen im Gassektor, nachdem eine direkte Änderung des Marktsituation erfolglos geblieben war\footnote{IEA (2008), S.8}.
 
@@ -679,13 +691,13 @@ Wiederkehrende Streitigkeiten über Gaslieferungen zwischen Russland und seinen N
 
 \section{Der Faktor Gazprom}
 
-An der Sichtweise auf \textit{Gazprom} und seine Unternehmensstrategie manifestiert sich konkret die tieferliegende, kritische Haltung in den baltischen Ländern gegenüber Russland. Diesem Blickwinkel zugrunde liegt die Annahme, der russische Erdgaskonzern verfolge letztendlich außenpolitische Ziele des Kremls, die wiederum gegen die nationalen Interessen Litauens und Lettland gerichtet seien. Wie eingangs erwähnt werde ich diese Haltung als konstruierte Variable behandeln, die in unterschiedlicher Ausprägung vorliegt, wodurch sie Erklärungskraft gewinnt. Ursachen und Entstehungsprozess dieser konstruierten Anschauung kann im Rahmen dieser Arbeit nicht weiter thematisiert werden. Dennoch soll an dieser Stelle ein knapper Überblick der Literatur gegeben werden zur Diskussion, in welcher Beziehung das Verhalten Gazproms zur russischen Politik steht. 
+An der Sichtweise auf \textit{Gazprom} und seine Unternehmensstrategie manifestiert sich konkret die tiefer liegende, kritische Haltung in den baltischen Ländern gegenüber Russland. Diesem Blickwinkel zugrunde liegt die Annahme, der russische Erdgaskonzern verfolge letztendlich außenpolitische Ziele des Kremls, die wiederum gegen die nationalen Interessen Litauens und Lettland gerichtet seien. Der Eindruck, Russland instrumentalisiere seine Energieexporte für politische Zwecke, wird durch Streitigkeiten bei Auslandsinvestitionen im Energiesektor und plötzlicher Lieferstopps von Erdöl verstärkt\footnote{siehe Newnham (2011)}  Wie eingangs erwähnt werde ich diese Haltung als konstruierte Variable behandeln, die in unterschiedlicher Ausprägung vorliegt, wodurch sie Erklärungskraft gewinnt. Ursachen und Entstehungsprozess dieser konstruierten Anschauung kann im Rahmen dieser Arbeit nicht weiter thematisiert werden. Dennoch soll an dieser Stelle ein knapper Überblick der Literatur gegeben werden zur Diskussion, in welcher Beziehung das Verhalten Gazproms zur russischen Politik steht. 
 
 Ein Argument für die Position, der staatlich kontrollierte Erdgaskonzern verfolge nicht rein ökonomische Absichten, sondern sei zugleich ein Instrument der russischen Führung, sind wiederholte Unterbrechungen der Erdgaslieferungen an Länder in Ost- \& Mitteleuropa bzw. ehemalige Sowjetrepubliken\footnote{Beispielhaft seien folgende Zeitungsartikel genannt: 
 \begin{inparaenum}
 \renewcommand{\labelenumi}{\Roman{enumi}} \textbf{\item} \textbf{Buckley \& Ostrovsky} (2006): \textsl{"`Gazprom Issues Threat To EU Gas Supply"' [Financial Times]} \textbf{\item} \textbf{Barnett} (2006): \textsl{"'From Poland To Hungary, Gazprom Takes Stealth Route To Domination"' [The Independent]} \textbf{\item} \textbf{Gorst} (2009): \textsl{"'Russia Welcomes End To Turkmen Gas Dispute"'} [Financial Times] \textbf{\item} \textbf{Bilesfsky} (2009): \textsl{"`Old Russian ally is left out in the cold"' [The International Herald Tribune]} \textbf{\item} \textbf{Teather} (2010): \textsl{"'Russia cuts Belarus's gas supply and fuels EU fears"' [The Guardian]} 
 \end{inparaenum}}.
-In manchen Fällen führte das Unternehmen technische Schwierigkeiten an\footnote{\textcolor{purple}{Zitat hier!!!}}, in anderen waren Streitigkeiten über die Bezahlung des Erdgases der Anlass\footnote{Im Juni 2010 drohten Gazproms Vorstandsvorsitzender Alexei Miller und Russlands Präsident Dmitri Medvedev mit einem Stopp der Gaslieferungen, sollte Belarus nicht in Kürze seine ausstehenden Rechnungen von \$200 Mio. US begleichen. \textsl{Quelle:} \textbf{Natural Gas Europe} (2010)}. Den meisten dieser Lieferstopps gemein ist der Umstand, dass im Vorfeld dieser drastischen Schritte seitens Gazprom im betroffenen Abnehmer- oder Transitland politische, bzw. wirtschaftliche Entscheidungen getroffen wurden, die aus Sicht des Kremls gegen russische Interessen gerichtet waren. Auch die Unternehmensstrategie einerseits in den Downstream-Bereich auf europäischen Gasmärkten zu expandieren\footnote{siehe: \textbf{Oreskovic} (2013): \textsl{"'Shopping In Europe: Gazprom Expands Southward"' [The Moscow Times]}} und zudem, teilweise gestützt durch politischen Druck aus Moskau, im Ausland Netzinfrastruktur zu kaufen\footnote{Gazprom übernahm im November 2010 für \$2,5 Mrd. US die Kontrolle über den belorussischen Netzbetreiber \textsl{BelTransGaz} mit dem Kauf der restlichen 50 \% der Anteile, welche sich noch nicht in seinem Besitz befanden. Im Gegenzug wurden Belarus günstigere Gaspreise gewährt gegenüber vorherigen Preisanpassungen in Richtung der Abnehmerpreise für westeuropäische Kunden. \textsl{Quelle:} \textbf{Natural Gas Europe } (2011) -- siehe auch: \textbf{La Tribune} (2011): \textsl{\flqq Nouveau bras de fer gazier en vue entre la Russie et l'Ukraine\frqq} ebenso \textbf{EurActiv} (2010): \textsl{"'Gazprom's Push For Ukraine Merger Meets Resistance"'}}, kann als Bestandteil russischer Außenpolitik interpretiert werden.
+In manchen Fällen führte das Unternehmen technische Schwierigkeiten an\footnote{Newnham (2011), S.142}, in anderen waren Streitigkeiten über die Bezahlung des Erdgases der Anlass\footnote{Im Juni 2010 drohten Gazproms Vorstandsvorsitzender Alexei Miller und Russlands Präsident Dmitri Medvedev mit einem Stopp der Gaslieferungen, sollte Belarus nicht in Kürze seine ausstehenden Rechnungen von \$200 Mio. US begleichen. \textsl{Quelle:} \textbf{Natural Gas Europe} (2010)}. Den meisten dieser Lieferstopps gemein ist der Umstand, dass im Vorfeld dieser drastischen Schritte seitens Gazprom im betroffenen Abnehmer- oder Transitland politische, bzw. wirtschaftliche Entscheidungen getroffen wurden, die aus Sicht des Kremls gegen russische Interessen gerichtet waren. Auch die Unternehmensstrategie einerseits in den Downstream-Bereich auf europäischen Gasmärkten zu expandieren\footnote{siehe: \textbf{Oreskovic} (2013): \textsl{"'Shopping In Europe: Gazprom Expands Southward"' [The Moscow Times]}} und zudem, teilweise gestützt durch politischen Druck aus Moskau, im Ausland Netzinfrastruktur zu kaufen\footnote{Gazprom übernahm im November 2010 für \$2,5 Mrd. US die Kontrolle über den belorussischen Netzbetreiber \textsl{BelTransGaz} mit dem Kauf der restlichen 50 \% der Anteile, welche sich noch nicht in seinem Besitz befanden. Im Gegenzug wurden Belarus günstigere Gaspreise gewährt gegenüber vorherigen Preisanpassungen in Richtung der Abnehmerpreise für westeuropäische Kunden. \textsl{Quelle:} \textbf{Natural Gas Europe } (2011) -- siehe auch: \textbf{La Tribune} (2011): \textsl{\flqq Nouveau bras de fer gazier en vue entre la Russie et l'Ukraine\frqq} ebenso \textbf{EurActiv} (2010): \textsl{"'Gazprom's Push For Ukraine Merger Meets Resistance"'}}, kann als Bestandteil russischer Außenpolitik interpretiert werden.
 
 Da Gazproms Aktienanteile mehrheitlich vom russischen Staat gehalten werden\footnote{Der russische Staat besitzt 50,002 \% der Anteile an der Aktiengesellschaft Gazprom. Diese wiederum befinden sich in den Händen der Staatlichen Agentur für Vermögensverwaltung (38,737 \%), und den staatlichen Gasunternehmen \emph{Rosneftegaz} (10,740 \%) und \emph{Rosgazifikatsiya} (0,889 \%) -- \textsl{Quelle:} \textbf{Webseite Gazprom}} und dieser das Unternehmensmanagement bestimmt, liegt die Vermutung nahe, die Regierung Russlands bestimme zumindest in Teilen die Strategie des Erdgaskonzerns. Personelle Überschneidungen zwischen Gazprom und der Staatsführung lassen diese Annahme umso plausibler erscheinen. Dmitri Medvedev war ab dem Jahr 2000 für den damaligen Präsidenten Vladimir Putin im Präsidialamt für die Koordination mit der Regierung beauftragt, ab 2003 übernahm er die Leitung der Präsidialverwaltung. Zeitgleich gehörte er ab Juni 2000 dem Aufsichtsrat von Gazprom an, dessen Vorsitz er zwischen 2002 und 2008 innehatte.
 
@@ -810,10 +822,10 @@ Kosten, die bereits entstanden sind und nicht mehr rückgängig gemacht werden kön
 \begin{small}
 
 
-	\item [\Rectsteel] \textbf{Aalto, Pami \& Kirsten Westphal (2008):} Introduction, in: \textsl{Aalto, Pami (Hrsg.):} The EU-Russian 							Energy Dialogue: Europe's Future Energy Security, Aldershot, Hampshire, UK, S.1-22.
+	\item [\Rectsteel] \textbf{Aalto, Pami \& Kirsten Westphal (2008):} Introduction, in: \textsl{Aalto, Pami (Hrsg.):} The EU-Russian 	Energy Dialogue: Europe's Future Energy Security, Aldershot, Hampshire, UK, S.1-22.
 
 
-	\item [\Rectsteel] \textbf{Aivazian, Varouj A.; Callen, Jeffrey L.; Chan, M.W. Luke; Dean C. Mountain (1987):} Economies Of Scale 							Versus Technological Change In The Natural Gas Transmission Industry, in: \textsl{The Review Of Economics And 								Statistics}, Vol.69 (3), S.556-561.
+	\item [\Rectsteel] \textbf{Aivazian, Varouj A.; Callen, Jeffrey L.; Chan, M.W. Luke; Dean C. Mountain (1987):} Economies Of Scale 	Versus Technological Change In The Natural Gas Transmission Industry, in: \textsl{The Review Of Economics And Statistics}, Vol.69 (3), S.556-561.
 
 
 	\item [\Rectsteel] \textbf{Arthur, W. Brian (1994):} Increasing Returns And Path Dependence In The Economy, Ann Arbor, Michigan, 	USA.
@@ -1005,13 +1017,16 @@ Kosten, die bereits entstanden sind und nicht mehr rückgängig gemacht werden kön
 
 
 
-	\item [\Rectsteel] \textbf{Molle, Willem (2006):} The Economics of European Integration. Theory, Practice, Policy, Aldershot, 								Hampshire, UK.
+	\item [\Rectsteel] \textbf{Molle, Willem (2006):} The Economics of European Integration. Theory, Practice, Policy, Aldershot, 		Hampshire, UK.
 
 
 	\item [\Rectsteel] \textbf{Natural Gas Europe (2010):} Mr. Lukashenko -- please pay your bill (17.Juni 2010) \textcolor{MidnightBlue}{\url{http://www.naturalgaseurope.com/mr-lukashenko-please-pay-your-bill}} -- Zugriff: 28.02.2014.
 
 
 	\item [\Rectsteel] \textbf{Natural Gas Europe (2011):} Gazprom Finally Bags BelTransGaz (26.November 2011) \textcolor{MidnightBlue}	{\url{http://www.naturalgaseurope.com/gazprom-to-buy-belarusian-beltransgaz-3704}} -- Zugriff: 28.02.2014.
+
+
+	\item [\Rectsteel] \textbf{Newnham, Randall (2011):} Oil, Carrots And Sticks: Russia's Energy Resources As A Foreign Policy Tool, in: \textsl{Journal of Eurasian Policy Studies}, Vol.2, S.134-143.
 
 
 	\item [\Rectsteel] \textbf{North, Douglas C. (1990):} Institutions, Institutional Change And Economic Performance, Cambridge, 	Massachussetts, USA.
