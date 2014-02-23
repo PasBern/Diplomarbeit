@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013) (format=pdflatex 2014.2.16)  23 FEB 2014 14:11
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013) (format=pdflatex 2014.2.16)  23 FEB 2014 14:29
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -956,6 +956,8 @@ Package babel Info: Redefining ngerman shorthand "|
 Package babel Info: Redefining ngerman shorthand "~
 (babel)             in language  on input line 241.
  [9]
+LaTeX Font Info:    Font shape `T1/pplx/m/sl' in size <10.95> not available
+(Font)              Font shape `T1/pplx/m/it' tried instead on input line 242.
 Package babel Info: Redefining ngerman shorthand "|
 (babel)             in language  on input line 251.
 Package babel Info: Redefining ngerman shorthand "~
@@ -974,9 +976,6 @@ Package babel Info: Redefining ngerman shorthand "|
 Package babel Info: Redefining ngerman shorthand "~
 (babel)             in language  on input line 267.
  [11]
-LaTeX Font Info:    Font shape `T1/pplx/m/sl' in size <10.95> not available
-(Font)              Font shape `T1/pplx/m/it' tried instead on input line 268.
-
 Underfull \hbox (badness 10000) in paragraph at lines 270--270
 [][]\T1/lmss/bx/n/8 Die Ver-bin-dung
  []
@@ -1748,11 +1747,11 @@ anged.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 1113.
  ) 
 Here is how much of TeX's memory you used:
- 13087 strings out of 493853
- 195263 string characters out of 6157277
+ 13073 strings out of 493853
+ 195131 string characters out of 6157277
  342408 words of memory out of 5000000
  15499 multiletter control sequences out of 15000+600000
- 115935 words of font info for 359 fonts, out of 8000000 for 9000
+ 115186 words of font info for 348 fonts, out of 8000000 for 9000
  788 hyphenation exceptions out of 8191
  41i,8n,46p,2751b,702s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texmf-dist/fonts/enc/dvips/base/8r.enc}{/usr/share/texmf-dist/fon
@@ -1765,7 +1764,7 @@ t/fonts/type1/urw/palatino/uplb8a.pfb></usr/share/texmf-dist/fonts/type1/urw/pa
 latino/uplbi8a.pfb></usr/share/texmf-dist/fonts/type1/urw/palatino/uplr8a.pfb><
 /usr/share/texmf-dist/fonts/type1/urw/palatino/uplr8a.pfb></usr/share/texmf-dis
 t/fonts/type1/urw/palatino/uplri8a.pfb>
-Output written on Diplomarbeit_Pascal-Bernhard.pdf (64 pages, 708583 bytes).
+Output written on Diplomarbeit_Pascal-Bernhard.pdf (64 pages, 708579 bytes).
 PDF statistics:
  879 PDF objects out of 1000 (max. 8388607)
  791 compressed objects within 8 object streams
