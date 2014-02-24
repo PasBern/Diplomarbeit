@@ -40,7 +40,7 @@
 \contentsline {subsection}{\numberline {6.2.1}Der Gasmarkt in Lettland}{43}{subsection.6.2.1}
 \contentsline {subsection}{\numberline {6.2.2}Die Versorgungssituation}{43}{subsection.6.2.2}
 \contentsline {section}{\numberline {6.3}Auswirkungen auf die baltischen Gasm\"arkte}{43}{section.6.3}
-\contentsline {chapter}{\numberline {7}Das Verh\"altnis zu Russland: historische Belastungen}{44}{chapter.7}
+\contentsline {chapter}{\numberline {7}Das Verh\"altnis zu Russland}{44}{chapter.7}
 \contentsline {section}{\numberline {7.1}Der Faktor Gazprom}{44}{section.7.1}
 \contentsline {subsection}{\numberline {7.1.1}Gazproms Rolle auf den baltischen Gasm\"arkten}{49}{subsection.7.1.1}
 \contentsline {subsection}{\numberline {7.1.2}Gazprom in der lettischen/litauischen Wahrnehmung}{49}{subsection.7.1.2}

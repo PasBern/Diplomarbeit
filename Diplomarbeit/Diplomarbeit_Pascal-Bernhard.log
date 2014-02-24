@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013) (format=pdflatex 2014.2.16)  24 FEB 2014 12:03
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013) (format=pdflatex 2014.2.16)  24 FEB 2014 19:35
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1415,7 +1415,7 @@ Package babel Info: Redefining ngerman shorthand "|
 (babel)             in language  on input line 630.
 Package babel Info: Redefining ngerman shorthand "~
 (babel)             in language  on input line 630.
-<Pipelines.png, id=596, 624.83438pt x 558.58687pt>
+<Pipelines.png, id=595, 624.83438pt x 558.58687pt>
 File: Pipelines.png Graphic file (type png)
  <use Pipelines.png>
 Package pdftex.def Info: Pipelines.png used on input line 639.
@@ -1726,49 +1726,49 @@ Package babel Info: Redefining ngerman shorthand "~
 (babel)             in language  on input line 1036.
  [62]
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 1072.
+(babel)             in language  on input line 1073.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 1072.
+(babel)             in language  on input line 1073.
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 1072.
+(babel)             in language  on input line 1073.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 1072.
+(babel)             in language  on input line 1073.
  [63]
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 1124.
+(babel)             in language  on input line 1121.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 1124.
+(babel)             in language  on input line 1121.
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 1124.
+(babel)             in language  on input line 1121.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 1124.
+(babel)             in language  on input line 1121.
  [64]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 1135.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 1137.
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 1135.
+(babel)             in language  on input line 1137.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 1135.
+(babel)             in language  on input line 1137.
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 1135.
+(babel)             in language  on input line 1137.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 1135.
+(babel)             in language  on input line 1137.
  [65]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 1135.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 1137.
  (./Diplomarbeit_Pascal-Bernhard.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 1135.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 1135.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 1137.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 1137.
 
 Package rerunfilecheck Info: File `Diplomarbeit_Pascal-Bernhard.out' has not ch
 anged.
-(rerunfilecheck)             Checksum: ACDC1455AAC522D884C955131006DFE0;2963.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 1135.
+(rerunfilecheck)             Checksum: E87972A049E0B69A0E6EE1BA6FD407FC;2938.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 1137.
  ) 
 Here is how much of TeX's memory you used:
- 13336 strings out of 493853
- 198896 string characters out of 6157277
- 351556 words of memory out of 5000000
+ 13334 strings out of 493853
+ 198872 string characters out of 6157277
+ 350531 words of memory out of 5000000
  15755 multiletter control sequences out of 15000+600000
- 115186 words of font info for 348 fonts, out of 8000000 for 9000
+ 115085 words of font info for 347 fonts, out of 8000000 for 9000
  788 hyphenation exceptions out of 8191
  41i,12n,46p,2751b,651s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texmf-dist/fonts/enc/dvips/base/8r.enc}{/usr/share/texmf-dist/fon
@@ -1781,10 +1781,10 @@ t/fonts/type1/urw/palatino/uplb8a.pfb></usr/share/texmf-dist/fonts/type1/urw/pa
 latino/uplbi8a.pfb></usr/share/texmf-dist/fonts/type1/urw/palatino/uplr8a.pfb><
 /usr/share/texmf-dist/fonts/type1/urw/palatino/uplr8a.pfb></usr/share/texmf-dis
 t/fonts/type1/urw/palatino/uplri8a.pfb>
-Output written on Diplomarbeit_Pascal-Bernhard.pdf (65 pages, 715439 bytes).
+Output written on Diplomarbeit_Pascal-Bernhard.pdf (65 pages, 715559 bytes).
 PDF statistics:
- 886 PDF objects out of 1000 (max. 8388607)
- 797 compressed objects within 8 object streams
+ 885 PDF objects out of 1000 (max. 8388607)
+ 796 compressed objects within 8 object streams
  251 named destinations out of 1000 (max. 500000)
  50494 words of extra memory for PDF output out of 51595 (max. 10000000)
 
