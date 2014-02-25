@@ -5,20 +5,22 @@ ngerman,		%Deutsche Silbentrennung
 BCOR=0pt,		%Bindekorrektureinstellung=AUS
 DIV=calc,		%Satzspiegelberechnung
 headinclude,	%Kopfzeile bei Saztspiegelberechnung mit einbeziehen
-headsepline,	%Trennlinie unter der Kopfzeile#
-tocbasic,
+headsepline,	%Trennlinie unter der Kopfzeile
 ]{scrreprt}
 \usepackage[T1]{fontenc}
 \usepackage{lmodern}
 \usepackage[sc]{mathpazo}
 
-%%% Satzspiegel wird neu berechnet
+% Satzspiegel wird neu berechnet
 \typearea[current]{calc}
 
 \usepackage[ansinew]{inputenc}
 
-%%% Paket für besseres Schriftbild
+% Paket für besseres Schriftbild
 \usepackage{microtype}
+
+
+% Allgemeine Pakete:
 
 \usepackage{xcolor}
 \usepackage[ngerman]{babel}
@@ -32,6 +34,9 @@ tocbasic,
 \usepackage{amsmath}
 \usepackage{fancybox}
 \usepackage{array}
+\usepackage{amsfonts,amsmath,amssymb}
+\usepackage{pifont}
+
 
 \usepackage{scrpage2}
 
@@ -317,9 +322,12 @@ Die Richtlinie zu Liberalisierung der Gasmärkte kann als Parameter der nächsten 
 
 
 \subsubsection{Ausgangsbedingungen für Reformen}
-Ausgangspunkt nationaler Energiepolitik und Marktregulierung ist die Struktur des Energiemarktes. Als relevante Merkmale sind an erster Stelle Entwicklungsstand eines Landes und Energieintensität der Wirtschaft zu nennen. Der gesamte Energieverbrauch ebenso wie die Bevölkerungszahl bestimmen den Bedarf an Erzeugungs- \& Transportkapazitäten. Die entsprechende Größe des Energiemarktes bietet nun für eine gewisse Zahl von Unternehmen Betätigungspotential. Gasmärkte weisen wie andere Netzwerkindustrien (zum Beispiel Schienenverkehr, Elektrizitätswirtschaft, Telekommunikation) eine große Marktkonzentration weniger Unternehmen auf, die meistens vertikal integriert sind über die gesamte Wertschöpfungskette Erzeugung - Fernleitung - Endverteilung. Bedingt durch Netzwerkeffekte, natürliche Monopole im mittleren Segment, und hohe irreversible Kosten, sog. 'Sunk Costs\footnote{Für eine ausführlichere Erläuterung siehe Anhang: \textsf{\textcolor{NavyBlue}{\nameref{sec:Sunk Costs}}}}', treten auf diesen Märkten große Energiekonzerne auf\footnote{\textcolor{purple}{Zitat hier!!!}}, die häufig ehemals staatliche Monopolisten waren oder sogar noch sind. Diese Marktstrukturen sind bereits seit etlichen Jahrzehnten vorhanden und haben sich in Form starker Marktkonzentration auf wenige, wenn nicht gar ein einziges, Energieunternehmen verfestigt.
+Ausgangspunkt nationaler Energiepolitik und Marktregulierung ist die Struktur des Energiemarktes.  Gasmärkte weisen wie andere Netzwerkindustrien (zum Beispiel Schienenverkehr, Elektrizitätswirtschaft, Telekommunikation) eine große Marktkonzentration weniger Unternehmen auf, die meistens vertikal integriert sind über die gesamte Wertschöpfungskette Erzeugung \ding{225} Fernleitung \ding{225} Endverteilung. Bedingt durch Netzwerkeffekte, natürliche Monopole im mittleren Segment \textsl{Fernleitung}, und hohe irreversible Kosten, sog. 'Sunk Costs'\footnote{Für eine ausführlichere Erläuterung siehe Anhang: \textsf{\textcolor{NavyBlue}{\nameref{sec:Sunk Costs}}}}, bilden sich auf diesen Märkten große Energiekonzerne heraus\footnote{Kessides \& Li (2011), S.5}, die häufig ehemals staatliche Monopolisten waren oder sogar noch sind. Diese Marktstrukturen sind bereits seit etlichen Jahrzehnten vorhanden und haben sich in Form starker Marktkonzentration auf wenige, wenn nicht gar ein einziges, Energieunternehmen verfestigt.
 
-Energieunternehmen, ob in öffentlicher oder privater Hand, haben aufgrund ihrer Sunk Costs und wachsender Erträge im Laufe eines Investitionszykluses, wenig Interesse daran, den Status Quo verändert zu sehen. Der Zwang, Geschäftsbereiche zu veräußern oder Konkurrenten Zugang zur ihrer Netzinfrastruktur gewähren zu müssen, würde mit dem bestehenden Geschäftsmodell in der Zukunft niedrigere Gewinne bedeuten. Von Seiten der betroffenen Energieunternehmen ist entsprechend Widerstand zu erwarten gegen eine Entflechtung der Besitzformen und mehr Wettbewerb allgemein auf dem Gasmarkt. Wie im Überblick zu den baltischen Gasmärkten zu zeigen sein wird, wirken die Eigenschaften des Marktgefüges als Schleuse, welche die Akteure nur bestimmte Strategien als Antwort auf Liberalisierungsbetrebungen verfolgen lässt. Die Form des Marktes bildet Verhaltensmuster heraus, die entsprechend den Anreizstrukturen die Unternehmen auf potentielle Veränderungen ihrer Umgebung auf bestimmte Weise handeln lassen.  
+% Ausgeschnittenes Textfragment aus vorherigem Absatz:
+	% Als relevante Merkmale sind an erster Stelle Entwicklungsstand eines Landes und Energieintensität der Wirtschaft zu nennen. Der gesamte Energieverbrauch ebenso wie die Bevölkerungszahl bestimmen den Bedarf an Erzeugungs- \& Transportkapazitäten. Die entsprechende Größe des Energiemarktes bietet nun für eine gewisse Zahl von Unternehmen Betätigungspotential. %
+
+Energieunternehmen haben aufgrund ihrer Sunk Costs und wachsender Erträge im Laufe eines Investitionszykluses, wenig Interesse daran, den Status Quo ihrer dominanten Marktmacht verändert zu sehen, wenn Position es ihnen erst erlaubt die Kosten zu armotisieren. Der Zwang durch eine Marktöffnung, Geschäftsbereiche zu veräußern oder Konkurrenten Zugang zur ihrer Netzinfrastruktur gewähren zu müssen, würde mit dem bestehenden Geschäftsmodell in der Zukunft niedrigere Gewinne bedeuten. Von Seiten der betroffenen Energieunternehmen ist entsprechend Widerstand zu erwarten gegen eine Entflechtung der Besitzformen und algemein mehr Wettbewerb auf dem Gasmarkt. Wie im Überblick zu den baltischen Gasmärkten zu zeigen sein wird, wirken die Eigenschaften des Marktgefüges als Schleuse, welche die Akteure nur bestimmte Strategien als Antwort auf Liberalisierungsbetrebungen verfolgen lässt. Die Form des Marktes bildet Verhaltensmuster heraus, die entsprechend den Anreizstrukturen die Unternehmen auf potentielle Veränderungen ihrer Umgebung auf bestimmte Weise handeln lassen.
 
 In den Analyserahmen der \emph{Transaction Costs Economics} eingebettet bietet die hier kurz erläuterte Struktur von Energiemärkten einen ersten Ansatz mögliche Gründe für eine unterschiedliche Gasmarktentflechtung in Lettland und Litauen zu benennen. Der Parameter \glqq{} Struktur der Gasmärkte\grqq kann der Ebene 4 zugeordnet werden. Die von \textit{Williamson} angeführten Geschäftspraktiken resultieren aus diesen Marktgegebenheiten und sollen an dieser Stelle als unabhängige Variablen dienen. Die Arbeit strebt nicht an, die Verbindungen zwischen Marktform und ihren Ergebnissen in Gestalt der Transaktionen auf dem Markt zu untersuchen, oder gar kausale Zusammenhänge zu bestimmen. Vielmehr werden beide als Gesamtheit herangezogen, um einen Faktor für Klärung meiner Forschungsfrage zu bilden. Hier soll folgende Hypothese den Erkenntnisprozess stützen:
 
@@ -868,19 +876,19 @@ Kosten, die bereits entstanden sind und nicht mehr rückgängig gemacht werden kön
 	\item [\Rectsteel] \textbf{Cottier, Thomas; Matteotti-Berkutova, Sofya \& Olga Nartova (2010):} Third Country Relation In EU Unbundling Of Natural Gas Markets: The 'Gazprom Clause' Of Directive 2009/73/EC And WTO Law, \textsl{NCCR Trade Regulation Working Paper}, 2010/06, May 2010 \textcolor{MidnightBlue}{\url{http://www.nccr-trade.org/fileadmin/user_upload/nccr-trade.ch/wp5/Access\%20to\%20gasgrids.pdf}} -- Zugriff: 03.02.2013. 
 
 
-	\item [\Rectsteel] \textbf{Crew, Michael A. \& Paul R. Kleindorfer (2002):} Regulatory Economics: Twenty Years Of Progress?. in: 							\textsl{Journal of Regulatory Economics}, Vol.11 (1), S.5-22.
+	\item [\Rectsteel] \textbf{Crew, Michael A. \& Paul R. Kleindorfer (2002):} Regulatory Economics: Twenty Years Of Progress?. in: \textsl{Journal of Regulatory Economics}, Vol.11 (1), S.5-22.
 
 
-	\item [\Rectsteel] \textbf{David, Paul A. (1994):} Why Are Institutions 'Carriers Of History'?: Path Dependence And The Evolution Of 					Conventions, Organizations And Institutions, in: \textsl{Structural Change And Economic Dynamics}, Vol.5 (2), 								S.205-220.
+	\item [\Rectsteel] \textbf{David, Paul A. (1994):} Why Are Institutions 'Carriers Of History'?: Path Dependence And The Evolution Of Conventions, Organizations And Institutions, in: \textsl{Structural Change And Economic Dynamics}, Vol.5 (2), S.205-220.
 
 
-	\item [\Rectsteel] \textbf{David, Paul A. (1995):} Clio And The Economics Of QWERTY, in: \textsl{American Economic Review}, Vol. 							75 (May), S.332-337.
+	\item [\Rectsteel] \textbf{David, Paul A. (1995):} Clio And The Economics Of QWERTY, in: \textsl{American Economic Review}, Vol. 75 (May), S.332-337.
 
 
-	\item [\Rectsteel] \textbf{De Bijl, Paul; van Damme, Eric \& Pierre Larouche (2006):} Regulating Access To Stimulate Competition In 						Postal Markets?, in: \textsl{Crew, Michael A. \& Paul R. Kleindorfer (Hrsg.):} Progress Towards Liberalization Of 							The Postal And Delivery Sector, Northampton, Massachussetts, USA, S.153-172. 
+	\item [\Rectsteel] \textbf{De Bijl, Paul; van Damme, Eric \& Pierre Larouche (2006):} Regulating Access To Stimulate Competition In Postal Markets?, in: \textsl{Crew, Michael A. \& Paul R. Kleindorfer (Hrsg.):} Progress Towards Liberalization Of The Postal And Delivery Sector, Northampton, Massachussetts, USA, S.153-172. 
 
 
-	\item [\Rectsteel] \textbf{De Jong, Jacques \& Coby van der Linde (2008):} EU Energy Policy In A Supply-Constrained World, in: 								\textsl{European Policy Analysis}, Issue 11-2008, S.1-9.
+	\item [\Rectsteel] \textbf{De Jong, Jacques \& Coby van der Linde (2008):} EU Energy Policy In A Supply-Constrained World, in: \textsl{European Policy Analysis}, Issue 11-2008, S.1-9.
 
 
 	\item [\Rectsteel] \textbf{Demsetz, Harold (1982):} Barriers To Entry, in: \textsl{The American Economic Review}, Vol. 72 (1),  S. 	47-57.
@@ -1006,6 +1014,9 @@ Kosten, die bereits entstanden sind und nicht mehr rückgängig gemacht werden kön
 	\item [\Rectsteel] \textbf{Kessides, Ioannis N. (1990):} Market Concentration, Contestability And Sunk Costs, in: \textsl{The Review of Economics and Statistics}, Vol. 72 (4), S.614-622.
 
 
+	\item [\Rectsteel] \textbf{Kessides, Ionnis N. \& Tang Li (2011):} Sunk Costs, Market Contestability, And The Size Distribution Of Firms, \textsl{Policy Research Working Paper 5540}, World Bank, Washington D.C., USA.
+
+
 	\item [\Rectsteel] \textbf{Kalotay, Kalman (2008):} Russian Transnationals And International Investment Paradigms, in: \textsl{Research in International Business and Finance}, Vol.22 (2), S.85-107.
 
 
@@ -1020,11 +1031,11 @@ Kosten, die bereits entstanden sind und nicht mehr rückgängig gemacht werden kön
 	\item [\Rectsteel] \textbf{La Tribune (2011):} Nouveau bras de fer gazier en vue entre la Russie et l'Ukraine, 28. Dezember 2011, 	S.4, Paris, Frankreich
 
 
-	\item [\Rectsteel] \textbf{Molis, Ar\={unas} (2011):} Building Methodology, Assessing The Risks: The Case Of Energy Security In The 						Baltic States, in: \textsl{Baltic Journal of Economics}, Vol.11 (2), S.59-80.	
+	\item [\Rectsteel] \textbf{Molis, Ar\={unas} (2011):} Building Methodology, Assessing The Risks: The Case Of Energy Security In The Baltic States, in: \textsl{Baltic Journal of Economics}, Vol.11 (2), S.59-80.	
 
 
 
-	\item [\Rectsteel] \textbf{Molle, Willem (2006):} The Economics of European Integration. Theory, Practice, Policy, Aldershot, 		Hampshire, UK.
+	\item [\Rectsteel] \textbf{Molle, Willem (2006):} The Economics of European Integration. Theory, Practice, Policy, Aldershot, Hampshire, UK.
 
 
 	\item [\Rectsteel] \textbf{Natural Gas Europe (2010):} Mr. Lukashenko -- please pay your bill (17.Juni 2010) \textcolor{MidnightBlue}{\url{http://www.naturalgaseurope.com/mr-lukashenko-please-pay-your-bill}} -- Zugriff: 28.02.2014.
@@ -1052,19 +1063,19 @@ Kosten, die bereits entstanden sind und nicht mehr rückgängig gemacht werden kön
 	\item [\Rectsteel] \textbf{Pierson, Paul (2000):} Increasing Returns, Path Dependence, And The Study Of Politics, in: \textsl{American Political Science Review}, Vol. 94 (2), S.251-267.
 
 
-	\item [\Rectsteel] \textsl{\textbf{Richtlinie 98/30/EG des Europäischen Parlaments und des Rates vom 22.Juni 1998 über gemeinsame Vorschriften für den Erdgasbinnenmarkt}}. Amtsblatt der Europäischen Gemeinschaften 1998 L 204/1, Brüssel, Belgien.
+	\item [\Rectsteel] \textsl{Richtlinie 98/30/EG des Europäischen Parlaments und des Rates vom 22.Juni 1998 über gemeinsame Vorschriften für den Erdgasbinnenmarkt}. Amtsblatt der Europäischen Gemeinschaften 1998 L 204/1, Brüssel, Belgien.
 
 
-	\item [\Rectsteel] \textsl{\textbf{Richtlinie 2003/55/EG des Europäischen Parlaments und des Rates vom 26.Juni 2003 über gemeinsame Vorschriften für den Erdgasbinnenmarkt und zur Aufhebung der Richtlinie 98/30/EG}}. Amtsblatt der Europäischen Gemeinschaften 2003 L 176/55, Brüssel, Belgien.
+	\item [\Rectsteel] \textsl{Richtlinie 2003/55/EG des Europäischen Parlaments und des Rates vom 26.Juni 2003 über gemeinsame Vorschriften für den Erdgasbinnenmarkt und zur Aufhebung der Richtlinie 98/30/EG}. Amtsblatt der Europäischen Gemeinschaften 2003 L 176/55, Brüssel, Belgien.
 
 
-	\item [\Rectsteel] \textsl{\textbf{Richtlinie 2009/73/EG des Europäischen Parlaments und des Rates vom 13.Juli 2009 über gemeinsame 						Vorschriften für den Erdgasbinnenmarkt und zur Aufhebung der Richtlinie 2003/55/EG}}. Amtsblatt der Europäischen 							Gemeinschaften 2009 L 211/94, Brüssel, Belgien.
+	\item [\Rectsteel] \textsl{Richtlinie 2009/73/EG des Europäischen Parlaments und des Rates vom 13.Juli 2009 über gemeinsame Vorschriften für den Erdgasbinnenmarkt und zur Aufhebung der Richtlinie 2003/55/EG}. Amtsblatt der Europäischen Gemeinschaften 2009 L 211/94, Brüssel, Belgien.
 
 
-	\item [\Rectsteel] \textbf{Schmidt-Preuß, Matthias (2009):} OU ? ISO ? ITO: Die Unbundling-Optionen des 3. EU-												Liberalisierungspakets, in: \textsl{Energiewirtschaftliche Tagesfragen}, Vol.9 (September), S.82-84.
+	\item [\Rectsteel] \textbf{Schmidt-Preuß, Matthias (2009):} OU ? ISO ? ITO: Die Unbundling-Optionen des 3. EU-Liberalisierungspakets, in: \textsl{Energiewirtschaftliche Tagesfragen}, Vol.9 (September), S.82-84.
 
 
-	\item [\Rectsteel] \textbf{Springer Gabler Verlag [Herausgeber] (2014a):} Gabler Wirtschaftslexikon, Stichwort: 				\textsl{Bruttoinlandsprodukt (BIP)}, online im Internet: \textcolor{MidnightBlue} 											{\url{http://wirtschaftslexikon.gabler.de/Archiv/57565/bruttoinlandsprodukt-bip-v6.html}} -- Zugriff: 30.01.2014
+	\item [\Rectsteel] \textbf{Springer Gabler Verlag [Herausgeber] (2014a):} Gabler Wirtschaftslexikon, Stichwort: \textsl{Bruttoinlandsprodukt (BIP)}, online im Internet: \textcolor{MidnightBlue} {\url{http://wirtschaftslexikon.gabler.de/Archiv/57565/bruttoinlandsprodukt-bip-v6.html}} -- Zugriff: 30.01.2014
 
 
 
