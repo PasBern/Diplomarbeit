@@ -1,6 +1,6 @@
 \select@language {ngerman}
 \contentsline {chapter}{\numberline {1}Einleitung}{4}{chapter.1}
-\contentsline {chapter}{\numberline {2}Untersuchungsgegenstand und Fragestellung}{8}{chapter.2}
+\contentsline {chapter}{\numberline {2}Untersuchungsgegenstand \& Fragestellung}{8}{chapter.2}
 \contentsline {section}{\numberline {2.1}Stand der Forschung}{9}{section.2.1}
 \contentsline {section}{\numberline {2.2}Forschungsdesign}{9}{section.2.2}
 \contentsline {paragraph}{Ebene 1}{10}{section*.3}
