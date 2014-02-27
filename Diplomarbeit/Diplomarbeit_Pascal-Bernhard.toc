@@ -1,41 +1,40 @@
 \select@language {ngerman}
 \contentsline {chapter}{\numberline {1}Einleitung}{4}{chapter.1}
 \contentsline {chapter}{\numberline {2}Untersuchungsgegenstand \& Fragestellung}{8}{chapter.2}
-\contentsline {section}{\numberline {2.1}Stand der Forschung}{10}{section.2.1}
-\contentsline {section}{\numberline {2.2}Forschungsdesign}{10}{section.2.2}
+\contentsline {section}{\numberline {2.1}Stand der Forschung}{9}{section.2.1}
+\contentsline {section}{\numberline {2.2}Forschungsdesign}{9}{section.2.2}
 \contentsline {paragraph}{Ebene 1}{10}{section*.3}
-\contentsline {paragraph}{Ebene 2}{11}{section*.4}
+\contentsline {paragraph}{Ebene 2}{10}{section*.4}
 \contentsline {paragraph}{Ebene 3}{11}{section*.5}
-\contentsline {paragraph}{Ebene 4}{12}{section*.6}
-\contentsline {paragraph}{Kritik des Modells}{12}{section*.7}
-\contentsline {subsubsection}{Die Verwendung des Ansatzes}{14}{section*.8}
-\contentsline {section}{\numberline {2.3}Die erkl\"arenden Variablen}{15}{section.2.3}
-\contentsline {subsubsection}{Ausgangsbedingungen f\"ur Reformen}{15}{section*.10}
+\contentsline {paragraph}{Ebene 4}{11}{section*.6}
+\contentsline {paragraph}{Kritik des Modells}{11}{section*.7}
+\contentsline {subsubsection}{Die Verwendung des Ansatzes}{13}{section*.8}
+\contentsline {section}{\numberline {2.3}Die erkl\"arenden Variablen}{14}{section.2.3}
+\contentsline {subsubsection}{Ausgangsbedingungen f\"ur Reformen}{14}{section*.10}
 \contentsline {subsubsection}{Das Verh\"altnis zu Russland}{18}{section*.11}
-\contentsline {chapter}{\numberline {3}Gasm\"arkte}{22}{chapter.3}
-\contentsline {section}{\numberline {3.1}Die besonderen Eigenschaften von Gasm\"arkten}{22}{section.3.1}
-\contentsline {paragraph}{Sunk Costs}{22}{section*.12}
-\contentsline {paragraph}{Eintrittsbarrieren}{23}{section*.13}
-\contentsline {paragraph}{Skalenertr\"age}{24}{section*.14}
-\contentsline {paragraph}{Vertikale Integration}{25}{section*.15}
-\contentsline {subsection}{\numberline {3.1.1}Schl\"usselstellung der Netzwerkinfrastruktur}{26}{subsection.3.1.1}
-\contentsline {section}{\numberline {3.2}Pfadabh\"angigkeiten}{27}{section.3.2}
-\contentsline {chapter}{\numberline {4}Liberalisierung und Regulierung}{29}{chapter.4}
-\contentsline {section}{\numberline {4.1}Energieversorgung als \"offentliches Gut}{29}{section.4.1}
-\contentsline {section}{\numberline {4.2}Die Liberalisierung von Gasm\"arkten}{31}{section.4.2}
-\contentsline {subsection}{\numberline {4.2.1}Marktregulierung}{32}{subsection.4.2.1}
-\contentsline {chapter}{\numberline {5}Gasmarktliberalisierung in Europa}{34}{chapter.5}
-\contentsline {section}{\numberline {5.1}Die erste Liberalisierungsrichtlinie}{34}{section.5.1}
-\contentsline {section}{\numberline {5.2}Das zweite Liberalisierungspaket}{36}{section.5.2}
-\contentsline {section}{\numberline {5.3}Bestimmungen des Dritten Liberalisierungspakets}{38}{section.5.3}
-\contentsline {subsection}{\numberline {5.3.1}Modelle der vertikalen Entflechtung auf dem Gasmarkt}{40}{subsection.5.3.1}
-\contentsline {paragraph}{Ownership Unbundling}{40}{section*.17}
-\contentsline {paragraph}{Independent System Operator}{40}{section*.18}
-\contentsline {paragraph}{Independent Transmission Operator}{41}{section*.19}
-\contentsline {chapter}{\numberline {6}Energiem\"arkte im Baltikum}{43}{chapter.6}
-\contentsline {section}{\numberline {6.1}Litauen}{44}{section.6.1}
-\contentsline {subsection}{\numberline {6.1.1}Der Gasmarkt in Litauen}{44}{subsection.6.1.1}
-\contentsline {subsection}{\numberline {6.1.2}Die Versorgungssituation}{45}{subsection.6.1.2}
+\contentsline {chapter}{\numberline {3}Gasm\"arkte}{21}{chapter.3}
+\contentsline {section}{\numberline {3.1}Die besonderen Eigenschaften von Gasm\"arkten}{21}{section.3.1}
+\contentsline {paragraph}{Sunk Costs}{21}{section*.12}
+\contentsline {paragraph}{Eintrittsbarrieren}{22}{section*.13}
+\contentsline {paragraph}{Skalenertr\"age}{23}{section*.14}
+\contentsline {paragraph}{Vertikale Integration}{24}{section*.15}
+\contentsline {subsection}{\numberline {3.1.1}Schl\"usselstellung der Netzwerkinfrastruktur}{25}{subsection.3.1.1}
+\contentsline {section}{\numberline {3.2}Pfadabh\"angigkeiten}{26}{section.3.2}
+\contentsline {chapter}{\numberline {4}Liberalisierung und Regulierung}{28}{chapter.4}
+\contentsline {section}{\numberline {4.1}Energieversorgung als \"offentliches Gut}{28}{section.4.1}
+\contentsline {section}{\numberline {4.2}Die Liberalisierung von Gasm\"arkten}{30}{section.4.2}
+\contentsline {subsection}{\numberline {4.2.1}Marktregulierung}{31}{subsection.4.2.1}
+\contentsline {chapter}{\numberline {5}Gasmarktliberalisierung in Europa}{33}{chapter.5}
+\contentsline {section}{\numberline {5.1}Die erste Liberalisierungsrichtlinie}{33}{section.5.1}
+\contentsline {section}{\numberline {5.2}Das zweite Liberalisierungspaket}{35}{section.5.2}
+\contentsline {section}{\numberline {5.3}Bestimmungen des Dritten Liberalisierungspakets}{37}{section.5.3}
+\contentsline {subsection}{\numberline {5.3.1}Modelle der vertikalen Entflechtung auf dem Gasmarkt}{39}{subsection.5.3.1}
+\contentsline {paragraph}{Ownership Unbundling}{39}{section*.17}
+\contentsline {paragraph}{Independent System Operator}{39}{section*.18}
+\contentsline {paragraph}{Independent Transmission Operator}{40}{section*.19}
+\contentsline {chapter}{\numberline {6}Energiem\"arkte im Baltikum}{42}{chapter.6}
+\contentsline {section}{\numberline {6.1}Litauen}{43}{section.6.1}
+\contentsline {subsection}{\numberline {6.1.1}Der Gasmarkt in Litauen}{43}{subsection.6.1.1}
 \contentsline {section}{\numberline {6.2}Lettland}{45}{section.6.2}
 \contentsline {subsection}{\numberline {6.2.1}Der Gasmarkt in Lettland}{45}{subsection.6.2.1}
 \contentsline {subsection}{\numberline {6.2.2}Die Versorgungssituation}{45}{subsection.6.2.2}
