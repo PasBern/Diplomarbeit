@@ -35,7 +35,7 @@
 \contentsline {chapter}{\numberline {6}Energiem\"arkte im Baltikum}{42}{chapter.6}
 \contentsline {section}{\numberline {6.1}Litauen}{43}{section.6.1}
 \contentsline {subsection}{\numberline {6.1.1}Der Gasmarkt in Litauen}{43}{subsection.6.1.1}
-\contentsline {paragraph}{Nationale Energieunabh\"angigkeitsstrategie}{45}{section*.20}
+\contentsline {subsection}{\numberline {6.1.2}Nationale Energieunabh\"angigkeitsstrategie}{45}{subsection.6.1.2}
 \contentsline {section}{\numberline {6.2}Lettland}{46}{section.6.2}
 \contentsline {subsection}{\numberline {6.2.1}Der Gasmarkt in Lettland}{46}{subsection.6.2.1}
 \contentsline {subsection}{\numberline {6.2.2}Die Versorgungssituation}{46}{subsection.6.2.2}
@@ -52,7 +52,7 @@
 \contentsline {chapter}{\numberline {11}Europ\"aische Energiepolitik als externe Faktor}{56}{chapter.11}
 \contentsline {chapter}{\numberline {12}Fazit}{57}{chapter.12}
 \contentsline {chapter}{\numberline {13}Anhang -- Erl\"auterungen}{58}{chapter.13}
-\contentsline {paragraph}{Bruttoinlandsprodukt zu Marktpreisen}{58}{section*.21}
-\contentsline {paragraph}{Nat\"urliches Monopol}{58}{section*.22}
-\contentsline {paragraph}{Sunk Costs}{58}{section*.23}
+\contentsline {paragraph}{Bruttoinlandsprodukt zu Marktpreisen}{58}{section*.20}
+\contentsline {paragraph}{Nat\"urliches Monopol}{58}{section*.21}
+\contentsline {paragraph}{Sunk Costs}{58}{section*.22}
 \contentsline {chapter}{\numberline {14}Literaturverzeichnis}{60}{chapter.14}
