@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013) (format=pdflatex 2014.2.16)  28 FEB 2014 09:41
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013) (format=pdflatex 2014.2.16)  28 FEB 2014 09:57
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1507,13 +1507,13 @@ Package babel Info: Redefining ngerman shorthand "~
 (babel)             in language  on input line 657.
  [43]
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 665.
+(babel)             in language  on input line 662.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 665.
+(babel)             in language  on input line 662.
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 665.
+(babel)             in language  on input line 662.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 665.
+(babel)             in language  on input line 662.
  [44]
 Package babel Info: Redefining ngerman shorthand "|
 (babel)             in language  on input line 665.
@@ -1881,7 +1881,7 @@ latino/uplbi8a.pfb></usr/share/texmf-dist/fonts/type1/urw/palatino/uplr8a.pfb><
 /usr/share/texmf-dist/fonts/type1/urw/palatino/uplr8a.pfb></usr/share/texmf-dis
 t/fonts/type1/urw/palatino/uplri8a.pfb></usr/share/texmf-dist/fonts/type1/urw/z
 apfding/uzdr.pfb>
-Output written on Diplomarbeit_Pascal-Bernhard.pdf (69 pages, 727816 bytes).
+Output written on Diplomarbeit_Pascal-Bernhard.pdf (69 pages, 727860 bytes).
 PDF statistics:
  942 PDF objects out of 1000 (max. 8388607)
  847 compressed objects within 9 object streams
