@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013) (format=pdflatex 2014.2.16)  28 FEB 2014 14:55
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013) (format=pdflatex 2014.2.16)  28 FEB 2014 14:58
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1974,26 +1974,26 @@ Package babel Info: Redefining ngerman shorthand "|
 Package babel Info: Redefining ngerman shorthand "~
 (babel)             in language  on input line 682.
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 688.
+(babel)             in language  on input line 687.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 688.
+(babel)             in language  on input line 687.
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 688.
+(babel)             in language  on input line 687.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 688.
+(babel)             in language  on input line 687.
  [46]
 Underfull \hbox (badness 7486) in paragraph at lines 688--688
 \T1/lmss/bx/n/8 die De-bat-te über
  []
 
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 693.
+(babel)             in language  on input line 692.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 693.
+(babel)             in language  on input line 692.
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 693.
+(babel)             in language  on input line 692.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 693.
+(babel)             in language  on input line 692.
 [47]
 Package babel Info: Redefining ngerman shorthand "|
 (babel)             in language  on input line 702.
@@ -2325,8 +2325,8 @@ anged.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 1185.
  ) 
 Here is how much of TeX's memory you used:
- 30863 strings out of 493853
- 651348 string characters out of 6157277
+ 30864 strings out of 493853
+ 651361 string characters out of 6157277
  860570 words of memory out of 5000000
  32845 multiletter control sequences out of 15000+600000
  117493 words of font info for 367 fonts, out of 8000000 for 9000
@@ -2343,10 +2343,10 @@ latino/uplbi8a.pfb></usr/share/texmf-dist/fonts/type1/urw/palatino/uplr8a.pfb><
 /usr/share/texmf-dist/fonts/type1/urw/palatino/uplr8a.pfb></usr/share/texmf-dis
 t/fonts/type1/urw/palatino/uplri8a.pfb></usr/share/texmf-dist/fonts/type1/urw/z
 apfding/uzdr.pfb>
-Output written on Diplomarbeit_Pascal-Bernhard.pdf (71 pages, 731871 bytes).
+Output written on Diplomarbeit_Pascal-Bernhard.pdf (71 pages, 732298 bytes).
 PDF statistics:
- 960 PDF objects out of 1000 (max. 8388607)
- 863 compressed objects within 9 object streams
- 277 named destinations out of 1000 (max. 500000)
+ 962 PDF objects out of 1000 (max. 8388607)
+ 865 compressed objects within 9 object streams
+ 278 named destinations out of 1000 (max. 500000)
  49994 words of extra memory for PDF output out of 51595 (max. 10000000)
 
