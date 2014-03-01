@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013) (format=pdflatex 2014.2.16)  28 FEB 2014 19:58
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013) (format=pdflatex 2014.2.16)  1 MAR 2014 10:44
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1436,6 +1436,36 @@ Package babel Info: Redefining ngerman shorthand "|
 (babel)             in language  on input line 244.
 Package babel Info: Redefining ngerman shorthand "~
 (babel)             in language  on input line 244.
+
+Underfull \hbox (badness 10000) in paragraph at lines 248--248
+\T1/lmss/bx/n/8 kurz er-läu-tern,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 248--248
+\T1/lmss/bx/n/8 wie Marktstruktur-
+ []
+
+
+Overfull \hbox (0.79712pt too wide) in paragraph at lines 248--248
+\T1/lmss/bx/n/8 Akteurskonstellation-
+ []
+
+
+Overfull \hbox (0.87352pt too wide) in paragraph at lines 248--248
+\T1/lmss/bx/n/8 Versorgungssituation
+ []
+
+
+Underfull \hbox (badness 1005) in paragraph at lines 248--248
+\T1/lmss/bx/n/8 ei be-stimm-tes Ent-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 248--248
+\T1/lmss/bx/n/8 flech-tungs-mo-dell
+ []
+
 Package babel Info: Redefining ngerman shorthand "|
 (babel)             in language  on input line 249.
 Package babel Info: Redefining ngerman shorthand "~
@@ -1458,6 +1488,8 @@ Package babel Info: Redefining ngerman shorthand "~
 LaTeX Font Info:    Font shape `T1/lmss/bx/it' in size <10.95> not available
 (Font)              Font shape `T1/lmss/bx/sl' tried instead on input line 259.
 
+LaTeX Font Info:    Font shape `T1/pplx/m/sl' in size <10.95> not available
+(Font)              Font shape `T1/pplx/m/it' tried instead on input line 261.
 Package babel Info: Redefining ngerman shorthand "|
 (babel)             in language  on input line 262.
 Package babel Info: Redefining ngerman shorthand "~
@@ -1467,8 +1499,6 @@ Package babel Info: Redefining ngerman shorthand "|
 Package babel Info: Redefining ngerman shorthand "~
 (babel)             in language  on input line 262.
  [9]
-LaTeX Font Info:    Font shape `T1/pplx/m/sl' in size <10.95> not available
-(Font)              Font shape `T1/pplx/m/it' tried instead on input line 263.
 Package babel Info: Redefining ngerman shorthand "|
 (babel)             in language  on input line 272.
 Package babel Info: Redefining ngerman shorthand "~
@@ -2325,11 +2355,11 @@ anged.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 1185.
  ) 
 Here is how much of TeX's memory you used:
- 30868 strings out of 493853
- 651407 string characters out of 6157277
+ 30864 strings out of 493853
+ 651368 string characters out of 6157277
  860570 words of memory out of 5000000
  32846 multiletter control sequences out of 15000+600000
- 117493 words of font info for 367 fonts, out of 8000000 for 9000
+ 117283 words of font info for 364 fonts, out of 8000000 for 9000
  788 hyphenation exceptions out of 8191
  65i,12n,78p,2751b,667s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texmf-dist/fonts/enc/dvips/base/8r.enc}{/usr/share/texmf-dist/fon
@@ -2343,7 +2373,7 @@ latino/uplbi8a.pfb></usr/share/texmf-dist/fonts/type1/urw/palatino/uplr8a.pfb><
 /usr/share/texmf-dist/fonts/type1/urw/palatino/uplr8a.pfb></usr/share/texmf-dis
 t/fonts/type1/urw/palatino/uplri8a.pfb></usr/share/texmf-dist/fonts/type1/urw/z
 apfding/uzdr.pfb>
-Output written on Diplomarbeit_Pascal-Bernhard.pdf (71 pages, 733968 bytes).
+Output written on Diplomarbeit_Pascal-Bernhard.pdf (71 pages, 734289 bytes).
 PDF statistics:
  968 PDF objects out of 1000 (max. 8388607)
  871 compressed objects within 9 object streams
