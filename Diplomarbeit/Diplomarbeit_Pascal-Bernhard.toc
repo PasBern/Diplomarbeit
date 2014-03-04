@@ -4,11 +4,11 @@
 \contentsline {section}{\numberline {2.1}Stand der Forschung}{9}{section.2.1}
 \contentsline {section}{\numberline {2.2}Forschungsdesign}{9}{section.2.2}
 \contentsline {paragraph}{Ebene 1}{10}{section*.3}
-\contentsline {paragraph}{Ebene 2}{10}{section*.4}
+\contentsline {paragraph}{Ebene 2}{11}{section*.4}
 \contentsline {paragraph}{Ebene 3}{11}{section*.5}
 \contentsline {paragraph}{Ebene 4}{11}{section*.6}
-\contentsline {paragraph}{Kritik des Modells}{11}{section*.7}
-\contentsline {subsubsection}{Die Verwendung des Ansatzes}{13}{section*.8}
+\contentsline {paragraph}{Kritik des Modells}{12}{section*.7}
+\contentsline {subsubsection}{Die Verwendung des Ansatzes}{14}{section*.8}
 \contentsline {section}{\numberline {2.3}Die erkl\"arenden Variablen}{15}{section.2.3}
 \contentsline {subsubsection}{Ausgangsbedingungen f\"ur Reformen}{15}{section*.10}
 \contentsline {subsubsection}{Das Verh\"altnis zu Russland}{18}{section*.11}
