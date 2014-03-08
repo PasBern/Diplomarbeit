@@ -1,28 +1,28 @@
 \select@language {ngerman}
 \contentsline {chapter}{\numberline {1}Einleitung}{4}{chapter.1}
-\contentsline {chapter}{\numberline {2}Untersuchungsgegenstand \& Fragestellung}{8}{chapter.2}
+\contentsline {chapter}{\numberline {2}Fragestellung}{8}{chapter.2}
 \contentsline {section}{\numberline {2.1}Stand der Forschung}{9}{section.2.1}
 \contentsline {section}{\numberline {2.2}Forschungsdesign}{9}{section.2.2}
 \contentsline {subsection}{\numberline {2.2.a}\emph {Douglass Norths} Ansatz der Pfadabh\"angigkeiten}{9}{subsection.2.2.1}
 \contentsline {paragraph}{Individuelle Logik der Akteure}{11}{section*.2}
-\contentsline {paragraph}{Institutioneller Wandel}{12}{section*.3}
-\contentsline {subsection}{\numberline {2.2.b}\emph {Transaction Cost Economics}--Ansatz}{13}{subsection.2.2.2}
+\contentsline {paragraph}{Institutioneller Wandel}{13}{section*.3}
+\contentsline {subsection}{\numberline {2.2.b}\emph {Transaction Cost Economics}--Ansatz}{14}{subsection.2.2.2}
 \contentsline {paragraph}{Ebene 1}{14}{section*.4}
 \contentsline {paragraph}{Ebene 2}{15}{section*.5}
-\contentsline {paragraph}{Ebene 3}{15}{section*.6}
+\contentsline {paragraph}{Ebene 3}{16}{section*.6}
 \contentsline {paragraph}{Ebene 4}{16}{section*.7}
-\contentsline {subsection}{\numberline {2.2.c}Kritik des Modells}{16}{subsection.2.2.3}
-\contentsline {subsubsection}{Die Verwendung des Ansatzes}{18}{section*.8}
-\contentsline {section}{\numberline {2.3}Die erkl\"arenden Variablen}{19}{section.2.3}
-\contentsline {subsubsection}{Ausgangsbedingungen f\"ur Reformen}{19}{section*.9}
+\contentsline {subsection}{\numberline {2.2.c}Kritik des Modells}{17}{subsection.2.2.3}
+\contentsline {subsubsection}{Die Verwendung des Ansatzes}{19}{section*.8}
+\contentsline {section}{\numberline {2.3}Variablenauswahl}{20}{section.2.3}
+\contentsline {subsubsection}{Ausgangsbedingungen f\"ur Reformen}{20}{section*.9}
 \contentsline {subsubsection}{Das Verh\"altnis zu Russland}{23}{section*.10}
 \contentsline {chapter}{\numberline {3}Gasm\"arkte}{26}{chapter.3}
-\contentsline {section}{\numberline {3.1}Besondere Eigenschaften von Gasm\"arkten}{26}{section.3.1}
+\contentsline {section}{\numberline {3.1}Merkmale des Gassektors}{26}{section.3.1}
 \contentsline {paragraph}{Sunk Costs}{26}{section*.11}
 \contentsline {paragraph}{Eintrittsbarrieren}{27}{section*.12}
 \contentsline {paragraph}{Skalenertr\"age}{28}{section*.13}
 \contentsline {paragraph}{Vertikale Integration}{29}{section*.14}
-\contentsline {subsection}{\numberline {3.1.a}Schl\"usselstellung der Netzwerkinfrastruktur}{30}{subsection.3.1.1}
+\contentsline {subsection}{\numberline {3.1.a}Netzinfrastruktur}{30}{subsection.3.1.1}
 \contentsline {section}{\numberline {3.2}Pfadabh\"angigkeiten}{31}{section.3.2}
 \contentsline {chapter}{\numberline {4}Liberalisierung und Regulierung}{33}{chapter.4}
 \contentsline {section}{\numberline {4.1}Energieversorgung als \"offentliches Gut}{33}{section.4.1}
@@ -31,8 +31,8 @@
 \contentsline {chapter}{\numberline {5}Gasmarktliberalisierung in Europa}{38}{chapter.5}
 \contentsline {section}{\numberline {5.1}Die erste Liberalisierungsrichtlinie}{38}{section.5.1}
 \contentsline {section}{\numberline {5.2}Das zweite Liberalisierungspaket}{40}{section.5.2}
-\contentsline {section}{\numberline {5.3}Bestimmungen des Dritten Liberalisierungspakets}{42}{section.5.3}
-\contentsline {subsection}{\numberline {5.3.a}Modelle der vertikalen Entflechtung auf dem Gasmarkt}{44}{subsection.5.3.1}
+\contentsline {section}{\numberline {5.3}Drittes Liberalisierungspaket}{42}{section.5.3}
+\contentsline {subsection}{\numberline {5.3.a}Vertikale Entflechtung}{44}{subsection.5.3.1}
 \contentsline {paragraph}{Ownership Unbundling}{44}{section*.16}
 \contentsline {paragraph}{Independent System Operator}{44}{section*.17}
 \contentsline {paragraph}{Independent Transmission Operator}{45}{section*.18}
@@ -46,19 +46,19 @@
 \contentsline {subsection}{\numberline {6.2.a}Der Gasmarkt in Lettland}{54}{subsection.6.2.1}
 \contentsline {subsection}{\numberline {6.2.b}Die Versorgungssituation}{54}{subsection.6.2.2}
 \contentsline {section}{\numberline {6.3}Auswirkungen auf die baltischen Gasm\"arkte}{54}{section.6.3}
-\contentsline {chapter}{\numberline {7}Das Verh\"altnis zu Russland}{55}{chapter.7}
-\contentsline {section}{\numberline {7.1}Der Faktor Gazprom}{55}{section.7.1}
-\contentsline {subsection}{\numberline {7.1.a}Gazproms Rolle auf den baltischen Gasm\"arkten}{60}{subsection.7.1.1}
+\contentsline {chapter}{\numberline {7}Verh\"altnis zu Russland}{55}{chapter.7}
+\contentsline {section}{\numberline {7.1}Gazprom}{55}{section.7.1}
+\contentsline {subsection}{\numberline {7.1.a}Rolle auf dem Gasmarkt}{60}{subsection.7.1.1}
 \contentsline {subsection}{\numberline {7.1.b}Gazprom in der lettischen/litauischen Wahrnehmung}{60}{subsection.7.1.2}
-\contentsline {chapter}{\numberline {8}Die bisherige Umsetzung der EU-Richtlinie}{61}{chapter.8}
-\contentsline {section}{\numberline {8.1}Die Umsetzung in Litauen}{61}{section.8.1}
-\contentsline {section}{\numberline {8.2}Der 'lettische Weg'}{61}{section.8.2}
-\contentsline {chapter}{\numberline {9}Nationale Energiepolitik und Energiemarktliberalisierung}{62}{chapter.9}
-\contentsline {chapter}{\numberline {10}Lobby-Einfluss als Erkl\"arungsfaktor f\"ur nationale Energiepolitik}{63}{chapter.10}
-\contentsline {chapter}{\numberline {11}Europ\"aische Energiepolitik als externe Faktor}{64}{chapter.11}
+\contentsline {chapter}{\numberline {8}Umsetzung der EU-Direktive}{61}{chapter.8}
+\contentsline {section}{\numberline {8.1}Umsetzung in Litauen}{61}{section.8.1}
+\contentsline {section}{\numberline {8.2}Umsetzung in Lettland}{61}{section.8.2}
+\contentsline {chapter}{\numberline {9}Nationale Energiepolitik}{62}{chapter.9}
+\contentsline {chapter}{\numberline {10}Lobby-Einfluss}{63}{chapter.10}
+\contentsline {chapter}{\numberline {11}Europ\"aische Energiepolitik}{64}{chapter.11}
 \contentsline {chapter}{\numberline {12}Fazit}{65}{chapter.12}
 \contentsline {chapter}{\numberline {13}Anhang -- Erl\"auterungen}{66}{chapter.13}
-\contentsline {paragraph}{Bruttoinlandsprodukt zu Marktpreisen}{66}{section*.21}
+\contentsline {paragraph}{BIP}{66}{section*.21}
 \contentsline {paragraph}{Nat\"urliches Monopol}{66}{section*.22}
 \contentsline {paragraph}{Sunk Costs}{66}{section*.23}
 \contentsline {chapter}{\numberline {14}Literaturverzeichnis}{68}{chapter.14}
