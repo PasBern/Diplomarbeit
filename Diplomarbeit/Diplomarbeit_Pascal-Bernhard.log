@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013) (format=pdflatex 2014.2.16)  10 MAR 2014 11:39
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013) (format=pdflatex 2014.2.16)  10 MAR 2014 12:23
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -2102,7 +2102,7 @@ Package babel Info: Redefining ngerman shorthand "|
 (babel)             in language  on input line 683.
 Package babel Info: Redefining ngerman shorthand "~
 (babel)             in language  on input line 683.
-<Pipelines.png, id=720, 624.83438pt x 558.58687pt>
+<Pipelines.png, id=724, 624.83438pt x 558.58687pt>
 File: Pipelines.png Graphic file (type png)
  <use Pipelines.png>
 Package pdftex.def Info: Pipelines.png used on input line 691.
@@ -2518,8 +2518,8 @@ anged.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 1254.
  ) 
 Here is how much of TeX's memory you used:
- 30927 strings out of 493853
- 652207 string characters out of 6157277
+ 30929 strings out of 493853
+ 652233 string characters out of 6157277
  861831 words of memory out of 5000000
  32862 multiletter control sequences out of 15000+600000
  120372 words of font info for 367 fonts, out of 8000000 for 9000
@@ -2536,10 +2536,10 @@ latino/uplbi8a.pfb></usr/share/texmf-dist/fonts/type1/urw/palatino/uplr8a.pfb><
 /usr/share/texmf-dist/fonts/type1/urw/palatino/uplr8a.pfb></usr/share/texmf-dis
 t/fonts/type1/urw/palatino/uplri8a.pfb></usr/share/texmf-dist/fonts/type1/urw/z
 apfding/uzdr.pfb>
-Output written on Diplomarbeit_Pascal-Bernhard.pdf (82 pages, 759937 bytes).
+Output written on Diplomarbeit_Pascal-Bernhard.pdf (82 pages, 760482 bytes).
 PDF statistics:
- 1104 PDF objects out of 1200 (max. 8388607)
- 995 compressed objects within 10 object streams
- 321 named destinations out of 1000 (max. 500000)
+ 1108 PDF objects out of 1200 (max. 8388607)
+ 999 compressed objects within 10 object streams
+ 323 named destinations out of 1000 (max. 500000)
  50554 words of extra memory for PDF output out of 51595 (max. 10000000)
 
