@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013) (format=pdflatex 2014.2.16)  10 MAR 2014 20:03
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013) (format=pdflatex 2014.2.16)  11 MAR 2014 09:42
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1804,13 +1804,13 @@ Package babel Info: Redefining ngerman shorthand "~
 (babel)             in language  on input line 397.
  [27]
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 416.
+(babel)             in language  on input line 408.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 416.
+(babel)             in language  on input line 408.
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 416.
+(babel)             in language  on input line 408.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 416.
+(babel)             in language  on input line 408.
  [28]
 Package babel Info: Redefining ngerman shorthand "|
 (babel)             in language  on input line 421.
@@ -1822,13 +1822,13 @@ Package babel Info: Redefining ngerman shorthand "~
 (babel)             in language  on input line 421.
  [29]
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 446.
+(babel)             in language  on input line 439.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 446.
+(babel)             in language  on input line 439.
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 446.
+(babel)             in language  on input line 439.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 446.
+(babel)             in language  on input line 439.
  [30]
 Package babel Info: Redefining ngerman shorthand "|
 (babel)             in language  on input line 454.
@@ -2550,7 +2550,7 @@ e1/public/marvosym/marvosym.pfb></usr/share/texmf-dist/fonts/type1/urw/palatino
 hare/texmf-dist/fonts/type1/urw/palatino/uplr8a.pfb></usr/share/texmf-dist/font
 s/type1/urw/palatino/uplr8a.pfb></usr/share/texmf-dist/fonts/type1/urw/palatino
 /uplri8a.pfb></usr/share/texmf-dist/fonts/type1/urw/zapfding/uzdr.pfb>
-Output written on Diplomarbeit_Pascal-Bernhard.pdf (83 pages, 763296 bytes).
+Output written on Diplomarbeit_Pascal-Bernhard.pdf (83 pages, 763542 bytes).
 PDF statistics:
  1124 PDF objects out of 1200 (max. 8388607)
  1013 compressed objects within 11 object streams
