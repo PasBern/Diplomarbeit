@@ -16,7 +16,7 @@
 \contentsline {paragraph}{Ebene 4}{22}{section*.8}
 \contentsline {subsection}{\numberline {3.2.a}Kritik des Modells}{22}{subsection.3.2.1}
 \contentsline {subsection}{\numberline {3.2.b}Die Verwendung des Ansatzes}{24}{subsection.3.2.2}
-\contentsline {section}{\numberline {3.3}Variablenauswahl}{25}{section.3.3}
+\contentsline {section}{\numberline {3.3}Variablen \& Hypothesen}{25}{section.3.3}
 \contentsline {subsubsection}{Ausgangsbedingungen f\"ur Reformen}{25}{section*.9}
 \contentsline {subsubsection}{Das Verh\"altnis zu Russland}{29}{section*.10}
 \contentsline {chapter}{\numberline {4}Gasm\"arkte}{32}{chapter.4}
