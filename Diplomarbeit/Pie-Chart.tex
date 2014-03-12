@@ -1,36 +1,23 @@
 \documentclass{article}
-\usepackage{pstricks}
+\usepackage[T1]{fontenc}
+\usepackage{bera}
 \usepackage{pstricks-add}
-\usepackage{pst-plot}
+
 \begin{document}
-\begin{figure}
-\centering
-  \begin{pspicture}(-5,-5)(8,5)
-    %Pie chart
-    \psChart[chartSep=15pt,chartColor=color,
-             chartNodeO=1.15,shadow=true,
-             shadowsize=5pt]{15,20,30,20,15}{3}{4.75}
-    %The Label for the outraged piece
-    \ncline[linecolor=-chartFillColor3]
-            {psChartI3}{psChartO3}
-    \uput[l](psChartO3){\textcolor{chartFillColor3}
-                        {\large The Most}
-                       }
-    %The legends
-    \psframe[fillcolor=chartFillColor1,fillstyle=solid]
-             (5.25,-5)(6.5,-4.5)
-    \uput[r](6.5,-4.75){Traffic}
-    \psframe[fillcolor=chartFillColor2,fillstyle=solid]
-             (5.25,-4)(6.5,-3.5)
-    \uput[r](6.5,-3.75){Clothes}
-    \psframe[fillcolor=chartFillColor3,fillstyle=solid]
-             (5.25,-3)(6.5,-2.5)
-    \uput[r](6.5,-2.75){Food}
-    \psframe[fillcolor=chartFillColor4,fillstyle=solid]
-             (5.25,-2)(6.5,-1.5)
-    \uput[r](6.5,-1.75){Rent}
-    \psframe[fillcolor=chartFillColor5,fillstyle=solid]
-             (5.25,-1)(6.5,-0.5)
-    \uput[r](6.5,-0.75){Others}
-  \end{pspicture}
+
+\begin{pspicture}(-3,-3)(3,3)
+\psChart[userColor={red!30,green!30,blue!40,gray,cyan!50,
+    magenta!60,cyan},chartSep=30pt,shadow,shadowsize=5pt]{34.5,17.2,20.7,15.5,5.2,6.9}{6}{2}
+\psset{nodesepA=5pt,nodesepB=-10pt}
+\ncline{psChartO1}{psChart1}\nput{0}{psChartO1}{1000 (34.5\%)}
+\ncline{psChartO2}{psChart2}\nput{150}{psChartO2}{500 (17.2\%)}
+\ncline{psChartO3}{psChart3}\nput{-90}{psChartO3}{600 (20.7\%)}
+\ncline{psChartO4}{psChart4}\nput{0}{psChartO4}{450 (15.5\%)}
+\ncline{psChartO5}{psChart5}\nput{0}{psChartO5}{150 (5.2\%)}
+\ncline{psChartO6}{psChart6}\nput{0}{psChartO6}{200 (6.9\%)}
+\bfseries%
+\rput(psChartI1){Taxes}\rput(psChartI2){Rent}\rput(psChartI3){Bills}
+\rput(psChartI4){Car}\rput(psChartI5){Gas}\rput(psChartI6){Food}
+\end{pspicture}
+
 \end{document}
