@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013) (format=pdflatex 2014.2.16)  12 MAR 2014 20:36
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013) (format=pdflatex 2014.2.16)  13 MAR 2014 12:04
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1351,46 +1351,6 @@ Class scrreprt Warning: \float@addtolists detected!
 (scrreprt)              Support for \float@addtolists may be removed from
 (scrreprt)              `scrreprt' soon .
 
-LaTeX Font Info:    Font shape `T1/ppl/bx/n' in size <8> not available
-(Font)              Font shape `T1/ppl/b/n' tried instead on input line 225.
-LaTeX Font Info:    Font shape `T1/lmss/bx/it' in size <8> not available
-(Font)              Font shape `T1/lmss/bx/sl' tried instead on input line 225.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 225--225
-[][]\T1/lmss/bx/n/8 Wahrscheinlich
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 225--225
-\T1/lmss/bx/n/8 wä-re Ita-li-en ein
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 225--225
-\T1/lmss/bx/n/8 bes-se-res Bei-spiel
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 225--225
-\T1/lmss/bx/n/8 als Groÿ-bri-tan-ni-en,
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 225--225
-\T1/lmss/bx/n/8 da di-rek-te Lie-fer-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 225--225
-\T1/lmss/bx/n/8 ver-trä-ge zwi-schen
- []
-
-
-Underfull \hbox (badness 2689) in paragraph at lines 225--225
-\T1/lmss/bx/n/8 ENI und \T1/lmss/bx/sl/8 Gaz-prom
- []
-
 LaTeX Font Info:    Font shape `U/msa/m/n' will be
 (Font)              scaled to size 9.37807pt on input line 225.
 LaTeX Font Info:    Font shape `U/msa/m/n' will be
@@ -1450,6 +1410,8 @@ Package babel Info: Redefining ngerman shorthand "~
 (babel)             in language  on input line 246.
 LaTeX Font Info:    Font shape `T1/pplx/m/sl' in size <10.95> not available
 (Font)              Font shape `T1/pplx/m/it' tried instead on input line 250.
+LaTeX Font Info:    Font shape `T1/ppl/bx/n' in size <8> not available
+(Font)              Font shape `T1/ppl/b/n' tried instead on input line 250.
 
 Underfull \hbox (badness 10000) in paragraph at lines 250--250
 \T1/lmss/bx/n/8 kurz er-läu-tern,
@@ -1615,6 +1577,10 @@ Package babel Info: Redefining ngerman shorthand "|
 Package babel Info: Redefining ngerman shorthand "~
 (babel)             in language  on input line 326.
  [20]
+LaTeX Font Info:    Font shape `T1/lmss/bx/it' in size <8> not available
+(Font)              Font shape `T1/lmss/bx/sl' tried instead on input line 330.
+
+
 Underfull \hbox (badness 10000) in paragraph at lines 330--330
 [][]\T1/lmss/bx/n/8 Diese Zu-sam-men-
  []
@@ -2503,51 +2469,60 @@ Package babel Info: Redefining ngerman shorthand "~
 (babel)             in language  on input line 1188.
  [81]
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 1223.
+(babel)             in language  on input line 1221.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 1223.
+(babel)             in language  on input line 1221.
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 1223.
+(babel)             in language  on input line 1221.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 1223.
+(babel)             in language  on input line 1221.
  [82]
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 1267.
+(babel)             in language  on input line 1264.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 1267.
+(babel)             in language  on input line 1264.
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 1267.
+(babel)             in language  on input line 1264.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 1267.
+(babel)             in language  on input line 1264.
  [83]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 1317.
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 1317.
+(babel)             in language  on input line 1309.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 1317.
+(babel)             in language  on input line 1309.
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 1317.
+(babel)             in language  on input line 1309.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 1317.
+(babel)             in language  on input line 1309.
  [84]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 1317.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 1320.
+Package babel Info: Redefining ngerman shorthand "|
+(babel)             in language  on input line 1320.
+Package babel Info: Redefining ngerman shorthand "~
+(babel)             in language  on input line 1320.
+Package babel Info: Redefining ngerman shorthand "|
+(babel)             in language  on input line 1320.
+Package babel Info: Redefining ngerman shorthand "~
+(babel)             in language  on input line 1320.
+ [85]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 1320.
  (./Diplomarbeit_Pascal-Bernhard.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 1317.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 1317.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 1320.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 1320.
 
 Package rerunfilecheck Info: File `Diplomarbeit_Pascal-Bernhard.out' has not ch
 anged.
 (rerunfilecheck)             Checksum: FEC895E0EFCA6D67351890A2EEE9664A;3120.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 1317.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 1320.
  ) 
 Here is how much of TeX's memory you used:
- 30978 strings out of 493853
- 653123 string characters out of 6157277
- 861831 words of memory out of 5000000
+ 30979 strings out of 493853
+ 653130 string characters out of 6157277
+ 860831 words of memory out of 5000000
  32889 multiletter control sequences out of 15000+600000
  124189 words of font info for 374 fonts, out of 8000000 for 9000
  788 hyphenation exceptions out of 8191
- 65i,12n,78p,2751b,667s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 65i,12n,78p,2552b,667s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texmf-dist/fonts/enc/dvips/lm/lm-ts1.enc}{/usr/share/texmf-dist/f
 onts/enc/dvips/base/8r.enc}{/usr/share/texmf-dist/fonts/enc/dvips/lm/lm-ec.enc}
 </usr/share/texmf-dist/fonts/type1/public/lm/lmss10.pfb></usr/share/texmf-dist/
@@ -2559,10 +2534,10 @@ e1/public/marvosym/marvosym.pfb></usr/share/texmf-dist/fonts/type1/urw/palatino
 hare/texmf-dist/fonts/type1/urw/palatino/uplr8a.pfb></usr/share/texmf-dist/font
 s/type1/urw/palatino/uplr8a.pfb></usr/share/texmf-dist/fonts/type1/urw/palatino
 /uplri8a.pfb></usr/share/texmf-dist/fonts/type1/urw/zapfding/uzdr.pfb>
-Output written on Diplomarbeit_Pascal-Bernhard.pdf (84 pages, 769966 bytes).
+Output written on Diplomarbeit_Pascal-Bernhard.pdf (85 pages, 770463 bytes).
 PDF statistics:
- 1135 PDF objects out of 1200 (max. 8388607)
- 1023 compressed objects within 11 object streams
- 331 named destinations out of 1000 (max. 500000)
+ 1140 PDF objects out of 1200 (max. 8388607)
+ 1027 compressed objects within 11 object streams
+ 332 named destinations out of 1000 (max. 500000)
  51578 words of extra memory for PDF output out of 51595 (max. 10000000)
 
