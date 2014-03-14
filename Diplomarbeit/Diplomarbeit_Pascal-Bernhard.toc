@@ -50,7 +50,7 @@
 \contentsline {subsection}{\numberline {7.2.b}Die Versorgungssituation}{60}{subsection.7.2.2}
 \contentsline {section}{\numberline {7.3}Auswirkungen auf die baltischen Gasm\"arkte}{60}{section.7.3}
 \contentsline {chapter}{\numberline {8}Verh\"altnis zu Russland}{61}{chapter.8}
-\contentsline {section}{\numberline {8.1}Gazprom}{61}{section.8.1}
+\contentsline {section}{\numberline {8.1}Gazprom}{62}{section.8.1}
 \contentsline {subsection}{\numberline {8.1.a}Rolle auf dem Gasmarkt}{66}{subsection.8.1.1}
 \contentsline {subsection}{\numberline {8.1.b}Gazprom in der lettischen/litauischen Wahrnehmung}{66}{subsection.8.1.2}
 \contentsline {chapter}{\numberline {9}Umsetzung der EU-Direktive}{67}{chapter.9}
