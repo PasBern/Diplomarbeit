@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013) (format=pdflatex 2014.2.16)  14 MAR 2014 21:35
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013) (format=pdflatex 2014.2.16)  15 MAR 2014 10:23
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1788,13 +1788,13 @@ Package babel Info: Redefining ngerman shorthand "~
 (babel)             in language  on input line 417.
  [29]
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 430.
+(babel)             in language  on input line 425.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 430.
+(babel)             in language  on input line 425.
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 430.
+(babel)             in language  on input line 425.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 430.
+(babel)             in language  on input line 425.
  [30]
 Package babel Info: Redefining ngerman shorthand "|
 (babel)             in language  on input line 453.
@@ -2534,11 +2534,11 @@ anged.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 1382.
  ) 
 Here is how much of TeX's memory you used:
- 30992 strings out of 493853
- 653285 string characters out of 6157277
+ 30996 strings out of 493853
+ 653337 string characters out of 6157277
  860831 words of memory out of 5000000
  32889 multiletter control sequences out of 15000+600000
- 124325 words of font info for 375 fonts, out of 8000000 for 9000
+ 124597 words of font info for 377 fonts, out of 8000000 for 9000
  788 hyphenation exceptions out of 8191
  65i,12n,78p,2552b,667s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texmf-dist/fonts/enc/dvips/lm/lm-ts1.enc}{/usr/share/texmf-dist/f
@@ -2552,7 +2552,7 @@ e1/public/marvosym/marvosym.pfb></usr/share/texmf-dist/fonts/type1/urw/palatino
 hare/texmf-dist/fonts/type1/urw/palatino/uplr8a.pfb></usr/share/texmf-dist/font
 s/type1/urw/palatino/uplr8a.pfb></usr/share/texmf-dist/fonts/type1/urw/palatino
 /uplri8a.pfb></usr/share/texmf-dist/fonts/type1/urw/zapfding/uzdr.pfb>
-Output written on Diplomarbeit_Pascal-Bernhard.pdf (87 pages, 779479 bytes).
+Output written on Diplomarbeit_Pascal-Bernhard.pdf (87 pages, 779840 bytes).
 PDF statistics:
  1171 PDF objects out of 1200 (max. 8388607)
  1056 compressed objects within 11 object streams
