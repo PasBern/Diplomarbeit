@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013) (format=pdflatex 2014.2.16)  20 MAR 2014 09:53
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013) (format=pdflatex 2014.2.16)  20 MAR 2014 11:08
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -2551,22 +2551,22 @@ Package babel Info: Redefining ngerman shorthand "~
 (babel)             in language  on input line 1291.
  [91]
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 1330.
+(babel)             in language  on input line 1329.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 1330.
+(babel)             in language  on input line 1329.
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 1330.
+(babel)             in language  on input line 1329.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 1330.
+(babel)             in language  on input line 1329.
  [92]
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 1369.
+(babel)             in language  on input line 1368.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 1369.
+(babel)             in language  on input line 1368.
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 1369.
+(babel)             in language  on input line 1368.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 1369.
+(babel)             in language  on input line 1368.
  [93]
 Package babel Info: Redefining ngerman shorthand "|
 (babel)             in language  on input line 1405.
@@ -2579,13 +2579,13 @@ Package babel Info: Redefining ngerman shorthand "~
 
 [94]
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 1441.
+(babel)             in language  on input line 1440.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 1441.
+(babel)             in language  on input line 1440.
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 1441.
+(babel)             in language  on input line 1440.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 1441.
+(babel)             in language  on input line 1440.
  [95]
 Package babel Info: Redefining ngerman shorthand "|
 (babel)             in language  on input line 1486.
@@ -2597,38 +2597,38 @@ Package babel Info: Redefining ngerman shorthand "~
 (babel)             in language  on input line 1486.
  [96]
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 1529.
+(babel)             in language  on input line 1528.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 1529.
+(babel)             in language  on input line 1528.
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 1529.
+(babel)             in language  on input line 1528.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 1529.
+(babel)             in language  on input line 1528.
  [97]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 1548.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 1551.
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 1548.
+(babel)             in language  on input line 1551.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 1548.
+(babel)             in language  on input line 1551.
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 1548.
+(babel)             in language  on input line 1551.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 1548.
+(babel)             in language  on input line 1551.
  [98]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 1548.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 1551.
  (./Diplomarbeit_Pascal-Bernhard.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 1548.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 1548.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 1551.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 1551.
 
 Package rerunfilecheck Info: File `Diplomarbeit_Pascal-Bernhard.out' has not ch
 anged.
-(rerunfilecheck)             Checksum: B42DAB8C573CB858D66719358BFEBE2C;3027.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 1548.
+(rerunfilecheck)             Checksum: E6F3FD98F9DA5CB45F6644443009A732;3045.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 1551.
  ) 
 Here is how much of TeX's memory you used:
  31060 strings out of 493853
  654057 string characters out of 6157277
- 863870 words of memory out of 5000000
+ 862870 words of memory out of 5000000
  32892 multiletter control sequences out of 15000+600000
  125141 words of font info for 381 fonts, out of 8000000 for 9000
  788 hyphenation exceptions out of 8191
@@ -2644,10 +2644,10 @@ e1/public/marvosym/marvosym.pfb></usr/share/texmf-dist/fonts/type1/urw/palatino
 hare/texmf-dist/fonts/type1/urw/palatino/uplr8a.pfb></usr/share/texmf-dist/font
 s/type1/urw/palatino/uplr8a.pfb></usr/share/texmf-dist/fonts/type1/urw/palatino
 /uplri8a.pfb></usr/share/texmf-dist/fonts/type1/urw/zapfding/uzdr.pfb>
-Output written on Diplomarbeit_Pascal-Bernhard.pdf (98 pages, 816729 bytes).
+Output written on Diplomarbeit_Pascal-Bernhard.pdf (98 pages, 817222 bytes).
 PDF statistics:
- 1314 PDF objects out of 1440 (max. 8388607)
- 1187 compressed objects within 12 object streams
+ 1316 PDF objects out of 1440 (max. 8388607)
+ 1189 compressed objects within 12 object streams
  396 named destinations out of 1000 (max. 500000)
  51570 words of extra memory for PDF output out of 51595 (max. 10000000)
 

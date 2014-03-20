@@ -49,7 +49,7 @@
 \contentsline {subsubsection}{Struktur und Akteure}{60}{section*.19}
 \contentsline {subsubsection}{Versorgungssicherheit des Landes}{61}{section*.20}
 \contentsline {subsection}{\numberline {8.1.b}Nationale Energieunabh\"angigkeitsstrategie}{62}{subsection.8.1.2}
-\contentsline {section}{\numberline {8.2}Lettland}{65}{section.8.2}
+\contentsline {section}{\numberline {8.2}Der Energiemarkt Lettlands}{65}{section.8.2}
 \contentsline {subsection}{\numberline {8.2.a}Der Gasmarkt in Lettland}{67}{subsection.8.2.1}
 \contentsline {subsubsection}{Struktur und Akteure}{67}{section*.21}
 \contentsline {subsection}{\numberline {8.2.b}Die Lettlands Energiestrategie}{67}{subsection.8.2.2}
