@@ -52,17 +52,17 @@
 \contentsline {section}{\numberline {8.2}Der Energiemarkt Lettlands}{65}{section.8.2}
 \contentsline {subsection}{\numberline {8.2.a}Der Gasmarkt in Lettland}{67}{subsection.8.2.1}
 \contentsline {subsubsection}{Struktur und Akteure}{67}{section*.21}
-\contentsline {subsection}{\numberline {8.2.b}Die Lettlands Energiestrategie}{67}{subsection.8.2.2}
-\contentsline {chapter}{\numberline {9}Verh\"altnis zu Russland}{70}{chapter.9}
-\contentsline {section}{\numberline {9.1}Gazprom}{71}{section.9.1}
-\contentsline {subsection}{\numberline {9.1.a}Rolle auf dem Gasmarkt}{76}{subsection.9.1.1}
-\contentsline {subsection}{\numberline {9.1.b}Gazprom in der lettischen/litauischen Wahrnehmung}{76}{subsection.9.1.2}
-\contentsline {chapter}{\numberline {10}Nationale Energiepolitik}{77}{chapter.10}
-\contentsline {chapter}{\numberline {11}Lobby-Einfluss}{78}{chapter.11}
-\contentsline {chapter}{\numberline {12}Fazit}{79}{chapter.12}
-\contentsline {chapter}{\numberline {13}Anhang -- Erl\"auterungen}{80}{chapter.13}
-\contentsline {paragraph}{BIP}{80}{section*.22}
-\contentsline {paragraph}{Nat\"urliches Monopol}{80}{section*.23}
-\contentsline {paragraph}{Rent-Seeking}{80}{section*.24}
-\contentsline {paragraph}{Sunk Costs}{81}{section*.25}
-\contentsline {chapter}{\numberline {14}Literaturverzeichnis}{83}{chapter.14}
+\contentsline {subsection}{\numberline {8.2.b}Die Lettlands Energiestrategie}{68}{subsection.8.2.2}
+\contentsline {chapter}{\numberline {9}Verh\"altnis zu Russland}{71}{chapter.9}
+\contentsline {section}{\numberline {9.1}Gazprom}{72}{section.9.1}
+\contentsline {subsection}{\numberline {9.1.a}Rolle auf dem Gasmarkt}{77}{subsection.9.1.1}
+\contentsline {subsection}{\numberline {9.1.b}Gazprom in der lettischen/litauischen Wahrnehmung}{77}{subsection.9.1.2}
+\contentsline {chapter}{\numberline {10}Nationale Energiepolitik}{78}{chapter.10}
+\contentsline {chapter}{\numberline {11}Lobby-Einfluss}{79}{chapter.11}
+\contentsline {chapter}{\numberline {12}Fazit}{80}{chapter.12}
+\contentsline {chapter}{\numberline {13}Anhang -- Erl\"auterungen}{81}{chapter.13}
+\contentsline {paragraph}{BIP}{81}{section*.22}
+\contentsline {paragraph}{Nat\"urliches Monopol}{81}{section*.23}
+\contentsline {paragraph}{Rent-Seeking}{81}{section*.24}
+\contentsline {paragraph}{Sunk Costs}{82}{section*.25}
+\contentsline {chapter}{\numberline {14}Literaturverzeichnis}{84}{chapter.14}
