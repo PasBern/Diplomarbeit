@@ -55,7 +55,8 @@
 \contentsline {section}{\numberline {9.1}Nationale Energieunabh\"angigkeitsstrategie}{70}{section.9.1}
 \contentsline {chapter}{\numberline {10}Energiepolitik in Lettland}{73}{chapter.10}
 \contentsline {section}{\numberline {10.1}R\"uckblick}{73}{section.10.1}
-\contentsline {section}{\numberline {10.2}Die Lettlands Energiestrategie}{73}{section.10.2}
+\contentsline {section}{\numberline {10.2}Energiemarktregulierung}{73}{section.10.2}
+\contentsline {section}{\numberline {10.3}Die Energiestrategie Lettlands}{73}{section.10.3}
 \contentsline {chapter}{\numberline {11}Verh\"altnis zu Russland}{76}{chapter.11}
 \contentsline {section}{\numberline {11.1}Gazprom}{77}{section.11.1}
 \contentsline {subsection}{\numberline {11.1.a}Rolle auf dem Gasmarkt}{82}{subsection.11.1.1}
