@@ -52,7 +52,7 @@
 \contentsline {subsection}{\numberline {8.2.a}Der Gasmarkt in Lettland}{67}{subsection.8.2.1}
 \contentsline {subsubsection}{Struktur und Akteure}{68}{section*.21}
 \contentsline {paragraph}{Russischer Einfluss?}{69}{section*.22}
-\contentsline {paragraph}{Monopolistischer Markt}{71}{section*.23}
+\contentsline {paragraph}{Monopole \& Pfadabh\"angigkeiten}{71}{section*.23}
 \contentsline {chapter}{\numberline {9}Energiepolitik in Litauen}{73}{chapter.9}
 \contentsline {section}{\numberline {9.1}Nationale Energieunabh\"angigkeitsstrategie}{73}{section.9.1}
 \contentsline {chapter}{\numberline {10}Energiepolitik in Lettland}{76}{chapter.10}
