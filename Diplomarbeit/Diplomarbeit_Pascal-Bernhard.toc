@@ -42,7 +42,7 @@
 \contentsline {paragraph}{Independent Transmission Operator}{55}{section*.18}
 \contentsline {chapter}{\numberline {7}Umsetzung der EU-Direktive}{57}{chapter.7}
 \contentsline {section}{\numberline {7.1}Umsetzung in Litauen}{57}{section.7.1}
-\contentsline {section}{\numberline {7.2}Umsetzung in Lettland}{57}{section.7.2}
+\contentsline {section}{\numberline {7.2}Lettlands z\"ogerliche Umsetzung}{57}{section.7.2}
 \contentsline {chapter}{\numberline {8}Energiem\"arkte im Baltikum}{58}{chapter.8}
 \contentsline {section}{\numberline {8.1}Der litauische Energiemarkt}{59}{section.8.1}
 \contentsline {subsection}{\numberline {8.1.a}Der Gasmarkt in Litauen}{60}{subsection.8.1.1}
@@ -53,22 +53,22 @@
 \contentsline {subsubsection}{Struktur und Akteure}{68}{section*.21}
 \contentsline {paragraph}{Russischer Einfluss?}{69}{section*.22}
 \contentsline {paragraph}{Monopolistischer Markt}{71}{section*.23}
-\contentsline {chapter}{\numberline {9}Energiepolitik in Litauen}{72}{chapter.9}
-\contentsline {section}{\numberline {9.1}Nationale Energieunabh\"angigkeitsstrategie}{72}{section.9.1}
-\contentsline {chapter}{\numberline {10}Energiepolitik in Lettland}{75}{chapter.10}
-\contentsline {section}{\numberline {10.1}R\"uckblick}{75}{section.10.1}
-\contentsline {section}{\numberline {10.2}Energiemarktregulierung}{75}{section.10.2}
-\contentsline {section}{\numberline {10.3}Die Energiestrategie Lettlands}{75}{section.10.3}
-\contentsline {section}{\numberline {10.4}Vergleich der Energiepolitik}{77}{section.10.4}
-\contentsline {chapter}{\numberline {11}Verh\"altnis zu Russland}{79}{chapter.11}
-\contentsline {section}{\numberline {11.1}Gazprom}{80}{section.11.1}
-\contentsline {subsection}{\numberline {11.1.a}Rolle auf dem Gasmarkt}{85}{subsection.11.1.1}
-\contentsline {subsection}{\numberline {11.1.b}Gazprom in der lettischen/litauischen Wahrnehmung}{85}{subsection.11.1.2}
-\contentsline {chapter}{\numberline {12}Lobby-Einfluss}{86}{chapter.12}
-\contentsline {chapter}{\numberline {13}Fazit}{87}{chapter.13}
-\contentsline {chapter}{\numberline {14}Anhang -- Erl\"auterungen}{88}{chapter.14}
-\contentsline {paragraph}{BIP}{88}{section*.24}
-\contentsline {paragraph}{Nat\"urliches Monopol}{88}{section*.25}
-\contentsline {paragraph}{Rent-Seeking}{88}{section*.26}
-\contentsline {paragraph}{Sunk Costs}{89}{section*.27}
-\contentsline {chapter}{\numberline {15}Literaturverzeichnis}{91}{chapter.15}
+\contentsline {chapter}{\numberline {9}Energiepolitik in Litauen}{73}{chapter.9}
+\contentsline {section}{\numberline {9.1}Nationale Energieunabh\"angigkeitsstrategie}{73}{section.9.1}
+\contentsline {chapter}{\numberline {10}Energiepolitik in Lettland}{76}{chapter.10}
+\contentsline {section}{\numberline {10.1}R\"uckblick}{76}{section.10.1}
+\contentsline {section}{\numberline {10.2}Energiemarktregulierung}{76}{section.10.2}
+\contentsline {section}{\numberline {10.3}Die Energiestrategie Lettlands}{76}{section.10.3}
+\contentsline {section}{\numberline {10.4}Vergleich der Energiepolitik}{78}{section.10.4}
+\contentsline {chapter}{\numberline {11}Verh\"altnis zu Russland}{80}{chapter.11}
+\contentsline {section}{\numberline {11.1}Gazprom}{81}{section.11.1}
+\contentsline {subsection}{\numberline {11.1.a}Rolle auf dem Gasmarkt}{86}{subsection.11.1.1}
+\contentsline {subsection}{\numberline {11.1.b}Gazprom in der lettischen/litauischen Wahrnehmung}{86}{subsection.11.1.2}
+\contentsline {chapter}{\numberline {12}Lobby-Einfluss}{87}{chapter.12}
+\contentsline {chapter}{\numberline {13}Fazit}{88}{chapter.13}
+\contentsline {chapter}{\numberline {14}Anhang -- Erl\"auterungen}{89}{chapter.14}
+\contentsline {paragraph}{BIP}{89}{section*.24}
+\contentsline {paragraph}{Nat\"urliches Monopol}{89}{section*.25}
+\contentsline {paragraph}{Rent-Seeking}{89}{section*.26}
+\contentsline {paragraph}{Sunk Costs}{90}{section*.27}
+\contentsline {chapter}{\numberline {15}Literaturverzeichnis}{92}{chapter.15}
