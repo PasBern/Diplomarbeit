@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013) (format=pdflatex 2014.2.16)  22 MAR 2014 11:46
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013) (format=pdflatex 2014.2.16)  22 MAR 2014 11:57
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -2711,8 +2711,8 @@ anged.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 1653.
  ) 
 Here is how much of TeX's memory you used:
- 31353 strings out of 493853
- 659999 string characters out of 6157277
+ 31354 strings out of 493853
+ 660012 string characters out of 6157277
  864922 words of memory out of 5000000
  33151 multiletter control sequences out of 15000+600000
  125141 words of font info for 381 fonts, out of 8000000 for 9000
@@ -2729,10 +2729,10 @@ e1/public/marvosym/marvosym.pfb></usr/share/texmf-dist/fonts/type1/urw/palatino
 hare/texmf-dist/fonts/type1/urw/palatino/uplr8a.pfb></usr/share/texmf-dist/font
 s/type1/urw/palatino/uplr8a.pfb></usr/share/texmf-dist/fonts/type1/urw/palatino
 /uplri8a.pfb></usr/share/texmf-dist/fonts/type1/urw/zapfding/uzdr.pfb>
-Output written on Diplomarbeit_Pascal-Bernhard.pdf (105 pages, 838941 bytes).
+Output written on Diplomarbeit_Pascal-Bernhard.pdf (105 pages, 838936 bytes).
 PDF statistics:
- 1428 PDF objects out of 1440 (max. 8388607)
- 1293 compressed objects within 13 object streams
- 430 named destinations out of 1000 (max. 500000)
+ 1430 PDF objects out of 1440 (max. 8388607)
+ 1295 compressed objects within 13 object streams
+ 431 named destinations out of 1000 (max. 500000)
  51602 words of extra memory for PDF output out of 61914 (max. 10000000)
 
