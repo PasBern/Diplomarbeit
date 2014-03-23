@@ -40,10 +40,13 @@ numbers=noenddot,
 \usepackage{calc}
 \usepackage{ifthen}
 \usepackage{tikz}
+\usepackage{pgf-pie}
 \usepackage{pgfplots}
+\pgfplotsset{compat=1.8}
+
 %\usepackage{footnotebackref}
 
-\usetikzlibrary{shapes,arrows}
+\usetikzlibrary{shapes,arrows,shadows}
 
 \usepackage{scrpage2}
 
@@ -755,51 +758,23 @@ Trotz einer wachsenden Anzahl von Energieunternehmen im Up- und Down"-stream-Ber
 
 Ein Großhandelsmarkt existiert in Litauen praktisch nicht, da es bislang nur Gazprom als Erdgaslieferanten gibt, und alle Unternehmen ihre Importe über langfristige Lieferverträge beziehen\footnote{NCCPE (2012), S.107 -- Die Verträge von \emph{Lietuvos Dujos} und \emph{UAB Haupas} laufen noch bis 2015, \emph{UAB Dujotekana} ist noch bis 2020 an Gazprom gebunden.}, die einen Wechsel des Anbieters ausschließen und Wettbewerb in diesem Marktsegment unmöglich machen. Im \emph{Downstream}-Bereich des litauischen Gasmarkt bietet ein vergleichbares Bild mit hoher Marktkonzentration und kaum Wettbewerb. Obwohl der Markt für Endverbraucher regulatorisch für den Wettbewerb geöffnet ist, kann angesichts von nur zwei Anbietern nicht von einem freiem Wettbewerb gesprochen werden\footnote{Energy Charter Secretariat (2012), S.21}. Der Vertrieb wird von \emph{Lietuvos Dujos} und \emph{UAB Dujotekana} dominiert, die zusammengenommen einen Marktanteil von 98 \% haben\footnote{\emph{Lietuvos Dujos kontrolliert 69 \% des Marktes, auf \emph{UAB Dujotenkana entfallen 29 \%.}}}. Zwar hat die litauische Aufsichtsbehörde \emph{National Control Commission for Prices and Energy} auch anderen Energiefirmen Lizenzen für den Vertrieb an Endverbraucher erteilt\footnote{\emph{UAB Haupas}, \emph{UAB Forum Joni\v{s}kio Energija}, \emph{UAB Druskinink\k{u}}, \emph{AB Josvainiai agrofirma}, \emph{UAB Intergas} und \emph{UAB Sky Energy Group}}, diese sind jedoch bisher untätig geblieben.
 
-Alleiniger Netzbetreiber in Litauen war bis zur gesetzlich erzwungenen Entflechtung das auch in Vertrieb und Einfuhr von Erdgas tätige Unternehmen \emph{Lietuvos Dujos}, welches das gesamte Pipeline-System mit einer Länge von 1,835 km besaß. Durch die Regierungsanordnung 1239, Bezug nehmend auf das Gesetz zur Neuregelung des Gasmarktes vom 30. Juni 2011, wurde der vertikal integrierte Gasversorger gezwungen, die Kontrolle über das Fernleitungsnetz aufzugeben. \emph{Lietuvos Dujos} musste entsprechend diesen Geschäftsbereich rechtlich, funktional und organisatorisch von der restlichen integrierten Konzernstruktur trennen\footnote{NCCPE (2012), S.22}. Um den Entflechtungsvorgaben gerecht zu werden, beschloss die außerordentliche Aktionärsversammlung des Unternehmens am 28. Mai 2012, die Sparte 'Fernleitung' in eine Tochtergesellschaft auszugliedern\footnote{Lietuvos Dujos (2012), S.10}.
-
-
 \vspace{1cm}
 
 % Hier kommt das Tortendiagramm
 
-
-\newcommand{\slice}[4]{
-  \pgfmathparse{0.5*#1+0.5*#2}
-  \let\midangle\pgfmathresult
-
-  % slice
-  \draw[thick,fill=black!10] (0,0) -- (#1:1) arc (#1:#2:1) -- cycle;
-
-  % outer label
-  \node[label=\midangle:#4] at (\midangle:1) {};
-
-  % inner label
-  \pgfmathparse{min((#2-#1-10)/110*(-0.3),0)}
-  \let\temp\pgfmathresult
-  \pgfmathparse{max(\temp,-0.5) + 0.8}
-  \let\innerpos\pgfmathresult
-  \node at (\midangle:\innerpos) {#3};
-}
-
-\begin{tikzpicture}[scale=3]
-
-\newcounter{a}
-\newcounter{b}
-\foreach \p/\t in {20/type A, 4/type B, 11/type C,
-                   49/type D, 16/other}
-  {
-    \setcounter{a}{\value{b}}
-    \addtocounter{b}{\p}
-    \slice{\thea/100*360}
-          {\theb/100*360}
-          {\p\%}{\t}
-  }
-	\label{fig:Marktanteile im Vertriebssegment Litauen}
-
-
+\begin{tikzpicture}
+\pie [style=drop shadow]{69/ Lietuvos Dujos , 29/ UAB Dujotekana , 2/ Andere}
 \end{tikzpicture}
 
 % Hier endet das Tortendiagramm
+
+
+\vspace{1cm}
+
+
+Alleiniger Netzbetreiber in Litauen war bis zur gesetzlich erzwungenen Entflechtung das auch in Vertrieb und Einfuhr von Erdgas tätige Unternehmen \emph{Lietuvos Dujos}, welches das gesamte Pipeline-System mit einer Länge von 1,835 km besaß. Durch die Regierungsanordnung 1239, Bezug nehmend auf das Gesetz zur Neuregelung des Gasmarktes vom 30. Juni 2011, wurde der vertikal integrierte Gasversorger gezwungen, die Kontrolle über das Fernleitungsnetz aufzugeben. \emph{Lietuvos Dujos} musste entsprechend diesen Geschäftsbereich rechtlich, funktional und organisatorisch von der restlichen integrierten Konzernstruktur trennen\footnote{NCCPE (2012), S.22}. Um den Entflechtungsvorgaben gerecht zu werden, beschloss die außerordentliche Aktionärsversammlung des Unternehmens am 28. Mai 2012, die Sparte 'Fernleitung' in eine Tochtergesellschaft auszugliedern\footnote{Lietuvos Dujos (2012), S.10}.
+
+
 
 
 
@@ -853,6 +828,22 @@ Lettlands Gasmarkt wird von \emph{Latvijas G\={a}ze} dominiert, welches in Gesta
 Beim Verkauf des staatlichen Gasversorgers im Jahre 1997 wurden drei Ziele verfolgt, die im Endergebnis die Besitzstrukturen auf dem lettischen Gasmarktes auf lange Sicht festlegten, die Beteiligung russischer Akteure im Energiesektor miteingeschlossen. Nach den Auswahlkriterien potentieller Käufer, waren erstens zwei große strategische Investoren zu bestimmen\footnote{Zu den Interessenten im Bieterverfahren der Privatisierung gehörten: \emph{Ruhrgas} \& \emph{Preussen-Elektra} zusammen als Bieterkonsortium, sowie \emph{Gaz de France} und Norwegens \emph{Norsk Hydro}.}. Diese sollten beide ausländische Gasunternehmen sein und hiervon eines Erdgaslieferant für Lettland\footnote{Je\v{s}inska (2006), S.15}. Letztere Vorgabe schrieb de facto für die weitere Zukunft Gazproms ausschlaggebende Rolle auf dem Gasmarkt fest. Der einziger Lieferant Lettlands wurde nunmehr Miteigentümer des nationalen Gasversorgers. Beteiligungen russischer Firmen im Energiesektor sind darüberhinaus auch durch die Monopolstellung Latvijas G\={a}zes gesetzlich verankert, da hierdurch der Markteintritt neuer Wettbewerber ausgeschlossen wird.
 
 Die in mehreren Schritten von 1997 bis 2002 vollzogene Privatisierung Latvijas G\={a}zes resultierte schließlich in einer Eigentümerstruktur, nach welcher die \emph{E.ON Ruhrgas International GmbH} 47,23 \% der Anteile hält und die russischen Unternehmen \emph{Gazprom} und \emph{Itera Latvija} mit 34,00 \% bzw. 16,00 \% beteiligt sind. Die verbleibenden 2,77 \% der Aktien befinden sich im Streubesitz\footnote{Latvijas G\={a}ze (2014)}. Der zweite russische Investor \emph{Itera Latvija} war bis 2013 eine Tochterfirma der Energiesparte von \emph{Itera Group}, einem im Hoch- \& Tiefbau, Energiesektor und dem Finanzwesen tätigen russischen Konglomerat\footnote{Itera Group (2014)}. Im vergangenen Jahr übernahm Russlands staatliches Ölunternehmen \emph{Rosneft} mit dem Konzernbereich \emph{Itera Oil \& Gas Company} alle Energiefirmen der \emph{Itera Group}, darunter auch Itera Latvjia\footnote{Reuters (2013)}. 
+
+
+\vspace{1cm}
+
+% Hier kommt das Tortendiagramm
+
+\begin{tikzpicture}
+\pie [style=drop shadow]{47.23/ E.ON Ruhrgas , 34/ Gazprom , 16/ Itera Latvija , 2.77/ Streubesitz}
+\end{tikzpicture}
+
+% Hier endet das Tortendiagramm
+
+
+\vspace{1cm}
+
+
 
 
 \paragraph{Russischer Einfluss?}
@@ -1672,3 +1663,56 @@ Kosten, die bereits entstanden sind und nicht mehr rückgängig gemacht werden kön
 
 
 \end{document}
+
+
+% Hier kommt Code-Schnipsel, die ich nicht im TeX-Dokument verwendet habe:
+
+% Pie chart
+% Original Author: Robert Vollmert
+% Modified to illustrate coloring the slices by Suresh Govindachar
+%
+
+
+\newcommand{\slice}[5]{
+   \pgfmathparse{0.5*#1+0.5*#2}
+   \let\midangle\pgfmathresult
+
+   % slice
+   \draw[thick,fill=#5] (0,0) -- (#1:1) arc (#1:#2:1) -- cycle;
+
+   % outer label
+   \node[label=\midangle:#4] at (\midangle:1) {};
+
+   % inner label
+   \pgfmathparse{min((#2-#1-10)/110*(-0.3),0)}
+   \let\temp\pgfmathresult
+   \pgfmathparse{max(\temp,-0.5) + 0.8}
+   \let\innerpos\pgfmathresult
+   \node at (\midangle:\innerpos) {#3};
+}
+
+\begin{tikzpicture}[scale=3]
+
+\newcounter{a}
+\newcounter{b}
+\foreach \p/\t/\c in
+%
+% original example with color added %   {20/type A/green!20!white,
+% original example with color added %   4/type B/green!80!white,
+% original example with color added %   11/type C/yellow!60!black,
+% original example with color added %   49/type D/blue!40!white,
+% original example with color added %   16/other/red!40!white}
+%
+% following is for OP's needs:
+                   { 69/Big Company/green!80!black,
+                     29/Start Up/blue!40!white,
+                      2/Tiny Firms/yellow!30!white}
+   {
+     \setcounter{a}{\value{b}}
+     \addtocounter{b}{\p}
+     \slice{\thea/100*360}
+           {\theb/100*360}
+           {\p\%}{\t}{\c}
+   }
+\end{tikzpicture}
+
