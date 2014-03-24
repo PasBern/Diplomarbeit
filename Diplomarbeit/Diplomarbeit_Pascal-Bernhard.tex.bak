@@ -40,10 +40,13 @@ numbers=noenddot,
 \usepackage{calc}
 \usepackage{ifthen}
 \usepackage{tikz}
+\usepackage{pgf-pie}
 \usepackage{pgfplots}
+\pgfplotsset{compat=1.8}
+
 %\usepackage{footnotebackref}
 
-\usetikzlibrary{shapes,arrows}
+\usetikzlibrary{shapes,arrows,shadows}
 
 \usepackage{scrpage2}
 
@@ -233,9 +236,9 @@ Der staatlich kontrollierte russische Energiekonzern \emph{Gazprom}, bisher einz
 
 Die Kontrolle über das entscheidende mittlere Marktsegment \glqq Fernleitung\grqq{} mit seiner spezifischen Eigenschaft eines natürlichen Monopols\footnote{Für eine ausführlichere Erläuterung siehe: Anhang \textsf{\textcolor{NavyBlue}{\nameref{sec:Natürliches Monopol}}}} versetzt \emph{Gazprom} in die Lage, Konkurrenten den Zugang zu seiner Pipeline-Infrastruktur zu verweigern. Auch langfristige Lieferverträge zwischen dem russischen Erdgaskonzern und litauischen bzw. lettischen Unternehmen behindern einerseits freien Wettbewerb auf dem Gasmarkt. Die gegenwärtige Marktstruktur mit einer vertikal integrierten Wertschöpfungskette -- Förderung, Fernleitung \& Vertrieb in einer Hand, bzw. indirekt durch Beteiligungen gepaart mit der erwähnten Insellage wird in den nationalen Strategiepapieren zur Energiepolitik eindeutig als Problem angesehen\footnote{siehe: Energieministerium der Republik Litauen (2012)}.
 
-Die als \textit{Drittes Liberalisierungspaket} bekannte EU-Richtlinie \textbf{2009""/""73/""EG}\footnote{\textsl{Richtlinie 2009/73/EG des Europäischen Rates und des Europäischen Parlamentes vom 13.Juli 2009 betreffend die gemeinsamen Vorschriften für den Erdgasbinnenmarkt und zur Aufhebung der Richtlinie 2003/55/EG} ABl. 2009 L 211: 94} vom 13.Juli 2009 für den Erdgasbinnenmarkt gibt den baltischen Ländern nun die Möglichkeit, die existierenden vertikal integrierten Strukturen ihrer Gasmärkte aufzubrechen und \emph{Gazprom} Marktmacht deutlich zu schwächen. Das Maßnahmenbündel der Europäischen Union sieht unter anderem vor, Energieunternehmen zu zwingen, ihre Geschäftsaktivitäten Förderung und Vertrieb vom natürlichen Monopol der Netzinfrastruktur zu trennen.  Bei der Umsetzung in nationales Recht haben sich die Mitgliedsstaaten die Möglichkeit gewahrt, zwischen unterschiedlichen Entflechtungsmodellen\footnote{In der Literatur wie auch im Sprachgebrauch der Europäischen Kommission wird in deutschsprachigen Texten neben dem deutschen Wort \emph{'Entflechtung'} auch der englische Begriff \emph{'Unbundling'} gebraucht. Beide Begriffe werden im Folgenden gleichbedeutend verwendet.} zu wählen. Entweder müssen vertikal integrierte Energieunternehmen\footnote{In der Richtlinie \textbf{98/30/EG} wird als 'vertikal integriertes Unternehmen' ein Unternehmen definiert, \textsl{\glqq das mindestens zwei der folgenden Funktionen wahrnimmt: Gewinnung, Fernleitung, Verteilung, Lieferung und Speicherung von Erdgas\grqq}, RL (98/39/EG), S.4 Art.2 (16)} ihr Netz komplett veräußern. Hiermit verlören sie die Möglichkeit, Konkurrenten aus dem Markt fernzuhalten, indem sie ihnen Zugang zu Gaspipelines verwehren.  Alternativ kann die Netzinfrastruktur weiterhin im Besitz der bisherigen Eigentümer verbleiben, deren Benutzung wird aber staatlich reguliert, um auf diesem Wege freien Wettbewerb auf dem Gasmarkt zu gewährleisten. 
+Die als \textit{Drittes Liberalisierungspaket} bekannte EU-Richtlinie \textbf{2009""/""73/""EG}\footnote{\textsl{Richtlinie 2009/73/EG des Europäischen Rates und des Europäischen Parlamentes vom 13.Juli 2009 betreffend die gemeinsamen Vorschriften für den Erdgasbinnenmarkt und zur Aufhebung der Richtlinie 2003/55/EG} ABl. 2009 L 211: 94} vom 13.Juli 2009 für den Erdgasbinnenmarkt gibt den baltischen Ländern nun die Möglichkeit, die existierenden vertikal integrierten Strukturen ihrer Gasmärkte aufzubrechen und \emph{Gazprom} Marktmacht deutlich zu schwächen. Das Maßnahmenbündel der Europäischen Union sieht unter anderem vor, Energieunternehmen zu zwingen, ihre Geschäftsaktivitäten Förderung und Vertrieb vom natürlichen Monopol der Netzinfrastruktur zu trennen.  Bei der Umsetzung in nationales Recht haben sich die Mitgliedsstaaten die Möglichkeit gewahrt, zwischen unterschiedlichen Entflechtungsmodellen\footnote{In der Literatur wie auch im Sprachgebrauch der Europäischen Kommission wird in deutschsprachigen Texten neben dem deutschen Wort \emph{'Entflechtung'} auch der englische Begriff \emph{'Unbundling'} gebraucht. Beide Begriffe werden im Folgenden gleichbedeutend verwendet.} zu wählen. Entweder müssen vertikal integrierte Energieunternehmen\footnote{In der Richtlinie \textbf{98/30/EG} wird als 'vertikal integriertes Unternehmen' ein Unternehmen definiert, \textsl{\glqq das mindestens zwei der folgenden Funktionen wahrnimmt: Gewinnung, Fernleitung, Verteilung, Lieferung und Speicherung von Erdgas\grqq}, RL 98/39/EG ABl. 1998 L204/4 Art.2 (16)} ihr Netz komplett veräußern. Hiermit verlören sie die Möglichkeit, Konkurrenten aus dem Markt fernzuhalten, indem sie ihnen Zugang zu Gaspipelines verwehren.  Alternativ kann die Netzinfrastruktur weiterhin im Besitz der bisherigen Eigentümer verbleiben, deren Benutzung wird jedoch staatlich reguliert, um auf diesem Wege freien Wettbewerb auf dem Gasmarkt zu gewährleisten. 
 
-Während die litauische Politik die Option der vollständigen besitzrechtlichen Enflechtung gewählt hat, ist man in Lettland einen anderen Weg gegangen, bzw. wurde dort, eine Ausnahmeregelung nutzend, die Implementation der EU-Direktive über Jahre hinausgezögert. In Lettland verbleiben die Gaspipelines beim nationalen Gasunternehmen \textit{Latvijas G\={a}ze}, welches von \emph{Gazprom} kontrolliert wird, jedoch kommen sie unter staatliche Regulierung.
+Während die litauische Politik die Option der vollständigen besitzrechtlichen Enflechtung gewählt hat, ist man in Lettland einen anderen Weg gegangen, bzw. wurde dort, eine Ausnahmeregelung\footnote{RL 98/39/EG, ABl. 1998 L204/12 Art.26 (1); RL 2003/55/EG, ABl. 2003 L176/22 Art.28 (1) ; RL 2009/73/EG, ABl. 2009 Art.49 (1)} nutzend, die Implementation der EU-Direktive über Jahre hinausgezögert. In Lettland verbleiben die Gaspipelines beim nationalen Gasunternehmen \textit{Latvijas G\={a}ze}, welches von \emph{Gazprom} kontrolliert wird, jedoch kommen sie unter staatliche Regulierung.
 
 Dass sich Litauen, jedoch nicht Lettland für das strenge Entflechtungsmodell mit der Zwangsveräußerung der Infrastruktur entschieden hat, lässt vermuten, dass geo-strategische Belange nicht in beiden Ländern die gleiche Bedeutung bei der Umsetzung der EU-Vorgaben einnahmen. Diese Arbeit wird der Frage nachgehen, aus welchen Gründen die jeweilige Politik anders entschieden hat, wenn doch aus (zugegebenermaßen oberflächlicher) sicherheitspolitischer Perspektive eine Beschränkung von \emph{Gazproms} Marktmacht im Interesse dieser Staaten sein sollte. Diese Arbeit knüpft an die Integrationsforschung zur Europäischen Union an, die klären will, weshalb manche Politikfelder harmonisiert werden und andere nicht, bzw. wie Differenzen in der nationalen Ausgestaltung europäischen Politikvorgaben zu Stande kommen. Als neu betrachtet werden kann der eingangs erwähnte geo-strategische Aspekt, der sich im Gegensatz zu anderen Bereichen der europäischen Integration in der vorliegenden Fallstudie als Parameter zu berücksichtigen ist.
  
@@ -571,7 +574,7 @@ Bezogen auf den Gasmarkt kann die Idee von öffentlichen Gütern mehrere Aspekte u
 
 Obwohl nicht in ganz Europa alle diese Punkte als Gemeinschaftsaufgabe angesehen werden, beinhalten alle nationalen Konzepte der öffentlichen Dienstleistung, dass die Kosten ihrer Erbringung nicht von den Nutzern zurückgewonnen werden kann. Auf diesen Umstand fand man das Modell des staatlichen Versorgers, welcher in der Lage war öffentliche Güter bereitzustellen mittels Quersubventionierung aus ertragreicheren Geschäftsfeldern und direkten staatlichen Subventionen. Öffentliche Unternehmen mussten in Folge der gesetzlich gewährten Monopolstellung auf dem Markt mit niemanden konkurrieren. Dies erlaubte es ihnen auch, Verluste in einem Geschäftsbereich durch sogenannte \glqq Monopolrenten\grqq{} aus anderen Tätigkeitsfeldern auszugleichen.
 
-Jenes Modell der Bereitstellung öffentlicher Dienstleistung wurde nun, wie Details im Kapitel \textsf{\textcolor{NavyBlue}{\nameref{sec:Gasmarktliberalisierung}}} bestätigen werden, durch die Einführung von Wettbewerb in Frage gestellt\footnote{Finger \& Finon (2010), S.5}. Private Konkurrenten drängten in die lukrativen Segmente des Marktes und ließen dort die bisherigen Gewinne der staatlichen Monopolisten schrumpfen. Diese waren jedoch weiterhin mit der verlustreichen Erbringung öffentlicher Güter betraut, wofür ihnen nunmehr weniger Mittel zur Quersubventionierung zur Verfügung standen. Die Ausnahmeregelungen der Gasmarktrichtlinien entstammen dieser Situation, da es politisch undenkbar war, die Bereitstellung öffentlicher Dienstleistung zu beenden. Das Entflechtung, welches die Netzinfrastruktur beim vertikal integrierten Ex-Monopolisten belässt, erlaubt es in beschränktem Maße weiterhin, die durch Nutzungsentgelte erwirtschafteten Gewinne für eine flächendeckende Versorgung der Endverbraucher zu verwenden.
+Jenes Modell der Bereitstellung öffentlicher Dienstleistung wurde nun, wie Details im Kapitel \textsf{\textcolor{NavyBlue}{\nameref{sec:Gasmarktliberalisierung}}} bestätigen werden, durch die Einführung von Wettbewerb in Frage gestellt\footnote{Finger \& Finon (2010), S.5}. Private Konkurrenten drängten in die lukrativen Segmente des Marktes und ließen dort die bisherigen Gewinne der staatlichen Monopolisten schrumpfen. Diese waren jedoch weiterhin mit der verlustreichen Erbringung öffentlicher Güter betraut, wofür ihnen nunmehr weniger Mittel zur Quersubventionierung zur Verfügung standen. Die Ausnahmeregelungen der Gasmarktrichtlinien\footnote{RL 98/39/EG, ABl. 1998 L204/12 Art.26 (1); RL 2003/55/EG, ABl. 2003 L176/22 Art.28 (1) ; RL 2009/73/EG, ABl. 2009 Art.49 (1)} entstammen dieser Situation, da es politisch undenkbar war, die Bereitstellung öffentlicher Dienstleistung zu beenden. Das Entflechtung, welches die Netzinfrastruktur beim vertikal integrierten Ex-Monopolisten belässt, erlaubt es in beschränktem Maße weiterhin, die durch Nutzungsentgelte erwirtschafteten Gewinne für eine flächendeckende Versorgung der Endverbraucher zu verwenden.
 
 Vergleichbar mit den Handlungslogiken auf Marktakteure führen auch die Erfordernisse der Bereitstellung öffentlicher Güter zu Pfadabhängigkeiten auf politischer Ebene. Wie aufgezeigt konnten gemeinschaftliche Aufgaben der Gasversorgung nur mit vertikal integrierten Formen der staatlichen Gasunternehmen wirtschaftlich erbracht werden. Eine Marktliberalisierung zerschlägt diese Strukturen des Gasmarktes und stellt hiermit das Konzept der öffentlichen Dienstleistungen in Frage. In bisheriger Form sind diese nicht mehr zu gewährleisten, was jedoch ohne grundlegende Umorientierung wohlfahrtstaatlicher Politik als inakzeptabel gesehen wird. Eine gleichbleibende Ausrichtung in Bezug auf die Bereitstellung öffentlicher Güter, namentlich Gasversorgung, gibt Politik einen Entscheidungsrahmen vor. Nach diesem wird ein bestimmtes Entflechtungsmodell gewählt, welches Gasversorgung weiterhin nach bisherigem Schema erbringen kann. Für marktliberal ausgerichtete Regierungen bestehen analog eine begrenzte Anzahl möglicher Handlungsoptionen, die mit ihren wirtschaftspolitischen Überzeugungen konform sind. Auch hier entstehen Pfadabhängigkeiten, die mit ihrer Logik entlang eines Entscheidungsprozesses nur manche Beschlüsse zulassen. 
 
@@ -646,7 +649,7 @@ Noch bevor die erste Liberalisierungsrichtlinie gänzlich umgesetzt war, die Mitg
 
 Fünf Jahre nach der ersten Direktive waren die erhofften Effekte einer Marktliberalisierung in Form niedriger Verbraucherpreise noch nicht Realität geworden. Angesichts dieser ernüchternden Situation kam es bei den Entscheidungsträgern der EU zu einem Umdenken, wonach nicht mehr Preissenkungen per se Ziel der Liberalisierungsbemühungen seien, sondern vielmehr sollten Verbraucherpreise die tatsächlichen Kosten widerspiegeln\footnote{IEA (2008), S.24}. Es war laut IEA deutlich geworden, dass die Preise für Erdgas an den Rohölpreis gekoppelt waren und entsprechend von der Marktöffnung kaum berührt wurden. 
 
-Die Marktöffnung war zu diesem Zeitpunkt in einigen Ländern bereits weiter vorangeschritten, als in der ersten Direktive vorgegeben\footnote{IEA (2008), S.24}. Nach den Bestimmung der Richtlinie von 1998 sollten zu Beginn 20 \% des Gasvolumens der nationalen Märkte frei zwischen Anbieter und Abnehmer gehandelt werden. Nach fünf Jahren sollte dieser Anteil auf 28 \% und nach weiteren fünf Jahren auf schließlich 33 \% steigen. Im Durchschnitt waren die europäischen Gasmärkte jedoch im Jahre 2000 bereits zu 79 \% liberalisiert, d.h. knapp vier Fünftel des Gasvolumens wurde frei gehandelt. Dieser Mittelwert spiegelte jedoch nicht den sehr unterschiedlichen Grad der Marktliberalisierung wider, welche zwischen den einzelnen Ländern zu beobachten war: einige Mitglieder hatten ihre Gasmärkte stark liberalisiert (Großbritannien, Niederlande), während in anderen die Marktöffnung kaum vorangekommen war (Frankreich). 
+Die Marktöffnung war zu diesem Zeitpunkt in einigen Ländern bereits weiter vorangeschritten, als in der ersten Direktive vorgegeben\footnote{IEA (2008), S.24}. Nach den Bestimmung der Richtlinie von 1998 sollten zu Beginn 20 \% des Gasvolumens der nationalen Märkte frei zwischen Anbieter und Abnehmer gehandelt werden. Nach fünf Jahren sollte dieser Anteil auf 28 \% und nach weiteren fünf auf schließlich 33 \% steigen. Im Durchschnitt waren die europäischen Gasmärkte jedoch im Jahre 2000 bereits zu 79 \% liberalisiert, d.h. knapp vier Fünftel des Gasvolumens wurde frei gehandelt. Dieser Mittelwert spiegelte jedoch nicht den sehr unterschiedlichen Grad der Marktliberalisierung wider, welche zwischen den einzelnen Ländern zu beobachten war: einige Mitglieder hatten ihre Gasmärkte stark liberalisiert (Großbritannien, Niederlande), während in anderen die Marktöffnung kaum vorangekommen war (Frankreich). 
 
 Die Europäische Kommission die bisherige Umsetzung der Richtlinie \textbf{(98/30/EC)} einer Analyse unterworfen mit dem Ergebnis, die Marktöffnung sei bis dato in den Mitgliedsländern nur sehr unterschiedlich vorangekommen mit Problemen bei den regulierten Nutzungsentgelten und dem Netzzugang für Dritte\footnote{siehe: Europäische Kommission (2004), (2005), (2007a), (2008)}. Da sie den bestehenden Wettbewerb als unzureichend einstufte und die Verbraucher bisher noch nicht vom freien Wettbewerb profitiert hatten, erachtete die Kommission weitere Liberalisierungsschritte als notwendig, um den Zielen niedriger Gaspreise und effizienter Märkte näher zu kommen.
 
@@ -667,7 +670,7 @@ Eine zweite Liberalisierungsdirektive wurde 2003 verabschiedet, nachdem zuvor di
 
 \vspace{0.5cm}
 
-\noindent
+
 %In dieser zweiten Richtlinie \textbf{(2003/55/EC)} wurde erstmals die Liberalisierung von der Frage der Versorgungssicherheit getrennt. Letztere sollte in einer gesonderten Direktive \textbf{(2004/67/EC)} behandelt werden, die, im Jahre darauf erlassen, keine vergleichbar verbindlichen Vorgaben machte\footnote{IEA (2008), S.26}. 
 
 %Um Investition in Netzinfrastruktur attraktiver und somit wahrscheinlicher zu machen, waren neue Pipelines den Zugangsregelungen der Richtlinie nicht unterworfen. Jedoch blieb weiterhin die Frage ungeklärt, ob diese temporären Ausnahmen ausreichend sein würden für dringend benötigte Investitionen in transeuropäische Gasnetze.
@@ -705,7 +708,7 @@ Die Bestimmung des Dritten Liberalisierungspakets richten sich erstmals auch an 
 %%%----------------------------------------------------------------------------------------------------
 
 
-\chapter[Umsetzung der EU-Direktive]{Die bisherige Umsetzung der EU-Richtlinie}
+\chapter[Umsetzung der EU-Direktive]{Umsetzung der EU-Richtlinie in den baltischen Staaten}
 
 
 
@@ -716,6 +719,13 @@ Die Bestimmung des Dritten Liberalisierungspakets richten sich erstmals auch an 
 \section[Lettlands zögerliche Umsetzung]{Der 'lettische Weg' des Hinauszögerns}\label{sec:Verzögerung_Lettland}
 
 
+Als letztes EU-Mitglied hat Lettland erst in diesem Jahr mit der in den Liberalisierungspaketen gefordeten Entflechtung seines Gasmarktes begonnen. Zuvor hatte das Land stets Ausnahmeregelungen\footnote{RL 98/39/EG, ABl. 1998 L204/12 Art.26 (1); RL 2003/55/EG, ABl. 2003 L176/22 Art.28 (1) ; RL 2009/73/EG, ABl. 2009 Art.49 (1)} in Anspruch genommen, um die Vorgaben zeitlich verzögert zu implementieren. Mit Hinweis auf seine isolierte Insellage ohne Anschluss an weitere europäische Netze und den unterentwickelten Gasmarkt hatte Riga bisher die Öffnung des Marktes für Wettbewerb samt Entflechtung von \emph{Latvijas G\={a}zes} auf das Ende seiner Monopolstellung im April 2017 verschoben.
+
+ 
+Mit der am 13. April verabschiedeten Änderung des Gesetzes zum Energiemarkt\footnote{\textcolor{purple}{\textbf{Hier fehlt noch das genaue Zitat!!!}}} wurde die schrittweise Liberalisierung des Gasmarktes bis zum 3. April 2017 beschlossen, jenem Zeitpunkt, an welchem Latvijas G\={a}zes Monopol für Gasversorgung und Vertrieb fällt. Das Unternehmen muss ab April diesen Jahres die interne Buchführung für seine Geschäftsbereiche Überleitung, Speicherung und Vertrieb trennen\footnote{Lativjas Republikas Saeima Press Service (2014)}.
+Anderen Firmen muss mit sofortiger Wirkung freier Zugang zur Netzinfrastruktur und Speicheranlagen gewährt werden, allerdings sieht das Gesetz keine Regelung über Nutzungsbedingungen und Entgelte vor. Da Latvijas G\={a}ze als alleiniger Eigentümer der Gasinfrastruktur in Lettland vorerst selbst diesbezügliche Konditionen festlegen kann und es bislang weder Wettbewerber noch alternative Gaslieferanten gibt, werden die Bestimmungen über den Zugang Dritter kurzfristig wenig an der Situation auf dem lettischen Gasmarkt ändern\footnote{Europäische Kommission Directorate General Wirtschaft und Finanzen (2014)}. 
+
+Das Ownership Unbundling Latvijas G\={a}zes soll nur unter zwei Bedingungen erfolgen vor dem Jahre 2017, wenn die im Zuge der Privatisierung getroffenen Regelungen auslaufen\footnote{Beim Verkauf des Staatsunternehmens im Jahre 1997 an private Investoren wurde diesem für die Dauer von 20 Jahren ein Monopol für Gasversorgung und Vertrieb gewährt. Auch der unterirdische Gasspeicher In\v{c}ulkans wurde Latvijas G\={a}ze zu einem symbolischen Preis für den gleichen Zeitraum überlassen. Siehe Abschnitt: \textsf{\textcolor{NavyBlue}{\nameref{sec:Privatisierung_Latvijas-Gaze}}}}. Der vertikal integrierter Versorger kann früher entflochten werden, wenn Lettland vor diesem Zeitpunkt an ein anderes europäisches Gasnetz angeschlossen wird, mit Ausnahme der Netze Finnlands und der baltischen Nachbarn Estland und Litauen, die sich gleichermaßen in einer isolierten Insellage befinden. Beziehungsweise für den Fall, dass \emph{Gazproms} Marktanteil bei Erdgaslieferungen unter 75 \% fällt. Voraussichtlich wird Latvijas G\={a}ze seine integrierte Unternehmensstruktur bis 2017 beibehalten können, da die Chancen, eine der zwei Bedingungen in naher Zukunft eintritt, als sehr gering eingeschätzt werden\footnote{Europolitics (2014)}.
 
 
 
@@ -746,66 +756,56 @@ Russisches Kapital ist im Elektrizitätssektor Litauens ebenso präsent wie auf de
 
 \subsection{Der Gasmarkt in Litauen}
 
-Litauens Gasnetz ist an die Fernleitungssysteme seiner Nachbarn Belarus, Lettland und der Russischen Förderation, bzw. der Region Kaliningrad, angebunden. Für die Einfuhr von Erdgas, das Land ist zu 100\% auf Importe angewiesen mangels eigener Gasvorkommen, wird ausschließlich der Zugangspunkt Kotlovka auf der Minsk-Vilnius--Pipeline genutzt\footnote{Eine zweiter Zugangspunkt zum weißrussischen Gasnetz in Ivacevi\v{c}iai ist gegenwärtig außer Betrieb, da dort bislang noch keine Messstation installiert ist.}. Mit einer technisch möglichen Importmenge von 27,2 Mio. $m^{3}$ pro Tag, die Durchleitungskapazität 2012 wurde an Spitzenzeiten zu 85,6\% ausgelastet, kann über diese Route die gesamte Nachfrage Litauens bedient werden\footnote{NCCPE (2012), S.110}. Die Verbindung zur Region Kaliningrad dient lediglich zur Weiterleitung für dort benötigtes Erdgas\footnote{Die Weiterleitung von Erdgas an die Exklave Kaliningrad erfolgt nach einem 1999 unterzeichneten Liefervertrag zwischen \emph{Gazprom} und \emph{Lietuvos Dujos}, der bis zum 1. Januar 2016 Gültigkeit hat. \textsl{Quelle:} \textbf{Energy Charter Secretariat} (2012), S.82}. Technisch sind auch Importe über die bidirektionale Transitstation Kiemenai aus dem lettischen Netz möglich. Aufgrund der geringen täglichen Durchleitungskapazität von 2,1 Mio. $m^{3}$ beschränkt sich diese Option auf Notfälle wie einer Lieferunterbrechung und stellt keine Alternative zu Gaseinfuhren aus dem weißrussischen Netz dar. 
+Litauens Gasnetz ist an die Fernleitungssysteme seiner Nachbarn Belarus, Lettland und der Russischen Förderation, bzw. der Region Kaliningrad, angebunden. Für die Einfuhr von Erdgas, das Land ist zu 100\% auf Importe angewiesen mangels eigener Gasvorkommen, wird ausschließlich der Zugangspunkt Kotlovka auf der Minsk-Vilnius--Pipeline genutzt\footnote{Eine zweiter Zugangspunkt zum weißrussischen Gasnetz in Ivacevi\v{c}iai ist gegenwärtig außer Betrieb, da dort bislang noch keine Messstation installiert ist.}. Mit einer technisch möglichen Importmenge von 27,2 Mio. $m^{3}$ pro Tag, die Durchleitungskapazität 2012 wurde an Spitzenzeiten zu 85,6\% ausgelastet, kann über diese Route die gesamte Nachfrage Litauens bedient werden\footnote{NCCPE (2012), S.110}. Die Verbindung zur Region Kaliningrad dient lediglich zur Weiterleitung für dort benötigtes Erdgas\footnote{Die Weiterleitung von Erdgas an die Exklave Kaliningrad erfolgt nach einem 1999 unterzeichneten Liefervertrag zwischen \emph{Gazprom} und \emph{Lietuvos Dujos}, der bis zum 1. Januar 2016 Gültigkeit hat. \textsl{Quelle:} Energy Charter Secretariat (2012), S.82}. Technisch sind auch Importe über die bidirektionale Transitstation Kiemenai aus dem lettischen Netz möglich. Aufgrund der geringen täglichen Durchleitungskapazität von 2,1 Mio. $m^{3}$ beschränkt sich diese Option auf Notfälle wie einer Lieferunterbrechung und stellt keine Alternative zu Gaseinfuhren aus dem weißrussischen Netz dar. 
 
 
 \subsubsection{Struktur und Akteure}
 
 Trotz einer wachsenden Anzahl von Energieunternehmen im Up- und Down"-stream-Bereich ist der Gassektor durch hohe Marktkonzentration geprägt. Angesichts der erwähnten Abhängigkeiten von einer einzigen Quelle für Gasimporte muss im sog. Upstream-Bereich von einer absoluten Konzentration gesprochen werden\footnote{Energy Charter Secretariat (2012), S.82}. Hier ist lediglich Gazprom tätig zusammen mit seinem Tochterunternehmen \emph{LT Gas Stream AG}, welches als Zwischenhändler im Gasgeschäft zwischen Gazprom selbst und litauischen Unternehmen agiert. Von den fünf Gasimporteuren sind \emph{Lietuvos Dujos}, \emph{UAB Dujotekana} und \emph{UAB Haupas} zugleich im Vertrieb an Endverbraucher tätig. \emph{Achema AB} und die Wärmekraftwerke der Stadt Kaunas \emph{Kauno termofikacin\.{e} elektrin\.{e}} führen Erdgas für ihren Eigenbedarf in der Strom- bzw. Wärmeerzeugung ein\footnote{KPMG (2012), S.59}. Alle Unternehmen beziehen das Gas vom Gazprom mit Ausnahme von \emph{UAB Haupas}, welches Geschäfte mit dem Zwischenhändler \emph{LT Gas Stream AG} tätigt.
 
-Ein Großhandelsmarkt existiert in Litauen praktisch nicht, da es bislang nur Gazprom als Erdgaslieferanten gibt, und alle Unternehmen ihre Importe über langfristige Lieferverträge beziehen\footnote{NCCPE (2012), S.107 -- Die Verträge von \emph{Lietuvos Dujos} und \emph{UAB Haupas} laufen noch bis 2015, \emph{UAB Dujotekana} ist noch bis 2020 an Gazprom gebunden.}, die einen Wechsel des Anbieters ausschließen und Wettbewerb in diesem Marktsegment unmöglich machen. Im \emph{Downstream}-Bereich des litauischen Gasmarkt bietet ein vergleichbares Bild mit hoher Marktkonzentration und kaum Wettbewerb. Obwohl der Markt für Endverbraucher regulatorisch für den Wettbewerb geöffnet ist, kann angesichts von nur zwei Anbietern nicht von einem freiem Wettbewerb gesprochen werden\footnote{Energy Charter Secretariat (2012), S.21}. Der Vertrieb wird von \emph{Lietuvos Dujos} und \emph{UAB Dujotekana} dominiert, die zusammengenommen einen Marktanteil von 98 \% haben\footnote{\emph{Lietuvos Dujos kontrolliert 69 \% des Marktes, auf \emph{UAB Dujotenkana entfallen 29 \%.}}}. Zwar hat die litauische Aufsichtsbehörde \emph{National Control Commission for Prices and Energy} auch anderen Energiefirmen Lizenzen für den Vertrieb an Endverbraucher erteilt\footnote{\emph{UAB Haupas}, \emph{UAB Forum Joni\v{s}kio Energija}, \emph{UAB Druskinink\k{u}}, \emph{AB Josvainiai agrofirma}, \emph{UAB Intergas} und \emph{UAB Sky Energy Group}}, diese sind jedoch bisher untätig geblieben.
 
-Alleiniger Netzbetreiber in Litauen war bis zur gesetzlich erzwungenen Entflechtung das auch in Vertrieb und Einfuhr von Erdgas tätige Unternehmen \emph{Lietuvos Dujos}, welches das gesamte Pipeline-System mit einer Länge von 1,835 km besaß. Durch die Regierungsanordnung 1239, Bezug nehmend auf das Gesetz zur Neuregelung des Gasmarktes vom 30. Juni 2011, wurde der vertikal integrierte Gasversorger gezwungen, die Kontrolle über das Fernleitungsnetz aufzugeben. \emph{Lietuvos Dujos} musste entsprechend diesen Geschäftsbereich rechtlich, funktional und organisatorisch von der restlichen integrierten Konzernstruktur trennen\footnote{NCCPE (2012), S.22}. Um den Entflechtungsvorgaben gerecht zu werden, beschloss die außerordentliche Aktionärsversammlung des Unternehmens am 28. Mai 2012, die Sparte 'Fernleitung' in eine Tochtergesellschaft auszugliedern\footnote{Lietuvos Dujos (2012), S.10}.
 
 
 \vspace{1cm}
 
-% Hier kommt das Tortendiagramm
+% Hier kommt ein Tortendiagramm zur Eigentümerstruktur von Latvijas G?ze
 
-
-\newcommand{\slice}[4]{
-  \pgfmathparse{0.5*#1+0.5*#2}
-  \let\midangle\pgfmathresult
-
-  % slice
-  \draw[thick,fill=black!10] (0,0) -- (#1:1) arc (#1:#2:1) -- cycle;
-
-  % outer label
-  \node[label=\midangle:#4] at (\midangle:1) {};
-
-  % inner label
-  \pgfmathparse{min((#2-#1-10)/110*(-0.3),0)}
-  \let\temp\pgfmathresult
-  \pgfmathparse{max(\temp,-0.5) + 0.8}
-  \let\innerpos\pgfmathresult
-  \node at (\midangle:\innerpos) {#3};
-}
-
-\begin{tikzpicture}[scale=3]
-
-\newcounter{a}
-\newcounter{b}
-\foreach \p/\t in {20/type A, 4/type B, 11/type C,
-                   49/type D, 16/other}
-  {
-    \setcounter{a}{\value{b}}
-    \addtocounter{b}{\p}
-    \slice{\thea/100*360}
-          {\theb/100*360}
-          {\p\%}{\t}
-  }
-	\label{fig:Marktanteile im Vertriebssegment Litauen}
-
-
+\begin{tikzpicture}
+\pie [style=drop shadow]{38.9/ E.ON Ruhrgas , 37.1/ Gazprom , 17.7/ Litauischer Fonds für Staatsvermögen , 6.3/ Streubesitz}
 \end{tikzpicture}
 
 % Hier endet das Tortendiagramm
 
 
+\vspace{1cm}
+
+
+
+
+Ein Großhandelsmarkt existiert in Litauen praktisch nicht, da es bislang nur Gazprom als Erdgaslieferanten gibt, und alle Unternehmen ihre Importe über langfristige Lieferverträge beziehen\footnote{NCCPE (2012), S.107 -- Die Verträge von \emph{Lietuvos Dujos} und \emph{UAB Haupas} laufen noch bis 2015, \emph{UAB Dujotekana} ist noch bis 2020 an Gazprom gebunden.}, die einen Wechsel des Anbieters ausschließen und Wettbewerb in diesem Marktsegment unmöglich machen. Im \emph{Downstream}-Bereich des litauischen Gasmarkt bietet ein vergleichbares Bild mit hoher Marktkonzentration und kaum Wettbewerb. Obwohl der Markt für Endverbraucher regulatorisch für den Wettbewerb geöffnet ist, kann angesichts von nur zwei Anbietern nicht von einem freiem Wettbewerb gesprochen werden\footnote{Energy Charter Secretariat (2012), S.21}. Der Vertrieb wird von \emph{Lietuvos Dujos} und \emph{UAB Dujotekana} dominiert, die zusammengenommen einen Marktanteil von 98 \% haben\footnote{\emph{Lietuvos Dujos kontrolliert 69 \% des Marktes, auf \emph{UAB Dujotenkana entfallen 29 \%.}}}. Zwar hat die litauische Aufsichtsbehörde \emph{National Control Commission for Prices and Energy} auch anderen Energiefirmen Lizenzen für den Vertrieb an Endverbraucher erteilt\footnote{\emph{UAB Haupas}, \emph{UAB Forum Joni\v{s}kio Energija}, \emph{UAB Druskinink\k{u}}, \emph{AB Josvainiai agrofirma}, \emph{UAB Intergas} und \emph{UAB Sky Energy Group}}, diese sind jedoch bisher untätig geblieben.
+
+\vspace{1cm}
+
+% Hier kommt das Tortendiagramm
+
+\begin{tikzpicture}
+\pie [style=drop shadow]{69/ Lietuvos Dujos , 29/ UAB Dujotekana , 2/ Andere}
+\end{tikzpicture}
+
+% Hier endet das Tortendiagramm
+
+
+\vspace{1cm}
+
+
+Alleiniger Netzbetreiber in Litauen war bis zur gesetzlich erzwungenen Entflechtung das auch in Vertrieb und Einfuhr von Erdgas tätige Unternehmen \emph{Lietuvos Dujos}, welches das gesamte Pipeline-System mit einer Länge von 1,835 km besaß. Durch die Regierungsanordnung 1239, Bezug nehmend auf das Gesetz zur Neuregelung des Gasmarktes vom 30. Juni 2011, wurde der vertikal integrierte Gasversorger gezwungen, die Kontrolle über das Fernleitungsnetz aufzugeben. \emph{Lietuvos Dujos} musste entsprechend diesen Geschäftsbereich rechtlich, funktional und organisatorisch von der restlichen integrierten Konzernstruktur trennen\footnote{NCCPE (2012), S.22}. Um den Entflechtungsvorgaben gerecht zu werden, beschloss die außerordentliche Aktionärsversammlung des Unternehmens am 28. Mai 2012, die Sparte 'Fernleitung' in eine Tochtergesellschaft auszugliedern\footnote{Lietuvos Dujos (2012), S.10}.
+
+
+
 
 
 \subsubsection{Versorgungssicherheit des Landes}
-Aufgrund seiner nicht diversifizierten Energieversorgung ist Litauen stark anfällig für etwaige Lieferstopps von russischer Seite.  Verschärft wird die Situation durch den erwähnten Mehrbedarf an Gasimporten für die Stromerzeugung in Folge der Abschaltung des Atommeilers Ignalina. Mit Russland als einziger Bezugsquelle stellte Gazproms indirekte Kontrolle über die Netzinfrastruktur seiner Beteiligung am bisherigen Netzbetreiber \emph{Lietuvos Dujos} aus litauischer Sicht die Energiesicherheit des Landes in Frage\footnote{siehe: Energieministerium der Republik Litauen (2012)}. Diese Schwachstellen der litauischen Energieversorgung wurden von der Politik wahrgenommen und entsprechend in der \emph{Nationalen Energieunabhängigkeitsstrategie} von 2012 eindeutig identifiziert\footnote{ebenda, S.16/17}. Bereits im Mai 2011 erarbeitete die litauische Regierung den Energieplan und ließ ihn im folgenden Jahre vom Parlament bestätigen. Das Strategiepapier formuliert langfristige Pläne zu Versorgungssicherheit, Wettbewerbsfähigkeit und Nachhaltigkeit, die bewusst in einen umfassenderen geopolitischen Rahmen gesetzt werden. Jene Ziele sollen im Folgenden kurz dargelegt werden, um einen Gesamtüberblick zu geben der strategischen Ausrichtung litauischer Energiepolitik und dem Bestreben, das Land unabhängiger von russischen Energielieferungen zu machen.
+Aufgrund seiner nicht diversifizierten Energieversorgung ist Litauen stark anfällig für etwaige Lieferstopps von russischer Seite.  Verschärft wird die Situation durch den erwähnten Mehrbedarf an Gasimporten für die Stromerzeugung in Folge der Abschaltung des Atommeilers Ignalina. Mit Russland als einziger Bezugsquelle stellte Gazproms indirekte Kontrolle über die Netzinfrastruktur seiner Beteiligung am bisherigen Netzbetreiber \emph{Lietuvos Dujos} aus litauischer Sicht die Energiesicherheit des Landes in Frage\footnote{siehe: Energieministerium der Republik Litauen (2012)}. Diese Schwachstellen der litauischen Energieversorgung wurden von der Politik wahrgenommen und entsprechend in der \emph{Nationalen Energieunabhängigkeitsstrategie} von 2012 eindeutig identifiziert\footnote{ebenda, S.16/17}. Bereits im Mai 2011 erarbeitete die litauische Regierung den Energieplan und ließ diesen im folgenden Jahre vom Parlament bestätigen. Das Strategiepapier formuliert langfristige Pläne zu Versorgungssicherheit, Wettbewerbsfähigkeit und Nachhaltigkeit, die bewusst in einen umfassenderen geopolitischen Rahmen gesetzt werden. Jene Ziele sollen im Folgenden kurz dargelegt werden, um einen Gesamtüberblick zu geben der strategischen Ausrichtung litauischer Energiepolitik und dem Bestreben, das Land unabhängiger von russischen Energielieferungen zu machen.
 
 
 
@@ -847,13 +847,30 @@ Inwieweit In\v{c}ulkans im Falle einer Unterbrechung russischer Erdgaslieferunge
 
 
 
-\subsubsection{Struktur und Akteure}
+\subsubsection[Privatisierung Latvijas G\={a}zes]{Struktur und Akteure}
 
 Lettlands Gasmarkt wird von \emph{Latvijas G\={a}ze} dominiert, welches in Gestalt eines vertikal integrierten Versorgers als einziges Gasunternehmen des Landes in allen Segmenten des Marktes tätig ist: Gasimport, Überleitung und Vertrieb an Endkunden. Während in Litauen der Staat weiterhin einen Anteil von 17,7 \% an \emph{Lietuvos dujos} besitzt, wurde der lettische Gasversorger nach Umwandlung in eine Aktiengesellschaft im Jahre 1997 vollständig privatisiert. Nach den Bestimmungen der Privatisierung wird dem Unternehmen bis zum \mbox{3. April} 2017 das exklusive Recht eingeräumt, Gasversorgung und Endverteilung zu gewährleisten, wodurch Latvijas G\={a}ze für die Netzinfrastruktur und den Vertrieb eine Monopolstellung besitzt\footnote{Grigas (2012), S.15}. Für den lettischen Gasmarkt kann demzufolge von einer vollständigen Marktdominanz des einzigen Gasunternehmens gesprochen werden. \textcolor{purple}{Der Herfindahl-Hirschman--Index liegt bei 1355651.} 
 
+\label{sec:Privatisierung_Latvijas-Gaze}
 Beim Verkauf des staatlichen Gasversorgers im Jahre 1997 wurden drei Ziele verfolgt, die im Endergebnis die Besitzstrukturen auf dem lettischen Gasmarktes auf lange Sicht festlegten, die Beteiligung russischer Akteure im Energiesektor miteingeschlossen. Nach den Auswahlkriterien potentieller Käufer, waren erstens zwei große strategische Investoren zu bestimmen\footnote{Zu den Interessenten im Bieterverfahren der Privatisierung gehörten: \emph{Ruhrgas} \& \emph{Preussen-Elektra} zusammen als Bieterkonsortium, sowie \emph{Gaz de France} und Norwegens \emph{Norsk Hydro}.}. Diese sollten beide ausländische Gasunternehmen sein und hiervon eines Erdgaslieferant für Lettland\footnote{Je\v{s}inska (2006), S.15}. Letztere Vorgabe schrieb de facto für die weitere Zukunft Gazproms ausschlaggebende Rolle auf dem Gasmarkt fest. Der einziger Lieferant Lettlands wurde nunmehr Miteigentümer des nationalen Gasversorgers. Beteiligungen russischer Firmen im Energiesektor sind darüberhinaus auch durch die Monopolstellung Latvijas G\={a}zes gesetzlich verankert, da hierdurch der Markteintritt neuer Wettbewerber ausgeschlossen wird.
 
 Die in mehreren Schritten von 1997 bis 2002 vollzogene Privatisierung Latvijas G\={a}zes resultierte schließlich in einer Eigentümerstruktur, nach welcher die \emph{E.ON Ruhrgas International GmbH} 47,23 \% der Anteile hält und die russischen Unternehmen \emph{Gazprom} und \emph{Itera Latvija} mit 34,00 \% bzw. 16,00 \% beteiligt sind. Die verbleibenden 2,77 \% der Aktien befinden sich im Streubesitz\footnote{Latvijas G\={a}ze (2014)}. Der zweite russische Investor \emph{Itera Latvija} war bis 2013 eine Tochterfirma der Energiesparte von \emph{Itera Group}, einem im Hoch- \& Tiefbau, Energiesektor und dem Finanzwesen tätigen russischen Konglomerat\footnote{Itera Group (2014)}. Im vergangenen Jahr übernahm Russlands staatliches Ölunternehmen \emph{Rosneft} mit dem Konzernbereich \emph{Itera Oil \& Gas Company} alle Energiefirmen der \emph{Itera Group}, darunter auch Itera Latvjia\footnote{Reuters (2013)}. 
+
+
+\vspace{1cm}
+
+% Hier kommt ein Tortendiagramm zur Eigentümerstruktur von Latvijas G?ze
+
+\begin{tikzpicture}
+\pie [style=drop shadow]{47.23/ E.ON Ruhrgas , 34/ Gazprom , 16/ Itera Latvija , 2.77/ Streubesitz}
+\end{tikzpicture}
+
+% Hier endet das Tortendiagramm
+
+
+\vspace{1cm}
+
+
 
 
 \paragraph{Russischer Einfluss?}
@@ -863,11 +880,13 @@ Der Eindruck, das Management von Latvijas G\={a}ze verfolge tendenziell eine seh
 
 
 \paragraph{Monopole \& Pfadabhängigkeiten}
-Wie gezeigt findet auf dem lettischen Gasmarkt Wettbewerb bislang in keinem Bereich statt. Weder im Upsteam-Segment, da lediglich Erdgas aus Russland verfügbar ist und Gazprom als einziger Lieferanten auftritt. Noch in den Bereichen Überleitung und Vertrieb, wo Latvijas G\={a}ze als vertikal integrierter Gasversorger über ein gesetzliches festgeschriebenes Monopol verfügt. Neben den Besonderheiten des Privatisierung von Latvijas G\={a}ze, die zu dieser monopolistischen Marktstruktur führten, ist auch Lettlands zögerliche Umsetzung europäischer Liberalisierungsvorgaben verantwortlich zu machen für die gegenwärtige Marktsituation. Bis kürzlich hatte Riga eine Ausnahmeregelung in den EU-Richtlinien in Anspruch genommen, als Mitgliedsstaat sowohl in einer Insellage, als auch mit unterentwickeltem Energiemarkt, die Brüsseler Maßgaben vorerst nicht umzusetzen.
+Wie im vorherigen Abschnitt gezeigt findet auf dem lettischen Gasmarkt Wettbewerb bislang in keinem Bereich statt. Weder im Upsteam-Segment, da lediglich Erdgas aus Russland verfügbar ist und Gazprom als einziger Lieferanten auftritt. Noch in den Bereichen Überleitung und Vertrieb, wo Latvijas G\={a}ze als vertikal integrierter Gasversorger über ein gesetzliches festgeschriebenes Monopol verfügt. Neben den Besonderheiten der Privatisierung von Latvijas G\={a}ze, die zu dieser monopolistischen Marktstruktur führten, ist auch Lettlands zögerliche Umsetzung europäischer Liberalisierungsvorgaben verantwortlich zu machen für die gegenwärtige Marktsituation. Bis kürzlich hatte Riga eine Ausnahmeregelung in den EU-Richtlinien\footnote{RL 98/39/EG, ABl. 1998 L204/12 Art.26 (1); RL 2003/55/EG, ABl. 2003 L176/22 Art.28 (1) ; RL 2009/73/EG, ABl. 2009 Art.49 (1)} in Anspruch genommen, um als Mitgliedsstaat in einer Insellage und einem unterentwickeltem Energiemarkt, die Brüsseler Maßgaben vorerst nicht umsetzen zu müssen.
 
-Die Implementation einer strikten Entflechtung des nationalen Gasversorgers, wie sie die aufeinanderfolgenden EU-Direktiven forderten, hätte zu juristischen Konflikten mit Latvijas G\={a}ze und seinen Investoren geführt, welche die lettische Politik vermeiden wollte\footnote{Spr\={u}ds (2010), S.16}. Diese hatten mehrfach angekündigt, gegen Pläne zum Ownership Unbundling klagen zu wollen und sich auf die Bestimmungen der Privatisierung Latvijas G\={a}zes berufen, welche einen solchen Schritt ausschließen\footnote{\textcolor{purple}{Weitere Quellen notwendig!!!}}. Die strategischen Ziele für die Auswahl der Investoren beim Verkauf des lettischen Gasversorgers mündeten in die erläuterte Eigentümerstruktur mit starker russischer Beteiligung. Die per Gesetz gewährte Monopolstellung wiederum legte durch Ausschluss von Wettbewerbern auf dem Gasmarkt Lettlands, dessen Struktur für die absehbare Zukunft fest.
+Die Implementation einer strikten Entflechtung des nationalen Gasversorgers, wie sie die aufeinanderfolgenden EU-Direktiven forderten, hätte zu juristischen Konflikten mit Latvijas G\={a}ze und seinen Investoren geführt, welche die lettische Politik vermeiden wollte\footnote{Spr\={u}ds (2010), S.16}. Diese hatten mehrfach angekündigt, gegen Pläne für ein Ownership Unbundling klagen zu wollen und sich auf die Bestimmungen der Privatisierung berufen, welche einen solchen Schritt ausschließen\footnote{\textcolor{purple}{Weitere Quellen notwendig!!!}}. Die strategischen Ziele des Verkaufs von Latvijas G\={a}ze wiederum mündeten zwangsläufig in eine Eigentümerstruktur mit starker russischer Beteiligung. Die per Gesetz gewährte Monopolstellung legte ihrerseits durch Ausschluss von Wettbewerbern auf dem Gasmarkt Lettlands, dessen Struktur auf Jahrzehnte hin fest. Diese Reihe politischer Entscheidungen zu Gestalt und Rolle des nationalen Gasversorgers determiniert zugleich über die sich ergebenden Pfadabhängigkeiten sukzessive die Struktur des lettischen Gasmarktes mit nur einem Unternehmen. Das Ergebnis war über mehrere Schritte gesetzlich festgelegt worden und machte in der Konsequenz die Umsetzung europäischer Vorgaben umso schwieriger, da sie nicht mit den nationalen rechtlichen Rahmenbedingungen vereinbar war, die im Laufe der Privatisierung entstanden waren.
 
-Auch auf der Ebene des Marktgeschehens zeigen sich anhand von Managemententscheidungen Latvijas G\={a}zes Pfadabhängigkeiten, wie sie aus dem besonderen Privatisierungsmodell entstanden. Das Beispiel des Gasspeichers In\v{c}ulkans zeigt, wie Latvijas Gaze als Akteur mit einem Interesse, bestehende Marktstrukturen aufrechtzuerhalten, seine Monopolstellung ausgebaut hat. Durch einen langfristigen Liefervertrag zwischen Latvijas G\={a}ze und Gazprom über die exklusive Nutzung des Gasspeichers bis 2030 wurde die Marktkonzentration im lettischen Gassektor auf Jahre hinaus verankert\footnote{Baltic News Network (2011a)}. Vertraglich ist hiermit für die kommenden  zwei Jahrzehnte Wettbewerb im Upstream-Geschäft verhindert, da andere Unternehmen selbst für den Fall, dass in absehbarer Zeit neue Importquellen zur Verfügung stehen (z.B. Flüssiggas über ein LNG-Terminal), den unterirdischen Gasspeicher nicht in Anspruch nehmen können. 
+Auch auf der Ebene des Marktgeschehens zeigen sich anhand von Managemententscheidungen Latvijas G\={a}zes Pfadabhängigkeiten, wie sie aus dem besonderen Privatisierungsmodell entstanden. Das Beispiel des Gasspeichers In\v{c}ulkans zeigt, wie Latvijas Gaze als Akteur mit einem Interesse, bestehende Marktstrukturen aufrechtzuerhalten, seine Monopolstellung ausgebaut hat. Durch einen langfristigen Liefervertrag zwischen Latvijas G\={a}ze und Gazprom über die exklusive Nutzung des Gasspeichers bis 2030 wurde die Marktkonzentration im lettischen Gassektor auf Jahre hinaus verankert\footnote{Baltic News Network (2011a)}. Vertraglich ist hiermit für die kommenden  zwei Jahrzehnte Wettbewerb im Upstream-Geschäft verhindert, da andere Unternehmen selbst für den Fall, dass in absehbarer Zeit neue Importquellen zur Verfügung stehen (z.B. Flüssiggas über ein LNG-Terminal), den unterirdischen Gasspeicher nicht in Anspruch nehmen können.
+
+Am lettischen Gasmarkt wird ersichtlich, wie dessen historisch gewachsene Strukturen und die resultierenden Anreize für die Akteure, in erster Linie Latvijas G\={a}ze, wiederum auf die Ebene der Politik beschränkend wirken. Dies wäre ein Beispiel, wie Prozesse/institutionelle Bedingungen umgekehrt ein tiefer liegendes Analyseniveau im Sinne des \emph{Transaction Costs} -- Modells beeinflusse, wie es von Williamson nicht theoretisiert worden ist.
 
 
 Als Zwischenergebnis können für die Entwicklung Marktstrukturen in Lettland folgende Pfadabhängigkeiten identifiziert werden:
@@ -908,7 +927,7 @@ Das geopolitische Selbstverständnis des Landes erzeugt eine Pfadabhängigkeit für
 
 \section{Energiemarktregulierung}
 
-Bereits bei der Umsetzung der Zweiten Liberalisierungsdirektive der Europäischen Union nahm Lettland eine Ausnahmeregelung in Anspruch\footnote{RL 2009/73/EG, ABl. 2009 L 211/106, Art. 28(2)} und beschloss in einer Änderung des Energiemarktgesetzes, seinen Gasmarkt nicht vor April 2014 für den Wettbewerb zu öffnen\footnote{Sabiedrisko pakalpojumu regul\={e}\v{s}anas komisija (2012), S.21}.
+Bereits bei der Umsetzung der Zweiten Liberalisierungsdirektive der Europäischen Union nahm Lettland eine Ausnahmeregelung in Anspruch\footnote{RL 2009/73/EG, ABl. 2009 L211/106, Art. 28(2)} und beschloss in einer Änderung des Energiemarktgesetzes, seinen Gasmarkt nicht vor April 2014 für den Wettbewerb zu öffnen\footnote{Sabiedrisko pakalpojumu regul\={e}\v{s}anas komisija (2012), S.21}.
 
 
 
@@ -1252,6 +1271,8 @@ Kosten, die bereits entstanden sind und nicht mehr rückgängig gemacht werden kön
 	\item [\Rectsteel] \textbf{Europäische Kommission Directorate General Wettbewerb (2007):} Directorate General Competition Report On Energy Sector Inquiry [SEC(2006) 1724], Brüssel, Belgien.
 
 
+	\item [\Rectsteel] \textbf{Europäische Kommission Directorate General Wirtschaft und Finanzen (2014):} EU Balance of Payments Assistance To Latvia: Fourth Review Under Post-Programme Surveillance [SEC(2006) 1724], Brüssel, Belgien.
+
 	\item [\Rectsteel] \textbf{Europäische Union (2014):} Europäische Energiecharta, \textsl{Zusammenfassungen der EU-Gesetzgebung} \textcolor{MidnightBlue}{\url{http://europa.eu/legislation_summaries/energy/external_dimension_enlargement/l27028_en.htm}} -- Zugriff: 27.02.2013.
 
 
@@ -1433,6 +1454,9 @@ Kosten, die bereits entstanden sind und nicht mehr rückgängig gemacht werden kön
 
 
 	\item [\Rectsteel] \textbf{Latvijas Republikas Ekonomikas Ministrija [Wirtschaftsministerium der Republik Lettland] (2014):} \textcolor{MidnightBlue}{\url{http://www.em.gov.lv/em}}
+
+
+	\item [\Rectsteel] \textbf{Latvijas Republikas Saeima Press Service (2014):} Consumer Gas Market Not To Be Liberalised Until April 2017, online im Internet: \textcolor{MidnightBlue} {\url{http://www.saeima.lv/en/news/saeima-news/21949-consumer-gas-market-not-to-be-liberalised-until-april-2017}} -- Zugriff: 23.03.2014
 
 
 	\item [\Rectsteel] \textbf{Latvijas statistika (2011):} Population Census 2011 - Key Indicators, \textcolor{MidnightBlue} {\url{http://www.csb.gov.lv/en/statistikas-temas/population-census-2011-key-indicators-33613.html}} -- Zugriff: 20.03.2014.
@@ -1673,3 +1697,56 @@ Kosten, die bereits entstanden sind und nicht mehr rückgängig gemacht werden kön
 
 
 \end{document}
+
+
+% Hier kommt Code-Schnipsel, die ich nicht im TeX-Dokument verwendet habe:
+
+% Pie chart
+% Original Author: Robert Vollmert
+% Modified to illustrate coloring the slices by Suresh Govindachar
+%
+
+
+\newcommand{\slice}[5]{
+   \pgfmathparse{0.5*#1+0.5*#2}
+   \let\midangle\pgfmathresult
+
+   % slice
+   \draw[thick,fill=#5] (0,0) -- (#1:1) arc (#1:#2:1) -- cycle;
+
+   % outer label
+   \node[label=\midangle:#4] at (\midangle:1) {};
+
+   % inner label
+   \pgfmathparse{min((#2-#1-10)/110*(-0.3),0)}
+   \let\temp\pgfmathresult
+   \pgfmathparse{max(\temp,-0.5) + 0.8}
+   \let\innerpos\pgfmathresult
+   \node at (\midangle:\innerpos) {#3};
+}
+
+\begin{tikzpicture}[scale=3]
+
+\newcounter{a}
+\newcounter{b}
+\foreach \p/\t/\c in
+%
+% original example with color added %   {20/type A/green!20!white,
+% original example with color added %   4/type B/green!80!white,
+% original example with color added %   11/type C/yellow!60!black,
+% original example with color added %   49/type D/blue!40!white,
+% original example with color added %   16/other/red!40!white}
+%
+% following is for OP's needs:
+                   { 69/Big Company/green!80!black,
+                     29/Start Up/blue!40!white,
+                      2/Tiny Firms/yellow!30!white}
+   {
+     \setcounter{a}{\value{b}}
+     \addtocounter{b}{\p}
+     \slice{\thea/100*360}
+           {\theb/100*360}
+           {\p\%}{\t}{\c}
+   }
+\end{tikzpicture}
+
