@@ -71,4 +71,5 @@
 \contentsline {paragraph}{Nat\"urliches Monopol}{92}{section*.25}
 \contentsline {paragraph}{Rent-Seeking}{92}{section*.26}
 \contentsline {paragraph}{Sunk Costs}{93}{section*.27}
-\contentsline {chapter}{\numberline {15}Literaturverzeichnis}{95}{chapter.15}
+\contentsline {chapter}{\numberline {15}Fragenkatalog f\"ur Experteninterviews}{95}{chapter.15}
+\contentsline {chapter}{\numberline {16}Literaturverzeichnis}{97}{chapter.16}
