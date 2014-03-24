@@ -47,10 +47,10 @@
 \contentsline {section}{\numberline {8.1}Der litauische Energiemarkt}{60}{section.8.1}
 \contentsline {subsection}{\numberline {8.1.a}Der Gasmarkt in Litauen}{61}{subsection.8.1.1}
 \contentsline {subsubsection}{Struktur und Akteure}{62}{section*.19}
-\contentsline {subsubsection}{Versorgungssicherheit des Landes}{64}{section*.20}
-\contentsline {section}{\numberline {8.2}Der Energiemarkt Lettlands}{65}{section.8.2}
-\contentsline {subsection}{\numberline {8.2.a}Der Gasmarkt in Lettland}{68}{subsection.8.2.1}
-\contentsline {subsubsection}{Privatisierung Latvijas G\={a}zes}{69}{section*.21}
+\contentsline {subsubsection}{Versorgungssicherheit des Landes}{65}{section*.20}
+\contentsline {section}{\numberline {8.2}Der Energiemarkt Lettlands}{66}{section.8.2}
+\contentsline {subsection}{\numberline {8.2.a}Der Gasmarkt in Lettland}{69}{subsection.8.2.1}
+\contentsline {subsubsection}{Privatisierung Latvijas G\={a}zes}{70}{section*.21}
 \contentsline {paragraph}{Russischer Einfluss?}{72}{section*.22}
 \contentsline {paragraph}{Monopole \& Pfadabh\"angigkeiten}{73}{section*.23}
 \contentsline {chapter}{\numberline {9}Energiepolitik in Litauen}{76}{chapter.9}
