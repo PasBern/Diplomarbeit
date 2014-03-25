@@ -100,6 +100,7 @@ numbers=noenddot,
 \automark[section]{chapter}
 
 \setfootnoterule[0.8pt]{10cm} % Höhe und Länge des Trennstriches für Fußnoten anpassen
+\setkomafont{caption}{\sffamily} % Bezeichnungen von Bilder werden serifenlos und fett gesetzt
 \setkomafont{captionlabel}{\sffamily\bfseries} % Beschreibungen von Bilder werden serifenlos und fett gesetzt
 
 \renewcommand{\headfont}{\small\sffamily\mdseries} % Schriftart der Kopfzeile ändern
@@ -716,9 +717,9 @@ In diesem Abschnitt wird kurz dargelegt, wie bisherige europäische Richtlinien z
 
 \section[Umsetzung in Litauen]{Rigide Umsetzung in Litauen}
 
-Mit der Wahl des striktesten Entflechtungsmodells in Form des Ownership Unbundlings hat Litauen die EU-Richtlinie zur Gasmarktliberalisierung unter allen EU-Mitgliedern am gewissenhaftesten implementiert. Bis zur Änderung des Gasmarktgesetzes am 30. Juni 2011\footnote{Seimas of the Republic of Lithuania, \textsl{Official Gazette}: No.I-1434} jedoch waren die Bestimmungen der zweiten Direktive zur besitzrechtlichen Entflechtung vertikal integrierter Gasversorger nicht in litauisches Recht umgesetzt worden\footnote{Valstybin\.{e} kain\k{u} ir energetikos kontrol\.{e}s komisija (2011) [National Control Commission for Prices and Energy -- fortan: NCCPE], S.13}.
+Mit der Wahl des strikten Ownership Unbundlings der Geschäftsbereiche Netzinfrastruktur und Vertrieb im Gassektor hat Litauen die EU-Richtlinie zur Gasmarktliberalisierung unter allen EU-Mitgliedern am gewissenhaftesten implementiert. Bis zur Änderung des Gasmarktgesetzes am 30. Juni 2011\footnote{Seimas of the Republic of Lithuania, \textsl{Official Gazette}: No.I-1434} waren die Bestimmungen der zweiten Direktive zur Entflechtung vertikal integrierter Gasversorger jedoch nicht in litauisches Recht umgesetzt worden\footnote{Valstybin\.{e} kain\k{u} ir energetikos kontrol\.{e}s komisija (2011) [National Control Commission for Prices and Energy -- fortan: NCCPE], S.13}.
 
-Nach dem gegenwärtigen Stand hat Litauen mit der Endfassung seines mehrfach überarbeiteten Gesetzes zum Gasmarkt\footnote{Seimas of the Republic of Lithuania, \textsl{Official Gazette}: No.VIII-2743; No.IX-884; No.IX-1644 ; No.X-1054 \& No.I-1434} die Bestimmungen des Dritten EU-Liberal"-isier"-ungs"-pakets vollständig umgesetzt. Laut Artikel 12 müssen die Geschäftsaktivitäten Überleitung, Speicherung, Verflüssigung und Vertrieb von Erdgas besitzrechtlich voneinander getrennt werden. Dieses Ownership Unbundling kann über eine Veräußerung der Unternehmenssparte an Dritte oder die Ausgliederung in einer eigenständige Tochtergesellschaft erfolgen. Integrierte Gasunternehmen mit weniger als 100.000 Kunden sind diesen Bestimmungen ausgenommen. Nach Artikel 13 wird muss der Netzbetreiber diskriminierungsfreien Zugang Dritter zu seiner Infrastruktur gewährleisten und darf nicht andere Geschäftsbereiche des Mutterkonzerns bevorzugen. Litauens Regulierungsbehörde \textsl{Valstybin\.{e} kain\k{u} ir energetikos kontrol\.{e}s komisija} (National Control Commission for Prices and Energy -- NCCPE) ist beauftragt, die effektive Durchführung des Unbundlings, bzw. die strikte buchhalterischer Trennung zwischen Muttergesellschaft und Tochterunternehmen zu überwachen.
+Nach dem gegenwärtigen Stand hat Litauen mit der Endfassung seines mehrfach überarbeiteten Gesetzes zum Gasmarkt\footnote{Seimas of the Republic of Lithuania, \textsl{Official Gazette}: No.VIII-2743; No.IX-884; No.IX-1644 ; No.X-1054 \& No.I-1434} die Bestimmungen des Dritten EU-Liberal"-isier"-ungs"-pakets vollständig umgesetzt. Laut Artikel 12 müssen die Geschäftsaktivitäten Überleitung, Speicherung, Verflüssigung und Vertrieb von Erdgas besitzrechtlich voneinander getrennt werden. Dieses Ownership Unbundling kann über eine Veräußerung der jeweiligen Unternehmenssparte an Dritte oder durch Ausgliederung in einer eigenständige Tochtergesellschaft erfolgen. Integrierte Gasunternehmen mit weniger als 100.000 Kunden sind von diesen Bestimmungen ausgenommen\footnote{\textcolor{purple}{Vielleicht kommt hier noch ein Hinweis, dass auf dem litauischen Gasmarkt kein Unternehmen existiert, auf welches diese Ausnahmeregelung anwendbar ist.}}. Nach Artikel 13 muss der Netzbetreiber Dritten diskriminierungsfreien Zugang zu seiner Infrastruktur gewährleisten und darf nicht andere Geschäftsbereiche des Mutterkonzerns bevorzugen. Litauens Regulierungsbehörde \textsl{Valstybin\.{e} kain\k{u} ir energetikos kontrol\.{e}s komisija} (National Control Commission for Prices and Energy -- NCCPE) ist beauftragt, die effektive Durchführung des Unbundlings, bzw. die strikte buchhalterischer Trennung zwischen Muttergesellschaft und Tochterunternehmen zu überwachen.
 
 
 
@@ -771,16 +772,19 @@ Trotz einer wachsenden Anzahl von Energieunternehmen im Up- und Down"-stream-Ber
 
 \vspace{1cm}
 
-% Hier kommt ein Tortendiagramm zur Eigentümerstruktur von Latvijas G?ze
+% Hier kommt ein Tortendiagramm zur Eigentümerstruktur von Latvijas Gaze
 
 \begin{center}
 	\begin{minipage}{\linewidth}
 	\centering
+
+		\textsf{
 		\begin{tikzpicture}\pie [style=drop shadow]{38.9/ E.ON Ruhrgas , 37.1/ Gazprom , 17.7/ Litauischer Fonds für Staatsverm\"{o}gen , 6.3/ Streubesitz}
-		\end{tikzpicture}
-	\captionof{figure}{Eigentumsstruktur von Lietuvos dujos}
-	\label{fig:Eigentumsstruktur_Lietuvos-Dujos}
- 	\end{minipage}
+		\end{tikzpicture}}
+		\captionof{figure}{Eigentumsstruktur von Lietuvos dujos}
+		\label{fig:Eigentumsstruktur_Lietuvos-Dujos}
+
+	\end{minipage}
 \end{center}
 
 % Hier endet das Tortendiagramm
@@ -805,11 +809,14 @@ Ein Großhandelsmarkt existiert in Litauen praktisch nicht, da es bislang nur Gaz
 \begin{center}
 	\begin{minipage}{\linewidth}
 	\centering
-		\begin{tikzpicture}\pie [style=drop shadow]{69/ Lietuvos Dujos , 29/ UAB Dujotekana , 2/ Andere}
-		\end{tikzpicture}
+
+	\textsf{
+	\begin{tikzpicture}\pie [style=drop shadow]{69/ Lietuvos Dujos , 29/ UAB Dujotekana , 2/ Andere}
+	\end{tikzpicture}}
 	\captionof{figure}{Marktanteile im Vertriebsgeschäft}
 	\label{fig:Marktanteile_Vertriebsgeschäft}
- 	\end{minipage}
+
+	\end{minipage}
 \end{center}
 
 % Hier endet das Tortendiagramm
