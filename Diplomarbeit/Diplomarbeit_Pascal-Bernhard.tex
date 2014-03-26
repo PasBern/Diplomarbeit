@@ -838,7 +838,7 @@ Aufgrund seiner nicht diversifizierten Energieversorgung ist Litauen stark anfäl
 
 
 
-% -------------------------------------------------------------------------------------------------------------------------------------
+% -------------------------------------------------------------------------------------------------------
 % Kapitel zu Lettland
 
 
@@ -1085,17 +1085,35 @@ Das Bruttoinlandsprodukt (BIP) zu Marktpreisen stellt den Wert aller in einem La
 \paragraph{Herfindahl-Hirschman--Index}\label{Herfindahl-Index}
 
 
-Für die Messung der Marktkonzentration ist der \emph{Herfindahl-Hirschman--Index} (auch \emph{Herfindahl-Index} oder \emph{Hirschman-Index} genannt) neben der \emph{Konzentrationsrate}\footnote{Mit dem Maß der \emph{Konzentrationsrate} (CR) kann die Anbieterkonzentration eines Marktes über die Summe der Marktanteile der \textbf{n}-größten Anbieter berechnet werden: $CR_{j} = \sum_{i=1}^{j} a_{i}$ {} [\textsl{Quelle}: Mikroökonomie.de (2014)]} die gebräuchlichste Kennzahl. Nach der Grundidee des Indexes wird die Verteilung von Objekten auf mehrere Gruppen bestimmt, so dass beispielsweise der Gesamtumsatz im Vetriebssegment des Gasmarktes sich auf eine bestimmte Anzahl von Anbietern verteilt, welche das Produkt Gas verkaufen. Der Umsatz verteilt sich jedoch meist nicht gleichmäßig auf alle Unternehmen und der \emph{Herfindahl-Hirschman--Index} bietet ein Maß der Konzentration des Umsatzes auf einen oder mehrere Anbieter.
-
+Für die Messung der Marktkonzentration ist der \emph{Herfindahl-Hirschman--Index}, (HHI) auch \emph{Herfindahl-Index} oder \emph{Hirschman-Index} genannt, neben der \emph{Konzentrationsrate}\footnote{Mit dem Maß der \emph{Konzentrationsrate} (CR) kann die Anbieterkonzentration eines Marktes über die Summe der Marktanteile der \textbf{n}-größten Anbieter berechnet werden: $CR_{n} = \sum_{i=1}^{n} a_{i}$ -- mit \textbf{n} als Anzahl der größten Unternehmen und $\mathbf{a_{i}}$ dem Marktanteil des Unternehmens \textbf{i} [\textsl{Quelle}: Mikroökonomie.de (2014)]} die gebräuchlichste Kennzahl. Nach der Grundidee des Indexes wird die Verteilung von Objekten auf mehrere Gruppen bestimmt, so dass beispielsweise der Gesamtumsatz im Vetriebssegment des Gasmarktes sich auf eine bestimmte Anzahl von Anbietern verteilt, welche das Produkt Gas verkaufen. Der Umsatz verteilt sich jedoch meist nicht gleichmäßig auf alle Unternehmen und der \emph{Herfindahl-Hirschman--Index} bietet ein Maß der Konzentration des Umsatzes auf einen oder mehrere Anbieter. Im Unterschied zur Konzentrationsrate berücksichtigt dieser Index auch die Verteilung der Marktanteile zwischen den einzelnen Unternehmen und wird berechnet über die Aufsummierung der quadrierten Marktanteile aller Anbieter\footnote{Höffler, Growitsch \& Wissner (2010), S.7}:
 
 
 \begin{displaymath}
 \mathbf{%fette Mathematikschrift
-H = \sum_{i=1}^{N} a_{i}^{2}
+HHI = \sum_{i=1}^{n} a_{i}^{2} \times 10.000
 }
+\label{eq:HHI-Index}
 \end{displaymath}
 
 
+	\begin{quote}
+	{\small Hierbei ist \textbf{n} die Anzahl der Unternehmen und $\mathbf{a_{i}}$ der Marktanteil des Unternehmens \textbf{i}. Der Marktanteil bestimmt sich wiederum über:}
+	\end{quote}
+
+
+\begin{displaymath}
+\mathbf{%fette Mathematikschrift
+a_{i} = \frac{x_{i}}{\sum_{i=1}^{n} x_{i}}
+}
+\label{eq:Marktanteil}
+\end{displaymath}
+
+
+	\begin{quote}
+	{\small $\mathbf{x_{i}}$ bezeichnet den Umsatz des Unternehmens (Zähler), welcher in Verhältnis zur Summe $\mathbf{\sum_{i=1}^{n} x_{i}}$ aller Unternehmen gesetzt wird (Nenner).}
+	\end{quote}
+
+\vspace{1.5cm}
 
 \paragraph[Natürliches Monopol]{Natürliches Monopol}\label{sec:Natürliches Monopol}
 
@@ -1441,6 +1459,10 @@ Kosten, die bereits entstanden sind und nicht mehr rückgängig gemacht werden kön
 
 
 	\item [\Rectsteel] \textbf{Hirschman, Albert O. (1964).} The Paternity Of An Index, in: \textsl{American Economic Review}, Vol.54 (5), S.761.
+
+
+	\item [\Rectsteel] \textbf{Höffler, Felix; Growitsch, Christian \& Matthias Wissner (2010):} Marktmachtanalyse für den deutschen Regelenergiemarkt, \textsl{Diskussionsbeitrag Nr.337}, Wissenschaftliches Institut für Infrastruktur und Kommunikationsdienste, Bad Honnef.
+
 
 
 	\item [\Rectsteel] \textbf{Hubert, Franz \& Irina Suleymanova (1998):} Strategic Investment In International Gas-Transport Systems:	A Dynamic Analysis Of The Hold-Up Problem, \textsl{DIW Discussion Paper 846}, Deutsches Institut für Wirtschaftsforschung, Berlin, Bundesrepublik Deutschland \textcolor{MidnightBlue}{\url{http://ideas.repec.org/p/diw/diwwpp/dp846.html}} -- Zugriff: 01.02.2014.

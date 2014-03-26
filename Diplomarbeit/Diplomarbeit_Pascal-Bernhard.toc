@@ -70,7 +70,7 @@
 \contentsline {paragraph}{BIP}{96}{section*.24}
 \contentsline {paragraph}{Herfindahl-Hirschman--Index}{96}{section*.25}
 \contentsline {paragraph}{Nat\"urliches Monopol}{97}{section*.26}
-\contentsline {paragraph}{Rent-Seeking}{97}{section*.27}
+\contentsline {paragraph}{Rent-Seeking}{98}{section*.27}
 \contentsline {paragraph}{Sunk Costs}{98}{section*.28}
-\contentsline {chapter}{\numberline {16}Fragenkatalog f\"ur Experteninterviews}{99}{chapter.16}
-\contentsline {chapter}{\numberline {17}Literaturverzeichnis}{101}{chapter.17}
+\contentsline {chapter}{\numberline {16}Fragenkatalog f\"ur Experteninterviews}{100}{chapter.16}
+\contentsline {chapter}{\numberline {17}Literaturverzeichnis}{102}{chapter.17}
