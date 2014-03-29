@@ -49,7 +49,7 @@
 \contentsline {paragraph}{Versorgungssituation}{63}{section*.19}
 \contentsline {subsubsection}{Struktur und Akteure}{64}{section*.20}
 \contentsline {subsubsection}{Versorgungssicherheit des Landes}{67}{section*.21}
-\contentsline {section}{\numberline {8.2}Der Energiemarkt Lettlands}{67}{section.8.2}
+\contentsline {section}{\numberline {8.2}Der Energiemarkt Lettlands}{68}{section.8.2}
 \contentsline {subsection}{\numberline {8.2.a}Der Gasmarkt in Lettland}{71}{subsection.8.2.1}
 \contentsline {subsubsection}{Privatisierung Latvijas G\={a}zes}{72}{section*.22}
 \contentsline {paragraph}{Russischer Einfluss?}{74}{section*.23}
