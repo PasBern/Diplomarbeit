@@ -50,27 +50,27 @@
 \contentsline {subsection}{\numberline {9.1.a}Der Gasmarkt in Litauen}{70}{subsection.9.1.1}
 \contentsline {paragraph}{Versorgungssituation}{70}{section*.18}
 \contentsline {subsubsection}{Struktur und Akteure}{71}{section*.19}
-\contentsline {subsubsection}{Versorgungssicherheit des Landes}{75}{section*.20}
+\contentsline {subsubsection}{Versorgungssicherheit des Landes}{76}{section*.20}
 \contentsline {section}{\numberline {9.2}Der Energiemarkt Lettlands}{76}{section.9.2}
 \contentsline {paragraph}{Verh\"altnis zu Russland}{77}{section*.21}
-\contentsline {subsection}{\numberline {9.2.a}Der Gasmarkt in Lettland}{79}{subsection.9.2.1}
-\contentsline {subsubsection}{Privatisierung Latvijas G\={a}zes}{80}{section*.22}
+\contentsline {subsection}{\numberline {9.2.a}Der Gasmarkt in Lettland}{80}{subsection.9.2.1}
+\contentsline {subsubsection}{Privatisierung Latvijas G\={a}zes}{81}{section*.22}
 \contentsline {paragraph}{Russischer Einfluss?}{83}{section*.23}
-\contentsline {paragraph}{Monopole \& Pfadabh\"angigkeiten}{84}{section*.24}
-\contentsline {chapter}{\numberline {10}Energiepolitik in Litauen}{87}{chapter.10}
-\contentsline {section}{\numberline {10.1}Nationale Energieunabh\"angigkeitsstrategie}{87}{section.10.1}
-\contentsline {chapter}{\numberline {11}Energiepolitik in Lettland}{90}{chapter.11}
-\contentsline {section}{\numberline {11.1}R\"uckblick}{90}{section.11.1}
-\contentsline {section}{\numberline {11.2}Energiemarktregulierung}{90}{section.11.2}
-\contentsline {section}{\numberline {11.3}Die Energiestrategie Lettlands}{90}{section.11.3}
-\contentsline {chapter}{\numberline {12}Vergleich der Energiepolitik}{93}{chapter.12}
-\contentsline {paragraph}{Diskursanalyse}{95}{section*.26}
-\contentsline {chapter}{\numberline {13}Fazit}{96}{chapter.13}
-\contentsline {chapter}{\numberline {14}Anhang -- Erl\"auterungen}{97}{chapter.14}
-\contentsline {paragraph}{BIP}{97}{section*.27}
-\contentsline {paragraph}{Herfindahl-Hirschman--Index}{97}{section*.28}
-\contentsline {paragraph}{Nat\"urliches Monopol}{99}{section*.29}
-\contentsline {paragraph}{Rent-Seeking}{99}{section*.30}
-\contentsline {paragraph}{Sunk Costs}{100}{section*.31}
-\contentsline {chapter}{\numberline {15}Fragenkatalog f\"ur Experteninterviews}{101}{chapter.15}
-\contentsline {chapter}{\numberline {16}Literaturverzeichnis}{103}{chapter.16}
+\contentsline {paragraph}{Monopole \& Pfadabh\"angigkeiten}{85}{section*.24}
+\contentsline {chapter}{\numberline {10}Energiepolitik in Litauen}{88}{chapter.10}
+\contentsline {section}{\numberline {10.1}Nationale Energieunabh\"angigkeitsstrategie}{88}{section.10.1}
+\contentsline {chapter}{\numberline {11}Energiepolitik in Lettland}{91}{chapter.11}
+\contentsline {section}{\numberline {11.1}R\"uckblick}{91}{section.11.1}
+\contentsline {section}{\numberline {11.2}Energiemarktregulierung}{91}{section.11.2}
+\contentsline {section}{\numberline {11.3}Die Energiestrategie Lettlands}{91}{section.11.3}
+\contentsline {chapter}{\numberline {12}Vergleich der Energiepolitik}{94}{chapter.12}
+\contentsline {paragraph}{Diskursanalyse}{96}{section*.26}
+\contentsline {chapter}{\numberline {13}Fazit}{97}{chapter.13}
+\contentsline {chapter}{\numberline {14}Anhang -- Erl\"auterungen}{98}{chapter.14}
+\contentsline {paragraph}{BIP}{98}{section*.27}
+\contentsline {paragraph}{Herfindahl-Hirschman--Index}{98}{section*.28}
+\contentsline {paragraph}{Nat\"urliches Monopol}{100}{section*.29}
+\contentsline {paragraph}{Rent-Seeking}{100}{section*.30}
+\contentsline {paragraph}{Sunk Costs}{101}{section*.31}
+\contentsline {chapter}{\numberline {15}Fragenkatalog f\"ur Experteninterviews}{102}{chapter.15}
+\contentsline {chapter}{\numberline {16}Literaturverzeichnis}{104}{chapter.16}
