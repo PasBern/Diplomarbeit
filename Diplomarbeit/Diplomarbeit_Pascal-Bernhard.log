@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013) (format=pdflatex 2014.3.29)  1 APR 2014 15:05
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013) (format=pdflatex 2014.3.29)  1 APR 2014 15:21
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -3042,7 +3042,7 @@ Here is how much of TeX's memory you used:
  36607 multiletter control sequences out of 15000+600000
  184044 words of font info for 557 fonts, out of 8000000 for 9000
  788 hyphenation exceptions out of 8191
- 64i,12n,82p,3165b,884s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 64i,12n,82p,3308b,884s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texmf-dist/fonts/enc/dvips/lm/lm-ts1.enc}{/usr/share/texmf-dist/f
 onts/enc/dvips/lm/lm-rm.enc}{/usr/share/texmf-dist/fonts/enc/dvips/base/8r.enc}
 {/usr/share/texmf-dist/fonts/enc/dvips/lm/lm-ec.enc}</usr/share/texmf-dist/font
@@ -3061,7 +3061,7 @@ bi8a.pfb></usr/share/texmf-dist/fonts/type1/urw/palatino/uplr8a.pfb></usr/share
 /texmf-dist/fonts/type1/urw/palatino/uplr8a.pfb></usr/share/texmf-dist/fonts/ty
 pe1/urw/palatino/uplri8a.pfb></usr/share/texmf-dist/fonts/type1/urw/zapfding/uz
 dr.pfb>
-Output written on Diplomarbeit_Pascal-Bernhard.pdf (128 pages, 972724 bytes).
+Output written on Diplomarbeit_Pascal-Bernhard.pdf (128 pages, 972782 bytes).
 PDF statistics:
  1775 PDF objects out of 2073 (max. 8388607)
  1591 compressed objects within 16 object streams
