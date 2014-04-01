@@ -56,15 +56,14 @@
 \contentsline {subsection}{\numberline {9.2.a}Der Gasmarkt in Litauen}{80}{subsection.9.2.1}
 \contentsline {paragraph}{Versorgungssituation}{80}{section*.22}
 \contentsline {subsubsection}{Struktur \& Akteure in Litauen}{81}{section*.23}
-\contentsline {paragraph}{Marktstrukturen \& Pfadabh\"angigkeiten}{86}{section*.24}
+\contentsline {paragraph}{Litauen vs. Gazprom}{86}{section*.24}
+\contentsline {subsection}{\numberline {9.2.b}Marktstrukturen \& Pfadabh\"angigkeiten}{86}{subsection.9.2.2}
 \contentsline {chapter}{\numberline {10}Energiepolitik in Litauen}{89}{chapter.10}
 \contentsline {section}{\numberline {10.1}Nationale Energieunabh\"angigkeitsstrategie}{90}{section.10.1}
 \contentsline {chapter}{\numberline {11}Energiepolitik in Lettland}{93}{chapter.11}
 \contentsline {section}{\numberline {11.1}Energiemarktregulierung}{93}{section.11.1}
 \contentsline {section}{\numberline {11.2}Die Energiestrategie Lettlands}{93}{section.11.2}
 \contentsline {chapter}{\numberline {12}Vergleich der Energiepolitik}{96}{chapter.12}
-\contentsline {paragraph}{Stillegung von Ignalina}{96}{section*.25}
-\contentsline {paragraph}{Instabilit\"at in Lettland}{98}{section*.26}
 \contentsline {paragraph}{Diskursanalyse}{100}{section*.28}
 \contentsline {chapter}{\numberline {13}Fazit}{102}{chapter.13}
 \contentsline {chapter}{\numberline {14}Anhang -- Erl\"auterungen}{103}{chapter.14}
