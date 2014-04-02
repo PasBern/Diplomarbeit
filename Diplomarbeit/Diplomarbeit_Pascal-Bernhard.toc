@@ -64,7 +64,7 @@
 \contentsline {section}{\numberline {11.1}Energiemarktregulierung}{94}{section.11.1}
 \contentsline {section}{\numberline {11.2}Die Energiestrategie Lettlands}{94}{section.11.2}
 \contentsline {chapter}{\numberline {12}Vergleich der Energiepolitik}{97}{chapter.12}
-\contentsline {paragraph}{Diskursanalyse}{101}{section*.30}
+\contentsline {paragraph}{Diskursanalyse}{102}{section*.30}
 \contentsline {chapter}{\numberline {13}Fazit}{103}{chapter.13}
 \contentsline {chapter}{\numberline {14}Anhang I -- Erl\"auterungen}{104}{chapter.14}
 \contentsline {paragraph}{BIP}{104}{section*.31}
