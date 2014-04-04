@@ -17,7 +17,7 @@
 \contentsline {paragraph}{Ebene 4}{25}{section*.8}
 \contentsline {subsection}{\numberline {3.2.a}Kritik des Modells}{25}{subsection.3.2.1}
 \contentsline {subsection}{\numberline {3.2.b}Die Verwendung des Ansatzes}{27}{subsection.3.2.2}
-\contentsline {section}{\numberline {3.3}Variablen \& Hypothesen}{28}{section.3.3}
+\contentsline {section}{\numberline {3.3}Variablen und Hypothesen}{28}{section.3.3}
 \contentsline {subsubsection}{Ausgangsbedingungen f\"ur Reformen}{28}{section*.9}
 \contentsline {subsubsection}{Das Verh\"altnis zu Russland}{33}{section*.10}
 \contentsline {chapter}{\numberline {4}Gasm\"arkte}{36}{chapter.4}
@@ -51,13 +51,13 @@
 \contentsline {subsection}{\numberline {9.1.a}Der Gasmarkt in Lettland}{72}{subsection.9.1.1}
 \contentsline {subsubsection}{Privatisierung Latvijas G\={a}zes}{73}{section*.19}
 \contentsline {paragraph}{Russischer Einfluss?}{76}{section*.21}
-\contentsline {paragraph}{Monopole \& Pfadabh\"angigkeiten}{77}{section*.22}
+\contentsline {paragraph}{Monopole und Pfadabh\"angigkeiten}{77}{section*.22}
 \contentsline {section}{\numberline {9.2}Der litauische Energiemarkt}{80}{section.9.2}
 \contentsline {subsection}{\numberline {9.2.a}Der Gasmarkt in Litauen}{81}{subsection.9.2.1}
 \contentsline {paragraph}{Versorgungssituation}{81}{section*.23}
-\contentsline {subsubsection}{Struktur \& Akteure in Litauen}{82}{section*.24}
+\contentsline {subsubsection}{Struktur und Akteure in Litauen}{82}{section*.24}
 \contentsline {paragraph}{Litauen vs. Gazprom}{87}{section*.26}
-\contentsline {subsection}{\numberline {9.2.b}Marktstrukturen \& Pfadabh\"angigkeiten}{88}{subsection.9.2.2}
+\contentsline {subsection}{\numberline {9.2.b}Marktstrukturen und Pfadabh\"angigkeiten}{88}{subsection.9.2.2}
 \contentsline {chapter}{\numberline {10}Energiepolitik in Litauen}{90}{chapter.10}
 \contentsline {section}{\numberline {10.1}Nationale Energieunabh\"angigkeitsstrategie}{91}{section.10.1}
 \contentsline {chapter}{\numberline {11}Energiepolitik in Lettland}{94}{chapter.11}
@@ -76,6 +76,6 @@
 \contentsline {paragraph}{Nat\"urliches Monopol}{106}{section*.30}
 \contentsline {paragraph}{Rent-Seeking}{106}{section*.31}
 \contentsline {paragraph}{Sunk Costs}{107}{section*.32}
-\contentsline {section}{\numberline {14.2}Koalitionen \& Parteien in Lettland}{109}{section.14.2}
+\contentsline {section}{\numberline {14.2}Koalitionen und Parteien in Lettland}{109}{section.14.2}
 \contentsline {chapter}{\numberline {15}Fragenkatalog f\"ur Experteninterviews}{113}{chapter.15}
 \contentsline {chapter}{\numberline {16}Literaturverzeichnis}{115}{chapter.16}
