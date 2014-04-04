@@ -77,5 +77,5 @@
 \contentsline {paragraph}{Rent-Seeking}{106}{section*.31}
 \contentsline {paragraph}{Sunk Costs}{107}{section*.32}
 \contentsline {section}{\numberline {14.2}Koalitionen und Parteien in Lettland}{109}{section.14.2}
-\contentsline {chapter}{\numberline {15}Fragenkatalog f\"ur Experteninterviews}{113}{chapter.15}
-\contentsline {chapter}{\numberline {16}Literaturverzeichnis}{115}{chapter.16}
+\contentsline {chapter}{\numberline {15}Fragenkatalog f\"ur Experteninterviews}{114}{chapter.15}
+\contentsline {chapter}{\numberline {16}Literaturverzeichnis}{116}{chapter.16}
