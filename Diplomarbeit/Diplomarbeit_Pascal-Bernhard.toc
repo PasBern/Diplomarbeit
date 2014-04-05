@@ -70,12 +70,12 @@
 \contentsline {paragraph}{Diskursanalyse}{102}{section*.27}
 \contentsline {chapter}{\numberline {13}Fazit}{103}{chapter.13}
 \contentsline {chapter}{\numberline {14}Literaturverzeichnis}{104}{chapter.14}
-\contentsline {chapter}{\numberline {15}Anhang}{125}{chapter.15}
-\contentsline {section}{\numberline {15.1}Erl\"auterungen}{125}{section.15.1}
-\contentsline {paragraph}{BIP}{125}{section*.28}
-\contentsline {paragraph}{Herfindahl-Hirschman--Index}{125}{section*.29}
-\contentsline {paragraph}{Nat\"urliches Monopol}{127}{section*.30}
-\contentsline {paragraph}{Rent-Seeking}{127}{section*.31}
-\contentsline {paragraph}{Sunk Costs}{128}{section*.32}
-\contentsline {section}{\numberline {15.2}Koalitionen und Parteien in Lettland}{130}{section.15.2}
-\contentsline {section}{\numberline {15.3}Fragen f\"ur Interviews}{134}{section.15.3}
+\contentsline {chapter}{\numberline {15}Anhang}{126}{chapter.15}
+\contentsline {section}{\numberline {15.1}Erl\"auterungen}{126}{section.15.1}
+\contentsline {paragraph}{BIP}{126}{section*.28}
+\contentsline {paragraph}{Herfindahl-Hirschman--Index}{126}{section*.29}
+\contentsline {paragraph}{Nat\"urliches Monopol}{128}{section*.30}
+\contentsline {paragraph}{Rent-Seeking}{128}{section*.31}
+\contentsline {paragraph}{Sunk Costs}{129}{section*.32}
+\contentsline {section}{\numberline {15.2}Koalitionen und Parteien in Lettland}{131}{section.15.2}
+\contentsline {section}{\numberline {15.3}Fragen f\"ur Interviews}{135}{section.15.3}
