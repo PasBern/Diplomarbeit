@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013) (format=pdflatex 2014.4.6)  6 APR 2014 18:04
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013) (format=pdflatex 2014.4.6)  6 APR 2014 22:03
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -2734,6 +2734,8 @@ Package babel Info: Redefining ngerman shorthand "|
 (babel)             in language  on input line 1056.
 Package babel Info: Redefining ngerman shorthand "~
 (babel)             in language  on input line 1056.
+LaTeX Font Info:    Font shape `T1/ppl/bx/sl' in size <9> not available
+(Font)              Font shape `T1/ppl/b/sl' tried instead on input line 1066.
 Package babel Info: Redefining ngerman shorthand "|
 (babel)             in language  on input line 1067.
 Package babel Info: Redefining ngerman shorthand "~
@@ -3236,15 +3238,15 @@ anged.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 2143.
  ) 
 Here is how much of TeX's memory you used:
- 35822 strings out of 493301
- 784125 string characters out of 6142880
+ 35828 strings out of 493301
+ 784202 string characters out of 6142880
  1003739 words of memory out of 5000000
- 37374 multiletter control sequences out of 15000+600000
- 184228 words of font info for 560 fonts, out of 8000000 for 9000
+ 37377 multiletter control sequences out of 15000+600000
+ 185749 words of font info for 562 fonts, out of 8000000 for 9000
  957 hyphenation exceptions out of 8191
  64i,12n,82p,2557b,886s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texmf-dist/fonts/enc/dvips/lm/lm-ts1.enc}{/usr/share/texmf-dist/f
-onts/enc/dvips/lm/lm-rm.enc}{/usr/share/texmf-dist/fonts/enc/dvips/base/8r.enc}
+onts/enc/dvips/base/8r.enc}{/usr/share/texmf-dist/fonts/enc/dvips/lm/lm-rm.enc}
 {/usr/share/texmf-dist/fonts/enc/dvips/lm/lm-ec.enc}</usr/share/texmf-dist/font
 s/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texmf-dist/fonts/type1/public
 /amsfonts/cm/cmr10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cm
@@ -3257,14 +3259,14 @@ m/lmssbx10.pfb></usr/share/texmf-dist/fonts/type1/public/lm/lmsso10.pfb></usr/s
 hare/texmf-dist/fonts/type1/public/marvosym/marvosym.pfb></usr/share/texmf-dist
 /fonts/type1/public/amsfonts/symbols/msam10.pfb></usr/share/texmf-dist/fonts/ty
 pe1/urw/palatino/uplb8a.pfb></usr/share/texmf-dist/fonts/type1/urw/palatino/upl
-bi8a.pfb></usr/share/texmf-dist/fonts/type1/urw/palatino/uplr8a.pfb></usr/share
+b8a.pfb></usr/share/texmf-dist/fonts/type1/urw/palatino/uplbi8a.pfb></usr/share
 /texmf-dist/fonts/type1/urw/palatino/uplr8a.pfb></usr/share/texmf-dist/fonts/ty
-pe1/urw/palatino/uplri8a.pfb></usr/share/texmf-dist/fonts/type1/urw/zapfding/uz
-dr.pfb>
-Output written on Diplomarbeit_Pascal-Bernhard.pdf (139 pages, 1007075 bytes).
+pe1/urw/palatino/uplr8a.pfb></usr/share/texmf-dist/fonts/type1/urw/palatino/upl
+ri8a.pfb></usr/share/texmf-dist/fonts/type1/urw/zapfding/uzdr.pfb>
+Output written on Diplomarbeit_Pascal-Bernhard.pdf (139 pages, 1019550 bytes).
 PDF statistics:
- 1946 PDF objects out of 2073 (max. 8388607)
- 1748 compressed objects within 18 object streams
- 584 named destinations out of 1000 (max. 500000)
- 91662 words of extra memory for PDF output out of 106986 (max. 10000000)
+ 1952 PDF objects out of 2073 (max. 8388607)
+ 1753 compressed objects within 18 object streams
+ 585 named destinations out of 1000 (max. 500000)
+ 92174 words of extra memory for PDF output out of 106986 (max. 10000000)
 
