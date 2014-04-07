@@ -1,0 +1,20 @@
+\documentclass{scrreprt}
+\usepackage[ngerman]{babel}
+\usepackage[T1]{fontenc}
+\usepackage{lmodern}
+ 
+\begin{document}
+%\titlehead{Kopf der Titelei}
+\subject{Diplomarbeit}
+\title{Titel des Dokumentes}
+\subtitle{Eine grosse Titelei als Beispiel auf goLaTeX.de}
+\author{Max Muster \and goLaTeX\thanks{Fussnote zum Autor}}
+\date{01.01.0001}
+\publishers{Betreut und herausgegeben von Prof. Dr. rer. LaTeX}
+\extratitle{\centering Schmutztitel \\ goLaTeX (C) 2009 \\ ISBN 978-3865412911}
+\uppertitleback{Obiger Titelrückentitel}
+\lowertitleback{Für dieses Beispiel wird keine Haftung übernommen.}
+\dedication{Dieses Beispiel widme ich\\allen LaTeX Usern}
+\maketitle
+ 
+\end{document}
