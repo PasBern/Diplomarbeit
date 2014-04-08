@@ -62,22 +62,21 @@
 \contentsline {section}{\numberline {10.1}Die Stillegung des Kernkraftwerks Ignalina}{92}{section.10.1}
 \contentsline {section}{\numberline {10.2}Politische Instabilit\"at in Lettland}{93}{section.10.2}
 \contentsline {section}{\numberline {10.3}Bedeutung der Versorgungssicherheit}{96}{section.10.3}
-\contentsline {chapter}{\numberline {11}Werte und Diskurse in der Energiepolitik}{97}{chapter.11}
-\contentsline {section}{\numberline {11.1}Energiepolitische Diskurse Litauen}{99}{section.11.1}
-\contentsline {section}{\numberline {11.2}Energiestrategie Litauens}{100}{section.11.2}
-\contentsline {paragraph}{Einsch\"atzung der Energiesituation}{101}{section*.27}
-\contentsline {paragraph}{Bedrohungsbilder}{102}{section*.28}
-\contentsline {paragraph}{Ziele und Strategien}{103}{section*.29}
-\contentsline {section}{\numberline {11.3}Energiepolitische Diskurse Lettland}{107}{section.11.3}
-\contentsline {subsection}{\numberline {11.3.a}Energiestrategie Lettlands}{107}{subsection.11.3.1}
-\contentsline {chapter}{\numberline {12}Fazit}{110}{chapter.12}
-\contentsline {chapter}{\numberline {13}Literaturverzeichnis}{111}{chapter.13}
-\contentsline {chapter}{\numberline {14}Anhang}{133}{chapter.14}
-\contentsline {section}{\numberline {14.1}Erl\"auterungen}{133}{section.14.1}
-\contentsline {paragraph}{BIP}{133}{section*.30}
-\contentsline {paragraph}{Herfindahl-Hirschman--Index}{133}{section*.31}
-\contentsline {paragraph}{Nat\"urliches Monopol}{135}{section*.32}
-\contentsline {paragraph}{Rent-Seeking}{135}{section*.33}
-\contentsline {paragraph}{Sunk Costs}{136}{section*.34}
-\contentsline {section}{\numberline {14.2}Koalitionen und Parteien in Lettland}{138}{section.14.2}
-\contentsline {section}{\numberline {14.3}Fragen f\"ur Interviews}{142}{section.14.3}
+\contentsline {chapter}{\numberline {11}Energiepolitische Diskurse}{97}{chapter.11}
+\contentsline {section}{\numberline {11.1}Energiepolitische Diskurse Litauens}{99}{section.11.1}
+\contentsline {paragraph}{Einsch\"atzung der Energiesituation}{100}{section*.27}
+\contentsline {paragraph}{Bedrohungsbilder}{101}{section*.28}
+\contentsline {paragraph}{Ziele und Strategien}{102}{section*.29}
+\contentsline {section}{\numberline {11.2}Energiepolitische Diskurse Lettland}{106}{section.11.2}
+\contentsline {subsection}{\numberline {11.2.a}Energiestrategie Lettlands}{106}{subsection.11.2.1}
+\contentsline {chapter}{\numberline {12}Fazit}{109}{chapter.12}
+\contentsline {chapter}{\numberline {13}Literaturverzeichnis}{110}{chapter.13}
+\contentsline {chapter}{\numberline {14}Anhang}{132}{chapter.14}
+\contentsline {section}{\numberline {14.1}Erl\"auterungen}{132}{section.14.1}
+\contentsline {paragraph}{BIP}{132}{section*.30}
+\contentsline {paragraph}{Herfindahl-Hirschman--Index}{132}{section*.31}
+\contentsline {paragraph}{Nat\"urliches Monopol}{134}{section*.32}
+\contentsline {paragraph}{Rent-Seeking}{134}{section*.33}
+\contentsline {paragraph}{Sunk Costs}{135}{section*.34}
+\contentsline {section}{\numberline {14.2}Koalitionen und Parteien in Lettland}{137}{section.14.2}
+\contentsline {section}{\numberline {14.3}Fragen f\"ur Interviews}{141}{section.14.3}
