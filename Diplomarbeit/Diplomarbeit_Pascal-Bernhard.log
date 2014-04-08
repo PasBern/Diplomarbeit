@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013) (format=pdflatex 2014.4.6)  8 APR 2014 14:17
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013) (format=pdflatex 2014.4.6)  8 APR 2014 14:21
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -2331,7 +2331,7 @@ Package babel Info: Redefining ngerman shorthand "|
 (babel)             in language  on input line 802.
 Package babel Info: Redefining ngerman shorthand "~
 (babel)             in language  on input line 802.
-<Pipelines.png, id=991, 624.83438pt x 558.58687pt>
+<Pipelines.png, id=989, 624.83438pt x 558.58687pt>
 File: Pipelines.png Graphic file (type png)
  <use Pipelines.png>
 Package pdftex.def Info: Pipelines.png used on input line 810.
@@ -3280,9 +3280,9 @@ anged.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 2199.
  ) 
 Here is how much of TeX's memory you used:
- 35889 strings out of 493301
- 784929 string characters out of 6142880
- 1003799 words of memory out of 5000000
+ 35888 strings out of 493301
+ 784916 string characters out of 6142880
+ 1004799 words of memory out of 5000000
  37380 multiletter control sequences out of 15000+600000
  187037 words of font info for 573 fonts, out of 8000000 for 9000
  957 hyphenation exceptions out of 8191
@@ -3306,10 +3306,10 @@ f-dist/fonts/type1/urw/palatino/uplbi8a.pfb></usr/share/texmf-dist/fonts/type1/
 urw/palatino/uplr8a.pfb></usr/share/texmf-dist/fonts/type1/urw/palatino/uplr8a.
 pfb></usr/share/texmf-dist/fonts/type1/urw/palatino/uplri8a.pfb></usr/share/tex
 mf-dist/fonts/type1/urw/zapfding/uzdr.pfb>
-Output written on Diplomarbeit_Pascal-Bernhard.pdf (144 pages, 1060571 bytes).
+Output written on Diplomarbeit_Pascal-Bernhard.pdf (144 pages, 1060382 bytes).
 PDF statistics:
- 2055 PDF objects out of 2073 (max. 8388607)
- 1849 compressed objects within 19 object streams
- 625 named destinations out of 1000 (max. 500000)
+ 2052 PDF objects out of 2073 (max. 8388607)
+ 1846 compressed objects within 19 object streams
+ 624 named destinations out of 1000 (max. 500000)
  92686 words of extra memory for PDF output out of 106986 (max. 10000000)
 
