@@ -1,0 +1,280 @@
+\documentclass[11pt,a4paper,ngerman]{scrreprt} %%parskip- herausgenommen
+\usepackage[T1]{fontenc}
+\usepackage{lmodern}
+\usepackage[ansinew]{inputenc}
+
+
+\usepackage{xcolor}
+\usepackage[ngerman]{babel}
+\usepackage{relsize}
+\usepackage{paralist}
+\usepackage{typearea}
+\usepackage{setspace}
+\usepackage{textcomp}
+\usepackage{marvosym}
+\usepackage{amsmath}
+\usepackage{array}
+%\usepackage{booktabs}
+
+
+%%%----------------------------------------------------------------------
+\definecolor{dunkelgrau.80}{gray}{0.20}
+\definecolor{dunkelgrau.60}{gray}{0.40}
+
+\onehalfspacing
+\typearea[current]{calc}
+
+\newcommand{\changefont}[3]{
+\fontfamily{#1} \fontseries{#2} \fontshape{#3} \selectfont}
+
+\newcommand{\textemph}{\textsl{\textbf}}
+%%%----------------------------------------------------------------------
+\begin{document}
+
+\begin{spacing}{1}
+
+%deckblatt start
+\thispagestyle{empty}
+
+
+\begin{center}
+\Large{Freie Universität Berlin(FU)}\\
+\end{center}
+ 
+ 
+\begin{center}
+\Large{Fachbereich Politikwissenschaft}
+\end{center}
+\begin{verbatim}
+ 
+ 
+\end{verbatim}
+\begin{center}
+\textbf{\LARGE{\changefont{ppl}{b}{n}
+\sffamily{Diplomarbeit}}}
+\end{center}
+\begin{verbatim}
+ 
+ 
+\end{verbatim}
+\begin{center}
+\textbf{\changefont{ppl}{b}{n}
+\sffamily{im Studiengang Politik}}
+\end{center}
+\begin{verbatim}
+ 
+ 
+\end{verbatim}
+ 
+\begin{flushleft}
+\begin{tabular}{lll}
+
+\textbf{Thema:} & & Energiepolitik im Baltikum --\\
+& & Umsetzung des 3. EU-Liberalisierungspakets zum\\
+& & Gasbinnenmarkt in Litauen \& Lettland\\
+& & \\
+& & \\
+& & \\
+
+
+
+\textbf{eingereicht von:} & & Pascal Bernhard \flq{}pascal.bernhard@belug.de\frq{}\\
+& & \\
+& & \\
+\textbf{eingereicht am:} & & 20. März 2014\\
+& & \\
+& & \\
+\textbf{Betreuer:} & & Herr Prof. Dr. Manfred Kerner\\
+\textbf{Betreuer:} & & Frau Prof. Dr. Miranda Schreurs
+\end{tabular}
+\end{flushleft}
+
+\end{spacing}
+ 
+%deckblatt ende
+
+
+
+
+
+%%%----------------------------------------------------------------------
+\tableofcontents
+
+
+%%%----------------------------------------------------------------------
+\setlength{\parindent}{30pt}
+\setlength{\parskip}{0pt}
+
+
+%%%-----------------------------------------------------------------------
+
+\chapter{Einleitung}
+
+Energiepolitik und die Versorgungssicherheit bei Gaslieferungen aus dem Ausland haben im Baltikum eine politische Bedeutung wie in nur wenigen europäischen Staaten. Die baltischen Länder verfügen über keine eigenen Erdgasreserven und müssen ihren gesamten Bedarf aus dem Ausland importieren. Zugleich befinden sie sich als einzige Mitglieder der Europäischen Union in einer Inselposition. Sie sind bisher an keines der Energienetze anderer EU-Länder angeschlossen und können somit von dort keine Energie in Form von Öl, Erdgas oder Strom beziehen. Bis heute existieren lediglich Pipelines nach Russland, einem Nachbarn, zu welchem die baltischen Staaten seit ihrer Unabhängigkeit schwierige politischen Beziehungen haben.
+ 
+Im Vergleich zu großen EU-Mitglieder wie Frankreich, Deutschland oder Italien befinden sich die baltischen Länder gegenüber ihrem russischen Lieferanten in einer deutlich schwächeren Verhandlungsposition: Zu ihrem eindeutig geringeren wirtschaftlichem und politischen Gewicht\footnote{\textcolor{purple}{Zahlen kommen hier!!!}}, welches weniger Verhandlungsmaße bietet, gesellt sich der erwähnte Mangel an Importalternativen. Ein Gefühl der Schwäche gegenüber dem russischen Handelspartner, der zudem als tedenziell feindlich wahrgenommen wird, prägt die politischen Debatten um Energiepolitik in Litauen und Lettland\footnote{vlg. Energieministerium der Republik Litauen (2012), \textcolor{purple}{Weitere Quellen notwendig!!!}}, jene der drei baltischen Länder, die Gegenstand dieser Arbeit sein werden. 
+
+Wiederkehrende Streitigkeiten über Gaslieferungen zwischen Russland und seinen Nachbarn z.B. der Ukraine und Belarus aber auch Litauen die mehrfach Lieferstopps nach sich zogen bestätigen viele Entscheidungsträger im Baltikum in ihrer Sicht, dass Moskau Energiepolitik für politische Zwecke einzusetzen bereit ist. Der staatlich kontrollierte russische Energiekonzern Gazprom, einzige Bezugsquelle von Erdgas, wird hierbei als Instrument des Kremls angesehen\footnote{\textcolor{dunkelgrau.80}{Eine wissenschaftlich anständige Untersuchung der Verhältnisses zwischen dem Erdgaskonzern und der politischen Führung Russlands kann ich in meiner Arbeit nicht leisten, --dies ist auch nicht der Fokus der Diplomarbeit. Auch wenn es durchaus begründete Zweifel geben mag, \textsl{Gazprom} als ein vom Kreml gesteuertes Machtmittel zu betrachten, ohne eigene Interessen ganz im Dienste der russischen Politik, so ist doch für meine Arbeit ausschlaggebend, dass der Konzern im konstruktivistischen Sinne als eine solches (Machtmittel) gesehen wird, und Energiepolitik im Baltikum dementsprechend agiert.}} für eine aggressive Außenpolitik, die Russlands Einfluss über die ehemaligen Sowjetrepubliken wiederherstellen will\footnote{\textcolor{red}{\textbf{Quelle für Zitieren!!!}}}. Gazprom ist neben seiner Rolle bei Gaseinfuhren auch in den beiden anderen Segmenten der Gasmärkte Litauens und Lettlands, Überleitung und Vertrieb, vertreten -- direkt oder indirekt durch Beteiligungen an den nationalen Gasunternehmen \textit{Latvijas G\={a}ze} (Lettland) und \textit{Lietuvos Dujos} (Litauen)\footnote{Der Erdgaskonzern hält zusammen mit einem anderen russischen Unternehmen, Itera Latvija, 50 \% der Anteile am lettischen Gasversorger Latvijas G\={a}ze. In Litauen hält Gazprom 39 \% der Anteile an Lietuvos Dujos, ebenso wie Latvijas G\={a}ze ein sog. vertikal integriertes Energieunternehmen}. 
+
+Kontrolle über das entscheidende mittlere Marktsegment \glqq Überleitung\grqq{} mit seiner spezifischen Eigenschaft eines \emph{\glqq natürlichen Monopols\grqq{}}\footnote{\textcolor{purple}{Hier kommt eine Erläuterung, was ein natürliches Monopol ist}} versetzt Gazprom in die Lage, Konkurrenten den Zugang zu seiner Pipeline-Infrastruktur zu verweigern. Auch langfristige Lieferverträge zwischen dem russischen Erdgaskonzern und litauischen bzw. lettischen Unternehmen behindern einerseits freien Wettbewerb auf dem Gasmarkt, andererseits macht die Struktur die baltischen Länder anfällig für eine etwaige Instrumentalisierung von Lieferstopps der russischen Seite für politische Interessen .
+
+Die als \textit{Drittes Liberalisierungspaket} bekannte Richtlinie \textbf{2009/73/EG} vom 13.Juli 2009 der Europäischen Union für den Erdgasbinnenmarkt sieht unter anderem vor, die Aktivitäten der Förderung (Erdgas) und Endverteilung an Verbraucher von der Übertragung (Pipelines) zu trennen. Bei der Umsetzung in nationales Recht haben die Mitgliedsstaaten die Möglichkeit, zwischen unterschiedlich strengen Entflechtungsmodellen zu wählen. Entweder müssen vertikal integrierte Energieunternehmen\footnote{\textcolor{purple}{Erläuterung hier!!!}} ihre Netzinfrastruktur komplett veräußern und verlieren somit die Möglichkeit, Konkurrenten aus dem Markt fernzuhalten, indem sie ihnen Zugang zu Gaspipelines verwehren.  Alternativ kann die Netzinfrastruktur weiterhin im Besitz der bisherigen Eigentümer verbleiben, der Zugang wird aber staatlich reguliert, um auf diesem Wege freien Wettbewerb auf dem Gasmarkt zu gewährleisten. 
+
+Das strenge Entflechtungsmodell mit der Zwangsveräußerung der Infrastruktur böte Lettland und Litauen ein Mittel die Marktmacht Gazproms deutlich zu beschneiden. Der russische Einfluss auf die nationalen Energiemärkte und somit indirekt auch Russlands Position vis \`{a} vis den beiden ehemaligen Sowjetrepubliken könnte erwartungsgemäß reduziert werden, ein Bestreben, welches seit der Unabhängigkeit von Moskau präsent ist. Allerdings haben sich Litauen und Lettland, trotz der auf den ersten Blick vergleichbaren Position für unterschiedliches Umsetzungsmodelle des Liberalisierungspakets entschieden. Während die litauische Politik die naheliegende Option der vollständigen besitzrechtlichen Enflechtung gewählt hat, ist man in Lettland einen anderen Weg gegangen, bzw. wurde dort die Implementation der EU-Direktive, eine Ausnahmeregelung nutzend, über Jahre hinausgezögert. In Lettland verbleiben die Gaspipelines beim nationalen Gasunternehmen \textit{Latvijas G\={a}ze}, welches wie erwähnt von Gazprom kontrolliert wird, jedoch kommen sie unter staatliche Regulierung. Diese Arbeit wird der Frage nachgehen, aus welchen Gründen bei ähnlichen politischen und wirtschaftlichen Bedingungen in Litauen und Lettland die jeweilige Politik ein anderes Modell angewandt hat. 
+
+
+
+
+%%%-------------------------------------------------------------------------------------------------------------------------
+ 
+
+\chapter{Untersuchungsgegenstand und Fragestellung}
+
+
+
+
+\section{Forschungsdesign}
+
+
+	
+%%%-------------------------------------------------------------------------------------------------------------------------
+
+
+\chapter{Das Verhältnis zu Russland: historische Belastungen}
+
+
+%%%-------------------------------------------------------------------------------------------------------------------------
+
+\chapter{Energiemärkte im Baltikum: Lettland \& Litauen}
+
+
+
+\section{Litauen}
+
+
+\subsection{Der Gasmarkt in Litauen}
+
+
+Seit der Abschaltung des litauischen Atomkraftwerks Ignalina, dessen Produktion teilweise auch nach Lettland exportiert wurde, ist der Bedarf an Erdgas für die Stromerzeugung gestiegen\footnote{\textcolor{dunkelgrau.80}{Im Jahre 2010 war in Lettland 65 \% des Gasverbrauchs auf die Stromerzeugung zurückzuführen, für Litauen lag dieser Anteil bei 55 \%. \textit{\textcolor{purple}{Aktuellere Daten sind noch zu recherchieren!!!}}}}. Zugleich ist Litauen nunmehr verstärkt auf Energieimporte angewiesen, da ungenügende Kapazitäten in der Stromproduktion durch Einfuhren aus Russland kompensiert werden müssen.
+
+
+
+\subsection{Die Versorgungssituation}
+
+
+\section{Lettland}
+
+
+
+\subsection{Der Gasmarkt in Lettland}
+
+\subsection{Die Versorgungssituation}
+
+
+
+\chapter{Die Europäische Richtlinie zur Liberalisierung der Gasmärkte}
+
+Die als \textit{Drittes Liberalisierungspaket} bekannte Richtlinie \textbf{2009/73/EG} vom 13.Juli 2009 über gemeinsame Vorschriften für den Erdgasbinnenmarkt sieht unter anderem vor, die Aktivitäten der Förderung (Erdgas) und Endverteilung an Verbraucher von der Übertragung (Pipelines) zu trennen. Die Europäische Kommission, bzw. die EU, da ja die Mitgliedsstaaten und das Europäische Parlament der Richtlinie zustimmen mussten, räumt den Nationalstaaten drei unterschiedliche stringente Umsetzungsmöglichkeiten dieser Entflechtung ein.
+
+
+\section{Bestimmungen des Dritten Liberalisierungspakets für die Europäischen Energiemärkte}
+
+
+
+
+\subsection{Modelle der vertikalen Entflechtung auf dem Gasmarkt}
+
+\paragraph{Ownership Unbundling}
+Erste Option, das sog. \textbf{\textcolor{dunkelgrau.60}{Ownership Unbundling}}, ist eine vollständigen Trennung der Geschäftsaktivitäten Energiegewinnung/-för"-derung und Vertrieb vom Netz, die eine Veräußerung der entsprechenden Unternehmenssparten beinhaltet. Die Mitgliedstaaten müssen danach zunächst sicherstellen, dass die Netze auf der einen sowie die Wettbewerbsbereiche Stromerzeugung bzw. Gasgewinnung und Vertrieb auf der anderen Seite nicht in einer Hand liegen. Die rechtlich erzwungen Veräußerung des Wettbewerbsbereichs der Übertragung kommt de facto einer Enteignung gleich und bedeutet für die betroffenen Unternehmen einen deutlichen Einfluss an Marktmacht, da Konkurrenten nicht über Beschränkungen des Zugangs zum Netz behindert werden können.
+
+
+\paragraph{Independent System Operator}
+Eine alternative Umsetzung der Liberalisierungsrichtlinie ist das Modell des sog. \textbf{\textcolor{dunkelgrau.60}{Independent System Operators \texttwelveudash{} ISO}}. Hiernach können die Mitgliedsstaaten durch eine nationale Regulierungsbehörde einen Unabhängigen Betreiber der Energienetze benennen, der aber nicht Eigentümer der Infrastruktur ist. Dieser \textsl{Independent System Operator} oder ISO muss organisatorisch unabhängig von den Segmenten Erzeugung, bzw. Förderung und Endvertrieb sein. In Form einer von der öffentlichen Hand ausgesprochenen Bestellung hat der ISO die Aufgaben, zuverlässig leistungsfähige Übertragungsnetze, sprich Pipelines zu betreiben, sie zu warten und dem Bedarf gemäß auszubauen. Für diese Aktivitäten kann der Unabhängige Netzbetreiber Entgelte einfordern.
+
+Diese Lösung war allerdings erfolglos, da eigentumsrechtliche Konflikte und Unsicherheiten entstanden zwischen eigentlichen Eigentümern der Netzinfrastruktur und dem ISO. Erstere konnten über ihren Besitz nicht mehr frei entscheiden und wurden somit de facto enteignet, während letzter für die Umsetzung seines Bestellungsauftrages auf die Kooperation der Infrastruktureigentümer angewiesen war, diese aber erst einmal keinen Anreiz für Zusammenarbeit hatten.
+
+
+\paragraph{Independent Transmission Operator}
+Als dritte Option besteht für die Mitgliedsstaaten die Möglichkeiten einen \textbf{\textcolor{dunkelgrau.60}{Independent Transmission Operators \texttwelveudash{} ITO}} einzuführen. Dieses Modell unterscheidet sich vom Ownership Unbundling dadurch, dass die Netzinfrastruktur weiterhin beim bisher vertikal integrierten Energieunternehmen verbleibt. Im Gegensatz zum \textsl{Independent System Operator} wird eine de facto Enteignung vermieden, da Besitz und Eigentum des Netzes organisatorisch nicht getrennt werden. Der Bereich Übertragung verbleibt im Konzernverbund soll jedoch anhand strikter Regulierung Autonomie genießen, wodurch diskriminierungsfreier Zugang zu Infrastruktur für Konkurrenten gewährleistet werden soll und somit für Wettbewerb auf dem Energiemarkt gesorgt sein soll.
+
+
+\section{Folgen für die baltischen Gasmärkte}
+
+
+
+%%%-------------------------------------------------------------------------------------------------------------------------
+
+
+\chapter{Die bisherige Umsetzung der EU-Richtlinie}
+
+
+
+\section{Die Umsetzung in Litauen}
+
+
+
+\section{Der \glqq lettische Weg\grqq}
+
+
+%%%-------------------------------------------------------------------------------------------------------------------------
+ 
+\chapter{Nationale Energiepolitik und Energiemarktliberalisierung}
+
+In diesem Kapitel will ich untersuchen, wie die beteiligten lettischen bzw. litauischen Regierungskoalitionen, welche die Aufgabe hatten, die EU-Richtlinie umzusetzen, selbst politisch (ideologisch) zu den Konzepten \textsl{Wettbewerb auf den Energiemärkten}, \textsl{Rolle des Staates auf dem Gasmarkt} und \textsl{Selbstregulierung der Märkte} standen. Diese Positionen sollten auch einen Einfluss auf die letztendlich politische Entscheidung, welche Form der Entflechtung gewählt wurde, gehabt haben -- \textcolor{dunkelgrau.60}{Wie heißt es so schön?: \emph{All politics is local!}}
+
+
+
+%%%-------------------------------------------------------------------------------------------------------------------------
+ 
+\chapter{Lobby-Einfluss als Erklärungsfaktor für nationale Energiepolitik} 
+ 
+
+%%%-------------------------------------------------------------------------------------------------------------------------
+ 
+\chapter{Europäische Energiepolitik}
+
+Welche Rolle hat Energiepolitik auf europäischer Ebene gespielt? Welche Unterstützung haben die lettische bzw. litauische Regierung durch die Kommission erhalten, bei der Durchsetzung von EU-Vorgaben gegenüber politischen Widerständen? Haben die Regierungen versucht das sog. \glqq Two-Level Game\grqq{} zu spielen, um diese Widerstände zu überwinden? 
+
+
+ 
+ 
+%%%------------------------------------------------------------------------------------------------------------------------- 
+ 
+\chapter{Fazit}
+
+ 
+
+%%%-------------------------------------------------------------------------------------------------------------------------
+ 
+\chapter{Literaturverzeichnis}
+
+\begin{itemize}
+	
+	\sffamily
+	
+	
+
+	\item [\Rectsteel] \textbf{Dudzi\'{n}ska, Kinga (2012):} Energy Policy In The Baltic States \textemdash{} United Or 		Separate?, \textsl{Policy Paper No.37}, Polski Instytut Spraw Mi\k{e}dzynarodowych, Warschau (\textcolor{dunkelgrau.80}		{http://www.pism.pl/files/?id\_plik=11583} -- Zugriff: 15.12.2013).
+	
+
+	\item [\Rectsteel] \textbf{Grigas, Agnias (2012):} The Gas Relationship Between Baltic States And Russia: Politics And 		Commercial Realities, \textsl{Working Paper NG 67}, The Oxford Institute For Energy Policy, Oxford 							(\textcolor{dunkelgrau.80}{http://www.oxfordenergy.org/wpcms/wp-content/uploads/2012/10/NG\_67.pdf} -- Zugriff: 			11.12.2013).
+
+	\item [\Rectsteel] \textbf{Energieministerium der Republik Litauen (2012):}	National Energy Independence 			Strategy of the Republic of Lithuania, Vilnius.
+
+
+	\item [\Rectsteel] \textbf{Molis, Ar\={unas} (2011):} Building Methodology, Assessing The Risks: The Case Of Energy 		Security In The Baltic States, in: \textsl{Baltic Journal of Economics}, Vol.11 (2), S.59-80.	
+
+	\item [\Rectsteel] \textbf{Ziegler, Charles E. (2012):} Energy Pipeline Networks And Trust: The European Union And 			Russia In Comparative Perspective, in: \textsl{International Relations}, Vol.27 (1), S.3-29.
+
+
+	
+
+	\end{itemize}
+
+
+
+
+
+
+
+\end{document}

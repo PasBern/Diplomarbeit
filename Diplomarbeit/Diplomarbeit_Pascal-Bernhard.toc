@@ -63,11 +63,11 @@
 \contentsline {section}{\numberline {10.2}Politische Instabilit\"at in Lettland}{93}{section.10.2}
 \contentsline {section}{\numberline {10.3}Bedeutung der Versorgungssicherheit}{96}{section.10.3}
 \contentsline {chapter}{\numberline {11}Energiepolitische Diskurse}{97}{chapter.11}
-\contentsline {section}{\numberline {11.1}Energiepolitische Diskurse Litauens}{99}{section.11.1}
+\contentsline {section}{\numberline {11.1}Energiepolitischer Diskurs Litauens}{99}{section.11.1}
 \contentsline {paragraph}{Einsch\"atzung der Energiesituation}{100}{section*.27}
 \contentsline {paragraph}{Bedrohungsbilder}{101}{section*.28}
 \contentsline {paragraph}{Ziele und Strategien}{102}{section*.29}
-\contentsline {section}{\numberline {11.2}Energiepolitische Diskurse Lettland}{106}{section.11.2}
+\contentsline {section}{\numberline {11.2}Energiepolitischer Diskurs in Lettland}{106}{section.11.2}
 \contentsline {chapter}{\numberline {12}Fazit}{111}{chapter.12}
 \contentsline {chapter}{\numberline {13}Literaturverzeichnis}{112}{chapter.13}
 \contentsline {chapter}{\numberline {14}Anhang}{134}{chapter.14}
