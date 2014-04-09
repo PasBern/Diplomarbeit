@@ -68,14 +68,15 @@
 \contentsline {paragraph}{Bedrohungsbilder}{101}{section*.28}
 \contentsline {paragraph}{Ziele und Strategien}{102}{section*.29}
 \contentsline {section}{\numberline {11.2}Energiepolitischer Diskurs in Lettland}{106}{section.11.2}
-\contentsline {chapter}{\numberline {12}Fazit}{113}{chapter.12}
-\contentsline {chapter}{\numberline {13}Literaturverzeichnis}{114}{chapter.13}
-\contentsline {chapter}{\numberline {14}Anhang}{136}{chapter.14}
-\contentsline {section}{\numberline {14.1}Erl\"auterungen}{136}{section.14.1}
-\contentsline {paragraph}{BIP}{136}{section*.30}
-\contentsline {paragraph}{Herfindahl-Hirschman--Index}{136}{section*.31}
-\contentsline {paragraph}{Nat\"urliches Monopol}{138}{section*.32}
-\contentsline {paragraph}{Rent-Seeking}{138}{section*.33}
-\contentsline {paragraph}{Sunk Costs}{139}{section*.34}
-\contentsline {section}{\numberline {14.2}Koalitionen und Parteien in Lettland}{141}{section.14.2}
-\contentsline {section}{\numberline {14.3}Fragen f\"ur Interviews}{145}{section.14.3}
+\contentsline {section}{\numberline {11.3}Vergleich der Strategien}{112}{section.11.3}
+\contentsline {chapter}{\numberline {12}Fazit}{114}{chapter.12}
+\contentsline {chapter}{\numberline {13}Literaturverzeichnis}{115}{chapter.13}
+\contentsline {chapter}{\numberline {14}Anhang}{137}{chapter.14}
+\contentsline {section}{\numberline {14.1}Erl\"auterungen}{137}{section.14.1}
+\contentsline {paragraph}{BIP}{137}{section*.30}
+\contentsline {paragraph}{Herfindahl-Hirschman--Index}{137}{section*.31}
+\contentsline {paragraph}{Nat\"urliches Monopol}{139}{section*.32}
+\contentsline {paragraph}{Rent-Seeking}{139}{section*.33}
+\contentsline {paragraph}{Sunk Costs}{140}{section*.34}
+\contentsline {section}{\numberline {14.2}Koalitionen und Parteien in Lettland}{142}{section.14.2}
+\contentsline {section}{\numberline {14.3}Fragen f\"ur Interviews}{146}{section.14.3}
