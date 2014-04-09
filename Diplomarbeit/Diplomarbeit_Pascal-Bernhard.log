@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013) (format=pdflatex 2014.4.6)  9 APR 2014 19:33
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013) (format=pdflatex 2014.4.6)  9 APR 2014 19:52
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1521,6 +1521,9 @@ Package babel Info: Redefining ngerman shorthand "~
 Package microtype Info: Character `029' is missing
 (microtype)             in font `T1/pplx/m/sc/10.95'.
 (microtype)             Ignoring protrusion settings for this character.
+
+Overfull \vbox (0.37271pt too high) has occurred while \output is active []
+
 Package babel Info: Redefining ngerman shorthand "|
 (babel)             in language  on input line 282.
 Package babel Info: Redefining ngerman shorthand "~
@@ -1529,7 +1532,8 @@ Package babel Info: Redefining ngerman shorthand "|
 (babel)             in language  on input line 282.
 Package babel Info: Redefining ngerman shorthand "~
 (babel)             in language  on input line 282.
- [11]
+
+[11]
 Package babel Info: Redefining ngerman shorthand "|
 (babel)             in language  on input line 284.
 Package babel Info: Redefining ngerman shorthand "~
@@ -2306,7 +2310,7 @@ Package babel Info: Redefining ngerman shorthand "|
 (babel)             in language  on input line 804.
 Package babel Info: Redefining ngerman shorthand "~
 (babel)             in language  on input line 804.
-<Pipelines.png, id=985, 624.83438pt x 558.58687pt>
+<Pipelines.png, id=983, 624.83438pt x 558.58687pt>
 File: Pipelines.png Graphic file (type png)
  <use Pipelines.png>
 Package pdftex.def Info: Pipelines.png used on input line 812.
@@ -3270,8 +3274,8 @@ anged.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 2243.
  ) 
 Here is how much of TeX's memory you used:
- 35896 strings out of 493301
- 785015 string characters out of 6142880
+ 35895 strings out of 493301
+ 785002 string characters out of 6142880
  1003860 words of memory out of 5000000
  37380 multiletter control sequences out of 15000+600000
  186384 words of font info for 563 fonts, out of 8000000 for 9000
@@ -3296,10 +3300,10 @@ f-dist/fonts/type1/urw/palatino/uplbi8a.pfb></usr/share/texmf-dist/fonts/type1/
 urw/palatino/uplr8a.pfb></usr/share/texmf-dist/fonts/type1/urw/palatino/uplr8a.
 pfb></usr/share/texmf-dist/fonts/type1/urw/palatino/uplri8a.pfb></usr/share/tex
 mf-dist/fonts/type1/urw/zapfding/uzdr.pfb>
-Output written on Diplomarbeit_Pascal-Bernhard.pdf (146 pages, 1067666 bytes).
+Output written on Diplomarbeit_Pascal-Bernhard.pdf (146 pages, 1067375 bytes).
 PDF statistics:
- 2093 PDF objects out of 2487 (max. 8388607)
- 1885 compressed objects within 19 object streams
- 643 named destinations out of 1000 (max. 500000)
+ 2090 PDF objects out of 2487 (max. 8388607)
+ 1882 compressed objects within 19 object streams
+ 642 named destinations out of 1000 (max. 500000)
  92678 words of extra memory for PDF output out of 106986 (max. 10000000)
 
