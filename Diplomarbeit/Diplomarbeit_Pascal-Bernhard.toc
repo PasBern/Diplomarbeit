@@ -37,12 +37,14 @@
 \contentsline {subsection}{\numberline {5.2.a}Marktregulierung}{47}{subsection.5.2.1}
 \contentsline {chapter}{\numberline {6}Gasmarktliberalisierung in Europa}{49}{chapter.6}
 \contentsline {section}{\numberline {6.1}Die erste Liberalisierungsrichtlinie}{49}{section.6.1}
+\contentsline {paragraph}{Ziele der Richtlinie}{49}{section*.18}
 \contentsline {section}{\numberline {6.2}Das zweite Liberalisierungspaket}{51}{section.6.2}
+\contentsline {paragraph}{Ergebnisse der Liberalisierung}{51}{section*.19}
 \contentsline {section}{\numberline {6.3}Drittes Liberalisierungspaket}{53}{section.6.3}
-\contentsline {subsection}{\numberline {6.3.a}Vertikale Entflechtung}{54}{subsection.6.3.1}
-\contentsline {paragraph}{Ownership Unbundling}{54}{section*.18}
-\contentsline {paragraph}{Independent System Operator}{55}{section*.19}
-\contentsline {paragraph}{Independent Transmission Operator}{56}{section*.20}
+\contentsline {subsection}{\numberline {6.3.a}Vertikale Entflechtung}{55}{subsection.6.3.1}
+\contentsline {paragraph}{Ownership Unbundling}{55}{section*.20}
+\contentsline {paragraph}{Independent System Operator}{55}{section*.21}
+\contentsline {paragraph}{Independent Transmission Operator}{56}{section*.22}
 \contentsline {chapter}{\numberline {7}Umsetzung der EU-Direktive}{58}{chapter.7}
 \contentsline {section}{\numberline {7.1}Umsetzung in Litauen}{58}{section.7.1}
 \contentsline {section}{\numberline {7.2}Lettlands z\"ogerliche Umsetzung}{59}{section.7.2}
@@ -50,16 +52,16 @@
 \contentsline {section}{\numberline {8.1}Gazprom}{63}{section.8.1}
 \contentsline {chapter}{\numberline {9}Energiem\"arkte im Baltikum}{69}{chapter.9}
 \contentsline {section}{\numberline {9.1}Der Energiemarkt Lettlands}{70}{section.9.1}
-\contentsline {paragraph}{Verh\"altnis zu Russland}{70}{section*.21}
+\contentsline {paragraph}{Verh\"altnis zu Russland}{70}{section*.23}
 \contentsline {subsection}{\numberline {9.1.a}Der Gasmarkt in Lettland}{73}{subsection.9.1.1}
-\contentsline {subsubsection}{Privatisierung Latvijas G\={a}zes}{74}{section*.22}
-\contentsline {paragraph}{Russischer Einfluss?}{77}{section*.24}
-\contentsline {paragraph}{Monopole und Pfadabh\"angigkeiten}{78}{section*.25}
+\contentsline {subsubsection}{Privatisierung Latvijas G\={a}zes}{74}{section*.24}
+\contentsline {paragraph}{Russischer Einfluss?}{77}{section*.26}
+\contentsline {paragraph}{Monopole und Pfadabh\"angigkeiten}{78}{section*.27}
 \contentsline {section}{\numberline {9.2}Der litauische Energiemarkt}{81}{section.9.2}
 \contentsline {subsection}{\numberline {9.2.a}Der Gasmarkt in Litauen}{82}{subsection.9.2.1}
-\contentsline {paragraph}{Versorgungssituation}{82}{section*.26}
-\contentsline {subsubsection}{Struktur und Akteure in Litauen}{83}{section*.27}
-\contentsline {paragraph}{Litauen vs. Gazprom}{88}{section*.29}
+\contentsline {paragraph}{Versorgungssituation}{82}{section*.28}
+\contentsline {subsubsection}{Struktur und Akteure in Litauen}{83}{section*.29}
+\contentsline {paragraph}{Litauen vs. Gazprom}{88}{section*.31}
 \contentsline {subsection}{\numberline {9.2.b}Marktstrukturen und Pfadabh\"angigkeiten}{89}{subsection.9.2.2}
 \contentsline {chapter}{\numberline {10}Vergleich der Energiepolitik}{91}{chapter.10}
 \contentsline {section}{\numberline {10.1}Die Stillegung des Kernkraftwerks Ignalina}{92}{section.10.1}
@@ -67,22 +69,22 @@
 \contentsline {section}{\numberline {10.3}Bedeutung der Versorgungssicherheit}{96}{section.10.3}
 \contentsline {chapter}{\numberline {11}Energiepolitische Diskurse}{97}{chapter.11}
 \contentsline {section}{\numberline {11.1}Energiepolitischer Diskurs Litauens}{99}{section.11.1}
-\contentsline {paragraph}{Einsch\"atzung der Energiesituation}{100}{section*.30}
-\contentsline {paragraph}{Bedrohungsbilder}{101}{section*.31}
-\contentsline {paragraph}{Ziele und Strategien}{102}{section*.32}
+\contentsline {paragraph}{Einsch\"atzung der Energiesituation}{100}{section*.32}
+\contentsline {paragraph}{Bedrohungsbilder}{101}{section*.33}
+\contentsline {paragraph}{Ziele und Strategien}{102}{section*.34}
 \contentsline {section}{\numberline {11.2}Energiepolitischer Diskurs in Lettland}{106}{section.11.2}
-\contentsline {paragraph}{Quantifizierung der Energiepolitik}{107}{section*.33}
-\contentsline {paragraph}{Versorgungssicherheit}{109}{section*.34}
-\contentsline {paragraph}{Bin\"are Gegens\"atze}{110}{section*.35}
+\contentsline {paragraph}{Quantifizierung der Energiepolitik}{107}{section*.35}
+\contentsline {paragraph}{Versorgungssicherheit}{109}{section*.36}
+\contentsline {paragraph}{Bin\"are Gegens\"atze}{110}{section*.37}
 \contentsline {chapter}{\numberline {12}Fazit}{113}{chapter.12}
 \contentsline {chapter}{\numberline {13}Literaturverzeichnis}{117}{chapter.13}
 \contentsline {chapter}{\numberline {14}Anhang}{139}{chapter.14}
 \contentsline {section}{\numberline {14.1}Erl\"auterungen}{139}{section.14.1}
-\contentsline {paragraph}{BIP}{139}{section*.36}
-\contentsline {paragraph}{Herfindahl-Hirschman--Index}{139}{section*.37}
-\contentsline {paragraph}{Nat\"urliches Monopol}{141}{section*.38}
-\contentsline {paragraph}{Rent-Seeking}{141}{section*.39}
-\contentsline {paragraph}{Sunk Costs}{142}{section*.40}
-\contentsline {paragraph}{Vertikal Integriertes Unternehmen}{143}{section*.41}
+\contentsline {paragraph}{BIP}{139}{section*.38}
+\contentsline {paragraph}{Herfindahl-Hirschman--Index}{139}{section*.39}
+\contentsline {paragraph}{Nat\"urliches Monopol}{141}{section*.40}
+\contentsline {paragraph}{Rent-Seeking}{141}{section*.41}
+\contentsline {paragraph}{Sunk Costs}{142}{section*.42}
+\contentsline {paragraph}{Vertikal Integriertes Unternehmen}{143}{section*.43}
 \contentsline {section}{\numberline {14.2}Koalitionen und Parteien in Lettland}{144}{section.14.2}
 \contentsline {section}{\numberline {14.3}Fragen f\"ur Interviews}{148}{section.14.3}
