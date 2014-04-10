@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013) (format=pdflatex 2014.3.2)  10 APR 2014 22:55
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013) (format=pdflatex 2014.3.2)  11 APR 2014 00:34
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1984,13 +1984,13 @@ Package babel Info: Redefining ngerman shorthand "~
 
 ]
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 638.
+(babel)             in language  on input line 637.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 638.
+(babel)             in language  on input line 637.
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 638.
+(babel)             in language  on input line 637.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 638.
+(babel)             in language  on input line 637.
  [50]
 Package babel Info: Redefining ngerman shorthand "|
 (babel)             in language  on input line 647.
@@ -2890,52 +2890,57 @@ Package babel Info: Redefining ngerman shorthand "|
 Package babel Info: Redefining ngerman shorthand "~
 (babel)             in language  on input line 1456.
  [122]
-Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 1494.
-Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 1494.
-Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 1494.
-Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 1494.
+Overfull \hbox (1.11359pt too wide) in paragraph at lines 1479--1480
+\T1/lmss/m/n/10 (-20) on-li-ne im In-ter-net: [][]  $h t tp : [] []  w w w . e 
+n e r g y m a r k e t p r i c e . c o m []  ? 1 4 2 1 6$[][] -- Zu-griff: 10.04
+.2014 
+ []
 
+Package babel Info: Redefining ngerman shorthand "|
+(babel)             in language  on input line 1495.
+Package babel Info: Redefining ngerman shorthand "~
+(babel)             in language  on input line 1495.
+Package babel Info: Redefining ngerman shorthand "|
+(babel)             in language  on input line 1495.
+Package babel Info: Redefining ngerman shorthand "~
+(babel)             in language  on input line 1495.
 [123]
-Overfull \hbox (4.25491pt too wide) in paragraph at lines 1506--1507
+Overfull \hbox (4.25491pt too wide) in paragraph at lines 1512--1513
 []\T1/lmss/bx/n/10 Europäische Kom-mis-si-on Di-rec-to-ra-te Ge-ne-ral Wirt-sch
 aft und Fi-nan-zen (2014):
  []
 
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 1529.
+(babel)             in language  on input line 1530.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 1529.
+(babel)             in language  on input line 1530.
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 1529.
+(babel)             in language  on input line 1530.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 1529.
+(babel)             in language  on input line 1530.
 [124]
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 1566.
+(babel)             in language  on input line 1568.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 1566.
+(babel)             in language  on input line 1568.
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 1566.
+(babel)             in language  on input line 1568.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 1566.
+(babel)             in language  on input line 1568.
  [125]
-Overfull \hbox (1.1971pt too wide) in paragraph at lines 1574--1575
+Overfull \hbox (1.1971pt too wide) in paragraph at lines 1580--1581
 []\T1/lmss/bx/n/10 Harrington, Jo-seph Em-mett; Ver-non, John Mit-cham & W. Kip
  Vis-cu-si (2005):
  []
 
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 1605.
+(babel)             in language  on input line 1606.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 1605.
+(babel)             in language  on input line 1606.
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 1605.
+(babel)             in language  on input line 1606.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 1605.
+(babel)             in language  on input line 1606.
 [126]
 Package babel Info: Redefining ngerman shorthand "|
 (babel)             in language  on input line 1639.
@@ -2947,22 +2952,22 @@ Package babel Info: Redefining ngerman shorthand "~
 (babel)             in language  on input line 1639.
  [127]
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 1678.
+(babel)             in language  on input line 1677.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 1678.
+(babel)             in language  on input line 1677.
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 1678.
+(babel)             in language  on input line 1677.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 1678.
+(babel)             in language  on input line 1677.
  [128]
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 1719.
+(babel)             in language  on input line 1720.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 1719.
+(babel)             in language  on input line 1720.
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 1719.
+(babel)             in language  on input line 1720.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 1719.
+(babel)             in language  on input line 1720.
  [129]
 Package babel Info: Redefining ngerman shorthand "|
 (babel)             in language  on input line 1755.
@@ -2974,31 +2979,31 @@ Package babel Info: Redefining ngerman shorthand "~
 (babel)             in language  on input line 1755.
  [130]
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 1792.
+(babel)             in language  on input line 1795.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 1792.
+(babel)             in language  on input line 1795.
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 1792.
+(babel)             in language  on input line 1795.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 1792.
+(babel)             in language  on input line 1795.
  [131]
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 1829.
+(babel)             in language  on input line 1834.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 1829.
+(babel)             in language  on input line 1834.
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 1829.
+(babel)             in language  on input line 1834.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 1829.
+(babel)             in language  on input line 1834.
  [132]
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 1867.
+(babel)             in language  on input line 1873.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 1867.
+(babel)             in language  on input line 1873.
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 1867.
+(babel)             in language  on input line 1873.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 1867.
+(babel)             in language  on input line 1873.
  [133]
 Package babel Info: Redefining ngerman shorthand "|
 (babel)             in language  on input line 1911.
@@ -3010,31 +3015,31 @@ Package babel Info: Redefining ngerman shorthand "~
 (babel)             in language  on input line 1911.
  [134]
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 1948.
+(babel)             in language  on input line 1945.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 1948.
+(babel)             in language  on input line 1945.
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 1948.
+(babel)             in language  on input line 1945.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 1948.
+(babel)             in language  on input line 1945.
  [135]
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 1996.
+(babel)             in language  on input line 1993.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 1996.
+(babel)             in language  on input line 1993.
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 1996.
+(babel)             in language  on input line 1993.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 1996.
+(babel)             in language  on input line 1993.
  [136]
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 2032.
+(babel)             in language  on input line 2038.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 2032.
+(babel)             in language  on input line 2038.
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 2032.
+(babel)             in language  on input line 2038.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 2032.
+(babel)             in language  on input line 2038.
  [137]
 Package babel Info: Redefining ngerman shorthand "|
 (babel)             in language  on input line 2078.
@@ -3046,156 +3051,165 @@ Package babel Info: Redefining ngerman shorthand "~
 (babel)             in language  on input line 2078.
 
 [138]
+Package babel Info: Redefining ngerman shorthand "|
+(babel)             in language  on input line 2093.
+Package babel Info: Redefining ngerman shorthand "~
+(babel)             in language  on input line 2093.
+Package babel Info: Redefining ngerman shorthand "|
+(babel)             in language  on input line 2093.
+Package babel Info: Redefining ngerman shorthand "~
+(babel)             in language  on input line 2093.
+ [139]
 Kapitel 14.
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 2084.
-Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 2084.
-Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 2087.
-Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 2087.
-Package babel Info: Redefining ngerman shorthand "|
 (babel)             in language  on input line 2099.
 Package babel Info: Redefining ngerman shorthand "~
 (babel)             in language  on input line 2099.
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 2099.
+(babel)             in language  on input line 2102.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 2099.
-[139
+(babel)             in language  on input line 2102.
+Package babel Info: Redefining ngerman shorthand "|
+(babel)             in language  on input line 2114.
+Package babel Info: Redefining ngerman shorthand "~
+(babel)             in language  on input line 2114.
+Package babel Info: Redefining ngerman shorthand "|
+(babel)             in language  on input line 2114.
+Package babel Info: Redefining ngerman shorthand "~
+(babel)             in language  on input line 2114.
+[140
 
 ]
 LaTeX Font Info:    Font shape `T1/pplx/bx/n' in size <10> not available
-(Font)              Font shape `T1/pplx/b/n' tried instead on input line 2110.
+(Font)              Font shape `T1/pplx/b/n' tried instead on input line 2125.
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 2134.
+(babel)             in language  on input line 2149.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 2134.
+(babel)             in language  on input line 2149.
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 2134.
+(babel)             in language  on input line 2149.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 2134.
- [140]
-Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 2144.
-Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 2144.
-Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 2144.
-Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 2144.
+(babel)             in language  on input line 2149.
  [141]
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 2150.
+(babel)             in language  on input line 2159.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 2150.
+(babel)             in language  on input line 2159.
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 2150.
+(babel)             in language  on input line 2159.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 2150.
+(babel)             in language  on input line 2159.
  [142]
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 2153.
+(babel)             in language  on input line 2165.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 2153.
+(babel)             in language  on input line 2165.
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 2153.
+(babel)             in language  on input line 2165.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 2153.
+(babel)             in language  on input line 2165.
  [143]
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 2160.
+(babel)             in language  on input line 2168.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 2160.
+(babel)             in language  on input line 2168.
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 2169.
+(babel)             in language  on input line 2168.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 2169.
-Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 2169.
-Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 2169.
+(babel)             in language  on input line 2168.
  [144]
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 2171.
+(babel)             in language  on input line 2175.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 2171.
+(babel)             in language  on input line 2175.
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 2171.
+(babel)             in language  on input line 2184.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 2171.
+(babel)             in language  on input line 2184.
+Package babel Info: Redefining ngerman shorthand "|
+(babel)             in language  on input line 2184.
+Package babel Info: Redefining ngerman shorthand "~
+(babel)             in language  on input line 2184.
  [145]
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 2175.
+(babel)             in language  on input line 2186.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 2175.
+(babel)             in language  on input line 2186.
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 2175.
+(babel)             in language  on input line 2186.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 2175.
+(babel)             in language  on input line 2186.
  [146]
-Underfull \hbox (badness 2671) in paragraph at lines 2176--2176
+Package babel Info: Redefining ngerman shorthand "|
+(babel)             in language  on input line 2190.
+Package babel Info: Redefining ngerman shorthand "~
+(babel)             in language  on input line 2190.
+Package babel Info: Redefining ngerman shorthand "|
+(babel)             in language  on input line 2190.
+Package babel Info: Redefining ngerman shorthand "~
+(babel)             in language  on input line 2190.
+ [147]
+Underfull \hbox (badness 2671) in paragraph at lines 2191--2191
 \T1/ppl/m/n/9 Die 'Na-tio-na-le Al-li-anz' wur-de als Wahl-bünd-nis zwi-schen '
 Für Va-ter-land und Frei-
  []
 
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 2177.
+(babel)             in language  on input line 2192.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 2177.
+(babel)             in language  on input line 2192.
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 2177.
+(babel)             in language  on input line 2192.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 2177.
-[147]
+(babel)             in language  on input line 2192.
+[148]
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 2181.
+(babel)             in language  on input line 2196.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 2181.
+(babel)             in language  on input line 2196.
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 2195.
+(babel)             in language  on input line 2210.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 2195.
+(babel)             in language  on input line 2210.
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 2195.
+(babel)             in language  on input line 2210.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 2195.
- [148]
-Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 2208.
-Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 2208.
-Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 2208.
-Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 2208.
+(babel)             in language  on input line 2210.
  [149]
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 2258.
+(babel)             in language  on input line 2223.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 2258.
+(babel)             in language  on input line 2223.
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 2258.
+(babel)             in language  on input line 2223.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 2258.
-Package atenddvi Info: Last page = 150.
+(babel)             in language  on input line 2223.
  [150]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 2258.
-Package atveryend Info: Executing hook `AfterLastShipout' on input line 2258.
+Package babel Info: Redefining ngerman shorthand "|
+(babel)             in language  on input line 2273.
+Package babel Info: Redefining ngerman shorthand "~
+(babel)             in language  on input line 2273.
+Package babel Info: Redefining ngerman shorthand "|
+(babel)             in language  on input line 2273.
+Package babel Info: Redefining ngerman shorthand "~
+(babel)             in language  on input line 2273.
+Package atenddvi Info: Last page = 151.
+ [151]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 2273.
+Package atveryend Info: Executing hook `AfterLastShipout' on input line 2273.
  (./Diplomarbeit_Pascal-Bernhard.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 2258.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 2258.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 2273.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 2273.
 
 Package rerunfilecheck Info: File `Diplomarbeit_Pascal-Bernhard.out' has not ch
 anged.
 (rerunfilecheck)             Checksum: F0C2852FDBE300F48AC24777A34B397D;3460.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 2258.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 2273.
  ) 
 Here is how much of TeX's memory you used:
- 35913 strings out of 493853
- 785145 string characters out of 6157278
- 1001432 words of memory out of 5000000
+ 35914 strings out of 493853
+ 785151 string characters out of 6157278
+ 1000430 words of memory out of 5000000
  37203 multiletter control sequences out of 15000+600000
  183021 words of font info for 566 fonts, out of 8000000 for 9000
  788 hyphenation exceptions out of 8191
@@ -3219,10 +3233,10 @@ f-dist/fonts/type1/urw/palatino/uplbi8a.pfb></usr/share/texmf-dist/fonts/type1/
 urw/palatino/uplr8a.pfb></usr/share/texmf-dist/fonts/type1/urw/palatino/uplr8a.
 pfb></usr/share/texmf-dist/fonts/type1/urw/palatino/uplri8a.pfb></usr/share/tex
 mf-dist/fonts/type1/urw/zapfding/uzdr.pfb>
-Output written on Diplomarbeit_Pascal-Bernhard.pdf (150 pages, 1077226 bytes).
+Output written on Diplomarbeit_Pascal-Bernhard.pdf (151 pages, 1079171 bytes).
 PDF statistics:
- 2134 PDF objects out of 2487 (max. 8388607)
- 1921 compressed objects within 20 object streams
- 659 named destinations out of 1000 (max. 500000)
+ 2138 PDF objects out of 2487 (max. 8388607)
+ 1924 compressed objects within 20 object streams
+ 660 named destinations out of 1000 (max. 500000)
  91646 words of extra memory for PDF output out of 106986 (max. 10000000)
 
