@@ -1,0 +1,24 @@
+\documentclass[10pt,oneside]{scrreprt}
+
+\usepackage[T1]{fontenc}
+\usepackage[ngerman]{babel}
+\usepackage{pgf-pie,etoolbox}
+
+\makeatletter
+\patchcmd\pgfpie@slice
+  {node {\scalefont{#3}\beforenumber#3\afternumber}}
+  {node {}}{}{}
+\makeatother
+
+\begin{document}
+
+\begin{figure}
+  \centering
+  \begin{tikzpicture}
+    \pie[text=legend,radius=2]{52/A \& B, 21/C, 13/D, 6/E, 8/F}
+  \end{tikzpicture}
+  \caption{Name}
+  \label{fig:Name}
+\end{figure}
+
+\end{document}

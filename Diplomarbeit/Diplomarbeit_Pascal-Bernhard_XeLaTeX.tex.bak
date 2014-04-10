@@ -1,0 +1,1479 @@
+\documentclass[
+11pt,			%Schriftgr\"{o}ße
+paper=a4,		%Papierformat
+ngerman,		%Deutsche Silbentrennung
+BCOR=0pt,		%Bindekorrektureinstellung=AUS
+DIV=calc,		%Satzspiegelberechnung
+headinclude,	%Kopfzeile bei Saztspiegelberechnung mit einbeziehen
+headsepline,	%Trennlinie unter der Kopfzeile
+numbers=noenddot,
+]{scrreprt}
+\usepackage[T1]{fontenc}
+\usepackage{lmodern}
+\usepackage[sc]{mathpazo}
+
+% Satzspiegel wird neu berechnet
+\typearea[current]{calc}
+
+\usepackage[ansinew]{inputenc}
+
+% Paket f\"{\"{ü}}r besseres Schriftbild
+\usepackage{microtype}
+
+
+% Allgemeine Pakete:
+
+\usepackage{xcolor}
+\usepackage[ngerman]{babel}
+\usepackage{relsize}
+\usepackage{paralist}
+\usepackage{mdwlist}
+\usepackage{typearea}
+\usepackage{setspace}
+\usepackage{textcomp}
+\usepackage{marvosym}
+\usepackage{amsmath}
+\usepackage{fancybox}
+\usepackage{array}
+\usepackage{amsfonts,amsmath,amssymb}
+\usepackage{pifont}
+\usepackage{calc}
+\usepackage{ifthen}
+\usepackage{tikz}
+\usepackage{pgfplots}
+%\usepackage{footnotebackref}
+
+\usetikzlibrary{shapes,arrows}
+
+\usepackage{scrpage2}
+
+%%% Pakete f\"{\"{ü}}r Abbildungen
+\usepackage{graphicx}
+\usepackage{floatrow}
+\usepackage{floatpag}
+
+
+%%% Fußnotengefrickel muss vor HYPERREF geladen werden
+\usepackage[bottom,flushmargin,hang,multiple]{footmisc}
+
+%%% Rahmen um Hyperlinks unterbinden
+\usepackage[bookmarks=true,pdftoolbar=true,pdfmenubar=true,pdfstartview={FitH},pdftitle={Gasmarktliberalisierung im Baltikum},pdfauthor={Pascal Bernhard},pdfproducer={Texlive-LaTeX 2013 on Sabayon GNU/Linux 3.12},citecolor=magenta,hidelinks,breaklinks=true]{hyperref}
+
+
+%%% Auf tatsächlichen Namen des Abschnitts verlinken
+\usepackage{titleref}
+\usepackage{nameref}
+
+
+
+% Abstände zwischen \"{\"{ü}}berschrift und Textk\"{o}rper modifizieren [PAKET NICHT INSTALLIERT!!!!]
+%\titlesec
+
+% Gleiche Schriftart f\"{\"{ü}}r Hyperlinks
+\urlstyle{same}
+
+
+%  Gefrickel um URL-Links vern\"{\"{ü}}nftig umzubrechen
+\makeatletter
+\g@addto@macro\UrlBreaks{
+  \do\a\do\b\do\c\do\d\do\e\do\f\do\g\do\h\do\i\do\j
+  \do\k\do\l\do\m\do\n\do\o\do\p\do\q\do\r\do\s\do\t
+  \do\u\do\v\do\w\do\x\do\y\do\z\do\&\do\1\do\2\do\3
+  \do\4\do\5\do\6\do\7\do\8\do\9\do\0}
+% \def\do@url@hyp{\do\-}
+
+% Hiermit soll einer \"{\"{ü}}bervolle Box verhindert werden -- funktioniert sogar irgendwie
+\g@addto@macro\UrlSpecials{\do\/{\mbox{\UrlFont/}\hskip 0pt plus 1pt}}
+\makeatother
+
+% Hier kommen Optionen der KOMA-Klasse zu \"{\"{ü}}berschriften
+\KOMAoptions{headings=small}
+
+% Einstellungen fpr Kopfzeilen
+\ihead{\leftmark} 
+\ohead{\rightmark} 
+\chead{} 
+\pagestyle{scrheadings} 
+\automark[section]{chapter}
+
+\setfootnoterule[0.8pt]{10cm} % H\"{o}he und Länge des Trennstriches f\"{\"{ü}}r Fußnoten anpassen
+\setkomafont{captionlabel}{\sffamily\bfseries} % Beschreibungen von Bilder werden serifenlos und fett gesetzt
+
+\renewcommand{\headfont}{\small\sffamily\mdseries} % Schriftart der Kopfzeile ändern
+
+
+
+%%% Abstände vor und nach \"{\"{ü}}berschriften beeinflussen
+%\titlespacing*{\section}{0pt}{*2.0}{*0.5}
+%\titlespacing*{\subsection}{0pt}{*1.5}{*0.5}
+%\titlespacing*{\subsubsection}{0pt}{*1.5}{*0.5}
+
+%%%----------------------------------------------------------------------
+\definecolor{dunkelgrau}{gray}{0.20}
+\definecolor{hellgrau}{gray}{0.40}
+\definecolor{MidnightBlue}{RGB}{0,103,149}
+\definecolor{NavyBlue}{RGB}{0,110,184}
+\definecolor{MidBlue}{rgb}{0.173,0.212,0.597}
+\definecolor{Dschungel}{cmyk}{0.99,0,0.52,0.2}
+
+
+%%% Palatino ben\"{o}rtigt gr\"{o}ßeren Raum zwischen den Zeilen
+\linespread{1.05}
+
+
+\onehalfspacing
+\typearea[current]{calc}
+
+
+
+%%% Schriften umdefinieren:
+
+\newcommand{\changefont}[3]{
+\fontfamily{#1} \fontseries{#2} \fontshape{#3} \selectfont}
+
+\newcommand{\textemph}{\textsl{\textbf}}
+%%%----------------------------------------------------------------------
+\begin{document}
+
+\begin{spacing}{1}
+
+%%% Deckblatt Start
+\thispagestyle{empty}
+
+
+\begin{center}
+\Large{Freie Universit\"{a}t Berlin}\\
+\end{center}
+ 
+ 
+\begin{center}
+\Large{Fachbereich Politikwissenschaft}
+\end{center}
+\begin{verbatim}
+ 
+ 
+\end{verbatim}
+\begin{center}
+\textbf{\LARGE{\changefont{ppl}{b}{n}
+\sffamily{Diplomarbeit}}}
+\end{center}
+\begin{verbatim}
+ 
+ 
+\end{verbatim}
+\begin{center}
+\textbf{\changefont{ppl}{b}{n}
+\sffamily{im Studiengang Politik}}
+\end{center}
+\begin{verbatim}
+ 
+ 
+\end{verbatim}
+ 
+\begin{flushleft}
+\begin{tabular}{lll}
+
+\textbf{Thema:} & & Energiepolitik im Baltikum --\\
+& & Umsetzung des 3. EU-Liberalisierungspakets zum\\
+& & Gasbinnenmarkt in Litauen \& Lettland\\
+& & \\
+& & \\
+& & \\
+
+
+
+\textbf{eingereicht von:} & & Pascal Bernhard \flq{}pascal.bernhard@belug.de\frq{}\\
+& & \\
+& & \\
+\textbf{eingereicht am:} & & 3. April 2014\\
+& & \\
+& & \\
+\textbf{Betreuer:} & & Herr Prof. Dr. Manfred Kerner\\
+\textbf{Betreuer:} & & Frau Prof. Dr. Miranda Schreurs
+\end{tabular}
+
+\newpage
+
+\textbf{Diese Diplomarbeit widme ich Frau Andrea Volmary und Herrn Kai-Uwe Christoph, ohne deren Hilfe mein Studienabschluss nicht m\"{o}glich gewesen w\"{a}re.}
+
+\end{flushleft}
+
+\end{spacing}
+ 
+%Deckblatt Ende
+
+
+%%%Palatino als Standardschrift
+\renewcommand{\rmdefault}{ppl}
+
+\renewcommand\thesubsection{\thesection.\alph{subsection}}
+
+%%%Inhaltsverzeichnis----------------------------------------------------------------------
+\tableofcontents
+
+
+%%%----------------------------------------------------------------------
+\setlength{\parindent}{30pt}
+\setlength{\parskip}{0pt}
+
+
+%%%-----------------------------------------------------------------------
+
+%%%Einleitung
+
+
+
+\chapter{Einleitung}
+
+Energiepolitik und insbesondere die Versorgungssicherheit bei Gaslieferungen aus dem Ausland haben im Baltikum eine politische Bedeutung wie in nur wenigen Ländern Europas. Die baltischen Staaten verf\"{\"{ü}}gen \"{\"{ü}}ber keine eigenen Erdgasreserven und m\"{\"{ü}}ssen ihren gesamten Bedarf aus dem Ausland importieren. An keines der Energienetze anderer EU-L\"{a}nder angeschlossen befinden sie sich als einzige Mitglieder der EU in einer Inselposition und haben nicht die M\"{o}glichkeit, bei einer Versorgungskrise von ihren europ\"{a}ischen Partnern Energie zu beziehen. Bis heute existieren lediglich \"{o}l- \& Gaspipelines nach Belarus und Russland. Die politischen Beziehungen mit dem großen \"{o}stlichen Nachbarn gestalten sich durch historische Altlasten als schwierig, zudem bef\"{\"{ü}}rchten die baltischen L\"{a}nder Lieferstopps, die nach den Erfahrungen der regelm\"{a}ßigen Gasstreitigkeiten zwischen Moskau und Kiew vielmehr als politisch denn wirtschaftlich motiviert gesehen werden.
+ 
+Im Vergleich zu großen EU-Mitgliedern wie Frankreich, Deutschland oder Großbritannien befinden sich die baltischen L\"{a}nder gegen\"{\"{ü}}ber ihrem russischen Lieferanten in einer deutlich schw\"{a}cheren Verhandlungsposition: Zu ihrem eindeutig geringeren wirtschaftlichem und politischen Gewicht\footnote{Bev\"{o}lkerungszahlen: Deutschland (80,5 Mio. Einwohner); Frankreich (65,6 Mio.); Vereinigtes K\"{o}nigreich (63,9 Mio.) \textemdash{} \textsl{hierzu im Vergleich:} Estland (1,3 Mio.); Lettland (2,0 Mio.); Litauen (3,0 Mio.). \"{a}hnliche Gr\"{o}ßenverh\"{a}ltnisse bestehen bei der Wirtschaftskraft gemessen als Bruttoinlandsprodukt zu Marktpreisen (siehe: Anhang \textsf{\textcolor{NavyBlue}{\nameref{sec:BIP}}}) sowohl in absoluten, als auch in relativen Zahlen pro Kopf: Deutschland: \mbox{2 666 400} Mio. Euro / 32 600 Euro pro Kopf; Frankreich: \mbox{2 032 296,8} Mio. Euro / \mbox{31 100} Euro pro Kopf; Vereinigtes K\"{o}nigreich: \mbox{1.932.701,9} Mio. Euro / \mbox{30 100} Euro pro Kopf \textemdash{} \textsl{hierzu im Vergleich:} Estland: \mbox{17 415,1} Mio. Euro / \mbox{13 300} Euro pro Kopf; Lettland: \mbox{22 256,9} Mio. Euro / \mbox{10 9}00 Euro pro Kopf; Litauen: \mbox{32 939,8} Mio. Euro / \mbox{11 100} Euro pro Kopf \textsl{(Quelle: Eurostat 2013 -- Zahlen zu Marktpreisen)}. F\"{\"{ü}}r Russland sind die entsprechenden Zahlen: Bev\"{o}lkerung: 143,6 Mio. \textsl{(Quelle: Statistikamt der Russischen F\"{o}rderation \textendash{} Sch\"{a}tzung 2013)}; Bruttoinlandsprodukt: 10 573 Mio. Euro \textsl{(Quelle: Weltbank 2013)} / pro Kopf }, welches weniger Verhandlungsmasse bietet, gesellt sich der erw\"{a}hnte Mangel an Importalternativen. Aus diesem asymmetrischen Abh\"{a}ngigkeitsverh\"{a}ltnis\footnote{F\"{\"{ü}}r Lettland und Litauen ist diese asymmetrische Abh\"{a}ngigkeit st\"{a}rker gegeben als f\"{\"{ü}}r Litauen, das bisher in der Position eines Transitlandes f\"{\"{ü}}r Gaslieferungen an die russische Exklave Kaliningrad war. Der Bau einer Abzweigung der \textsl{Nord Stream} Pipeline durch die Ostsee hat alternative Versorgungsm\"{o}glichkeiten er\"{o}ffnen und Litauen somit seiner Sonderstellung unter den baltischen L\"{a}ndern beraubt -- vgl. Chyong, Findlater \& No\"{e}l (2010)} entsteht ein Gef\"{\"{ü}}hl der Schw\"{a}che gegen\"{\"{ü}}ber dem russischen Handelspartner. Diese Sichtweise pr\"{a}gt die politischen Debatten um Energiepolitik in Litauen und Lettland\footnote{siehe: Energieministerium der Republik Litauen (2012), \textcolor{purple}{Weitere Quellen notwendig!!!}}, jene der drei baltischen L\"{a}nder, die Gegenstand dieser Arbeit sein werden. 
+
+Der staatlich kontrollierte russische Energiekonzern \emph{Gazprom}, bisher einzige Bezugsquelle f\"{\"{ü}}r Erdgas, wird h\"{a}ufig als Instrument des Kremls angesehen f\"{\"{ü}}r eine aggressive Außenpolitik, die Russlands Einfluss \"{\"{ü}}ber die ehemaligen Sowjetrepubliken wiederherstellen will\footnote{F\"{\"{ü}}r eine Diskussion dieser Sichtweise siehe: \textbf{Goldthau} (2008)}. \emph{Gazprom} ist neben seiner Rolle bei Gaseinfuhren in Lettland und Litauen durch Beteiligungen an den nationalen Gasunternehmen \textit{Latvijas G\={a}ze} (Lettland) und \textit{Lietuvos Dujos} (Litauen)\footnote{Der Erdgaskonzern h\"{a}lt zusammen mit einem anderen russischen Unternehmen, Itera Latvija, 50 \% der Anteile am lettischen Gasversorger Latvijas G\={a}ze. In Litauen h\"{a}lt \emph{Gazprom} 39 \% der Anteile an Lietuvos Dujos, ebenso wie Latvijas G\={a}ze ein sog. vertikal integriertes Energieunternehmen} auch in den Marktsegmenten Fernleitung und Vertrieb vertreten. 
+
+Die Kontrolle \"{\"{ü}}ber das entscheidende mittlere Marktsegment \glqq Fernleitung\grqq{} mit seiner spezifischen Eigenschaft eines nat\"{\"{ü}}rlichen Monopols\footnote{F\"{\"{ü}}r eine ausf\"{\"{ü}}hrlichere Erl\"{a}uterung siehe: Anhang \textsf{\textcolor{NavyBlue}{\nameref{sec:Nat\"{\"{ü}}rliches Monopol}}}} versetzt \emph{Gazprom} in die Lage, Konkurrenten den Zugang zu seiner Pipeline-Infrastruktur zu verweigern. Auch langfristige Liefervertr\"{a}ge zwischen dem russischen Erdgaskonzern und litauischen bzw. lettischen Unternehmen behindern einerseits freien Wettbewerb auf dem Gasmarkt. Die gegenw\"{a}rtige Marktstruktur mit einer vertikal integrierten Wertsch\"{o}pfungskette -- F\"{o}rderung, Fernleitung \& Vertrieb in einer Hand, bzw. indirekt durch Beteiligungen gepaart mit der erw\"{a}hnten Insellage wird in den nationalen Strategiepapieren zur Energiepolitik eindeutig als Problem angesehen\footnote{siehe: Energieministerium der Republik Litauen (2012)}.
+
+Die als \textit{Drittes Liberalisierungspaket} bekannte EU-Richtlinie \textbf{2009""/""73/""EG}\footnote{\textsl{Richtlinie 2009/73/EG des Europ\"{a}ischen Rates und des Europ\"{a}ischen Parlamentes vom 13.Juli 2009 betreffend die gemeinsamen Vorschriften f\"{\"{ü}}r den Erdgasbinnenmarkt und zur Aufhebung der Richtlinie 2003/55/EG} ABl. 2009 L 211: 94} vom 13.Juli 2009 f\"{\"{ü}}r den Erdgasbinnenmarkt gibt den baltischen L\"{a}ndern nun die M\"{o}glichkeit, die existierenden vertikal integrierten Strukturen ihrer Gasm\"{a}rkte aufzubrechen und \emph{Gazprom} Marktmacht deutlich zu schw\"{a}chen. Das Maßnahmenb\"{\"{ü}}ndel der Europ\"{a}ischen Union sieht unter anderem vor, Energieunternehmen zu zwingen, ihre Gesch\"{a}ftsaktivit\"{a}ten F\"{o}rderung und Vertrieb vom nat\"{\"{ü}}rlichen Monopol der Netzinfrastruktur zu trennen.  Bei der Umsetzung in nationales Recht haben sich die Mitgliedsstaaten die M\"{o}glichkeit gewahrt, zwischen unterschiedlichen Entflechtungsmodellen\footnote{In der Literatur wie auch im Sprachgebrauch der Europ\"{a}ischen Kommission wird in deutschsprachigen Texten neben dem deutschen Wort \emph{'Entflechtung'} auch der englische Begriff \emph{'Unbundling'} gebraucht. Beide Begriffe werden im Folgenden gleichbedeutend verwendet.} zu w\"{a}hlen. Entweder m\"{\"{ü}}ssen vertikal integrierte Energieunternehmen\footnote{In der Richtlinie \textbf{98/30/EG} wird als 'vertikal integriertes Unternehmen' ein Unternehmen definiert, \textsl{\glqq das mindestens zwei der folgenden Funktionen wahrnimmt: Gewinnung, Fernleitung, Verteilung, Lieferung und Speicherung von Erdgas\grqq}, RL (98/39/EG), S.4 Art.2 (16)} ihr Netz komplett ver\"{a}ußern. Hiermit verl\"{o}ren sie die M\"{o}glichkeit, Konkurrenten aus dem Markt fernzuhalten, indem sie ihnen Zugang zu Gaspipelines verwehren.  Alternativ kann die Netzinfrastruktur weiterhin im Besitz der bisherigen Eigent\"{\"{ü}}mer verbleiben, deren Benutzung wird aber staatlich reguliert, um auf diesem Wege freien Wettbewerb auf dem Gasmarkt zu gew\"{a}hrleisten. 
+
+W\"{a}hrend die litauische Politik die Option der vollst\"{a}ndigen besitzrechtlichen Enflechtung gew\"{a}hlt hat, ist man in Lettland einen anderen Weg gegangen, bzw. wurde dort, eine Ausnahmeregelung nutzend, die Implementation der EU-Direktive \"{\"{ü}}ber Jahre hinausgez\"{o}gert. In Lettland verbleiben die Gaspipelines beim nationalen Gasunternehmen \textit{Latvijas G\={a}ze}, welches von \emph{Gazprom} kontrolliert wird, jedoch kommen sie unter staatliche Regulierung.
+
+Dass sich Litauen, jedoch nicht Lettland f\"{\"{ü}}r das strenge Entflechtungsmodell mit der Zwangsver\"{a}ußerung der Infrastruktur entschieden hat, l\"{a}sst vermuten, dass geo-strategische Belange nicht in beiden L\"{a}ndern die gleiche Bedeutung bei der Umsetzung der EU-Vorgaben einnahmen. Diese Arbeit wird der Frage nachgehen, aus welchen Gr\"{\"{ü}}nden die jeweilige Politik anders entschieden hat, wenn doch aus (zugegebenermaßen oberfl\"{a}chlicher) sicherheitspolitischer Perspektive eine Beschr\"{a}nkung von \emph{Gazproms} Marktmacht im Interesse dieser Staaten sein sollte. Diese Arbeit kn\"{\"{ü}}pft an die Integrationsforschung zur Europ\"{a}ischen Union an, die kl\"{a}ren will, weshalb manche Politikfelder harmonisiert werden und andere nicht, bzw. wie Differenzen in der nationalen Ausgestaltung europ\"{a}ischen Politikvorgaben zu Stande kommen. Als neu betrachtet werden kann der eingangs erw\"{a}hnte geo-strategische Aspekt, der sich im Gegensatz zu anderen Bereichen der europ\"{a}ischen Integration in der vorliegenden Fallstudie als Parameter zu ber\"{\"{ü}}cksichtigen ist.
+ 
+ 
+ 
+
+
+
+
+%%%----------------------------------------------------------------------------------------------------
+
+
+\chapter[Fragestellung]{Untersuchungsgegenstand \& Fragestellung}
+
+Die Frage, weshalb in Litauen und Lettland ein unterschiedliches Entflechtungsmodell gew\"{a}hlt wurde, soll im Mittelpunkt dieser Arbeit stehen. Trotz augenscheinlich vergleichbarer Ausgangsbedingungen, wie in der Einleitung skizziert, ist der bisherige Entflechtungs- \& Liberalisierungsprozess\footnote{In dieser Arbeit wird der Begriff \textsl{Liberalisierung} im Sinne von Entflechtung vertikal integrierter Besitzstrukturen auf dem Gasmarkt gebraucht. Dies sollte in diesem Zusammenhang nicht als zugleich Privatisierung staatlicher Unternehmen gleichgesetzt werden.} in den beiden EU-Mitgliedern zu einem anderen Ergebnis gekommen. Die Implementation des Dritten Liberalisierungspaket bietet ein \glqq Most-Similiar Case Design\grqq{} mit einem beobachtbar unterschiedlichem Resultat, obwohl ein zumindest \"{a}hnliches Ergebnis zu erwarten gewesen w\"{a}re. Entsprechend hat diese Arbeit den Differenzen der beiden F\"{a}lle besondere Beachtung zu schenken, die eine Erkl\"{a}rung f\"{\"{ü}}r die ungleiche Umsetzung der Br\"{\"{ü}}sseler Vorgaben bieten k\"{o}nnen. Grunds\"{a}tzlich muss diese Arbeit die Frage stellen, ob die anf\"{a}nglich als vergleichbar angenommenen Ausgangsbedingungen der baltischen L\"{a}nder in der Tat so \"{a}hnlich waren, dass mit einem vergleichbaren Ergebnis zu rechnen war.
+
+Zur Bearbeitung der Fragestellung bieten sich mehrere Erkl\"{a}rungsans\"{a}tze an, wenn auch eine endg\"{\"{ü}}ltige Antwort im Rahmen dieser Diplomarbeit nicht geleistet werden kann. Lettland und Litauen hatten grunds\"{a}tzlich die M\"{o}glichkeiten, verschiedenartige Formen des Ownership Unbundlings zu w\"{a}hlen, denn die Direktiven der Europ\"{a}ischen Union geben ausdr\"{\"{ü}}cklich den Mitgliedsstaaten Spielraum, bei der Umsetzung die jeweiligen nationalen Gegebenheiten zu ber\"{\"{ü}}cksichtigen. Die zu untersuchende Variable \textsl{Entflechtungsmodell} konnte demzufolge variieren und fiel im Fallbeispiel der baltischen L\"{a}ndern unterschiedlich aus. Unter landesspezifischen Besonderheiten wird a priori zu untersuchen sein, ob die bestehenden Marktstrukturen ein unterschiedliches Entflechtungsmodell nahelegten. Auf einer allgemeineren Ebene \marginpar{\scriptsize{\textcolor{purple}{\textbf{\textsf{Hier muss ich noch kurz erl\"{a}utern, wie Marktstruktur-Akteurskonstellation-Versorgungssituation ein bestimmtes Entflechtungsmodell bedingen}}}}} k\"{o}nnen politische und \"{o}konomische Faktoren eine bestimmte Gasmarktstruktur forcieren. Ist gesellschaftspolitisch ein bestimmtes Wohlfahrtsstaatsmodell erw\"{\"{ü}}nscht, das zum Beispiel auch die fl\"{a}chendeckende und kosteng\"{\"{ü}}nstige Versorgung mit Erdgas als gemeinschaftliche Leistung versteht, so entsprechen die verschiedenen Formen des Unbundlings diesen Anforderungen in unterschiedlichem Maße. Auf den Fall der Gasmarktliberalisierung im Baltikum angewendet, w\"{a}re nun betrachten, inwiefern ein wohlfahrtsstaatlicher  Grundkonsens in Litauen und Lettland und genauer die sozialpolitische Ausrichtung der beteiligten Regierungen Erkl\"{a}rungskraft besitzen.
+
+
+\section{Stand der Forschung} 
+
+Einen umfassenden \"{\"{ü}}berblick zur Literatur \"{\"{ü}}ber Energiemarktreformen zu geben ist \"{\"{ü}}bersteigt erstens die Dimension des Forschungsvorhabens und ist zudem im Rahmen einer Diplomarbeit nicht zu leisten.  W\"{a}hrend die nationale Umsetzung von EU-Richtlinien von der europ\"{a}ischen Integrationsforschung und von \"{o}konomen breit aufgegriffen wurde\footnote{siehe: Haase (2008); International Energy Agency (2009); Molle (2006)}, gibt es zum vergleichsweise neuem Dritten Liberalisierungspaket weitaus weniger Literatur\footnote{siehe: Cottier, Matteotti-Berkutova \& Nartova (2010); Schmidt-Preuß (2009)}. Spezifisch zur Gasmarktliberalisierung in den baltischen L\"{a}ndern existiert zum gegenw\"{a}rtigen Zeitpunkt meines Wissens nach praktisch keine wissenschaftlichen Arbeiten. Im Mittelpunkt der Forschung zur Energiepolitik steht die f\"{\"{ü}}r das Baltikum zentrale Frage der Versorgungssicherheit\footnote{siehe: \v{C}esnakas (2013); Dudzi\'{n}ska (2012)}. Die Literatur zum allgemeinen Konzept\footnote{siehe: beispielhaft Bielecki (2002); Bohi \& Toman (1996); De Vries, Groenenberg, Kruyt \& van Vuuren (2009) \& Yergin (2003)} aber auch spezifisch zur Versorgungssicherheit Europas in Bezug auf Energielieferungen aus Russland ist zu umfangreich, als dass an dieser Stelle genauer auf sie eingegangen werden k\"{o}nnte\footnote{siehe: beispielhaft Aalto \& Temel (2013); Aleklett, Jakobsson \& S\"{o}derberg (2010); Azar, Hedenus \& Johansson (2010); Bahgat (2006); Belyi (2003)}. \emph{Balmaceda} untersucht die Abh\"{a}ngigkeit von Russland anhand der Beteiligungen russischer Unternehmen im Energiesektor Litauens und sieht diese Verflechtungen als Hauptursache f\"{\"{ü}}r die prek\"{a}re Versorgungslage des Landes\footnote{siehe: Balmaceda (2013)}. Einzig \emph{Grigas} geht in ihren Untersuchungen  \"{\"{ü}}ber neo-realistische Ans\"{a}tze hinaus und versucht das Verh\"{a}ltnis der baltischen Staaten zu Russland aus konstruktivistischer Perspektive als Ausdruck kultureller Normen und Werte gegen\"{\"{ü}}ber der ehemaligen Hegemonialmacht zu erkl\"{a}ren\footnote{siehe: Grigas (2012b) \& (2013)}. Generell ist festzustellen, dass Literatur von "`baltischen"' Autoren zum Themenkomplex Russland--Baltikum--Energie nur geringe wissenschaftliche Anspr\"{\"{ü}}che habem, was die Belege der Aussagen betrifft und eine betont Russland-skeptische Haltung die Argumentation durchzieht\footnote{siehe: Balmaceda (2013); Grigas (2012a), (2012b); (2013); \v{S}leivyte (2009) und Volovoj \& Zdanavi\v{c}ius (2012)}
+
+
+\section{Quellenlage}
+
+Wie bereits im vorangegangenen Abschnitt zum gegenw\"{a}rtigen Stand der Forschung angeklungen ist die Quellenlage zur Energiepolitik im Baltikum eher d\"{\"{ü}}rftig. Diese Aussage trifft nicht nur zu speziell auf Sekund\"{a}rliteratur zur Gasmarktliberalisierung, mit dem Thema Versorgungssicherheit hat sich eine gr\"{o}ßere Anzahl an Autoren besch\"{a}ftigt\footnote{siehe: \v{C}esnakas (2013); Chyong, Findlater \& No\"{e}l (2010); Flamos, Psarras \& Roupas (2011); Raszewski (2012)}, sondern gilt leider ebenso f\"{\"{ü}}r Prim\"{a}rquellen. Daten der statistischen \"{a}mter Litauens und Lettland sind nicht auf dem aktuellsten Stand verf\"{\"{ü}}gbar\footnote{\textcolor{purple}{Weitere Quellen notwendig!!!}} und in ihrem Detailumfang nicht mit jenen anderer europ\"{a}ischer L\"{a}nder zu vergleichen. Auch die Berichte der Aufsichtsbeh\"{o}rden bieten nur begrenzt verwertbare Informationen zur jeweiligen Situation des Gasmarktes und beschr\"{a}nken sich auf allgemein gehaltenen Aussagen und politische Absichtserkl\"{a}rungen\footnote{siehe: Sabiedrisko pakalpojumu regul\={e}\v{s}anas komisija (2012); Valstybin\.{e} kain\k{u} ir energetikos kontrol\.{e}s komisija (2012)}.
+
+
+
+\chapter{Forschungsdesign}
+
+
+
+\section[Ansatz der Pfadabh\"{a}ngigkeiten]{\emph{Douglass Norths} Ansatz der Pfadabh\"{a}ngigkeiten}
+
+Wiederholt wird diese Arbeit auf \emph{Douglass Norths} Ansatz der Pfadabh\"{a}ngigkeiten\footnote{siehe: North 1990} zur\"{\"{ü}}ckgreifen, um Energiepolitik in Litauen und Lettland zu erkl\"{a}ren. Auch das zur Strukturierung des Forschungsvorgehens angewandte Modell der \glqq Transaction Cost Economics\grqq{} von \emph{Williamson}\footnote{siehe: Williamson (1998)} baut auf der Logik von Verlaufsabh\"{a}ngigkeiten auf, nach welcher Akteure in Transaktionen Entscheidungen treffen. Das im folgenden Abschnitt \textsf{\textcolor{NavyBlue}{\nameref{sec:Transaction}}} erl\"{a}uterte Modell integriert die Folgerichtigkeit individuellen Handelns basierend auf historischen Entwicklungen und Erfahrungen in kollektive Entscheidungsprozesse, die zeitlich und r\"{a}umlich getrennt voneinander auf unterschiedlichen Ebenen des politischen und wirtschaftlichen Systems ablaufen.
+
+
+North erkl\"{a}rt institutionellen Wandel \"{\"{ü}}ber l\"{a}ngere Zeitr\"{a}ume hinweg mit Rahmenbeschr\"{a}nkungen, welche diese Ver\"{a}nderungen bestimmen. Hierbei wendet er Erkenntnisse von \emph{David} zu Entwicklungspfaden technologischen Fortschritts\footnote{siehe: David (1994) \& ebenda (1995)} auf wirtschaftliche und politische Organisationen an. Als sehr weit gefasster Begriff werden Institutionen als jedwede formale und formlose Regeln verstanden, die das Handeln von Akteuren, als Einzelpersonen oder als Gruppe, beschr\"{a}nken. Zu diesen Regelwerken z\"{a}hlen einerseits Verfassungen, Rechtssysteme, internationale Vertr\"{a}ge und Organisationen wie Unternehmen, Parteien und staatliche Institutionen. In informeller Gestalt geh\"{o}ren Ideologien und Wertvorstellungen zu solchen Regelwerken, die wiederum Grundlage sind f\"{\"{ü}}r spezifischere soziale Verhaltensnormen und Gewohnheiten\footnote{North (1990), S.72}. Gemein ist diesen sehr verschiedenartigen Formen von Konventionen, dass sie Akteure in ihren Entscheidungsoptionen beschneiden.
+
+Als handlungsbestimmende Normen, die auf sukzessive Entscheidungen einwirken, kann f\"{\"{ü}}r die vorliegende Fragestellung erstens die Haltung gegen\"{\"{ü}}ber Russland identifiziert werden, die sich in einer bestimmten subjektiven Wahrnehmung\footnote{Mit dem Begriff ist streng genommen die Verarbeitung von Informationen seitens der Akteure gemeint, nicht die kognitive Informationsaufnahme in visueller oder auditiver Form.} russischer Politik bzw. Gesch\"{a}ftsaktivit\"{a}ten russischer Energiefirmen \"{a}ußert. Zweite erkl\"{a}rende Variable in Gestalt einer Norm sind Wertevorstellungen bez\"{\"{ü}}glich der Rolle von Staat in der Wirtschaft wie auch der Bereitstellung \"{o}ffentlicher G\"{\"{ü}}ter. Wie zu zeigen sein wird, k\"{o}nnen auch sie als informelle Institutionen das Handeln von Politik beeinflussen.
+
+
+\subsection{Logik der Pfadabh\"{a}ngigkeiten}
+
+Wie handeln Akteure, wenn sie Entscheidungen beschr\"{a}nkt durch institutionelle Gegebenheiten treffen m\"{\"{ü}}ssen? In Norths historischer Perspektive machen sich die Akteure je nach Kontext \"{\"{ü}}ber die Zeit mit verschiedenen Technologien, Organisationsformen und Probleml\"{o}sungsans\"{a}tzen vertraut. Mit wachsender Erfahrung werden sie immer effizienter im Umgang mit diesen Mitteln. Jedoch muss, \"{o}konomisch ausgedr\"{\"{ü}}ckt, die Rate der Ertragszunahme dieser verschiedenen Technologien oder Organisationsformen nicht konstant bleiben. Nicht alle Methoden, Probleme technischer oder organisatorischer Art zu l\"{o}sen, zeigen gleich schnell Erfolge. Diese unterschiedlichen Ergebnisse k\"{o}nnen zur monopolistischen Dominanz einer Technologie oder einer bestimmten Markt- \& Unternehmensstruktur f\"{\"{ü}}hren. 
+
+Nach North muss f\"{\"{ü}}r die Analyse von Organisationen neben den urspr\"{\"{ü}}nglichen Zielen der Gr\"{\"{ü}}nder auch die institutionellen Beschr\"{a}nkungen im Laufe ihrer Entwicklung ber\"{\"{ü}}cksichtigt werden\footnote{ebenda (1990), S.73}. Organisationen k\"{o}nnen politischer und wirtschaftlicher Natur sein, wie etwa Parteien oder Unternehmen und setzen sich aus einer Vielzahl von individuellen Akteuren zusammen die als Ergebnis interner Transaktionen kollektiv handeln. F\"{\"{ü}}r die Untersuchung Gasmarktliberalisierung w\"{a}re beispielsweise eine relevante Organisation, die jeweilige Regierung, welche im Kontext des politischen Systems die Vorgaben aus Br\"{\"{ü}}ssel in nationales Recht umzusetzen hat. Auf Marktebene treffen wir von Pfadabh\"{a}ngigkeiten gekennzeichnete Organisationen in Form von vertikal integrierten Gasunternehmen an. Ihr Verhalten ist bestimmt durch wirtschaftliche Interessen und der Unternehmensstruktur als Anpassung an die Rahmenbedingungen des Gasmarktes.
+
+Als Gruppe von Einzelpersonen verfolgt jede Organisation im Sinne eines rational handelnden, Nutzen-maximierenden Akteurs bestimmte Ziele. Die M\"{o}glichkeiten, diese Ziele zu realisieren h\"{a}ngen vom institutionellen Rahmen ab, welcher die Handlungsoptionen der zu diesem Zwecke gew\"{a}hlten Maximierungsstrategie bestimmt. Dieses Nutzen-maximierende Verhalten der Akteure kann sich in zwei Kategorien von Entscheidungen ausdr\"{\"{ü}}cken\footnote{ebenda (1990), S.81}. Zum einen innerhalb des Handlungsspielraums der gegebenen institutionellen Beschr\"{a}nkungen, wie sie im vorherigen Absatz erl\"{a}utert wurden. Zum anderen k\"{o}nnen sich die Entscheidungen auch in Ver\"{a}nderungen dieser Restriktionen \"{a}ußern, bzw. dem Versuch hierzu. Organisationen mit ausreichend Verhandlungsmacht, zum Beispiel in Form von Lobby-Einfluss, werden den Staat und seine Mittel zur Erreichung ihrer Ziele einsetzen, sofern die Erfolgsaussichten f\"{\"{ü}}r institutionelle \"{a}nderungen gr\"{o}ßer sind, als Verhandlungen innerhalb der bestehenden Rahmenbedingungen. Das Maximierungsverhalten von Unternehmen und Organisationen pr\"{a}gt demzufolge wiederum den Wandel von Institutionen. 
+
+
+Als Konsequenz solcher kurz- bis mittelfristig ungleichen Ertr\"{a}ge wird eine Organisationsform oder Technik gewinnen und ihre Monopolstellung behaupten k\"{o}nnen, auch wenn sie auf langer Sicht ihren Alternativen unterlegen ist\footnote{F\"{\"{ü}}r ein anschauliches Beispiel aus der Informationstechnologie, wie eine f\"{\"{ü}}r die \"{a}ra der mechanischen Schreibmaschine optimierte Tastaturbelegung im Zeitalter der Digitalisierung fortbesteht, obwohl nicht mehr ideal f\"{\"{ü}}r heutige Technologie siehe:: \textbf{David} (1995).}. Weil die Akteure in ihren Entscheidungen die bisher erzielten Ertr\"{a}ge ber\"{\"{ü}}cksichtigen, werden sie jene Ans\"{a}tze favorisieren, welche die gr\"{o}ßten Erfolge gezeigt hatten. Hieraus entwickelt sich eine Logik von Verlaufsabh\"{a}ngigkeiten, wonach ein einmal eingeschlagener technischer oder organisatorischer Pfad sich schrittweise verfestigt und mit der Zeit die Wahl von alternativen M\"{o}glichkeiten zunehmend unwahrscheinlicher wird.
+
+
+\paragraph{Selbstverst\"{a}rkende Mechanismen}
+Speziell in der Industrie treten zus\"{a}tzliche Ph\"{a}nomene auf, welche diese Pfadabh\"{a}ngigkeiten best\"{a}rken. F\"{\"{ü}}r die Entwicklung von Unternehmensstrukturen und Produktionsentscheidungen hat \emph{Arthur} selbst verst\"{a}rkende Mechanismen herausgearbeitet, die auch bei Unternehmen im Gassektor zu beobachten sind\footnote{Arthur (1988), S.10}. Hohe irreversible Fixkosten f\"{\"{ü}}hren bei steigender Produktion zu fallenden St\"{\"{ü}}ckkosten und erzeugen Skalenertr\"{a}gen. Gleiches bewirken Lerneffekte, welche die Herstellung mit der Zeit effizienter werden lassen. Des Weiteren kommt es innerhalb integrierter Konzernstrukturen, wie sie bei Energieunternehmen anzufinden sind, zu Koordinationseffekten zwischen den einzelnen Unternehmensteilen, die wiederum bestehende Organisationsstrukturen untermauern\footnote{Als vierten selbstverst\"{a}rkenden Mechanismus f\"{\"{ü}}hrt Arthur adaptive Erwartungen der Firmen in Form von 'Self-Fulfilling Prophecies' an. Hiernach veranlasst die durch den Einsatz einer bestimmten Technik verbesserte Marktposition Firmen in Erwartung einer weiteren Verbesserung, eben jene Schritte zu unternehmen, die hierf\"{\"{ü}}r notwendig sind. Es erscheint wenig plausibel anzunehmen, dieser Effekt spiele insbesondere f\"{\"{ü}}r Gasm\"{a}rkte ein hervorgehobene Rolle und wird daher nicht weiter als erkl\"{a}render Faktor untersucht werden.}. Eine ausf\"{\"{ü}}hrlichere Diskussion dieser Zusammenh\"{a}nge wird Thema des Abschnittes \textsf{\textcolor{NavyBlue}{\nameref{sec:Gasm\"{a}rkte}}} sein, wo gezeigt werden soll, wie die resultierenden Pfadabh\"{a}ngigkeiten Strukturen des Gasmarktes wie auch die Reaktion des Akteure auf Ver\"{a}nderungen des regulativen Marktbedingungen.
+
+
+\subsection{Institutioneller Wandel}
+
+\"{a}nderungen in Organisationsstrukturen gehen lediglich ein kleinen Schritten voran, da Institutionen nur der Reihe nach neue Merkmale und Funktionen annehmen, die sich an bisherigen Beispielen orientieren\footnote{David (1994), S.215}. Diese historischen Beispiele erlangen Bedeutung bei der Formierung institutionalisierter Strukturen, da jede neue Komponente des Regelwerks mit bereits vorhandenen Teilen vereinbar sein muss, es sei denn, die bestehende Struktur wird g\"{a}nzlich aufgegeben. Solche schrittweisen Ver\"{a}nderungen bedeuten, dass Akteure, eingeschr\"{a}nkt durch die erw\"{a}hnten Pfadabh\"{a}ngigkeiten, in Tauschprozessen neu verhandeln, um dort m\"{o}gliche Vorteile zu erreichen\footnote{North (1990), S.89}. Diese Neuverhandlungen k\"{o}nnen ganz unterschiedliche Formen und Dimension annehmen, sie reichen von Gesetzes\"{a}nderungen bis im Extremfall zu Revolutionen. Vorbedingung solcher sich wiederholender schrittweisen \"{a}nderungen ist wiederum ein institutionelles Umfeld, welches den Akteuren Spielraum f\"{\"{ü}}r Transaktionen untereinander bietet. Bei diesen Tauschprozessen entstehen stets Kosten, die einige \"{a}nderungen lohnenswerter erscheinen lassen als andere\footnote{siehe: Coase (1960), (1984)}. Demzufolge ist der historische Vorgang, wie sich die institutionellen Rahmenbedingungen von Tauschhandlungen herausbilden, relevant und beschr\"{a}nkt die Akteure in ihren Entscheidungen, da sie jene Transaktionskosten ber\"{\"{ü}}cksichtigen\footnote{North (1990), S.93}.
+
+Zusammenfassend k\"{o}nnen zwei entscheidende Faktoren f\"{\"{ü}}r institutionellen Wandel identifiziert werden: \begin{inparaenum}
+\item zunehmende Ertr\"{a}ge von Technik und Organisationsform einhergehend mit sich selbst verst\"{a}rkenden Mechanismen \item Transaktionskosten, die Resultat unvollst\"{a}ndiger M\"{a}rkte sind\end{inparaenum}. Bei Tauschprozessen zwischen Akteuren kann von unvollst\"{a}ndigen M\"{a}rkten gesprochen werden, da einerseits die Informationsr\"{\"{ü}}ckkopplung nach vollzogenen Transaktionen stets l\"{\"{ü}}ckenhaft ist und gleichzeitig die Akteure nie \"{\"{ü}}ber vollst\"{a}ndige Informationen zu ihrer Umwelt verf\"{\"{ü}}gen\footnote{ebenda (1990), S.96}. Hierdurch werden die Informationsverarbeitung der Akteure und im Ergebnis ebenso ihre subjektiven Modelle der Welt samt der sich stellenden Probleme beeintr\"{a}chtigt. Angesichts der Herausforderung, mit begrenzten geistigen M\"{o}glichkeiten organisatorische und technische Aufgaben zu bew\"{a}ltigen, werden historische Erfahrungen umso mehr die Entscheidungen von Akteuren bestimmen\footnote{Lewis (1969), S.33}. Aus dieser Ungewissheit \"{\"{ü}}ber den Zustand der Rahmenbedingungen entstehen neue Pfadabh\"{a}ngigkeiten, wenn mit wachsender Anzahl von Transaktionen die Akteure sich in ihren Erwartungen ann\"{a}hern und zur weiteren Reduzierung der Unsicherheit, an bestehenden bekannten Regeln festhalten und diese auf neue Situationen anwenden\footnote{David (1994), S.210}.
+
+
+
+\paragraph{Relative Preise}
+
+Was st\"{o}ßt das Bestreben der Akteure nach institutionellem Wandel an? North argumentiert, eigentliche Ursache aller institutionellen Ver\"{a}nderungen, sei die \"{a}nderung relativer Preise, welche Akteure bei ihrer Maximierungsstrategie ber\"{\"{ü}}cksichtigen m\"{\"{ü}}ssen. Relative Preise sind ein Maß von Nutzen und Kosten verschiedener Handlungsoptionen und spiegeln sich zugleich in den Transaktionskosten der Tauschprozesse. \"{a}nderungen der relativen Preise k\"{o}nnen von außen herbeigef\"{\"{ü}}hrt werden, etwa in Form eines exogenen Schocks, wie sie die Gasmarktrichtlinie der EU f\"{\"{ü}}r Energieunternehmen darstellt. Oder relative Preise \"{a}ndern sich als Ergebnis der Maximierungsstrategie von Akteuren. 
+
+Streben die Akteure nun aufgrund ge\"{a}nderter Preise eine Anpassung bestehender Institutionen an, um ihre Ziele besser realisieren zu k\"{o}nnen, so ist dies h\"{a}ufig nur durch Regel\"{a}nderung auf einer \"{\"{ü}}bergeordneten Stufe m\"{o}glich, die ihrem direktem Zugriff entzogen ist\footnote{North (1990), S.86}. Im Falle der Energiemarktregulierung \"{a}ndern sich durch das Ownership Unbundling die relativen Preise f\"{\"{ü}}r Gasunternehmen. Die Regeln der Entflechtung werden jedoch nicht auf der Marktebene bestimmt, sondern zuvorderst supranational von der Europ\"{a}ischen Union in Form einer Richtlinie und sodann im Laufe der Umsetzung in nationales Recht vom politischen System. An dieser Stelle sei auf das Mehrebenen-Modell nach dem Ansatz der \textsf{\textcolor{NavyBlue}{\nameref{sec:Transaction}}} verwiesen, der es methodisch erm\"{o}glicht, auf unterschiedlichen Niveaus gelagert Entscheidungsprozesse zu untersuchen.
+
+
+\paragraph{Nationale Gegebenheiten}
+
+F\"{\"{ü}}r die Fragestellung, aus welchen Gr\"{\"{ü}}nden die europ\"{a}ische Direktive zur Liberalisierung der Gasm\"{a}rkte in Litauen und Lettland anders umgesetzt wurde, bietet Norths Konzept der Pfadabh\"{a}ngigkeit erst L\"{o}sungsans\"{a}tze, welche im Laufe der Untersuchung getestet werden sollen. Anders formuliert, ist zu kl\"{a}ren, weshalb eine \"{a}nderung relativer Preise, hier in Gestalt der vertikalen Entflechtung, sich in zwei L\"{a}ndern unterschiedlich auswirkte. Umfang und Art der Anpassungen bestehender Regeln infolge ge\"{a}nderter Preise werden von der jeweiligen Verhandlungsmacht beteiligter Akteure bestimmt. Diese Akteure haben sich ihrerseits in einem spezifischen Institutionensystem entwickelt und sich diesem angepasst. Aufgrund andersartiger historischer Erfahrungen und unterschiedlicher R\"{\"{ü}}ckkopplungsmechanismen ihrer Entscheidungen bestehen voneinander abweichende subjektive Modelle f\"{\"{ü}}r das Reaktionsverhalten auf \"{a}nderungen. Da sich zum Einen die Verhandlungsmacht von Gruppen innerhalb einer Gesellschaft sowie ihre Verhaltensnormen und Durchsetzungsmechanismen unterscheiden, werden die Anpassungen jeweils anders ausfallen. Selbst die gleiche \"{a}nderung relativer Preise oder die Einf\"{\"{ü}}hrung eines neuen Regelsystems wird in L\"{a}ndern mit ungleichen Gegebenheiten stets zu unterschiedlichen Ergebnissen f\"{\"{ü}}hren\footnote{North (1990), S.101}. 
+
+
+
+
+\section[Transaction Cost Economics]{\emph{Transaction Cost Economics}--Ansatz}\label{sec:Transaction}
+
+F\"{\"{ü}}r die Untersuchung der Umsetzung des 3. Liberalisierungspaketes will ich den Ansatz der \glqq Transaction Cost Economics\grqq{} von Williamson\footnote{siehe: Williamson (1998)} zur Hilfe nehmen, um die Problemstellung analytisch zu strukturieren. Diese Herangehensweise versucht Entscheidungsfindungen auf mehrere Ebenen zu gliedern, auf denen jeweils andere endogene Faktoren als erkl\"{a}rende Variablen wirken. Williamson\footnote{ebenda (1998), S.27ff} unterscheidet hierarchisch vier Ebenen, die ein jeweils anderes Analyse-Level repr\"{a}sentieren: \begin{inparaenum}\textbf{\item} \textsl{informelle Institutionen}, \textbf{\item} \textsl{formelle Institutionen}, \textbf{\item} \textsl{institutionelle Arrangements}, \textbf{\item} \textsl{Verhalten der Markt"-akteure}\end{inparaenum}. Prozesse auf diesen vier Level, von Williamson als \glqq Transkationen\grqq{} bezeichnet, f\"{\"{ü}}hren zu Ergebnissen, die auf Transaktionen anderer Ebenen einwirken. Die Richtung der Kausalit\"{a}t verl\"{a}uft nach diesem Ansatz haupts\"{a}chlich in hierarchischer Ordnung vom ersten zum zweiten Level, von dort zum dritten und schließlich vom dritten zum vierten Level. Feedback-Mechanismen in entgegengesetzter Richtung werden zwar in Williamsons Arbeit erw\"{a}hnt, diese jedoch als weniger effektiv eingestuft. Inwieweit diese Annahme f\"{\"{ü}}r meinen Untersuchungsgegenstand sinnvoll ist, werde in der Kritik des Modell unten noch einmal aufgegriffen. \textcolor{NavyBlue}{\textsl{Der Autor selbst hat seinen Ansatz explizit f\"{\"{ü}}r Fallstudien zu Regulierungspolitik entwickelt.}}
+
+
+
+\paragraph{Ebene 1}
+Informelle Institutionen werden im Sinne eines Fundamentes auf dem Level 1 erfasst, welches normativ f\"{\"{ü}}r Entscheidungsfindungen auf anderen Ebenen Beschr\"{a}nkungen vorgibt. Diese informellen Institutionen beinhalten Werte, Verhaltensnormen sowie allgemeine Weltanschauungen, die sich nur \"{\"{ü}}ber lange Perioden \"{a}ndern, Williamson spricht von einem Intervall von circa 100 Jahren. Dementsprechend sind diese Erkl\"{a}rungsvariablen meist als dichotome Faktoren zu behandeln, die sich in den Untersuchungszeitr\"{a}umen der meisten Studien nicht \"{a}ndern, durch ihr Vorhandensein, bzw. in manchen F\"{a}llen ihre Auspr\"{a}gung jedoch Erkl\"{a}rungskraft besitzen. Als weitgefasster Institutionenbegriff k\"{o}nnen zu Normen und Werten auch Wahrnehmung von nationaler Souver\"{a}nit\"{a}t und Verf\"{\"{ü}}gungsgewalt \"{\"{ü}}ber 'nationale' Energieressourcen z\"{a}hlen\footnote{International Gas Union (2006), S.22}. 
+
+Bezogen auf Energiemarktreformen spezifiziert das Clingendael Institute for Energy Policy (CIEP) die erste Ebene genauer mit den Bezeichnungen \glqq Ziele der Energiepolitik\grqq{} und \glqq Prinzipien der Marktreformen\grqq. F\"{\"{ü}}r diese Untersuchung ist zum einen die allgemeine Haltung Lettlands und Litauens gegen\"{\"{ü}}ber Russland und die sich hieraus ergebende Wahrnehmung des russischen Erdgaskonzerns \emph{Gazprom} jener auf Level 1 relevante Faktor, der Erkl\"{a}rungskraft besitzen k\"{o}nnte. Diese Einstellung gibt f\"{\"{ü}}r Entscheidungen nachfolgender Analyseebenen normative informelle Beschr\"{a}nkungen vor, wie Energiepolitik gestaltet werden sollte gem\"{a}ß den Werten und Zielen dieser Einstellung.
+
+
+
+\paragraph{Ebene 2}
+Eine Stufe h\"{o}her siedelt das Modell der \emph{Transaction Costs} eine zweite Ebene an, auf welcher formelle Institutionen wirksam werden im klassischen Sinne der \glqq Rules of the Game\grqq{} (Politisches System, Justiz und Verwaltung). Williamson ist hier auf Eigentumsrechte fokussiert, ihre Definition und die Durchsetzung mittels formeller Institutionen\footnote{Williamson (1998), S.27}. Im Kontext der Gasmarktliberalisierung ist unter Eigentumsrechten auch staatliche Regulierung zu verstehen. Eine gesetzlich festgeschriebene Monopolstellung entspricht in Form einer unverr\"{\"{ü}}ckbaren Marktdominanz auch einem Eigentumsrecht im weiteren Sinne. Williamsons strikt \"{o}konomische Perspektive verlassend, werden in dieser Arbeit auch internationale Vertr\"{a}ge wie die Richtlinie der Gasmarktliberalisierung auf diesem Level als formelle Institution verstanden. Direktiven der Europ\"{a}ischen Union geben nationalen Gesetzgebern einen Handlungsrahmen vor, der einerseits \glqq neue\grqq{} Spielregeln f\"{\"{ü}}r die Akteure definiert und zugleich in diesem Kontext auch Eigentumsrechte der Energieunternehmen ber\"{\"{ü}}hrt. 
+
+
+
+\paragraph{Ebene 3}
+Die dritte Analyseebene beinhaltet die sektor-spezifische Regulierung an sich, hier wird in Williamsons Worten \glqq das Spiel an sich gespielt\grqq\footnote{ebenda (1998), S. 28}. Sogenannte 'Institutionelle Arrangements' regeln das Verhalten der Marktakteure, worunter zu verstehen sind: Regulierungsinstrumente, Entscheidungen von Aufsichtsbeh\"{o}rden, formelle und informelle 'Codes of Conduct' der Branche wie auch Handelspraktiken, die sich mit der Zeit institutionalisiert haben. Im Unterschied zur statischen Natur der ersten beiden Ebenen des \emph{Transaction Costs Economics}-Modells \"{a}ndern sich hier die Governance-Strukturen in Zeitr\"{a}umen h\"{a}ufiger. Zum Einen kann Regulierung abh\"{a}ngig von politischen Entscheidungen auf dem zweiten Niveau sehr unterschiedlich ausfallen, zum Anderen sind die H\"{\"{ü}}rden f\"{\"{ü}}r eine \"{a}nderung bestehender Strukturen deutlich niedriger. Je nach Anzahl und Macht der hier t\"{a}tigen Akteure, treten auf diesem Level weniger oder gar keine Veto-Spieler\marginpar{\scriptsize{\textcolor{purple}{\textbf{\textsf{Diese Zusammenh\"{a}nge musss ich noch ausf\"{\"{ü}}hrlicher erl\"{a}utern und Verbindungen zum vorherigen Abschnitt der \emph{Pfadabh\"{a}ngigkeiten} herstellen}}}}} in Erscheinung\footnote{siehe: Tsebelis (1995) \& ebenda (2002)}, die einen Wandel des institutionellen Gef\"{\"{ü}}ges verhindern k\"{o}nnen. Die Akteure besitzen in Folge dessen mehr M\"{o}glichkeiten, selbst diesen Zustand im Sinne ihrer Interessen zu \"{a}ndern. \emph{North} sieht als Ursache von Anpassungen der Governance-Strukturen, wie sie analytisch diesem Niveau zugeordnet werden k\"{o}nnen, die Ver\"{a}nderung relativer Preise, welche die Akteure bei ihrer Maximierungsstrategie ber\"{\"{ü}}cksichtigen m\"{\"{ü}}ssen.
+
+
+
+\paragraph{Ebene 4}
+
+Die Marktstruktur und das Marktgeschehen verordnet \textit{Williamson} auf dieser Ebene. Hier handeln die Akteure und aus diesen Interaktionen entstehen Preise und Mengen der G\"{\"{ü}}ter und Dienstleistungen. Das Verhalten von Unternehmen ist durch Regulierung auf Level 3 und der Marktstruktur bedingt. Handelsstrategien und Lobby-Arbeit werden als Transaktionen auf Ebene 4 entworfen und implementiert.  
+
+
+\subsection{Kritik des Modells}
+
+Angewandt auf die Entflechtung des Gasmarktes ist Williamsons Vier-Ebenen--Modell nicht uneingeschr\"{a}nkt \"{\"{ü}}bertragbar. Grunds\"{a}tzlich ist die Annahme kritisch zu sehen, Transaktionen auf den hierarchisch gegliederten Ebenen beeinflussten sich kausal nur in einer Richtung und entgegengesetztes Feedback habe weitaus geringere Bedeutung. Wertesysteme auf Level 1 m\"{o}gen durchaus aufgrund ihrer statischen Natur nur mit sehr langer Verz\"{o}gerung auf Prozesse anderer Ebenen reagieren. F\"{\"{ü}}r diese Studie, die sich mit der Zeitspanne ausgehend von der Verabschiedung der Direktive zu Gasmarktliberalisierung im Jahre 2009 bis heute besch\"{a}ftigt, ist die Pr\"{a}misse unver\"{a}nderter Normen und Werte anwendbar\footnote{Andere Autoren stellen diesen Aspekt des Modells jedoch in Fragen und argumentieren, Williamsons Intervall von 100 Jahren sei empirisch nicht haltbar und k\"{o}nne f\"{\"{ü}}r jede Fallstudie anders sein [siehe: Correlj\'{e} \& de Vries (2006)].}.  
+
+Im Falle der Energiemarktregulierung erscheint es wenig plausibel anzunehmen, die Akteure und Transaktionen des zweiten bzw. dritten Levels reagierten nicht auf die der Ebene 4 zugewiesene Marktstruktur und dem Verhalten der dortigen Akteure. Regulierung entspricht per se einer Antwort auf bestehende Strukturen und Prozesse des Marktes, und es ist davon auszugehen, dass Feedback-Mechanismen eine kausal wirken k\"{o}nnen. Dies ber\"{\"{ü}}cksichtigt der \textsl{Transaction Costs Economics}--Ansatz in seiner originalen Form nach Williams nur ungen\"{\"{ü}}gend. In unver\"{a}nderter Form ist folglich diese Herangehensweise in ihrer Erkl\"{a}rungskraft beschr\"{a}nkt und meine Arbeit wird Feedback-Mechanismen zwischen den einzelnen Leveln in jeglicher Richtung beachten.
+
+Als weiterer Kritikpunkt muss angemerkt werden, dass die dritte Ebene konzeptionell unscharf definiert ist. Hier identifiziert Williamson\footnote{F\"{\"{ü}}r eine ausf\"{\"{ü}}hrlichere Erl\"{a}uterung sei verwiesen auf den Anhang \textsf{\textcolor{NavyBlue}{\nameref{sec:Sunk Costs}}}} neben Regulierung als formeller Institution parallel auch informelle Arrangements wie handels\"{\"{ü}}bliches Marktverhalten von Unternehmen. Dieses erfolgt jedoch in der Regel als unmittelbare Reaktion auf das regulative Umfeld und politische Anreizstrukturen. Es bleibt unklar, weshalb letzteres nicht der hierarchisch nachgeordneten Ebene 4 zugewiesen wird, wenn dieses informell-institu"-tionali"-sier"-te Marktverhalten doch eindeutig als Antwort auf formelle Regulierung zu sehen ist. \marginpar{\scriptsize{\textcolor{Dschungel}{\textbf{\textsf{Die Verbindung zwischen den Ans\"{a}tze \textsl{Transaction Costs Economics} und \textsl{Pfadabh\"{a}ngigkeiten} muss im Methodenteil besser hergestellt werden!!!}}}}}
+
+
+
+%%%Randnotizen kommen links
+\reversemarginpar
+
+Gleichermaßen unpr\"{a}zise bleibt die Unterscheidung zwischen der zweiten und dritten Ebene. \emph{Correlj\'{e}} und \emph{de Vries} finden die Unterscheidung zwischen Level 2 und 3 problematisch \marginpar{\scriptsize{\textcolor{Dschungel}{\textbf{\textsf{Hier muss ich noch genauer \"{\"{ü}}berlegen, welche Implikationen dies f\"{\"{ü}}r mein Vorgehen hat!!!}}}}}in ihrer Studie zur Strommarktliberalisierung\footnote{siehe: Correlj\'{e} \& de Vries (2006)}. Die letztendlich gleichen, von der EU determinierten, Faktoren treten auf der einen Seite f\"{\"{ü}}r Institutionen der zweiten Ebene auf, in Gestalt der Richtlinie zur Gasmarktliberalisierung. Zugleich stellen sie auch Variablen auf Ebene der sektor-spezifischen institutionellen Arrangements dar: Vorgaben der Europ\"{a}ischen Union legen ein Minimum an Unbundling fest (Level 2), gleichzeitig bestimmt die nationale Aufsichtsbeh\"{o}rde den konkreten Grad der Entflechtung, was nach Williamsons Modell der dritten Schicht zuzuordnen ist. \emph{Haase}\footnote{Haase (2006), S.12} identifiziert als Ursache dieser konzeptionellen Uneindeutigkeit die Eigenschaft von Regulierung als einem Prozess, der auf mehreren Ebenen stattfindet. Letztendlich entscheidet die Kategorisierung, ob ein Thema in erster Linie sektorbezogen der dritten Ebene zugeordnet wird, oder orientiert an den Entscheidungstr\"{a}gern auf Level 2. Die Festlegung bestimmt jedoch, in welcher Hinsicht das Modell f\"{\"{ü}}r den Forschungsprozess hilfreich ist. An dieser Stelle soll angemerkt werden, dass diese Arbeit nicht anstrebt, diesbez\"{\"{ü}}glich eine zu verallgemeinernde Antwort auf diese methodologische Problematik anzubieten.
+
+%%%Randnotize komme wieder rechts
+\normalmarginpar
+
+
+\subsection{Die Verwendung des Ansatzes}
+
+Au welchen Gr\"{\"{ü}}nden wurde das Konzept von Williamson ausgew\"{a}hlt, um der Frage nachzugehen, weshalb in Lettland und Litauen bei der Umsetzung Br\"{\"{ü}}sseler Vorgaben die Wahl auf ein unterschiedliches Entflechtungsmodell fiel?
+F\"{\"{ü}}r meinen Fall der Energiepolitik im Baltikum eignet sich diese Herangehensweise, um die denkbaren Faktoren analytisch voneinander zu trennen und so besser ihre Erkl\"{a}rungskraft einsch\"{a}tzen zu k\"{o}nnen. \marginpar{\scriptsize{\textcolor{Dschungel}{\textbf{\textsf{Das Konzept des Framings muss recherchiert und erl\"{a}utert, bzw. in Zusammenhang mit Pfadabh\"{a}ngigkeiten gebracht werden!!!}}}}} Der \textsl{Transaction Cost Economics}--Ansatz bietet die M\"{o}glichkeit, zu untersuchen, ob das Russland-Bild in Litauen und Lettland im Sinne eines \glqq Framings\grqq{} f\"{\"{ü}}r Entscheidungsprozesse auf h\"{o}heren Ebenen ein Denkmuster vorgegeben hat, welches f\"{\"{ü}}r diese einen beschr\"{a}nkenden Pfad markiert hat\footnote{North (1990), S.96}. Dieses Denkmuster kann jedoch kaum die einzige Ursache f\"{\"{ü}}r die Wahl eines bestimmten Entflechtungsmodell gewesen, sonst w\"{a}re ein gleiches Ergebnis zu erwarten, vorausgesetzt diese Weltsicht kann als operationalisierte unabh\"{a}ngige Variable f\"{\"{ü}}r Litauen und Lettland als gleich stark identifiziert werden.
+
+Weiterer Faktor auf der Werteebene kann das Gesellschaftsbild der im Liberalisierungsprozess entscheidenden politischen Akteure sein. Diesbez\"{\"{ü}}gliche Werte und Normen fließen in die wirtschaftspolitische Ausrichtung der verantwortlichen Regierung ein, die im Weiteren je nach ideologischer Position ein Entflechtungsmodell gegen\"{\"{ü}}ber einem anderen favorisieren wird. Die Br\"{\"{ü}}sseler Richtlinie zur Gasmarktliberalisierung kann, indem institutionelle Vorgaben f\"{\"{ü}}r nationale Politik gemacht werden, als Parameter der n\"{a}chsten Ebene operationalisiert werden. Hierbei handelt es sich um eine externe Variable, wie sie in Williamsons Modell nicht gedacht wird. An dieser Stelle ist es f\"{\"{ü}}r die Fragestellung hilfreich, seinen Ansatz zu modifizieren, um von außen einwirkende Faktoren ber\"{\"{ü}}cksichtigen zu k\"{o}nnen. Institutionelle Beschr\"{a}nkungen externen Ursprungs durch internationale Organisationen und ihre Wirkungen auf Tauschprozesse innerhalb des Mehrebenen-Modells kommen in Williamsons Ansatz nicht vor, der f\"{\"{ü}}r US-amerikanische Marktgegebenheiten entwickelt wurde. Die bisherige Marktstruktur andererseits, der vierten Ebene des \textsl{Transaction Cost Economics}--Modells zuzuordnen bietet einen M\"{o}glichkeit, Zusammenh\"{a}nge im Entscheidungsprozess aufzuzeigen, die entgegen der Pr\"{a}misse uni-direktioneller Mechanismen wirken.
+
+
+
+
+\section[Variablen \& Hypothesen]{Variablenauswahl \& Hypothesen}
+
+Im vorausgegangenen Abschnitt zum Forschungsdesign wurden bereits einige der unabh\"{a}ngigen Variablen angesprochen, die im Laufe der Untersuchung Verwendung finden sollen. An dieser Stelle soll erl\"{a}utert werden, weshalb diese Faktoren f\"{\"{ü}}r die lettischen \& litauischen Gasmarktliberalisierung relevant sind und wie sie als Variablen operationalisiert werden k\"{o}nnen. Das \textsl{Transaction Cost Economics}--Modell soll helfen, die auf verschiedenen Ebenen des Entscheidungsprozesses wirkenden Faktoren einzuordnen und analytisch so gut wie m\"{o}glich zu trennen. Ziel des Kapitels soll sein, eine Hypothesen \"{\"{ü}}ber die Erkl\"{a}rungskraft der jeweiligen Faktoren zu entwickeln.
+
+
+\subsubsection{Ausgangsbedingungen f\"{\"{ü}}r Reformen}
+Ausgangspunkt nationaler Energiepolitik und Marktregulierung ist die Struktur des Energiemarktes.  Gasm\"{a}rkte weisen wie andere Netzwerkindustrien (zum Beispiel Schienenverkehr, Elektrizit\"{a}tswirtschaft, Telekommunikation) eine große Marktkonzentration auf. Die wenigen Unternehmen sind meist vertikal integriert \"{\"{ü}}ber die gesamte Wertsch\"{o}pfungskette Erzeugung \ding{225} Fernleitung \ding{225} Endverteilung. Bedingt durch Netzwerkeffekte, nat\"{\"{ü}}rliche Monopole im mittleren Segment \textsl{Fernleitung}, und hohe irreversible Kosten, sog. 'Sunk Costs'\footnote{F\"{\"{ü}}r eine ausf\"{\"{ü}}hrlichere Erl\"{a}uterung siehe: Anhang \textsf{\textcolor{NavyBlue}{\nameref{sec:Sunk Costs}}}}, bilden sich auf diesen M\"{a}rkten große Energiekonzerne heraus\footnote{Kessides \& Li (2011), S.5}. Diese Marktstrukturen sind bereits seit etlichen Jahrzehnten vorhanden und haben sich in Form starker Marktkonzentration auf wenige, wenn nicht gar ein einziges, Energieunternehmen verfestigt.
+
+
+% Entwicklung der ersten Hypothese
+
+Nach der Literatur zur politischen \"{o}konomie von Regulierung werden betroffene Interessengruppen versuchen, Politik zu ihrem Vorteil zu beeinflussen\footnote{siehe: Ben-Bassat (2011); Peltzman (1976); Stigler (1971)}. Das theoretisch vorhergesagte Akteursverhalten, auf Reformprozesse einzuwirken, wird auch von empirischen Studien nahegelegt\footnote{siehe: Belloc \& Nicita (2011); Duso (2002); Kroszner \& Strahan (1999)}. \emph{Ortman} \& \emph{van Koten} argumentieren, dass auch Entscheidungen \"{\"{ü}}ber Energiemarktentflechtung eine Quelle f\"{\"{ü}}r sog. Renten darstellen k\"{o}nnen, da je nach Unbundling-Modell f\"{\"{ü}}r vertikal integrierte Unternehmen h\"{o}here oder niedrigere Profite zu erwarten sind\footnote{Ortman \ van Koten (2008), S.3132}. Diese m\"{o}glichen Renten veranlassen in der Literatur beschriebene Rent-Seeking--Aktivit\"{a}ten\footnote{F\"{\"{ü}}r eine ausf\"{\"{ü}}hrlichere Erl\"{a}uterung siehe: Anhang \textsf{\textcolor{NavyBlue}{\nameref{sec:Rent-Seeking}}}} von Firmen\footnote{siehe: Downs (1957); Hartle (1983); Kruger (1974); Rowley, Tollison \& Tullock (1988); Tollison (1982)}, die versuchen staatliche Mittel f\"{\"{ü}}r ihre Maximierungsstrategie im Sinne der Pfadabh\"{a}ngigkeiten einzusetzen.
+
+
+Energieunternehmen haben wenig Interesse daran, den Status Quo ihrer dominanten Marktmacht ver\"{a}ndert zu sehen, wenn diese Position es ihnen erst erlaubt, ihre 'Sunk Costs' zu armortisieren. Eine Markt\"{o}ffnung, einhergehend mit dem Zwang, Gesch\"{a}ftsbereiche ver\"{a}ußern oder Konkurrenten Zugang zur ihrer Netzinfrastruktur gew\"{a}hren zu m\"{\"{ü}}ssen, w\"{\"{ü}}rde in der Zukunft niedrigere Gewinne bedeuten. Diese Ver\"{a}nderung der Marktbedingungen entspricht einer \"{a}nderung der relativen Preise, wie der Ansatz der Pfadabh\"{a}ngigkeiten sie beschreibt\footnote{North (1990), S.86} und wird bei den Akteuren eine Reaktion ausl\"{o}sen, die darauf abzielt, ge\"{a}nderte institutionelle Verh\"{a}ltnisse wiederum anzupassen. \footnote{Widerstand gegen Ownership Unbundling ist umso mehr zu erwarten, da in dieser Situation die 'Logik kollektiven Handelns' nach \emph{Olson} (1967) greift. Eine sehr begrenzte Anzahl vertikal integrierter Unternehmen ist unmittelbar von der besitzrechtlichen Entflechtung betroffen, die ihr bisheriges Gesch\"{a}ftsmodell in Frage stellt, und haben folglich einen starken Anreiz, eine aus ihrer Sicht negative \"{a}nderung der institutionellen Rahmenbedingungen zu verhindern. Demgegen\"{\"{ü}}ber stehen diffus verteilte Gewinne einer Marktliberalisierung, die sich f\"{\"{ü}}r die meisten Verbraucher im Einzelnen kaum bemerkbar machen. Diese Gruppe ist zudem mit einem Trittbrettfahrerproblem konfrontiert, wodurch sie wenig Anlass hat, ihre Interessen im politischen Entscheidungsprozess durchzusetzen.}
+
+Die als institutionelle Beschr\"{a}nkungen wirkenden Eigenschaften von Netzwerkindustrien veranlassen die Gasversorger an den existierenden Besitzformen festzuhalten und Liberalisierungsbestrebungen mit Widerstand in Gestalt politischer Einflussnahme zu begegnen. Wie im \"{\"{ü}}berblick zu den baltischen Gasm\"{a}rkten zu zeigen sein wird, bilden sich aus den Marktstrukturen Anreizsysteme heraus, wonach die Unternehmen der Logik von Pfadabh\"{a}ngigkeiten auf Ver\"{a}nderungen ihrer regulativen Umgebung handeln werden.
+
+%%%Hypothese I
+
+			\begin{quote}
+			\textit{%
+			\textsf{\textbf{Hypothese I:}\\
+			\nopagebreak %%Seitenumbruch verhindern
+			Die Struktur des Gasmarktes als Folge der Merkmale einer Netzwerkindustrie f\"{\"{ü}}hrt zu Pfadabh\"{a}ngigkeiten f\"{\"{ü}}r Gasversorger, die dementsprechend an bestehenden Gesch\"{a}ftsmodellen festzuhalten wollen. Eine besitzrechtliche Entflechtung vertikal integrierter Energieunternehmen wird auf mehr Widerstand stoßen, als ein Modell des regulierten Zugangs zu Netzinfrastruktur gegeben der Anreizstrukturen.}}
+			\end{quote}
+
+
+Den Analyserahmen der \emph{Transaction Costs Economics} zur Hilfe nehmend kann die unabh\"{a}ngige Variable \textsl{Marktstruktur} der vierten Ebene zugeordnet werden. Als erkl\"{a}render Faktor beeinflusst sie Anreize und Verhalten der Akteure. Operationalisiert werden soll die Marktstruktur einerseits anhand der Anzahl in Litauen und Lettland t\"{a}tiger Gasunternehmen sowie der Marktkonzentration nach dem Herfindahl-Hirschman-Index zur Messung ihrer Marktanteile. Weiterer Indikator ist die jeweilige Organisationsstruktur der Gasversorger, die mit einem vertikal integrierten Modell von einer Entflechtung negativ betroffen sein werden.
+
+
+\vspace{2cm}
+
+% Entwicklung der zweiten Hypothese
+
+
+Die besitzrechtliche Entflechtung kann aus Wettbewerbs\"{o}konomischer Sicht neue Probleme hervorrufen, die von der Politik zu ber\"{\"{ü}}cksichtigen sind und die Form des Ownership Unbundlings beeinflussen k\"{o}nnen. Gewinn-maximierend gef\"{\"{ü}}hrte Gasversorger treffen ihre Investitionsentscheidungen nicht zuletzt auf Grundlage hiervon zu erwartenden Profite. Nach unternehmerischer Logik k\"{o}nnen f\"{\"{ü}}r die langfristige Versorgungssicherheit eines Landes entscheidende Investitionen ausbleiben, sollte ein liberalisierter Energiemarkt nicht mehr die erwarteten Gewinnspannen bieten. Politik und Aufsichtsbeh\"{o}rden stehen nun vor der Herausforderung, den Gasmarkt f\"{\"{ü}}r den Wettbewerb zu \"{o}ffnen, aufgrund europ\"{a}ischer Vorgaben und bzw. oder auch eigener wirtschaftspolitischen \"{\"{ü}}berlegungen heraus. Zugleich m\"{\"{ü}}ssen sie den Eigent\"{\"{ü}}mern der Netzinfrastruktur gen\"{\"{ü}}gend Anreize belassen, jene in Stand zu halten und in neue Kapazit\"{a}ten zu investieren\footnote{Haase (2008), S.12}. Dies wirft die Frage auf, ob ein rigides Ownership Unbundling im Endergebnis gesamtwirtschaftlich vorteilhaft ist, wenn aufgrund ge\"{a}nderter Rahmenbedingungen essentielle Investitionen in die Infrastruktur ausbleiben.
+
+Da in den baltischen L\"{a}ndern das Thema Energieversorgung eng mit der sensiblen Frage nach nationaler Sicherheit und Souver\"{a}nit\"{a}t der noch jungen Demokratien verkn\"{\"{ü}}pft wird\footnote{\textcolor{purple}{Weitere Quellen notwendig!!!}}, ist anzunehmen, dass auch diese Aspekte eine Rolle in der Energiepolitik spielen. Wenn Politiker Versorgungssicherheit als Abgrenzung gegen\"{\"{ü}}ber Russland und russischen Energielieferungen definieren\footnote{siehe: beispielhaft Lrytas.lt (2006): \textsl{"'Ma\v{z}eiki\k{u} naftos pardavimas Lenkijai - geopolitin\.{e}s reik\v{s}\.{e}s faktas"'}}, wird deutlich, dass Wertvorstellungen Entscheidungsprozesse beeinflussen und Energiepolitik im Baltikum nicht losgel\"{o}st von Ideologie und subjektiven Geschichtsbildern betrachtet werden kann\footnote{siehe: Grigas (2013)}. In der Folge kann anderen Belangen als der \"{o}konomische Logik des freien Wettbewerbs Vorrang einger\"{a}umt werden. F\"{\"{ü}}r den Liberalisierungsprozess sind auch auf politischer Ebene Pfadabh\"{a}ngigkeiten zu erwarten, die von Entscheidungstr\"{a}gern verinnerlichte Normen zum Ausdruck bringen. Die Forschung zur europ\"{a}ischen Integration ist der Ansicht, die jeweilige nationale Umsetzung europ\"{a}ischer Richtlinien folge generell historischen Pfadabh\"{a}ngigkeiten\footnote{siehe: Pierson (1996), S.145 ebenso Heine \& Kerber (2002)}, die eigene Wege der Marktregulierung markieren. \textsl{Haase} beton, dass insbesondere Reformen von Energiem\"{a}rkten, sehr stark von Verlaufsabh\"{a}ngigkeiten bestimmt sind\footnote{Haase (2008), S.14}. F\"{\"{ü}}r den Fall der Gasmarktliberalisierung in Lettland und Litauen ist zu vermuten, dass landesspezifische Vorstellungen und Bed\"{\"{ü}}rfnisse nach nationaler Souver\"{a}nit\"{a}t in Form von Versorgungssicherheit und Selbstbehauptung gegen\"{\"{ü}}ber Russland als Normen in den politischen Entscheidungsprozessen wirkten. Folgende Hypothese kann aus diesen \"{\"{ü}}berlegungen zum Zusammenhang zwischen Werten und der Umsetzung des Dritten Liberalisierungspakets der EU entwickelt werden:
+
+
+%%%Hypothese II
+
+			\begin{quote}
+			\textit{%
+			\textsf{\textbf{Hypothese II:}\\
+			\nopagebreak %%Seitenumbruch verhindern
+			Entscheidungen zur Liberalisierung von Gasm\"{a}rkten in Form der Entflechtung vertikal integrierter Unternehmen wurden in Litauen und Lettland nicht ausschließlich aufgrund wettbewerbs\"{o}konomischer \"{\"{ü}}berlegungen getroffen. Normenbezogene Pfadabh\"{a}ngigkeiten haben den politischen Akteuren einen Handlungsrahmen vorgegeben, welcher die Wahl eines bestimmeten Entflechtungsmodells vorzeichnete.}}
+			\end{quote}
+
+
+
+Auch in der politischen Dimension ergeben sich institutionelle Zw\"{a}nge, wenn Politik aus \"{\"{ü}}berlegungen orientiert an nationaler Sicherheit oder Energieversorgung als Form \"{o}ffentlicher Daseinsvorsorge in Strukturen denkt, die nur bestimmte L\"{o}sungsm\"{o}glichkeiten er\"{o}ffnen.  
+
+Dem Konzept von North folgend k\"{o}nnen wir f\"{\"{ü}}r die Liberalisierung der Gasm\"{a}rkte von sogenannten \glqq Pfadabh\"{a}ngigkeiten\grqq{} ausgehen. Dieser in der Europ\"{a}ischen Integrationsforschung vielfach angewandte Ansatz, erkl\"{a}rt Entscheidungsprozesse als Teil einer Folge von Ereignissen mit eigener Logik, die sich in ihren Konsequenzen selbst verst\"{a}rken\footnote{siehe: North (1990)} und sukzessive die Anzahl von Entscheidungsoptionen einschr\"{a}nken. Bezogen auf die Harmonisierung von Regulierungsmodellen zwischen den Mitgliedsstaaten der EU geht dieser Ansatz davon aus, dass die einzelnen L\"{a}ndern ihre jeweiligen Besonderheiten ber\"{\"{ü}}cksichtigen und dementsprechend eigene Wege in der Marktregulierung gehen.  Diese Pfadabh\"{a}ngigkeiten f\"{\"{ü}}r die Gasm\"{a}rkte Lettlands und Litauens zu identifizieren, sofern vorhanden, und wenn, in welcher Form, wird wesentlicher Bestandteil des \"{\"{ü}}berblicks im Abschnitt \textsf{\textcolor{NavyBlue}{\nameref{sec:Energiem\"arkte}}} sein. Neben der Akteurskonstellation sind hier auch die sich aus den Marktstrukturen ergebenden Interessen im Liberalisierungsprozess herauszuarbeiten.
+
+
+
+
+
+
+
+\subsubsection{Das Verh\"{a}ltnis zu Russland}
+Die Wahrnehmung russischer Außen- \& Energiepolitik in den Baltischen Staaten bildet f\"{\"{ü}}r die vorliegende Fragestellung eine Norm, die gem\"{a}ß \emph{Williamsons} Modell auf dem ersten Level als erkl\"{a}render Faktor wirkt. Als eigenst\"{a}ndiges Bereich kann die Arbeit diesen Themenkomplex nicht untersuchen. Die Haltung Russland gegen\"{\"{ü}}ber und insbesondere russischer Energieunternehmen wie \emph{Gazprom} werde ich als gegebenes Konstrukt behandeln. Gegenstand meiner Diplomarbeit ist die nationale Energiepolitik in Lettland und Litauen am Beispiel der Umsetzung europ\"{a}ischer Richtlinien und nicht das energie- und außenpolitische Weltbild in der Region. An dieser Stelle muss ich auf andere Literatur verweisen, welche sich auf jene Problematik konzentriert und sie entsprechend ausf\"{\"{ü}}hrlicher behandeln kann. Die Einsch\"{a}tzung, Russland verfolge eine aggressive Außenpolitik mit dem Ziel verlorengegangenen Einfluss wiederzugewinnen, mag begr\"{\"{ü}}ndet sein oder nicht. Entscheidend f\"{\"{ü}}r diese Arbeit ist, dass diese Sichtweise die zu untersuchenden politischen Prozesse beeinflusst. Aufgabe an dieser Stelle ist herauszufinden, inwiefern diese konstruierte Weltsicht die unterschiedlichen Liberalisierungsergebnisse erkl\"{a}ren helfen. Diese Arbeit will selbst kein Urteil f\"{a}llen, ob die Wahrnehmung russischer Energie- \& Außenpolitik die Realit\"{a}t widerspiegelt. Dennoch soll in zweiten Abschnitt zu den historischen Beziehungen \textsf{\textcolor{NavyBlue}{\nameref{sec:Russland}}} f\"{\"{ü}}r das bessere Verst\"{a}ndnis der Lesers Hintergr\"{\"{ü}}nde dieser Sichtweise kurz dargestellt werden. 
+
+
+Eine eigenst\"{a}ndige wissenschaftliche  Untersuchung des Verh\"{a}ltnisses zwischen \emph{Gazprom} und der politischen F\"{\"{ü}}hrung Russlands kann ich in meiner Arbeit nicht leisten, die Fragestellung orientiert sich auf den Prozess der Gasmarktliberalisierung in Litauen und Lettland. Die Diskussion, welche Rolle der russische Energiekonzern in Moskaus Außenpolitik spielt muss an anderer Stelle geleistet werden. Russlands Streitigkeiten mit Transitl\"{a}ndern wie der Ukraine \"{\"{ü}}ber Gaslieferungen, der Bau von Pipelines, welche Transitl\"{a}nder umgehen, und so \emph{Gazprom} Konsumentendiskriminierung\footnote{\textcolor{purple}{Erl\"{a}uterung hier!!!}} erm\"{o}glichen, die Expansion im Downstream-Bereich des Gasgesch\"{a}ftes\footnote{siehe:: Osipov (2007)}, geben durchaus Anlass f\"{\"{ü}}r die Annahme das Energieunternehmen sei Instrument f\"{\"{ü}}r russische Außenpolitik. Zugleich entspricht das Gesch\"{a}ftsgebaren \emph{Gazproms} dem \"{o}konomischen Kalk\"{\"{ü}}l eines profitorientierten Unternehmens.  So gibt es begr\"{\"{ü}}ndete Zweifel geben mag, \emph{Gazprom} kategorisch als ein vom Kreml gesteuertes Machtmittel zu betrachten, ausschlaggebend f\"{\"{ü}}r meine Arbeit ist jedoch, dass der Konzern im konstruktivistischen Sinne als eine solches Machtmittel wahrgenommen wird, und Energiepolitik im Baltikum dementsprechend agiert. Der Abschnitt \textsf{\textcolor{NavyBlue}{\nameref{sec:Russland}}} soll erkl\"{a}ren helfen, wie die Wahrnehmung von \emph{Gazproms} Rolle in den baltischen L\"{a}ndern eingebettet in eine grundlegendere Russland-skeptische Weltsicht entsteht. Diese auf dem Level 1 anzusiedelnde Norm bietet eine m\"{o}gliche Erkl\"{a}rungsvariable f\"{\"{ü}}r die Wahl des Entflechtungsmodells, von welchem der russische Erdgaskonzern direkt betroffen ist. An dieser Stelle kann eine engere Arbeitshypothese formuliert werden, die im weiteren Laufe der Arbeit zu untersuchen ist:
+
+				%%%Hypothese III
+
+
+				\begin{quote}
+				\textit{%
+				\textsf{\textbf{Hypothese III:}\\
+				\nopagebreak %%Seitenumbruch verhindern
+				Die Wahrnehmung, Gazproms Rolle auf dem Gasmarkt stelle die nationale Versorgungssicherheit in Frage, hat den politischen Entscheidungsprozess in eine Pfadabh\"{a}ngigkeit gef\"{\"{ü}}hrt, die ein bestimmtes Entflechtungsmodell bedingte.}}
+ 				\end{quote} 
+
+\vspace{1.5cm}
+
+
+
+
+\vspace{1cm}
+							\begin{center}
+							\textcolor {hellgrau}{\textbf{[....\textsf{Hier kommt noch Text}....]}}
+							\end{center}
+\vspace{1cm}
+
+
+Auch externe Einfl\"{\"{ü}}sse wie in diesem Fall EU-Politik und das Agieren europ\"{a}ischer Institutionen k\"{o}nnen sich auf innenpolitische Entscheidungsprozesse auswirken. Hierbei ist sind nicht zwangsweise gleiche Effekte f\"{\"{ü}}r die lettische und litauische Innenpolitik zu beobachten. F\"{\"{ü}}r diese Variable muss die Arbeit kontrollieren bzw. ihre Erkl\"{a}rungsmacht herausarbeiten.
+
+
+
+
+%%%-------------------------------------------------------------------------------------------------------------------------
+%%%\"{\"{ü}}berblick zu Energiem\"{a}rkten im Baltikum
+
+
+\chapter{Gasm\"{a}rkte}
+
+
+Als Einstieg in das Thema sollen zu Beginn die besonderen Eigenschaften von Gasm\"{a}rkten erl\"{a}utert werden, um in einem zweiten Schritt Absichten und Logik von Liberalisierung und Regulierung dieser M\"{a}rkte verst\"{a}ndlich zu machen. Wie zu zeigen sein wird, w\"{\"{ü}}rde sich die Frage, ob und wie Gasm\"{a}rkte bzw. weshalb sie f\"{\"{ü}}r Wettbewerb ge\"{o}ffnet werden sollten, ohne ihre Eigenschaften als Netzwerkindustrien in dieser Art nicht stellen. Merkmale wie irreversibler Kosten, Skalenertr\"{a}ge, nat\"{\"{ü}}rlicher Monopole und Netzwerkexternalit\"{a}ten f\"{\"{ü}}hren zu Marktstrukturen, die ein Marktversagen darstellen. 
+
+Analytischer Ausgangspunkt dieses Kapitels sind Abweichungen des Gasmarktes von der Idee eines perfekten Marktes dienen, deren Effekte aus \"{o}konomischer und politischer Sicht unerw\"{\"{ü}}nscht sind. Nebst den Gr\"{\"{ü}}nden f\"{\"{ü}}r eine Regulierung von Gasm\"{a}rkten werden auch thematisiert die Beschr\"{a}nkungen des traditionellen Modells einer Monopolregulierung, die Anlass f\"{\"{ü}}r eine Liberalisierung dieser M\"{a}rkte gewesen war. So erst ist nachzuvollziehen, welche Ziele das Dritte Liberalisierungspaket der Europ\"{a}ischen Union verfolgt und welche \"{\"{ü}}berlegungen hinter den unterschiedlichen Umsetzungsoption stehen.
+
+
+
+
+\section[Merkmale des Gassektors]{Besondere Eigenschaften von Gasm\"{a}rkten}\label{sec:Gasm\"{a}rkte}
+
+
+%%%%%%%%Irreversible Kosten & Markteintrittsbarrieren
+
+\paragraph {Sunk Costs}
+Gasm\"{a}rkte k\"{o}nnen in drei Bereiche gegliedert werden: Erdgasf\"{o}rderung, auch als \glqq Upstream\grqq{} bezeichnet, Fernleitung mittels Pipelines und Verteilung an die Endverbraucher, \glqq Downstream\grqq{} genannt. Nebst der kostentr\"{a}chtigen Erforschung potentieller Erdgasvorkommen, erfordern die F\"{o}rderung und der Transport von Erdgas Anlagen und Netzinfrastruktur. Entsprechende Investitionen sind stets langfristiger Natur und zugleich irreversibel, das heißt, die Kosten k\"{o}nnen sp\"{a}ter nicht durch Verkauf der Anlagen oder nur schwer zur\"{\"{ü}}ckgewonnen werden\footnote{Spanjer (2009), S.3251}.  In der Fachliteratur wird diese Situation als \textsl{Sunk Costs} bezeichnet\footnote{F\"{\"{ü}}r eine ausf\"{\"{ü}}hrlichere Erl\"{a}uterung siehe: \textsf{\textcolor{NavyBlue}{\nameref{sec:Sunk Costs}}}}.
+Eine Pipeline beispielsweise verbindet ein F\"{o}rdergebiet mit einem Abnehmer und ihr Verlauf ist nach dem Bau f\"{\"{ü}}r ihre Lebensdauer festgelegt. Weder kann Netzwerkinfrastruktur geographisch versetzt werden, noch sind alternative Verwendungsm\"{o}glichkeiten außer dem Transport von Gas denkbar. Diese Besonderheit, \emph{Spanjer} spricht von \glqq Asset Specifity \grqq{}\footnote{Spanjer (2009), S.3252}, ist auch bei Erdgaslagerst\"{a}tten und ihren F\"{o}rderanlagen gegeben.
+
+
+%%%Markteintrittsbarrieren
+
+\paragraph{Eintrittsbarrieren}
+F\"{\"{ü}}r potentielle Wettbewerber stellen diese irreversiblen Kosten nennenswerte Markteintrittsbarrieren\footnote{Nach Stigler (1967) kann eine Barriere f\"{\"{ü}}r den Markteintritt definiert werden als: \textsl{\glqq als Produktionskosten (\"{\"{ü}}ber einen Teil oder der gesamten Menge der Produktion), die von einem Unternehmen getragen werden m\"{\"{ü}}ssen, welches in den Markt eintreten will, jedoch nicht von Firmen, die dort bereits t\"{a}tig sind\grqq}, S.67} dar. Gegen\"{\"{ü}}ber den bereits auf dem Markt t\"{a}tigen Unternehmen befinden sie sich eindeutig im Nachteil, denn sie sehen sich f\"{\"{ü}}r den Markteintritt mit Kosten konfrontiert, welche jene bereits get\"{a}tigt und zumeist schon amortisiert haben. Zusammen mit den allgemeinen unternehmerischen Risiken eines Markteintritts stellen diese Barrieren in Form irreversibler Kosten H\"{\"{ü}}rden dar, die verhindern, dass neue Konkurrenten mit etablierten Firmen in den Wettbewerb treten werden. 
+
+Basierend auf \emph{Bains}\footnote{siehe: Bain (1958)} und \emph{Stiglers}\footnote{Stigler (1967), S.67} Konzept der Markteintrittsbarrieren kann f\"{\"{ü}}r Gasm\"{a}rkte eine Marktmacht der Infrastrukturinhaber identifiziert werden. Diese Marktmacht erlaubt beabsichtigte Preisverzerrungen\footnote{Jaag \& Trinkner (2011, S.30} und f\"{\"{ü}}hrt letztendlich zu Marktversagen, was von Seiten der Politik wiederum Bestrebungen nach Regulierung hervorruft (siehe: Abschnitt \textsf{\textcolor{NavyBlue}{\nameref{sec:Marktregulierung}}}). Der freie Markteintritt neuer Firmen ist jedoch Voraussetzung f\"{\"{ü}}r einen funktionierenden Wettbewerb. Nach den Grunds\"{a}tzen der neo-klassischen Lehre werden erst hierdurch effiziente, m\"{o}glichst niedrige Preise erm\"{o}glicht. Anderenfalls sind Unternehmen in der Lage, den Preisbildungsprozess zu ihren Gunsten f\"{\"{ü}}r Monopolrenten zu steuern, was sich in h\"{o}heren Verbraucherpreisen bemerkbar macht.
+
+
+
+%%%%%%%Skalenetr\"{a}ge
+
+\paragraph{Skalenertr\"{a}ge}
+F\"{\"{ü}}hrten schon 'Sunk Costs' und die resultierenden Eintrittsh\"{\"{ü}}rden zu einer Marktkonzentration forcieren betr\"{a}chtliche Skalenertr\"{a}ge bei F\"{o}rderung und Fernleitung von Erdgas diese Marktstruktur weiter. Neben den erw\"{a}hnten irreversiblen Kosten zeichnet sich insbesondere Netzwerkinfrastruktur zudem durch wachsende Ertr\"{a}ge im Laufe eines Investitionszykluses aus\footnote{Haase (2008), S.14}. Erst lange nach den anf\"{a}nglichen Investitionen und ihrer Amortisierung k\"{o}nnen Gewinnen erwirtschaftet werden, und entsprechend bilden sich große Unternehmensstrukturen heraus, welche es erm\"{o}glichen, einen solchen Investitionszyklus finanziell zu tragen.
+
+Skalenertr\"{a}ge bedeuten auch, eine entwickelte Technologie ohne nennenswerte Zusatzkosten in neuen Einsatzgebieten und M\"{a}rkten einf\"{\"{ü}}hren k\"{o}nnen. Mit jedem weiteren Einsatz lassen sich die fixen Kosten der Entwicklung solcher Technologien besser amortisieren, da f\"{\"{ü}}r ihre Replikation in Relation zu den Ertr\"{a}gen nur geringen Aufwendungen anstehen. In der Energiebranche kommen viele Technologien zum Einsatz, die erst ab einer bestimmten Skalierung betriebswirtschaftlich rentabel sind\footnote{siehe: Christensen \& Greene (1976)}. In diesem Zusammenhang sollte auch die Bedeutung von firmeninternem Know-How nicht unerw\"{a}hnt bleiben. Spezifisches Wissen und Fertigkeiten der Mitarbeiter ist h\"{a}ufig Grundvoraussetzung, um Technologien erfolgreich unter verschiedenartigsten Marktbedingungen einsetzen zu k\"{o}nnen\footnote{Teece (1980), S.228}. Kapazit\"{a}ten, diesen Wissensstock aufzubauen, sind leichter bei großen, denn bei kleinen Energiefirmen zu finden. 
+
+Angesichts dieser vielf\"{a}ltigen Ressourcenanforderungen, welche die Technik im Gassektor an die Unternehmen stellt, ist nachvollziehbar, weshalb sich auf diesen M\"{a}rkten große Konzerne mit entsprechender Marktmacht herausgebildet haben. Nur sie sehen sich in der Lage, die f\"{\"{ü}}r Forschung \& Entwicklung sowie Investitionen erforderlichen Mittel aus eigenen Reserven oder \"{\"{ü}}ber Kapitalm\"{a}rkte aufzubringen\footnote{Stigler (1958), S.56}. Auch die hiermit verbundenen Risiken f\"{o}rdern die Herausbildung solcher Unternehmensformen. Ergebnis ist eine starke Konzentration auf Gasm\"{a}rkten, auf denen die Akteure entsprechend betr\"{a}chtliche Marktmacht innehaben angesichts des geringen Wettbewerbs. 
+
+Wie im Abschnitt \textsf{\textcolor{NavyBlue}{\nameref{sec:Public Service}}} genauer zu erl\"{a}utern sein wird, waren angesichts der Herausforderungen die Gasversorger, wie auch Unternehmen anderer Netzwerkindustrien in den meisten L\"{a}ndern staatliche Monopole\footnote{Jaag \& Trinkner (2009), S.26}. Die Eigenarten des Sektors mit Skalenertr\"{a}gen, \textsl{Sunk Costs} und nat\"{\"{ü}}rlicher Monopole gekoppelt mit der Verpflichtung, Gasversorgung im Sinne eines \"{o}ffentlichen Gutes bereitzustellen, begr\"{\"{ü}}ndeten die gesetzlich festgelegte Monopolstellung\footnote{Finger \& Finon (2010), S.3}. Hieraus erwachsene Pfadabh\"{a}ngigkeiten auf politischer Ebene und ihre Relevanz f\"{\"{ü}}r die Bearbeitung der Fragestellung werden Gegenstand jenes folgenden Kapitels sein.
+
+
+
+\paragraph{Vertikale Integration}
+Ein weiterer Aspekt verst\"{a}rkt diese Marktkonzentration. Mit den erheblichen finanziellen Risiken umfangreicher und langfristiger Investitionen in Anlagen und Infrastruktur konfrontiert, haben Gasunternehmen als Antwort ein vertikal integriertes Gesch\"{a}ftsmodell entwickelt. In historischer Perspektive \"{\"{ü}}bernahmen sie, meist als Monopolisten, alle drei Segmente der Wertsch\"{o}pfungskette. In dieser Position konnten sie ihren Absatz als alleiniger Anbieter sicherstellen und Investitionsunterfangen durch einen steten Einkommensfluss aus dem Downstream-Gesch\"{a}ft absichern.
+
+Zus\"{a}tzlich erm\"{o}glichte die Eingliederung der drei Marktbereiche innerhalb eines Unternehmens, die kostenintensiveren Gesch\"{a}ftsfelder F\"{o}rderung und Fernleitung firmenintern mit Ertr\"{a}gen aus dem Downstream-Segment zu subventionieren. Aus der Monopolstellung als Gasversorger, wurden von den Verbrauchern h\"{o}here Endpreise verlangt, als dies auf einem Markt mit freiem Wettbewerb der Fall gewesen w\"{a}re\footnote{siehe: Laffont \& Tirole (1986)}. 
+
+
+
+\subsection[Netzinfrastruktur]{Schl\"{\"{ü}}sselstellung der Netzwerkinfrastruktur}
+
+Um die Bedeutung der vertikalen Unternehmensstrukturen f\"{\"{ü}}r den Liberalisierungsprozess sichtbar zu machen, sei an dieser Stelle auf die Sonderstellung der Netzinfrastruktur hingewiesen. Das mittlere Segment \textsl{Fernleitung} weist Eigenschaften eines nat\"{\"{ü}}rlichen Monopols\footnote{Eine ausf\"{\"{ü}}hrlichere Erl\"{a}uterung des Begriffs findet sich im Anhang \textsf{\textcolor{NavyBlue}{\nameref{sec:Nat\"{\"{ü}}rliches Monopol}}}} auf, weil es kosteng\"{\"{ü}}nstiger ist, wenn nur ein Unternehmen die Dienstleistung 'Gastransport' anbietet, anstatt mehrere konkurrierende Unternehmen. Parallel zu bestehenden Pipelines weitere zu bauen ist unrentabel, somit kommt Wettbewerb auf diesem Gebiet nicht zu Stande, da nur ein Anbieter auf dem Markt auftritt. Die Eigent\"{\"{ü}}mer der Netze k\"{o}nnen infolgedessen bestimmen, wer Gas durch ihre Pipeline leiten kann und und zu welchen Konditionen. Alternative Transportm\"{o}glichkeiten sind auf dem Land f\"{\"{ü}}r die gleiche Route\footnote{Von der Verfl\"{\"{ü}}ssigung von Erdgas und anschließender Verschiffung, die nur f\"{\"{ü}}r einige Szenarien m\"{o}glich ist, wird hier abgesehen.} aus den genannten Gr\"{\"{ü}}nden nicht vorhanden.
+
+Ist nun das Ziel, wie von den EU-Richtlinien beabsichtigt, Wettbewerb im \emph{Up-} und \emph{Downstream}-Bereich einzuf\"{\"{ü}}hren, m\"{\"{ü}}ssen Gaslieferanten und Anbieter f\"{\"{ü}}r Endkunden, diskriminierungsfreien Zugang zur Infrastruktur haben, um das zwischen ihnen gehandelte Gas auch vom Produzenten zum Abnehmer durchleiten zu k\"{o}nnen. Um ihre Gewinnmargen in den Gesch\"{a}ftsfeldern F\"{o}rderung und Vertrieb zu sch\"{\"{ü}}tzen, haben die vertikal integrierten Unternehmen allerdings das Interesse, Wettbewerb in eben diesen Bereichen zu verhindern. Die etablierten Energiefirmen k\"{o}nnen durch ihre Kontrolle \"{\"{ü}}ber die Pipelines neuen Konkurrenten deren Nutzung erschweren bzw. verwehren\footnote{Vertikal integrierte Energieunternehmen haben laut \emph{Jones} (2004) zahlreiche M\"{o}glichkeiten gegen ihre Wettbewerber zu diskriminieren: 
+% Auflistung in Fußnote
+\begin{inparaenum}
+ \textbf{\item Technische Barrieren:} Endverbraucher, die ihren Anbieter wechseln m\"{o}chten, werden gezwungen neue Ableseger\"{a}te zu installieren oder l\"{\"{ü}}ckenlos Dokumente f\"{\"{ü}}r die Abwicklung des Anbieterwechsels zu sammeln
+ \textbf{\item Tarifmanipulation:} Kunden m\"{\"{ü}}ssen bei einem Anbieterwechsel an die Netzsparte Details zu neuen Tarifen weitergeben, so dass diese Informationen jene intern an die Vertriebsabteilung des gleichen Unternehmens weiterreichen kann. Hieraus ergeben sich M\"{o}glichkeiten selektiv Preisnachl\"{a}sse zu gew\"{a}hren, um einen Wechsel des Anbieters zu verhindern [siehe: Europ\"{a}ische Kommission Directorate General Wettbewerb (2007), S.165]
+ \textbf{\item Manipulation der Netzkapazit\"{a}ten:} der Netzbetreiber kann die Verf\"{\"{ü}}gbarkeit von Netzleistung \"{a}ndern mit dem Ergebnis, dass vom Wettbewerber angeforderte Kapazit\"{a}ten nicht abrufbar ist
+ \textbf{\item Quersubventionierung:} Auf buchhalterischem Wege werden firmenintern verlustreiche Gesch\"{a}ftsfelder durch Ertr\"{a}ge aus anderen Sparten	quersubventioniert 
+\end{inparaenum} 
+% Ende Auflistung in Fußnote
+ }. Wiederholt wurde dieses wettbewerbssch\"{a}digende Verhalten von der Europ\"{a}ischen Kommission in ihren Fortschrittsberichten angemahnt\footnote{siehe: Europ\"{a}ische Kommission (2004), (2005), (2007a),  (2008), (2010)} und war Anlass in der zweiten und dritten Richtlinie zur Liberalisierung der europ\"{a}ischen Gasm\"{a}rkte auf eine vollst\"{a}ndige Entflechtung zu dr\"{a}ngen\footnote{ebenda (2007b)}. 
+
+
+\section{Pfadabh\"{a}ngigkeiten}
+
+Aus den Eigenschaften von Gasm\"{a}rkten und dem hierauf angepassten Gesch\"{a}ftsmodell der vertikalen Integration ergibt sich f\"{\"{ü}}r die Akteure ein eindeutige Handlungslogik: Diese werden versuchen, bestehende Besitzformen zu bewahren und sich einer Markt\"{o}ffnung widersetzen, welche ihre Gewinnmargen bedroht. Wir k\"{o}nnen hier ein strukturbedingtes Verhalten identifizieren, welches unter Anwendung des 'Transaction Cost Economics'--Ansatzes auf dem dritten Niveau wirkt und eine erkl\"{a}rende Variable bietet. Inwieweit dieser Faktor die Wahl des Entflechtungsmodells in Litauen und Lettland erkl\"{a}ren kann, muss noch an sp\"{a}terer Stelle untersucht werden. Das Kapitel \textsf{\textcolor{NavyBlue}{\nameref{sec:Lobby}}} wird der Frage nachgehen, ob Interessen und Handlungslogik der Gasunternehmen auf politische Prozesse, zum Beispiel durch Lobby-Arbeit, einwirken konnten. Das Modell von \emph{Williamson} zu Hilfe nehmend muss untersucht werden, in welchem Umfang das auf Analyseniveau 4 verortete Marktgeschehen und seine Akteure die sektor-spezifische Regulierung und allgemeiner Energiepolitik auf den darunterliegenden Ebenen beeinflussen. Hierbei wird jedoch generell zu kl\"{a}ren sein, wie solche Mechanismen angesichts der sehr eingeschr\"{a}nkten Quellenlage \"{\"{ü}}berhaupt wissenschaftlich nachzuweisen sind. 
+
+ 
+
+
+\subsubsection*{Textfragmente f\"{\"{ü}}r das Kapitel \textsl{Gasm\"{a}rkte}}
+
+\textbf{Diese Textfragmente werden noch irgendwo eingebaut, sofern sinnvoll:} 
+
+
+Die aufgez\"{a}hlten Merkmale von Gasm\"{a}rkte weisen auch andere Netzwerkindustrien auf. Der Vollst\"{a}ndigkeit halber sei darauf hingewiesen, dass sogenannte \glqq positive Netzwerkexternalit\"{a}ten\grqq{}, wie von \emph{Economides}\footnote{Economides (1996), S.679} sowie von \emph{Katz} \& \emph{Shapiro}\footnote{Katz \& Shapiro (1986), S.424} definiert, im Gasgesch\"{a}ft nicht anzutreffen sind. Weder steigt f\"{\"{ü}}r den einzelnen Endverbraucher der Nutzen mit einem Zuwachs der Gesamtzahl an Endkonsumenten, er tritt im Gegensatz zum Telekommuni"-ka"-t"-ions- oder Postmarkt nicht in Transaktion mit anderen Kunden. Noch kann f\"{\"{ü}}r Gasm\"{a}rkte eine Komplementarit\"{a}t zwischen der Versorgung mit Erdgas selbst und \textsl{komplement\"{a}ren} Dienstleistungen und G\"{\"{ü}}tern beobachtet werden, so etwa auf Finanzm\"{a}rkten, wo Finanzprodukte auf eine Vielzahl weiterer Dienste angewiesen oder im Bereich der Informationstechnologie, dort steigt der Wert von Soft- bzw. Hardware mit der Anzahl hierzu kompatibler Produkte. 
+
+
+
+
+
+\chapter{Liberalisierung und Regulierung}
+
+
+\section{Energieversorgung als \"{o}ffentliches Gut}\label{sec:Public Service}
+
+Die Versorgung mit Energie und dies zu sozial akzeptablen Preisen wurde und wird in zahlreichen L\"{a}ndern als Gemeinschaftsaufgabe gesehen. Das \"{o}ffentliche Gut 'Versorgung' und seine Erbringung als \"{o}ffentliche Dienstleistung wurden in Europa generell von staatlichen Unternehmen sichergestellt\footnote{Finger \& Finon (2010), S.1}. Das Konzept der \"{o}ffentlichen G\"{\"{ü}}ter und die Auswirkungen auf Liberalisierungsprozesse l\"{a}sst sich nach der Begriffskl\"{a}rung von \emph{Finger} \& \emph{Finon}\footnote{ebenda (2010), S.1} auch auf Gasm\"{a}rkte anwenden und hilft uns besser zu verstehen, weshalb in der Liberalisierungsdirektiven Spielr\"{a}ume bei der Umsetzung vorgesehen waren.  
+
+Bezogen auf den Gasmarkt kann die Idee von \"{o}ffentlichen G\"{\"{ü}}tern mehrere Aspekte umfassen: \begin{inparaitem} \item Gew\"{a}hrleistung der Versorgungssicherheit \item Verfolgen einer Industriepolitik und Besch\"{a}ftigungszielen \item Ziele sozialer Gerechtigkeit und Umverteilung \item Umweltschutz \& Nachhaltigkeit\end{inparaitem}.
+
+Obwohl nicht in ganz Europa alle diese Punkte als Gemeinschaftsaufgabe angesehen werden, beinhalten alle nationalen Konzepte der \"{o}ffentlichen Dienstleistung, dass die Kosten ihrer Erbringung nicht von den Nutzern zur\"{\"{ü}}ckgewonnen werden kann. Auf diesen Umstand fand man das Modell des staatlichen Versorgers, welcher in der Lage war \"{o}ffentliche G\"{\"{ü}}ter bereitzustellen mittels Quersubventionierung aus ertragreicheren Gesch\"{a}ftsfeldern und direkten staatlichen Subventionen. \"{o}ffentliche Unternehmen mussten in Folge der gesetzlich gew\"{a}hrten Monopolstellung auf dem Markt mit niemanden konkurrieren. Dies erlaubte es ihnen auch, Verluste in einem Gesch\"{a}ftsbereich durch sogenannte \glqq Monopolrenten\grqq{} aus anderen T\"{a}tigkeitsfeldern auszugleichen.
+
+Jenes Modell der Bereitstellung \"{o}ffentlicher Dienstleistung wurde nun, wie Details im Kapitel \textsf{\textcolor{NavyBlue}{\nameref{sec:Gasmarktliberalisierung}}} best\"{a}tigen werden, durch die Einf\"{\"{ü}}hrung von Wettbewerb in Frage gestellt\footnote{Finger \& Finon (2010), S.5}. Private Konkurrenten dr\"{a}ngten in die lukrativen Segmente des Marktes und ließen dort die bisherigen Gewinne der staatlichen Monopolisten schrumpfen. Diese waren jedoch weiterhin mit der verlustreichen Erbringung \"{o}ffentlicher G\"{\"{ü}}ter betraut, wof\"{\"{ü}}r ihnen nunmehr weniger Mittel zur Quersubventionierung zur Verf\"{\"{ü}}gung standen. Die Ausnahmeregelungen der Gasmarktrichtlinien entstammen dieser Situation, da es politisch undenkbar war, die Bereitstellung \"{o}ffentlicher Dienstleistung zu beenden. Das Entflechtung, welches die Netzinfrastruktur beim vertikal integrierten Ex-Monopolisten bel\"{a}sst, erlaubt es in beschr\"{a}nktem Maße weiterhin, die durch Nutzungsentgelte erwirtschafteten Gewinne f\"{\"{ü}}r eine fl\"{a}chendeckende Versorgung der Endverbraucher zu verwenden.
+
+Vergleichbar mit den Handlungslogiken auf Marktakteure f\"{\"{ü}}hren auch die Erfordernisse der Bereitstellung \"{o}ffentlicher G\"{\"{ü}}ter zu Pfadabh\"{a}ngigkeiten auf politischer Ebene. Wie aufgezeigt konnten gemeinschaftliche Aufgaben der Gasversorgung nur mit vertikal integrierten Formen der staatlichen Gasunternehmen wirtschaftlich erbracht werden. Eine Marktliberalisierung zerschl\"{a}gt diese Strukturen des Gasmarktes und stellt hiermit das Konzept der \"{o}ffentlichen Dienstleistungen in Frage. In bisheriger Form sind diese nicht mehr zu gew\"{a}hrleisten, was jedoch ohne grundlegende Umorientierung wohlfahrtstaatlicher Politik als inakzeptabel gesehen wird. Eine gleichbleibende Ausrichtung in Bezug auf die Bereitstellung \"{o}ffentlicher G\"{\"{ü}}ter, namentlich Gasversorgung, gibt Politik einen Entscheidungsrahmen vor. Nach diesem wird ein bestimmtes Entflechtungsmodell gew\"{a}hlt, welches Gasversorgung weiterhin nach bisherigem Schema erbringen kann. F\"{\"{ü}}r marktliberal ausgerichtete Regierungen bestehen analog eine begrenzte Anzahl m\"{o}glicher Handlungsoptionen, die mit ihren wirtschaftspolitischen \"{\"{ü}}berzeugungen konform sind. Auch hier entstehen Pfadabh\"{a}ngigkeiten, die mit ihrer Logik entlang eines Entscheidungsprozesses nur manche Beschl\"{\"{ü}}sse zulassen. 
+
+In diesem Punkt kann einer neuer Erkl\"{a}rungsfaktor f\"{\"{ü}}r die Fragestellung festgemacht werden. Die politische Orientierung der am Entscheidungsprozess beteiligten Regierung, so die These, wirkt f\"{\"{ü}}r die Wahl des Unbundlings zugleich als Entscheidungsrahmen. Eine marktliberale Ausrichtung der Entscheidungstr\"{a}ger wird andere Entschl\"{\"{ü}}sse erm\"{o}glichen bzw. verhindern, als \"{\"{ü}}berzeugung, nach denen der freie Markt gewisse Aufgaben nicht oder nur unzureichend erf\"{\"{ü}}llen kann und dementsprechend der Staat regulativ eingreifen bzw. selbst t\"{a}tig werden muss.    
+
+
+
+\section{Die Liberalisierung von Gasm\"{a}rkten}
+
+
+Dieses Kapitel soll einen \"{\"{ü}}berblick zum Fortgang der Gasmarktliberalisierung in der Europ\"{a}ischen Union geben. Neben einem kurzen historischen Abriss der bisherigen Schritte im Integrationsprozess stehen vor allem ihre Ziele und Ergebnisse im Mittelpunkt. Den Kontext der Umsetzung des Dritten Liberalisierungspakets gesetzt, k\"{o}nnen erstens die institutionellen Zw\"{a}nge nachvollzogen werden, unter welchen Energiepolitik in Litauen und Lettland formuliert worden ist. Zudem erlaubt uns ein Verst\"{a}ndnis des historischen Hintergrundes zu ergr\"{\"{ü}}nden, wie nationale Akteure auf diese von Br\"{\"{ü}}ssel angestoßene \"{a}nderung ihrer politischen und unternehmerischen Rahmenbedingungen reagierten, bzw. gegeben der im Abschnitt \textsf{\textcolor{NavyBlue}{\nameref{sec:Energiem\"arkte}}} marktbedingten Interessen zu handeln geneigt waren.
+
+Vor dem Abschnitt zum Hergang der Liberalisierungsbem\"{\"{ü}}hungen in Europa stellt sich erst einmal die Frage, was bzw. welche Marktsituation liberalisiert werden soll und aus welchem Grund eine solche Markt\"{o}ffnung angestrebt wird. In Vorbereitung auf den Themenkomplex 'Liberalisierung' und die drei Richtlinien zu Gasmarktliberalisierung sollen an dieser Stelle Begr\"{\"{ü}}ndungen f\"{\"{ü}}r Marktregulierung dargelegt werden, sowie die Grenzen und Nachteile der Regelungen, die Anstoß f\"{\"{ü}}r die Deregulierung sprich Liberalisierung von Gasm\"{a}rkten waren.
+
+
+\subsection{Marktregulierung}\label{sec:Marktregulierung}
+
+Anlass f\"{\"{ü}}r staatliche Marktregelung ist stets Marktversagen, eine Situation, die unterschiedlich definiert werden kann\footnote{Jaag \& Trinkner (2011), S.26; ebenso Balwin \& Cave (1999)}. Aufgabe dieser Arbeit ist nicht, an dieser Stelle eine pr\"{a}zise Definition von Marktversagen herauszuarbeiten, sondern es gilt darzulegen, welche Gr\"{\"{ü}}nde es f\"{\"{ü}}r Regulierung von M\"{a}rkten gibt. Eine Bewertung, inwieweit Eingriffe in das Marktgeschehen nach unterschiedlichen Gesichtspunkten gerechtfertigt ist ist ebensowenig Gegenstand der vorliegenden Fragestellung. F\"{\"{ü}}r eine Diskussion \"{\"{ü}}ber die Effektiv\"{a}t verschiedenartiger Regulierungsmodell sei f\"{\"{ü}}r ein allgemeine Betrachtung auf \emph{Baldwin} \& \emph{Cave}\footnote{siehe:: Baldwin \& Cave (1999)} sowie \emph{Harrington}, \emph{Vernon} \& \emph{Viscusi}\footnote{siehe: Harrington, Vernon \& Viscusi (2005)} verwiesen. Wie Regulierung sich auf Gaspreise f\"{\"{ü}}r Endverbraucher in der Europ\"{a}ischen Union ausgewirkt hat wird von \emph{Brau}, \emph{Doronzo}, \emph{Fiorio} \& \emph{Florio}\footnote{siehe: Brau, Doronzo, Fiorio \& Florio (2010)} diskutiert. Konsequenzen f\"{\"{ü}}r Investitionsanreize sind Thema bei \emph{Joskow} am Beispiel des US-amerikanischen Strommarkts\footnote{siehe: Joskow (2000)} und allgemeiner f\"{\"{ü}}r den Aspekt Forschung \& Entwicklung bei \emph{Jamasb} \& \emph{Pollitt}\footnote{siehe: Jamasb \& Pollitt (2008)}{}\footnote{Die angef\"{\"{ü}}hrte Literatur besch\"{a}ftigt sich mit Beispielen des Elektrizit\"{a}tsmarktes. Dennoch k\"{o}nnen ihre Ergebnisse aufgrund der gemeinsamen Eigenschaften von Netzwerkindustrien weitgehend auf Gasm\"{a}rkte \"{\"{ü}}bertragen werden. An dieser Stelle ist anzumerken, dass f\"{\"{ü}}r Stromm\"{a}rkte umfangreichere Literatur vorliegt, die sich auf langfristigere Erfahrungen st\"{\"{ü}}tzen kann, da diese M\"{a}rkte fr\"{\"{ü}}her liberalisiert wurden als das Gasgesch\"{a}ft.}.
+
+Gasm\"{a}rkten und andere Netzwerkindustrien entsprechen nicht dem neo-klassischen Modell eines perfekten Marktes mit freiem Wettbewerb und vollst\"{a}ndigen Kontrakten, die eine Abwesenheit von Externalit\"{a}ten implizieren. F\"{\"{ü}}r eine politikwissenschaftliche Herangehensweise an M\"{a}rkte entscheidend ist jedoch in erster Linie die Frage, ob diese gesellschaftlich erw\"{\"{ü}}nschte Ergebnisse hervorbringen und somit normativ anzustreben sind, weniger ob sie den stringenten formalen Kriterien der neo-klassischen Lehre entsprechen. In den Worten von \emph{Jaag} \& \emph{Trinkner}, k\"{o}nnen wir von einem freien, funktionierenden Markt sprechen, wenn dieser \glqq \textsl{f\"{\"{ü}}r Unternehmen die richtigen Anreize bietet, auf einem \textbf{gesellschaftlich erw\"{\"{ü}}nschten Niveau} in M\"{a}rkte einzutreten, Preise zu bilden und in Innovation zu investieren}\grqq \footnote{ebenda (2011), S.27 -- \textsl{eigene Paraphrasierung, Hervorhebung hinzugef\"{\"{ü}}gt}}.
+
+F\"{\"{ü}}r eine Diskussion, wie Regulierung als Ergebnis des politischen Prozesses das Ph\"{a}nomen des sogenannten \glqq Rent Seekings\grqq{} hervorruft und in der Folge Motive von Interessengruppen maßgebend werden, sei auf \emph{Tullock}\footnote{Tullock (1967)} verwiesen. Eine kritische Diskussion von Regulierung als Mittel des politischen Prozesses kann bei \emph{Crew} \& \emph{Kleindorfer}\footnote{Crew \& Kleindorfer (2002)} gefunden werden.
+
+
+
+
+\chapter{Gasmarktliberalisierung in Europa}\label{sec:Gasmarktliberalisierung}
+
+
+
+\vspace{0.5cm}
+							\begin{center}
+							\textcolor {hellgrau}{\textbf{[........]}}
+							\end{center}
+\vspace{0.5cm}
+
+
+
+\section{Die erste Liberalisierungsrichtlinie}
+
+
+Die erste EU-Richtlinie \textbf{(98/30/EC)} folgte der zwei Jahre zuvor erlassenen Direktive zum Strommarkt \textbf{(96/92/EC)}, wodurch erste gemeinsame Regelwerke f\"{\"{ü}}r die europ\"{a}ischen Energiem\"{a}rkte aufgestellt wurden. Bis zu diesem Zeitpunkt war zwar ein einheitlicher europ\"{a}ischer Energiemarkt in den Europ\"{a}ischen Vertr\"{a}gen als Ziel festgeschrieben gewesen, eine konkrete europarechtliche Ausf\"{\"{ü}}hrung jedoch hatte diese Idee bisher nicht erfahren\footnote{\textcolor{purple}{Zitat hier!!!}}. Die Europ\"{a}ische Kommission hatte die Kontrolle der Netzinfrastruktur durch vertikal integrierte Energieunternehmen als Haupthindernis f\"{\"{ü}}r Wettbewerb auf den Gasm\"{a}rkten erkannt. 
+
+Prim\"{a}res Ziel der ersten Gasmarktrichtlinie war die \"{o}ffnung das Gasnetze f\"{\"{ü}}r Dritte, um so Wettbewerb in den Upstream- und Downstream-Seg"-men"-ten einzuf\"{\"{ü}}hren\footnote{International Energy Agency [IEA] (2008), S.24}. Der freie und gleiche Zugang zur Netzinfrastruktur sollte durch Entflechtung (Unbundling) sichergestellt werden. Laut Direktive war nun geplant, die Betreiber der Gaspipelines in Form neuer und unabh\"{a}ngiger Firmen von der integrierten Unternehmensstruktur abzuspalten\footnote{\textsl{Richtlinie 98/30/EG des Europ\"{a}ischen Rates und des Europ\"{a}ischen Parlamentes vom 22.Juli 1998 betreffend die gemeinsamen Vorschriften f\"{\"{ü}}r den Erdgasbinnenmarkt} ABl. 1998 L 204/1}. Als Alternative sollte diese Erfordernis zumindest durch Entflechtung auf buchhalterischer, wenn schon nicht auf rechtlicher Ebene erfolgen, um hiermit Quersubventionierung innerhalb der Konzernstruktur in Zukunft unterbinden zu k\"{o}nnen. Den Netzzugang an sich sollte eine von Staat und Markt unabh\"{a}ngige Aufsichtsbeh\"{o}rde \"{\"{ü}}berwachen\footnote{siehe: RL 98/30/EG, ABl. 1998 L 204/2}. Die Einrichtung einer solchen Instanz war von der Europ\"{a}ischen Kommission zwar erw\"{\"{ü}}nscht, jedoch nicht verpflichtend und die Aufgaben konnten andernfalls auch durch das zust\"{a}ndige Ministerium wahrgenommen werden. 
+
+Um gleiche Bedingungen f\"{\"{ü}}r alle Marktakteure zu gew\"{a}hrleisten, sollte der Regulierer mittels besonderer Vorrechte korrigierend in das Marktgeschehen eingreifen k\"{o}nnen. Zu diesen Instrumenten z\"{a}hlten die Zulassungskompetenz f\"{\"{ü}}r Netzbetreiber und Erdgasanbieter sowie Preiskontrollen \"{\"{ü}}ber Nutzungsentgelte. Diese Rechte konnte die Aufsichtsbeh\"{o}rde aus\"{\"{ü}}ben, indem bindende Nutzungsbedingungen und Tariffe f\"{\"{ü}}r alle Marktakteure  \textsl{ex ante} \"{o}ffentlich gemacht wurde. Oder aber die Modalit\"{a}ten konnten fallweise f\"{\"{ü}}r jeden auf dem Markt ausgehandelten Liefervertrag einzeln festgelegt werden\footnote{IEA (2008), S.25}.  
+
+Zusammenfassend gab die erste Liberalisierungsrichtlinie von 1998 den Mitgliedsstaaten unterschiedliche M\"{o}glichkeiten, die Br\"{\"{ü}}sseler Vorgaben in nationales Recht umzusetzen. Sie konnten die Entflechtung der Gasunternehmen vollst\"{a}ndig \"{\"{ü}}ber einen Verkauf der Netze erzwingen oder nur auf buchhalterischer Ebene vornehmen lassen. Der Netzzugang war reguliert m\"{o}glich oder Fall per Fall auszuhandeln. Diese beiden Optionen wiederum konnten vom zust\"{a}ndigen Regulierer \emph{ex ante} oder \emph{ex post} implementiert werden. 
+
+Diese unterschiedlichen Gestaltungsm\"{o}glichkeiten erlaubten es, nationale Besonderheiten zu ber\"{\"{ü}}cksichtigen. Eine von den Empfehlungen der Kommission abweichende Umsetzung unter folgenden Bedingungen gestattet\footnote{siehe: RL 98/30/EG, ABl. 1998 L 204/3}
+
+\begin{compactitem}
+
+	\item F\"{\"{ü}}r den Fall, dass eine Markt\"{o}ffnung die Erbringungen \"{o}ffentlicher Dienstleistungen verhindert
+
+	\item Sofern Belange der Versorgungssicherheit ber\"{\"{ü}}hrt werden
+
+	\item Wenn die Marktliberalisierung nicht vereinbar ist, mit langfristigen \glqq Take-or-Pay\grqq{}-							Liefervertr\"{a}gen\footnote{Unter sogenannten \textsl{Take-or-Pay}-Liefervertr\"{a}gen werden vertragliche Vereinbarung zwischen Produzenten und Großabnehmer mit unbedingter Zahlungsverpflichtung verstanden. Der K\"{a}ufer ist, unabh\"{a}ngig davon, ob die vereinbarte Mindestmenge an Gas abgenommen wird, gezwungen, diese zu bezahlen.}
+
+	\item Falls eine Markt\"{o}ffnung f\"{\"{ü}}r gesamtwirtschaftliche Schwierigkeiten f\"{\"{ü}}hren k\"{o}nnten
+	\item F\"{\"{ü}}r die Situation, dass ein Mitgliedsland noch nicht an anderen europ\"{a}ische Gasnetze angeschlossen ist, und es nur einen externen Gaslieferanten gibt
+
+	\item Im Falle sich noch entwickelnder Gasm\"{a}rkte, auf denen noch Investitionsbedarf besteht
+
+\end{compactitem}
+
+
+
+\section{Das zweite Liberalisierungspaket}
+
+Noch bevor die erste Liberalisierungsrichtlinie g\"{a}nzlich umgesetzt war, die Mitgliedsstaaten hatten hierf\"{\"{ü}}r zwei Jahre Zeit, forderte der Europ\"{a}ische Rat von Lissabon 2000 die Kommission auf, weitere Schritte zur Vollendung des Energiebinnenmarktes einzuleiten\footnote{Haase (2008), S.24}. Von den damals 15 Mitgliedsstaaten der Europ\"{a}ischen Union beabsichtigten neun, in den kommenden Jahren ihre Gasm\"{a}rkte vollst\"{a}ndig f\"{\"{ü}}r den freien Wettbewerb zu \"{o}ffnen. Acht Mitglieder hatten bereits den \emph{ex ante}-regulierten Zugang zur Netzinfrastruktur implementiert, das von der Europ\"{a}ischen Kommission favorisierte Modell der Zugangsregelung. 
+
+F\"{\"{ü}}nf Jahre nach der ersten Direktive waren die erhofften Effekte einer Marktliberalisierung in Form niedriger Verbraucherpreise noch nicht Realit\"{a}t geworden. Angesichts dieser ern\"{\"{ü}}chternden Situation kam es bei den Entscheidungstr\"{a}gern der EU zu einem Umdenken, wonach nicht mehr Preissenkungen per se Ziel der Liberalisierungsbem\"{\"{ü}}hungen seien, sondern vielmehr sollten Verbraucherpreise die tats\"{a}chlichen Kosten widerspiegeln\footnote{IEA (2008), S.24}. Es war laut IEA deutlich geworden, dass die Preise f\"{\"{ü}}r Erdgas an den Roh\"{o}lpreis gekoppelt waren und entsprechend von der Markt\"{o}ffnung kaum ber\"{\"{ü}}hrt wurden. 
+
+Die Markt\"{o}ffnung war zu diesem Zeitpunkt in einigen L\"{a}ndern bereits weiter vorangeschritten, als in der ersten Direktive vorgegeben\footnote{IEA (2008), S.24}. Nach den Bestimmung der Richtlinie von 1998 sollten zu Beginn 20 \% des Gasvolumens der nationalen M\"{a}rkte frei zwischen Anbieter und Abnehmer gehandelt werden. Nach f\"{\"{ü}}nf Jahren sollte dieser Anteil auf 28 \% und nach weiteren f\"{\"{ü}}nf Jahren auf schließlich 33 \% steigen. Im Durchschnitt waren die europ\"{a}ischen Gasm\"{a}rkte jedoch im Jahre 2000 bereits zu 79 \% liberalisiert, d.h. knapp vier F\"{\"{ü}}nftel des Gasvolumens wurde frei gehandelt. Dieser Mittelwert spiegelte jedoch nicht den sehr unterschiedlichen Grad der Marktliberalisierung wider, welche zwischen den einzelnen L\"{a}ndern zu beobachten war: einige Mitglieder hatten ihre Gasm\"{a}rkte stark liberalisiert (Großbritannien, Niederlande), w\"{a}hrend in anderen die Markt\"{o}ffnung kaum vorangekommen war (Frankreich). 
+
+Die Europ\"{a}ische Kommission die bisherige Umsetzung der Richtlinie \textbf{(98/30/EC)} einer Analyse unterworfen mit dem Ergebnis, die Markt\"{o}ffnung sei bis dato in den Mitgliedsl\"{a}ndern nur sehr unterschiedlich vorangekommen mit Problemen bei den regulierten Nutzungsentgelten und dem Netzzugang f\"{\"{ü}}r Dritte\footnote{siehe: Europ\"{a}ische Kommission (2004), (2005), (2007a), (2008)}. Da sie den bestehenden Wettbewerb als unzureichend einstufte und die Verbraucher bisher noch nicht vom freien Wettbewerb profitiert hatten, erachtete die Kommission weitere Liberalisierungsschritte als notwendig, um den Zielen niedriger Gaspreise und effizienter M\"{a}rkte n\"{a}her zu kommen.
+
+Eine zweite Liberalisierungsdirektive wurde 2003 verabschiedet, nachdem zuvor die Regierungschef auf ihrem Treffen in Barcelona im M\"{a}rz 2002 ihre Absicht bekr\"{a}ftigt hatten, bis in zwei Jahren die Gasm\"{a}rkte f\"{\"{ü}}r Großabnehmer und bis 2005 f\"{\"{ü}}r Haushalte g\"{a}nzlich zu \"{o}ffnen. Die Folgerichtlinie machte den Mitgliedsstaaten striktere Vorgaben und schr\"{a}nkte so ihren Umsetzungsspielraum ein:
+
+
+	\begin{compactitem}
+
+	\item Nunmehr gab es ausschließlich einen regulierten Netzzugang, eine fallweise Regelung war nicht mehr vorgesehen
+	
+	\item Die zweite Gasmarktrichtlinie erlaubte nur noch eine rechtliche Entflechtung der vertikal integrierten Energieunternehmen, die	buchhalterische Trennung war nicht mehr zul\"{a}ssig
+	
+	\item Transitpipelines unterlagen ab jetzt den gleichen Maßgaben von Br\"{\"{ü}}ssel wie bisher die nationalen Gasnetze
+
+	\end{compactitem}
+
+\par
+
+\vspace{0.5cm}
+
+\noindent
+%In dieser zweiten Richtlinie \textbf{(2003/55/EC)} wurde erstmals die Liberalisierung von der Frage der Versorgungssicherheit getrennt. Letztere sollte in einer gesonderten Direktive \textbf{(2004/67/EC)} behandelt werden, die, im Jahre darauf erlassen, keine vergleichbar verbindlichen Vorgaben machte\footnote{IEA (2008), S.26}. 
+
+%Um Investition in Netzinfrastruktur attraktiver und somit wahrscheinlicher zu machen, waren neue Pipelines den Zugangsregelungen der Richtlinie nicht unterworfen. Jedoch blieb weiterhin die Frage ungekl\"{a}rt, ob diese tempor\"{a}ren Ausnahmen ausreichend sein w\"{\"{ü}}rden f\"{\"{ü}}r dringend ben\"{o}tigte Investitionen in transeurop\"{a}ische Gasnetze.
+
+
+
+\section[Drittes Liberalisierungspaket]{Bestimmungen des Dritten Liberalisierungspakets}
+
+Auch der sechsten Fortschrittsbericht zum Stand der Energiemarktliberalisierung im Jahre 2007 stellte eine weiterhin nur sehr langsame Entwicklung hin zu mehr Wettbewerb fest\footnote{Europ\"{a}ische Kommission Directorate General Wettbewerb (2007), S.169}. Ein Dorn im Auge der Kommission war insbesondere die fortw\"{a}hrende Marktkonzentration in vielen Mitgliedsstaaten, da die Netzbetreiber immer noch nicht hinreichend unabh\"{a}ngig von vertikal integrierten Ex-Monopolisten und Politik waren\footnote{ebenda (2008), S.6}. Angesichts der gleichbleibenden Ergebnisse in den Fortschrittsberichten konzentrierte sich die Kommission nunmehr auf eine Anpassung der Marktstrukturen im Gassektor, nachdem eine direkte \"{a}nderung des Marktsituation erfolglos geblieben war\footnote{IEA (2008), S.8}.
+
+Weitaus st\"{a}rker als in den vorangegangen zwei Direktiven forciert das Dritte Liberalisierungspaket die Entflechtung vertikaler Besitzformen der Energieunternehmen. Unterst\"{\"{ü}}tzt wurde dieses Bestreben durch die Feststellung des letzten Fortschrittsberichts, in Mitgliedsl\"{a}ndern mit entflochtenen Strukturen investierten die Netzbetreiber deutlich mehr in die Infrastruktur, als auf weniger liberalisierten M\"{a}rkten. Dieser Mangel an Investitionen wurde jedoch als ernstzunehmendes Problem f\"{\"{ü}}r zuk\"{\"{ü}}nftige Energieversorgung Europas erkannt\footnote{siehe: Europ\"{a}ische Kommission (2008)}.
+
+Der urspr\"{\"{ü}}ngliche Vorschlag, die vollst\"{a}ndige eigentumsrechtliche Entflechtung zwischen Erzeugung/Gewinnung und Vertrieb einerseits sowie dem Netzbetrieb andererseits durchzusetzen, war am Widerstand einiger EU-Mitglieder gescheitert\footnote{Schmidt-Preuß (2009), S.82}. F\"{\"{ü}}r integrierte Gasversorger h\"{a}tte diese Variante zur Folge gehabt, dass es f\"{\"{ü}}r sie unm\"{o}glich geworden w\"{a}re, einerseits Kontrolle \"{\"{ü}}ber ein Erzeugungs- oder Vertriebsunternehmen auszu\"{\"{ü}}ben und gleichzeitig Inhaber von Netzinfrastruktur zu sein\footnote{siehe: Institut f\"{\"{ü}}r Energie- und Wettbewerbsrecht in der Kommunalen Wirtschaft e. V. (2014)}. In die Direktive zu Liberalisierung der europ\"{a}ischen Gasm\"{a}rkte wurden zwei weitere Unbundling-Optionen aufgenommen. Mitgliedstaaten k\"{o}nnen neben der vollst\"{a}ndigen Eigentumsentflechtung die Richtlinie auch in Form eines sog. \textsl{Independent System Operator} (ISO) oder eines \textsl{Independent Transmission Operator} (ITO) implementieren. In der ersten Variante wird das Netzmanagements an einen unabh\"{a}ngigen Netzbetreiber abgegeben. Nach der zweiten erfolgt eine verst\"{a}rkte organisationsrechtlichen Trennung der Gesch\"{a}ftsaktivit\"{a}ten, um ein unabh\"{a}ngiges Netzmanagement zu gew\"{a}hrleisten. Die drei Entflechtungsoptionen werden im Folgenden genauer erl\"{a}utert, um zu verdeutlichen, welche Konsequenzen diese im Einzelnen f\"{\"{ü}}r betroffene Energieunternehmen und ihr Gesch\"{a}ftsmodell haben.    
+
+
+
+\subsection[Vertikale Entflechtung]{Modelle der vertikalen Entflechtung auf dem Gasmarkt}
+
+
+\paragraph{Ownership Unbundling}
+Erste Option, das sog. \textbf{\textcolor{hellgrau}{Ownership Unbundling}}, ist eine vollst\"{a}ndigen Trennung der Gesch\"{a}ftsaktivit\"{a}ten Erzeugung und Vertrieb von der Energiefernleitung, die von vertikal integrierten Gasversorgern eine Ver\"{a}ußerung der Netzinfrastruktur verlangt\footnote{RL 2009/73/EG, ABl. 2009 L 211/106, Art. 9}. Die Mitgliedstaaten m\"{\"{ü}}ssen danach zun\"{a}chst sicherstellen, dass die Netze auf der einen sowie die Wettbewerbsbereiche Stromerzeugung bzw. Gasgewinnung und Vertrieb auf der anderen Seite nicht in einer Hand liegen. Umgekehrt darf auch ein Netzbetreiber nicht an Erzeugungs- oder Vertriebsunternehmen beteiligt sein. Dieses Trennungsgebot erstreckt sich \"{\"{ü}}berkreuz auf Strom- und Gasm\"{a}rkte, so dass z. B. auch einem Stromerzeuger untersagt ist, Gasinfrastruktur zu kontrollieren. Die rechtlich erzwungen Ver\"{a}ußerung des Wettbewerbsbereichs der \"{\"{ü}}bertragung kommt de facto einer Enteignung gleich und bedeutet f\"{\"{ü}}r die betroffenen Unternehmen einen deutlichen Einfluss an Marktmacht, da Konkurrenten nicht \"{\"{ü}}ber Beschr\"{a}nkungen des Zugangs zum Netz behindert werden k\"{o}nnen. F\"{\"{ü}}r staatliche Gasversorger gelten weniger strenge Regelungen. Sofern die Gesch\"{a}ftsbereiche Fernleitung und Erzeugung/Vertrieb von unterschiedlichen Ministerien kontrolliert werden, so wird das Ownership Unbundling als erf\"{\"{ü}}llt angesehen\footnote{ebenda, Art. 9}.
+
+
+\paragraph{Independent System Operator}
+Eine alternative Umsetzung der Liberalisierungsrichtlinie ist das Modell des sog. \textbf{\textcolor{hellgrau}{Independent System Operators \texttwelveudash{} ISO}}. Hiernach k\"{o}nnen die Mitgliedsstaaten durch eine nationale Regulierungsbeh\"{o}rde einen unabh\"{a}ngigen Betreiber der Energienetze benennen. Zwar verbleibt eigentumsrechtlich die Infrastruktur beim bisherigen Netzeigent\"{\"{ü}}mer, dieser ist  jedoch gezwungen, die Verf\"{\"{ü}}gung hier\"{\"{ü}}ber g\"{a}nzlich an den Betreiber abzugeben\footnote{Schmidt-Preuß (2009), S.82} Der \textsl{Independent System Operator} wiederum darf keine Kontrolle Erzeugungs- \& Vertriebsunternehmen aus\"{\"{ü}}ben. In Form einer von der \"{o}ffentlichen Hand ausgesprochenen Bestellung hat der ISO die Aufgaben, zuverl\"{a}ssig leistungsf\"{a}hige \"{\"{ü}}bertragungsnetze, sprich Pipelines zu betreiben, sie zu warten und nach Bedarf auszubauen. F\"{\"{ü}}r diese Aktivit\"{a}ten kann der unabh\"{a}ngige Netzbetreiber Entgelte einfordern. Es entstehen jedoch eigentumsrechtliche Konflikte und Unsicherheiten zwischen den rechtlichen Eigent\"{\"{ü}}mern der Netzinfrastruktur und dem ISO. Erstere konnten \"{\"{ü}}ber ihren Besitz nicht mehr frei entscheiden und wurden somit de facto enteignet, w\"{a}hrend der Independent System Operator f\"{\"{ü}}r den Betrieb auf die Kooperation der Infrastruktureigent\"{\"{ü}}mer angewiesen war. Ungekl\"{a}rt ist, wie der Ausbau der Netze zu finanzieren ist, wenn die Nutzungsentgelte hierf\"{\"{ü}}r nicht ausreichen.
+
+
+\paragraph{Independent Transmission Operator}
+Als dritte Option besteht f\"{\"{ü}}r die Mitgliedsstaaten die M\"{o}glichkeit, einen \textbf{\textcolor{hellgrau}{Independent Transmission Operators \texttwelveudash{} ITO}} einzuf\"{\"{ü}}hren. Dieses Modell unterscheidet sich vom Ownership Unbundling dadurch, dass die Netzinfrastruktur weiterhin rechtlich beim bisher vertikal integrierten Energieunternehmen verbleibt. Im Gegensatz zum \textsl{Independent System Operator} wird eine de facto Enteignung vermieden, da Besitz und Verf\"{\"{ü}}gung \"{\"{ü}}ber das Netz organisatorisch nicht getrennt werden. Der Bereich \"{\"{ü}}bertragung verbleibt im Konzernverbund, soll jedoch anhand strikter Regulierung Autonomie genießen\footnote{siehe: RL 2009/73/EG, ABl. 2009 L 211/94}. Personelle Doppelmandate in der Leitung der verschiedenen Gesch\"{a}ftsbereiche innerhalb der Muttergesellschaft sind untersagt. Mit den Nutzungsentgelten erh\"{a}lt der autonome Netzbetreiber eine eigene Finanzierungsquelle, um ihn unabh\"{a}ngiger vom Konzernverbund zu machen. F\"{\"{ü}}r den Fall, dass f\"{\"{ü}}r zuk\"{\"{ü}}nftige Investitionsvorhaben Finanzmittel erforderlich sind, die nicht aus den Nutzungsentgelten zu erwirtschaften sind, muss die Muttergesellschaft diese zur Verf\"{\"{ü}}gung stellen. In seiner Entscheidungsbefugnis zu Betrieb und Instandhaltung, sowie Investitionsentscheidungen muss der \"{\"{ü}}bertragungsnetzbetreiber unabh\"{a}ngig vom vertikal integrierten Versorger sein. Mittels dieser Bestimmung soll ein diskriminierungsfreier Zugang zu Infrastruktur f\"{\"{ü}}r Konkurrenten gew\"{a}hrleistet werden und Wettbewerb auf dem Energiemarkt erm\"{o}glicht werden.
+
+
+Die Bestimmung des Dritten Liberalisierungspakets richten sich erstmals auch an ausl\"{a}ndische Energieunternehmen, die auf europ\"{a}ischen Gasm\"{a}rkten t\"{a}tig sind.
+
+
+%%%-------------------------------------------------------------------------------------------------------------------------------------
+
+
+\chapter{Energiem\"{a}rkte im Baltikum}\label{sec:Energiem\"arkte}
+
+
+\begin{figure}[htb]
+
+\thisfloatpagestyle{empty} %%% Seitenzahl f\"{\"{ü}}r Floating-Umgebung unterdr\"{\"{ü}}cken
+
+  \begin{centering}
+   \includegraphics[width=1\textwidth]{Pipelines.png} % Herausgenommen: [scale=0.8]
+    \caption{Netz der Gaspipelines im Baltikum (\small{\textsl{Quelle:
+	Eesti Gaas -\textcolor{MidnightBlue}{\url{http://www.eegas.com/estonia.htm}}})}}
+	\label{fig:Pipelines im Baltikum}
+  \end{centering}
+
+\end{figure}
+
+\section{Litauen}
+
+Litauen verf\"{\"{ü}}gt \"{\"{ü}}ber keine eigenen Vorkommen an \"{o}l\footnote{Die \"{o}lf\"{o}rderung des Landes ist vernachl\"{a}ssigbar und deckt circa 1\% des Bedarfs.} oder Erdgas und ist f\"{\"{ü}}r seinen Bedarf an fossilen Energietr\"{a}gern g\"{a}nzlich auf Importe aus dem Ausland angewiesen. Wichtigste Bezugsquelle ist in beiden F\"{a}llen Russland, f\"{\"{ü}}r Erdgas ist der russische Konzern Gazprom der einzige Lieferant\footnote{National Control Commission For Energy And Prices [NCCPE] (2012), S.12}. Seit der Abschaltung des Atomkraftwerks Ignalina 2009, eine Bedingung f\"{\"{ü}}r den Beitritt des Landes zur Europ\"{a}ischen Union 2004, muss auch Elektrizit\"{a}t aus dem Ausland eingef\"{\"{ü}}hrt werden. Hierdurch wurde das Land zu einem Stromimporteur, w\"{a}hrend zuvor Elektrizit\"{a}t nach Lettland verkauft werden konnte. Der nunmehr ben\"{o}tigte Strom aus dem Ausland stammt ebenfalls zum gr\"{o}ßten Teil aus russischer Produktion, da bisher das litauische Stromnetz nicht mit anderen EU-Mitgliedern verbunden ist\footnote{Energy Charter Secretariat (2013), S. 20}. Zugleich ist mit der Stilllegung des einzigen Atomreaktors Litauens der Bedarf an Gasimporten f\"{\"{ü}}r Stromerzeugung durch Gaskraftwerke gestiegen\footnote{Der Gasverbrauch stieg um 29 \% im Zeitraum 2009-2011 von 2,6 Mio. $m^{3}$ auf 3,37 Mio. $m^{3}$. Im Jahre 2010 war in Litauen 55 \% des Gasverbrauchs auf die Stromerzeugung zur\"{\"{ü}}ckzuf\"{\"{ü}}hren \textsl{Quelle:} Valstybin\.{e} kain\k{u} ir energetikos kontrol\.{e}s komisija [National Control Commission for Prices and Energy -- fortan: NCCPE] (2012)}.
+
+Russisches Kapital ist im Elektrizit\"{a}tssektor Litauens ebenso pr\"{a}sent wie auf dem Gasmarkt\footnote{Mit dem Kauf des W\"{a}rme- \& Stromkraftwerks der Stadt Kaunas im Jahre 2003 war \emph{Gazprom} zeitweise bis 2012 in der Stromproduktion t\"{a}tig. Nach jahrelangem Streit mit der Stadtverwaltung, entschloss sich \emph{Gazprom} das Kraftwerk an eine Offshore-Gesellschaft zu ver\"{a}ußern, welche von den Aktion\"{a}ren des Gasunternehmens \emph{Dujotekana} kontrolliert ist. Die Stadt Kaunas hatte wie auch das Energieministerium die Pl\"{a}ne \emph{Gazproms} eines neues Gaskraftwerk zu errichten abgelehnt mit der Begr\"{\"{ü}}ndung, dies erh\"{o}he die Importabh\"{a}ngigkeit des Landes f\"{\"{ü}}r Erdgas.}. \emph{Inter RAO Lietuva}, eine Tochterfirma des staatlichen russischen Stromkonzerns, \textsl{Inter RAO UES} dominiert das Importgesch\"{a}ft f\"{\"{ü}}r Strom\footnote{Volovoj \& Zdanavi\v{c}ius (2012), S.228}. F\"{\"{ü}}r die Produktion des in der russischen Region Kaliningrad im Bau befindlichen Atomkraftswerks 'Baltiskaya' hat \emph{Inter RAO Lietuva} bereits ein Abkommen getroffen, um von dort zuk\"{\"{ü}}nftig Strom einzuf\"{\"{ü}}hren, wodurch die Abh\"{a}ngigkeit Litauens von russischen Import aufrechterhalten und verst\"{a}rkt w\"{\"{ü}}rde. Die litauische Regierung hat bereits ihre Ablehung gegen\"{\"{ü}}ber diesem Vorhaben angek\"{\"{ü}}ndigt und plant zusammen mit Estland, bei der Europ\"{a}ischen Kommission nach Verh\"{a}ngung von Importz\"{o}llen auf Stromeinfuhren aus Drittstaaten zu ersuchen\footnote{Verslo \v{Z}inios (2011): \textsl{"'InterRAO Lietuva prekiaus Kaliningrado atomin\.{e}s elektrin\.{e}s energija"'}}. 
+
+\subsection{Der Gasmarkt in Litauen}
+
+Litauens Gasnetz ist an die Fernleitungssysteme seiner Nachbarn Belarus, Lettland und der Russischen F\"{o}rderation, bzw. der Region Kaliningrad, angebunden. F\"{\"{ü}}r die Einfuhr von Erdgas, das Land ist zu 100\% auf Importe angewiesen mangels eigener Gasvorkommen, wird ausschließlich der Zugangspunkt Kotlovka auf der Minsk-Vilnius--Pipeline genutzt\footnote{Eine zweiter Zugangspunkt zum weißrussischen Gasnetz in Ivacevi\v{c}iai ist gegenw\"{a}rtig außer Betrieb, da dort bislang noch keine Messstation installiert ist.}. Mit einer technisch m\"{o}glichen Importmenge von 27,2 Mio. $m^{3}$ pro Tag, die Durchleitungskapazit\"{a}t 2012 wurde an Spitzenzeiten zu 85,6\% ausgelastet, kann \"{\"{ü}}ber diese Route die gesamte Nachfrage Litauens bedient werden\footnote{NCCPE (2012), S.110}. Die Verbindung zur Region Kaliningrad dient lediglich zur Weiterleitung f\"{\"{ü}}r dort ben\"{o}tigtes Erdgas\footnote{Die Weiterleitung von Erdgas an die Exklave Kaliningrad erfolgt nach einem 1999 unterzeichneten Liefervertrag zwischen \emph{Gazprom} und \emph{Lietuvos Dujos}, der bis zum 1. Januar 2016 G\"{\"{ü}}ltigkeit hat. \textsl{Quelle:} \textbf{Energy Charter Secretariat} (2012), S.82}. Technisch sind auch Importe \"{\"{ü}}ber die bidirektionale Transitstation Kiemenai aus dem lettischen Netz m\"{o}glich. Aufgrund der geringen t\"{a}glichen Durchleitungskapazit\"{a}t von 2,136 Mio. $m^{3}$ beschr\"{a}nkt sich diese Option auf Notf\"{a}lle wie einer Lieferunterbrechung und stellt keine Alternative zu Gaseinfuhren aus dem weißrussischen Netz dar. 
+
+
+\subsubsection{Struktur und Akteure}
+
+Trotz einer wachsenden Anzahl von Energieunternehmen im \emph{Up-} und \emph{Downstream}-Bereich ist der Gassekktor durch hohe Marktkonzentration gepr\"{a}gt. Angesichts der erw\"{a}hnten Abh\"{a}ngigkeiten von einer einzigen Quelle f\"{\"{ü}}r Gasimporte muss im sog. \emph{Upstream}-Bereich von einer absoluten Konzentration gesprochen werden\footnote{Energy Charter Secretariat (2012), S.82}. Hier ist lediglich Gazprom t\"{a}tig zusammen mit seinem Tochterunternehmen \emph{LT Gas Stream AG}, welches als Zwischenh\"{a}ndler im Gasgesch\"{a}ft zwischen Gazprom selbst und litauischen Unternehmen agiert. Von den f\"{\"{ü}}nf Gasimporteuren sind \emph{Lietuvos Dujos}, \emph{UAB Dujotekana} und \emph{UAB Haupas} zugleich im Vertrieb an Endverbraucher t\"{a}tig. \emph{Achema AB} und die W\"{a}rmekraftwerke der Stadt Kaunas \emph{Kauno termofikacin\.{e} elektrin\.{e}} f\"{\"{ü}}hren Erdgas f\"{\"{ü}}r ihren Eigenbedarf in der Strom- bzw. W\"{a}rmeerzeugung ein\footnote{KPMG (2012), S.59}. Alle Unternehmen beziehen das Gas vom Gazprom mit Ausnahme von \emph{UAB Haupas}, welches Gesch\"{a}fte mit dem Zwischenh\"{a}ndler \emph{LT Gas Stream AG} t\"{a}tigt.
+
+Ein Großhandelsmarkt existiert in Litauen praktisch nicht, da es bislang nur Gazprom als Erdgaslieferanten gibt, und alle Unternehmen ihre Importe \"{\"{ü}}ber langfristige Liefervertr\"{a}ge beziehen\footnote{NCCPE (2012), S.107 -- Die Vertr\"{a}ge von \emph{Lietuvos Dujos} und \emph{UAB Haupas} laufen noch bis 2015, \emph{UAB Dujotekana} ist noch bis 2020 an Gazprom gebunden.}, die einen Wechsel des Anbieters ausschließen und Wettbewerb in diesem Marktsegment unm\"{o}glich machen. Im \emph{Downstream}-Bereich des litauischen Gasmarkt bietet ein vergleichbares Bild mit hoher Marktkonzentration und kaum Wettbewerb. Obwohl der Markt f\"{\"{ü}}r Endverbraucher regulatorisch f\"{\"{ü}}r den Wettbewerb ge\"{o}ffnet ist, kann angesichts von nur zwei Anbietern nicht von einem freiem Wettbewerb gesprochen werden\footnote{Energy Charter Secretariat (2012), S.21}. Der Vertrieb wird von \emph{Lietuvos Dujos} (69 \%) und \emph{UAB Dujotekana} (29 \%) dominiert, die zusammengenommen einen Marktanteil von 98 \% haben. Zwar hat die litauische Aufsichtsbeh\"{o}rde \emph{National Control Commission for Prices and Energy} auch anderen Energiefirmen Lizenzen f\"{\"{ü}}r den Vertrieb an Endverbraucher erteilt\footnote{\emph{UAB Haupas}, \emph{UAB Forum Joni\v{s}kio Energija}, \emph{UAB Druskinink\k{u}}, \emph{AB Josvainiai agrofirma}, \emph{UAB Intergas} und \emph{UAB Sky Energy Group}}, diese sind jedoch bisher unt\"{a}tig geblieben.
+
+Alleiniger Netzbetreiber in Litauen war bis zur gesetzlich erzwungenen Entflechtung das auch in Vertrieb und Einfuhr von Erdgas t\"{a}tige Unternehmen \emph{Lietuvos Dujos}, welches das gesamte Pipeline-System mit einer L\"{a}nge von 1,835 km besaß. Durch die Regierungsanordnung 1239, Bezug nehmend auf das Gesetz zur Neuregelung des Gasmarktes vom 30. Juni 2011, wurde der vertikal integrierte Gasversorger gezwungen, die Kontrolle \"{\"{ü}}ber das Fernleitungsnetz aufzugeben. \emph{Lietuvos Dujos} musste entsprechend diesen Gesch\"{a}ftsbereich rechtlich, funktional und organisatorisch von der restlichen integrierten Konzernstruktur trennen\footnote{NCCPE (2012), S.22}. Um den Entflechtungsvorgaben gerecht zu werden, beschloss die außerordentliche Aktion\"{a}rsversammlung des Unternehmens am 28. Mai 2012, die Sparte 'Fernleitung' in eine Tochtergesellschaft auszugliedern\footnote{Lietuvos Dujos (2012), S.10}.
+
+
+
+\subsubsection{Versorgungssicherheit des Landes}
+Aufgrund seiner nicht diversifizierten Energieversorgung ist Litauen stark anf\"{a}llig f\"{\"{ü}}r etwaige Lieferstopps von russischer Seite.  Versch\"{a}rft wird die Situation durch den erw\"{a}hnten Mehrbedarf an Gasimporten f\"{\"{ü}}r die Stromerzeugung in Folge der Abschaltung des Atommeilers Ignalina. Mit Russland als einziger Bezugsquelle stellte Gazproms indirekte Kontrolle \"{\"{ü}}ber die Netzinfrastruktur seiner Beteiligung am bisherigen Netzbetreiber \emph{Lietuvos Dujos} aus litauischer Sicht die Energiesicherheit des Landes in Frage\footnote{siehe: Energieministerium der Republik Litauen (2012)}. Diese Schwachstellen der litauischen Energieversorgung wurden von der Politik wahrgenommen und entsprechend in der \emph{Nationalen Energieunabh\"{a}ngigkeitsstrategie} von 2012 eindeutig identifiziert\footnote{ebenda, S.16/17}. Bereits im Mai 2011 erarbeitete die litauische Regierung den Energieplan und ließ ihn im folgenden Jahre vom Parlament best\"{a}tigen. Das Strategiepapier formuliert langfristige Pl\"{a}ne zu Versorgungssicherheit, Wettbewerbsf\"{a}higkeit und Nachhaltigkeit, die bewusst in einen umfassenderen geopolitischen Rahmen gesetzt werden. Jene Ziele sollen im Folgenden kurz dargelegt werden, um einen Gesamt\"{\"{ü}}berblick zu geben der strategischen Ausrichtung litauischer Energiepolitik und dem Bestreben, das Land unabh\"{a}ngiger von russischen Energielieferungen zu machen.
+
+
+
+\subsection{Nationale Energieunabh\"{a}ngigkeitsstrategie}
+
+Drei spezifische Zielsetzungen werden von der \emph{Nationalen Energieunabh\"{a}ngigkeitsstrategie} definiert, die jeweils zu unterschiedlichen Zeitpunkten zu realisieren sind. Ausgehend von dem Grundproblem der einseitigen Abh\"{a}ngigkeit von einem einzigen Lieferanten f\"{\"{ü}}r fossile Energien, wird der Versorgungssicherheit Litauens h\"{o}chste Priorit\"{a}t beigemessen und soll als erstes Ziel bis 2020 erreicht werden. Versorgungssicherheit wird als Energieunabh\"{a}ngigkeit von Russland verstanden, womit die Nutzung alternativer Importquellen gemeint ist. Ausdr\"{\"{ü}}cklich spricht das Strategiepapier von der zus\"{a}tzlichen Gefahr, ausl\"{a}ndische Energielieferanten k\"{o}nnten ihre Monopolstellung f\"{\"{ü}}r geopolitische Zwecke gebrauchen\footnote{ebenda (2012),S.13}.
+
+F\"{\"{ü}}r die Deckung des zuk\"{\"{ü}}nftigen Strombedarfs r\"{a}t das Strategiepapier erstens, lokale Kapazit\"{a}ten der Stromerzeugung auszubauen durch F\"{o}rderung erneuerbarer Energien und den Bau eines neuen Atomkraftwerks\footnote{ebenda (2012), S.20}. Dar\"{\"{ü}}berhinaus soll durch Anbindung an einerseits skandinavische Elektrizit\"{a}tsnetze (Projekt \emph{NordBalt}) sowie den polnischen Strommarkt (Projekt \emph{LitPol Link 1 \& 2}) die Versorgung diversifiziert werden. Auch f\"{\"{ü}}r Erdgas wird angestrebt, alternative Versorgungswege \& -quellen zu nutzen. Hier nennt die \emph{Nationale Energieunabh\"{a}ngigkeitsstrategie} neben dem im Bau befindlichen LNG-Terminal in Klaip\.{e}da\footnote{Die litauische Regierung beschloss 2010 in Klaip\.{e}da ein LNG-Terminal f\"{\"{ü}}r die Einfuhr von Fl\"{\"{ü}}ssiggas bauen zu lassen, um eine alternative M\"{o}glichkeit f\"{\"{ü}}r den Import von Erdgas zu schaffen. Die Anlage wird nach Bauabschluss im Jahre 2014 ein j\"{a}hrliche Kapazit\"{a}t vom 3 Mrd. $m^{3}$ haben.}, Verbindung mit europ\"{a}ischen Gasnetzen, allen voran Polen, als wichtige Schritte hin zu mehr Versorgungssicherheit\footnote{ebenda (2012), S.43}. 
+
+Die Wettbewerbsf\"{a}higkeit des litauischen Energiesektors und hierdurch auch der Wirtschaft insgesamt ist die n\"{a}chste Zielsetzung, die \"{\"{ü}}ber einen Zeitraum bis zum Jahre 2030 sicherzustellen ist. In erster Linie soll dies durch mehr Wettbewerb selbst im Strom- und Gasmarkt erreicht werden. In diesem Punkt nimmt das Strategiepapier explizit Bezug auf das Dritte Liberalisierungspaket der EU\footnote{ebenda (2012), S.17}. Umsetzung des \emph{Ownership Unbundlings} nach Vorgaben der Richtlinie soll den Wettbewerb \marginpar{\scriptsize{\textcolor{purple}{\textbf{\textsf{Hier sollte ich auf die Debatte \"{\"{ü}}ber Gaspreise in Litauen hinweisen}}}}} st\"{a}rken und die Energiepreise transparenter machen. Neben niedrigeren Preisen f\"{\"{ü}}r Endverbraucher als Ergebnis werden von der Trennung von Stromerzeugung bzw. Gaseinfuhr und Fernleitung mehr Investitionen in die Netzinfrastruktur erwartet. Nach den Worten der litauischen Energiestrategie verbessert die Entflechtung der Marktstrukturen somit nicht nur die Wettbewerbsf\"{a}higkeit des Energiesektors, sondern auch die nationale Energiesicherheit. Das \emph{Ownership Unbundling} dient der Absicht, die Marktmacht Gazproms im Bereich Infrastruktur zu beschr\"{a}nken und so Litauens Gasmarkt dem russischen Einfluss zu entziehen. 
+
+Als drittes Ziel wird in der \emph{Nationalen Energieunabh\"{a}ngigkeitsstrategie} Nachhaltigkeit genannt, deren Realisierung f\"{\"{ü}}r das Jahr 2050 geplant ist. Sowohl die Erzeugung von Energie als auch der Verbrauch soll langfristig den Prinzipien nachhaltiger Entwicklung entsprechen mit der Zielsetzung, den Ausstoß von $CO^{2}$-Emissionen zu reduzieren\footnote{ebenda (2012), S.15}. Neben gesteigerter Energieeffizienz in Haushalten und Industrie werden als Maßnahmen die F\"{o}rderung umweltfreundlicher Energien angef\"{\"{ü}}hrt, worunter neben erneuerbarer Energietr\"{a}gern auch die Atomkraft verstanden wird.
+
+Alle drei Zielsetzungen werden von der \emph{Nationalen Energieunabh\"{a}ngigkeitsstrategie} in einen gr\"{o}ßeren geopolitischen Kontext gesetzt und dienen mehr als "`nur"' der Energiesicherheit des Landes. Grunds\"{a}tzlich sieht sie eine Widerspruch zwischen der politischen und wirtschaftlichen Westintegration Litauens (Mitgliedschaft in Europ\"{a}ischer Union und NATO) einerseits und dem fortw\"{a}hrenden Verbleib im russisch kontrollierten Energiesystem der ehemaligen Sowjetrepubliken. Erst durch die Unabh\"{a}ngigkeit von Energielieferungen aus Russland sei es Litauen m\"{o}glich, in einen anderen geopolitischen Raum zu wechseln, ein \"{\"{ü}}bergeordnetes nationales Ziel\footnote{ebenda (2012), S.20}. Im Inhalt der Energiestrategie kommt eindeutig ein grundlegendes geopolitisches Selbstverst\"{a}ndnis zum Ausdruck. Dieses kann zusammengefasst werden als Bestreben, sich in Form der Westintegration einerseits und zugleich einer Abgrenzung von Russland, bzw. einer wahrgenommenen russischen Einflusssph\"{a}re, geopolitisch in Europa eindeutig zu positionieren. Dieses Selbstverst\"{a}ndnis agiert als eine Norm, die erste Zielsetzungen f\"{\"{ü}}r konkrete politische Entscheidungen vorgibt. Nach dem \emph{Transaction Economics}-Ansatz kann hier ein Erkl\"{a}rungsfaktor der Ebene 1 des analytischen Modell identifiziert werden, der durch die Vorgabe von Leitlinien f\"{\"{ü}}r Entscheidungsprozesse auf der nachfolgenden Ebene 2 bereits einen m\"{o}glichen Handlungsrahmen absteckt. Hierdurch werden bereits konzeptionell die Spielr\"{a}ume der nationalen Energiepolitik eingeschr\"{a}nkt. 
+
+Das geopolitische Selbstverst\"{a}ndnis des Landes erzeugt eine Pfadabh\"{a}ngigkeit f\"{\"{ü}}r die Liberalisierung des litauischen Gasmarktes, denn das Ziel, Gazprom Marktmacht zu beschneiden und damit nach Lesart der Energiestrategie auch Russland Einfluss, ist nur durch eine strikte Entflechtung der Besitzstrukturen m\"{o}glich. 
+
+
+
+
+
+
+
+\section{Lettland}
+
+
+
+\subsection{Der Gasmarkt in Lettland}
+
+
+
+\subsubsection{Struktur und Akteure}
+
+Im Vergleich zum litauischen Gasmarkt ist die Anzahl der Unternehmen in Lettland deutlich kleiner und die Strukturen entsprechend \"{\"{ü}}berschaubarer. \emph{Latvijas G\={a}ze} bet\"{a}tigt sich als einziger vertikal integrierter Gasversorger in allen Segmenten des Marktes: Gasimport, \"{\"{ü}}berleitung und Vertrieb an Endkunden. Nach den Bestimmungen der Privatisierung im Jahre 1997 wird \emph{Latvijas G\={a}ze} bis zum 3. April 2017 das exklusive Recht einger\"{a}umt, die Gasversorgung und Endverteilung zu gew\"{a}hrleisten, wodurch das Unternehmen f\"{\"{ü}}r die Netzinfrastruktur und den Vertrieb eines Monopolstellung besitzt\footnote{Grigas (2012), S.15}. Bereits bei der Umsetzung der Zweiten Liberalisierungsdirektive der Europ\"{a}ischen Union nahm Lettland eine Ausnahmeregelung in Anspruch\footnote{RL 2009/73/EG, ABl. 2009 L 211/106, Art. 28(2)} und beschloss in einer \"{a}nderung des Energiemarktgesetzes, seinen Gasmarkt nicht vor April 2014 f\"{\"{ü}}r den Wettbewerb zu \"{o}ffnen\footnote{Sabiedrisko pakalpojumu regul\={e}\v{s}anas komisija (2012), S.21}. W\"{a}hrend der litauische Staat weiterhin einen 17,7 \% der Anteile von \emph{Lietuvos dujos} bestzt wurde Lettlands Gasversorger 1997 vollst\"{a}ndig privatisiert.
+
+
+
+
+\subsection{Die Versorgungssituation}
+
+
+
+
+
+\section{Auswirkungen auf die baltischen Gasm\"{a}rkte}
+
+
+
+%%%-------------------------------------------------------------------------------------------------------------------------
+
+
+\chapter[Verh\"{a}ltnis zu Russland]{Das Verh\"{a}ltnis zu Russland}\label{sec:Russland}
+
+
+
+Wiederkehrende Streitigkeiten \"{\"{ü}}ber Gaslieferungen zwischen Russland und seinen Nachbarn z.B. der Ukraine und Belarus, die mehrfach Lieferstopps nach sich zogen, best\"{a}tigen viele Entscheidungstr\"{a}ger im Baltikum in ihrer Sicht, dass Moskau Energiepolitik f\"{\"{ü}}r politische Zwecke einzusetzen bereit ist. Der Fall der Privatisierung der litauischen \"{o}lraffinerie \emph{Ma\v{z}iek\k{u}
+nafta} macht ersichtlich, wie sensibel Energie f\"{\"{ü}}r die nationale Sicherheit gesehen wird und ist ein Beispiel f\"{\"{ü}}r die offizielle Position gegen\"{\"{ü}}ber russische Beteiligungen im Energiesektor.
+
+Ausgehend von Erinnerungen an die sowjetische Blockade im Jahre 1990 kurz vor der Unabh\"{a}ngigkeitserkl\"{a}rung\footnote{siehe: Dahlburg (1990); Stauffer (1990)}, wollte die litauische Regierung in der zweiten H\"{a}lfte der 1990er Jahre die Abh\"{a}ngigkeit des Landes von Energielieferungen aus Russland verringern\footnote{Volovoj \& Zdanavi\v{c}ius (2012), S.220}. Erster Schritt war die Entscheidung in B\={u}ting\.{e} ein Terminal f\"{\"{ü}}r den Im- und Export von \"{o}l bauen zu lassen, welches 1999 den Betrieb aufnahm. Zweiter Teil der Strategie, die Abh\"{a}ngigkeit von Russland im \"{o}lsektor zu reduzieren war die Privatisierung der Raffinerie \emph{Ma\v{z}iek\k{u}
+nafta}. Im Oktober 1999 verkaufte die damalige litauische Regierung 33 \% der Anteil an das US-amerikanische Unternehmen \emph{Williams International}, wohingegen der ebenfalls interessierten russischen \"{o}lfirma \emph{Lukoil} lediglich die Rolle eines Juniorpartners als Lieferant von Roh\"{o}l zugedacht war. Der amerikanische Investor ver\"{a}ußerte seine Aktien 2002 an eine Tochterfirma des privaten russischen \"{o}lkonzern \emph{Yukos}, welches dieser wiederum drei Jahre sp\"{a}ter verkaufen wollte. Von den drei Interessenten \emph{Lukoil}, dem polnischen \"{o}lkonzern \emph{PKN Orlen} und Kasachstans staatlichem Gasunternehmen \emph{KazMunaiGaz}, kam das polnische Unternehmen zum Zuge\footnote{\emph{PKN Orlen} hatte das h\"{o}chste Gebot abgegeben, nach Volovoj \& Zdanavi\v{c}ius (2012) war aber die litauische Regierung inoffiziel im Verkaufsprozess involviert.}. Der Verkauf der Raffinerie an Investoren aus dem Nachbarland wurde vom Außenminister Litauens, Antanas Valionis, als \textsl{\glqq Element einer geopolischen Schlacht\grqq{}} mit \textsl{\glqq außerordentlicher geopolitischer Bedeutung\grqq{}} bezeichnet\footnote{Lrytas.lt (2006): \textsl{"'Ma\v{z}eiki\k{u} naftos pardavimas Lenkijai - geopolitin\.{e}s reik\v{s}\.{e}s faktas"'}}.
+
+Im darauffolgenden Jahr stoppte das staatliche russische Unternehmen \emph{Transneft} die \"{o}llieferugen durch die "`Druzhba"'-Pipeline. Die offizielle Begr\"{\"{ü}}ndung, ein Leck der Leitung habe diese Entscheidung\footnote{Pipelines International (2006): \textsl{Russian oil pipelines struggling under pressure"'}} erfordert war nur eingeschr\"{a}nkt \"{\"{ü}}berzeugend\footnote{American Embassy Moscow (2006)}, da \emph{PKN Orlens} Angebot, die Reparaturkosten zu \"{\"{ü}}bernehmen, ausgeschlagen wurden\footnote{Delfi.lt (2011): \textsl{Maskva naftos u\v{c}iaup\k{u} neatsuka ir u\v{z} pinigus}}. Als bedeutendstes Unternehmen Litauens, d\"{a}mpften die Schwierigkeiten von \emph{Ma\v{z}iek\k{u} nafta}, neben anderen Faktoren, das Wirtschaftswachstum des Landes und wirkten sich insbesondere negativ auf die Außenbilanz aus, die stark vom Erd\"{o}lexport beeinflusst wird\footnote{The Economist Intelligence Unit (2006)}.
+
+
+
+\section[Gazprom]{Der Faktor Gazprom}
+
+An der Sichtweise auf \textit{Gazprom} und seine Unternehmensstrategie manifestiert sich konkret die tiefer liegende, kritische Haltung in den baltischen L\"{a}ndern gegen\"{\"{ü}}ber Russland. Diesem Blickwinkel zugrunde liegt die Annahme, der russische Erdgaskonzern verfolge letztendlich außenpolitische Ziele des Kremls, die wiederum gegen die nationalen Interessen Litauens und Lettland gerichtet seien. Der Eindruck, Russland instrumentalisiere seine Energieexporte f\"{\"{ü}}r politische Zwecke, wird durch Streitigkeiten bei Auslandsinvestitionen im Energiesektor und pl\"{o}tzlicher Lieferstopps von Erd\"{o}l verst\"{a}rkt\footnote{siehe: Newnham (2011)}  Wie eingangs erw\"{a}hnt werde ich diese Haltung als konstruierte Variable behandeln, die in unterschiedlicher Auspr\"{a}gung vorliegt, wodurch sie Erkl\"{a}rungskraft gewinnt. Ursachen und Entstehungsprozess dieser konstruierten Anschauung kann im Rahmen dieser Arbeit nicht weiter thematisiert werden. Dennoch soll an dieser Stelle ein knapper \"{\"{ü}}berblick der Literatur gegeben werden zur Diskussion, in welcher Beziehung das Verhalten Gazproms zur russischen Politik steht. 
+
+Ein Argument f\"{\"{ü}}r die Position, der staatlich kontrollierte Erdgaskonzern verfolge nicht rein \"{o}konomische Absichten, sondern sei zugleich ein Instrument der russischen F\"{\"{ü}}hrung, sind wiederholte Unterbrechungen der Erdgaslieferungen an L\"{a}nder in Ost- \& Mitteleuropa bzw. ehemalige Sowjetrepubliken\footnote{Beispielhaft seien folgende Zeitungsartikel genannt: 
+\begin{inparaenum}
+\renewcommand{\labelenumi}{\Roman{enumi}} \textbf{\item} Buckley \& Ostrovsky (2006): \textsl{"`Gazprom Issues Threat To EU Gas Supply"' [Financial Times]} \textbf{\item} Barnett (2006): \textsl{"'From Poland To Hungary, Gazprom Takes Stealth Route To Domination"' [The Independent]} \textbf{\item} Gorst (2009): \textsl{"'Russia Welcomes End To Turkmen Gas Dispute"'} [Financial Times] \textbf{\item} Bilesfsky (2009): \textsl{"`Old Russian ally is left out in the cold"' [The International Herald Tribune]} \textbf{\item} Teather (2010): \textsl{"'Russia cuts Belarus's gas supply and fuels EU fears"' [The Guardian]} 
+\end{inparaenum}}.
+In manchen F\"{a}llen f\"{\"{ü}}hrte das Unternehmen technische Schwierigkeiten an\footnote{Newnham (2011), S.142}, in anderen waren Streitigkeiten \"{\"{ü}}ber die Bezahlung des Erdgases der Anlass\footnote{Im Juni 2010 drohten Gazproms Vorstandsvorsitzender Alexei Miller und Russlands Pr\"{a}sident Dmitri Medvedev mit einem Stopp der Gaslieferungen, sollte Belarus nicht in K\"{\"{ü}}rze seine ausstehenden Rechnungen von \$200 Mio. US begleichen. \textsl{Quelle:} Natural Gas Europe (2010)}. Den meisten dieser Lieferstopps gemein ist der Umstand, dass im Vorfeld dieser drastischen Schritte seitens Gazprom im betroffenen Abnehmer- oder Transitland politische, bzw. wirtschaftliche Entscheidungen getroffen wurden, die aus Sicht des Kremls gegen russische Interessen gerichtet waren. Auch die Unternehmensstrategie einerseits in den Downstream-Bereich auf europ\"{a}ischen Gasm\"{a}rkten zu expandieren\footnote{siehe: Oreskovic (2013): \textsl{"'Shopping In Europe: Gazprom Expands Southward"' [The Moscow Times]} -- ebenso Harding \& Seager (2007): \textsl{"'Gazprom Hints At British Acquisition By End Of Month"' [The Guardian]}} und zudem, teilweise gest\"{\"{ü}}tzt durch politischen Druck aus Moskau, im Ausland Netzinfrastruktur zu kaufen\footnote{Gazprom \"{\"{ü}}bernahm im November 2010 f\"{\"{ü}}r \$2,5 Mrd. US die Kontrolle \"{\"{ü}}ber den belorussischen Netzbetreiber \textsl{BelTransGaz} mit dem Kauf der restlichen 50 \% der Anteile, welche sich noch nicht in seinem Besitz befanden. Im Gegenzug wurden Belarus g\"{\"{ü}}nstigere Gaspreise gew\"{a}hrt gegen\"{\"{ü}}ber vorherigen Preisanpassungen in Richtung der Abnehmerpreise f\"{\"{ü}}r westeurop\"{a}ische Kunden. \textsl{Quelle:} Natural Gas Europe (2011) -- siehe: auch La Tribune (2011): \textsl{\flqq Nouveau bras de fer gazier en vue entre la Russie et l'Ukraine\frqq} ebenso EurActiv (2010): \textsl{"'Gazprom's Push For Ukraine Merger Meets Resistance"'}}, kann als Bestandteil russischer Außenpolitik interpretiert werden.
+
+Da Gazproms Aktienanteile mehrheitlich vom russischen Staat gehalten werden\footnote{Der russische Staat besitzt 50,002 \% der Anteile an der Aktiengesellschaft Gazprom. Diese wiederum befinden sich in den H\"{a}nden der Staatlichen Agentur f\"{\"{ü}}r Verm\"{o}gensverwaltung (38,737 \%), und den staatlichen Gasunternehmen \emph{Rosneftegaz} (10,740 \%) und \emph{Rosgazifikatsiya} (0,889 \%) -- \textsl{Quelle:}  Gazprom} und dieser das Unternehmensmanagement bestimmt, liegt die Vermutung nahe, die Regierung Russlands bestimme zumindest in Teilen die Strategie des Erdgaskonzerns. Personelle \"{\"{ü}}berschneidungen zwischen Gazprom und der Staatsf\"{\"{ü}}hrung lassen diese Annahme umso plausibler erscheinen. Dmitri Medvedev war ab dem Jahr 2000 f\"{\"{ü}}r den damaligen Pr\"{a}sidenten Vladimir Putin im Pr\"{a}sidialamt f\"{\"{ü}}r die Koordination mit der Regierung beauftragt, ab 2003 \"{\"{ü}}bernahm er die Leitung der Pr\"{a}sidialverwaltung. Zeitgleich geh\"{o}rte er ab Juni 2000 dem Aufsichtsrat von Gazprom an, dessen Vorsitz er zwischen 2002 und 2008 innehatte.
+
+In der wissenschaftlichen Literatur wird die Frage, welche Rolle Gazprom in der russischen Außenpolitik spielt, nicht eindeutig beantwortet. Generell gehen die Autoren von einem politischen Einfluss auf die Konzernf\"{\"{ü}}hrung aus. Zugleich wird darauf hingewiesen, dass Gazproms Handeln auf ausl\"{a}ndischen M\"{a}rkten durchaus der rationalen Logik eines gewinnorientierten Unternehmens entspricht und nicht zwangsweise dahinter politische Absichten stecken m\"{\"{ü}}ssen, wenn das Vorgehen des Erdgaskonzerns sich mit der Politik Moskaus deckt. 
+
+\emph{Goldthau}, beispielsweise, sieht die Dispute zwischen Gazprom und mehreren GUS-Staaten\footnote{siehe: Heinrich (2006)} weniger politisch als wirtschaftlich motiviert\footnote{Goldthau (2008), S.690}. F\"{\"{ü}}r das Gasunternehmen mache es Sinn von den betroffenen Abnehmerl\"{a}ndern Weltmarktpreise zu fordern, wie von seinen den westeurop\"{a}ischen Kunden \textemdash{} nach dem Zusammenbruch der UdSSR wurde bislang an viele ehemalige Sowjetrepubliken Erdgas zu g\"{\"{ü}}nstigeren Bedingungen geliefert. Da Gazprom zudem verpflichtet ist, auf dem heimischen Markt Erdgas unter Kosten an Endverbraucher zu verkaufen, sei es f\"{\"{ü}}r das Unternehmen rational durch lukrativere Exporte seine Bilanzen zu verbessern. 
+
+Auch \emph{Filippov} erkl\"{a}rt Gazproms Strategie mit wirtschaftlichen Motiven. Die Expansion in den Downstream-Segment folge einer verbreiteten Vorgehensweise im Rohstoffsektor t\"{a}tiger Firmen\footnote{Filippov (2010), S.311}, die hiermit ihre Gewinnmargen verbessern m\"{o}chten. Diese Profitspannen sind sehr begrenzt, da die Gesch\"{a}ftsaktivit\"{a}t am unteren Ende der Wertsch\"{o}pfungskette angesiedelt ist. Dieser Argumentation folgend, k\"{o}nnen Gazproms Zuk\"{a}ufe von Anteilen an den baltischen Gasunternehmen \textsl{Lietuvos Dujos} und \textsl{Latvijas G\={a}ze} als Schritte gesehen werden, um von dort die Gasexporte in die Europ\"{a}ische Union auszuweiten. 
+
+Nach \emph{Bilgins} Sichtweise passen russische Energiefirmen, nicht nur Gazprom, sondern beispielsweise auch der \"{o}lkonzern \textsl{Rosneft} ihre Strategie der nationalen Energiepolitik an\footnote{Bilgin (2011, S.118}. Er spricht von einer symbiotischen Beziehung zwischen Regierung und den Unternehmen. Demnach verdanken russische Energiefirmen beispielsweise ihren exklusiven Zugriff auf Ressourcen in der Kaspischen Region politischer Unterst\"{\"{ü}}tzung. Ebenso erlaubt ihnen die Abschottung des Binnenmarktes gegen ausl\"{a}ndische Wettbewerber, dort eine dominierende Marktmacht auszu\"{\"{ü}}ben\footnote{siehe:: Kalotay (2008)}. Zeitgleich sind die Erl\"{o}se der Energiefirmen aus dem Verkauf von \"{o}l und Erdgas Einnahmen f\"{\"{ü}}r den russischen Staat, der hierdurch auch vom wirtschaftlichen Erfolg der Energiefirmen profitiert. 
+
+\emph{Bilgin} sieht diesen Nutzen nicht nur in finanzieller Hinsicht, sondern f\"{\"{ü}}hrt auch an, dass Gazproms Monopolstellung auf vielen Gasm\"{a}rkten Ost- \& Mitteleuropas als einziger Lieferant Moskau ein politisches Druckmittel gibt\footnote{Bilgin (2011, S.119}. Diese Einsch\"{a}tzung wird \emph{Aalto} \& \emph{Westphal} geteilt. Sie sehen in der Weigerung Moskaus, die von der Europ\"{a}ischen Union angestrebte \textsl{Energiecharta-Vertrag}\footnote{Der Energiecharta-Vertrag (\emph{Energy Charter Treaty}) wurde als rechtsverbindliches internationales Abkommen im Dezember 1994 unterzeichnet mit dem Ziel, Osteuropa und die Nachfolgestaaten der ehemaligen Sowjetunion in die europ\"{a}ischen Energiem\"{a}rkte zu integrieren und hierdurch die Versorgungssicherheit Europas zu verbessern. Ursprung des Vertrages ist die am 17. Juni 1994 verabschiedete Energiecharta, eine politische Absichtserkl\"{a}rung zu Grundlagen internationaler Energiebeziehungen. Als die vier wichtigsten Aspekte des Energiecharta-Vertrages sind zu nennen:
+\noindent
+ \begin{inparaenum} \textbf{\item}Rechtssicherheit und Schutz ausl\"{a}ndischer Investitionen im Energiesektor 
+  					\textbf{\item}Diskriminierungsfreier Handel mit Energie und verwandter Produkte gem\"{a}ß den Regeln der WTO 
+					\textbf{\item}Streitschlichtungsmechanismen f\"{\"{ü}}r Handelskonflikte 
+					\textbf{\item}Verbesserung der Energieeffizienz in den Unterzeichnerstaaten 
+					\textbf{\item}Standards f\"{\"{ü}}r Transparenz, Wettbewerb und Besteuerung von Energieunternehmen 
+ \end{inparaenum}
+ -- \textsl{Quelle:} \textbf{Europ\"{a}ische Union} (2014)} zu unterzeichnen ein deutliches Indiz f\"{\"{ü}}r die Annahme, Gazprom werde vom Kreml als potentielles außenpolitisches Instrument verstanden\footnote{Aalto \& Westphal (2008), S.13}. Nach den Bestimmung der \textsl{Energy Charter Treaty} w\"{\"{ü}}rde die Monopolstellung des Erdgaskonzern auf dem Heimatmarkt durch Einf\"{\"{ü}}hrung von Wettbewerb gebrochen. Dies wiederum h\"{a}tte eine Schw\"{a}chung Gazproms zur Folge und w\"{\"{ü}}rde das Unternehmen als außenpolitisches Mittel weniger wirkungsvoll machen, so die Argumentation der Autoren.
+
+
+Die Diskussion \"{\"{ü}}ber Gazproms Rolle f\"{\"{ü}}r die russische Politik zusammenfassend kann gesagt werden, dass die Autoren eine Beziehung zwischen Konzernf\"{\"{ü}}hrung, bzw. der Unternehmensstrategie und den außenpolitischen Zielen Moskaus sehen. Der staatliche Einfluss auf die Unternehmensgeschicke, wird von \emph{Goldthau} und \emph{Aalto} \& \emph{Westphal} unterschiedlich eingesch\"{a}tzt. Jedoch k\"{o}nnen alle diese Aussagen nicht als wissenschaftlich gesichert gelten, da keine konkreten Quellen, sondern vielmehr Indizien und zeitliche Zusammenh\"{a}nge angef\"{\"{ü}}hrt werden. Diese knappe Literatur\"{\"{ü}}bersicht sollte keine abschließendes Urteil zu Gazproms Absichten bieten, sondern vielmehr verst\"{a}ndlich machen, dass die negative Wahrnehmung Russlands und russischer Unternehmen im Baltikum durchaus Anhaltspunkte hat.  Auch wenn es sich hier um eine konstruierte, subjektive Sicht der Dinge handelt, so best\"{a}tigen diese Anhaltspunkte Entscheidungstr\"{a}ger umso mehr in ihrer Haltung. Im Endergebnis konstituiert sich hieraus eine Norm, die, \emph{Norths} Ansatz der Pfadabh\"{a}ngigkeiten aufgreifend, f\"{\"{ü}}r politische Entscheidungsprozesse einen Rahmen an m\"{o}glichen Resultaten absteckt. 
+
+\subsection[Rolle auf dem Gasmarkt]{Gazproms Rolle auf den baltischen Gasm\"{a}rkten}
+
+
+\subsection{Gazprom in der lettischen/litauischen Wahrnehmung}
+
+
+
+
+
+
+
+%%%-------------------------------------------------------------------------------------------------------------------------
+
+
+\chapter[Umsetzung der EU-Direktive]{Die bisherige Umsetzung der EU-Richtlinie}
+
+
+
+\section[Umsetzung in Litauen]{Die Umsetzung in Litauen}
+
+
+
+\section[Umsetzung in Lettland]{Der 'lettische Weg'}
+
+
+%%%----------------------------------------------------------------------------------------------------
+ 
+\chapter[Nationale Energiepolitik]{Nationale Energiepolitik und Energiemarktliberalisierung}
+
+In diesem Kapitel will ich untersuchen, wie die beteiligten lettischen bzw. litauischen Regierungskoalitionen, welche die Aufgabe hatten, die EU-Richtlinie umzusetzen, selbst politisch (ideologisch) zu den Konzepten \textsl{Wettbewerb auf den Energiem\"{a}rkten}, \textsl{Rolle des Staates auf dem Gasmarkt} und \textsl{Selbstregulierung der M\"{a}rkte} standen. Diese Positionen sollten auch einen Einfluss auf die letztendlich politische Entscheidung, welche Form der Entflechtung gew\"{a}hlt wurde, gehabt haben -- \textcolor{hellgrau}{Wie heißt es so sch\"{o}n?: \emph{All politics is local!}}
+
+
+
+
+
+
+%%%----------------------------------------------------------------------------------------------------
+ 
+\chapter[Lobby-Einfluss]{Lobby-Einfluss als Erkl\"{a}rungsfaktor f\"{\"{ü}}r nationale Energiepolitik}\label{sec:Lobby} 
+ 
+
+
+
+%%%----------------------------------------------------------------------------------------------------
+
+
+
+%\chapter[Europ\"{a}ische Energiepolitik]{Europ\"{a}ische Energiepolitik als externe Faktor} 
+
+%Welche Rolle hat Energiepolitik auf europ\"{a}ischer Ebene gespielt? Welche Unterst\"{\"{ü}}tzung haben die lettische bzw. litauische Regierung durch die Kommission erhalten, bei der Durchsetzung von EU-Vorgaben gegen\"{\"{ü}}ber politischen Widerst\"{a}nden? Haben die Regierungen versucht das sog. \glqq Two-Level Game\grqq{} zu spielen, um diese Widerst\"{a}nde zu \"{\"{ü}}berwinden? 
+
+
+ 
+ 
+%%%----------------------------------------------------------------------------------------------------
+
+\chapter{Fazit}
+
+
+%%%----------------------------------------------------------------------------------------------------
+
+
+\chapter{Anhang -- Erl\"{a}uterungen}
+
+
+\paragraph[BIP]{Bruttoinlandsprodukt zu Marktpreisen}\label{sec:BIP}
+
+Das Bruttoinlandsprodukt (BIP) zu Marktpreisen stellt den Wert aller in einem Land produzierten G\"{\"{ü}}ter und Dienstleistungen dar nach Abzug aller Vorleistungen\footnote{Gabler Wirtschaftslexikon (2014a)}. Unter Vorleistungen sind zu verstehen alle G\"{\"{ü}}ter und Dienstleistungen, welche ein Unternehmen von anderen Unternehmen bezieht und im Laufe der eigenen Produktion verbraucht. F\"{\"{ü}}r die Berechnung des Bruttoinlandsproduktes werden die Leistungen von In- und Ausl\"{a}ndern gemessen. 
+
+
+\paragraph[Nat\"{\"{ü}}rliches Monopol]{Nat\"{\"{ü}}rliches Monopol}\label{sec:Nat\"{\"{ü}}rliches Monopol}
+
+In der Volkswirtschaftslehre ist mit dem Begriff \textsl{Nat\"{\"{ü}}rliches Monopol} eine Marktsituation gemeint, in welcher sich aufgrund niedriger firmeninterner Grenzkosten zugleich jedoch hoher Fixkosten pr\"{a}gnante Skalenertr\"{a}ge ergeben f\"{\"{ü}}r die Bereitstellung eines Gutes\footnote{Cezanne (1995), S.63}. Die Kostendegressionen sind so bedeutend im Verh\"{a}ltnis zur Marktgr\"{o}ße, dass auf Dauer im Wettbewerb lediglich ein Unternehmen \"{\"{ü}}berleben kann\footnote{Gabler Wirtschaftslexikon (2014b)}. Kostenstrukturen dieser Art werden in der Fachliteratur als \textsl{Subadditivit\"{a}t} bezeichnet, im Falle eines nat\"{\"{ü}}rlichen Monopol sind sie f\"{\"{ü}}r die gesamte Produktion der G\"{\"{ü}}termenge vorhanden. Weiteres Merkmal nat\"{\"{ü}}rlicher Monopole sind irreversible Kosten, \glqq Sunk Costs\grqq{} genannt. Hierunter werden einmalige Investitionen f\"{\"{ü}}r den Markteintritt verstanden, die nicht zur\"{\"{ü}}ckgewonnen werden k\"{o}nnen.
+
+
+\paragraph{Rent-Seeking}\label{sec:Rent-Seeking}
+
+Unter \textsl{Rent-Seeking} werden Bestrebungen von Unternehmen und Interessengruppen, bzw. anderen Marktakteuren verstanden, Vorteile durch politisch geschaffene Privilegien zu erlangen\footnote{Gabler Wirtschaftslesxikon (2014c)}. Zu diesen Vorteilen z\"{a}hlen in erster Linie Einkommenschancen in Form sog. \"{o}konomischer Renten. Renten werden wiederum definiert als Betrag, welcher der Eigent\"{\"{ü}}mer einer Ressource f\"{\"{ü}}r ihre Nutzung erh\"{a}lt, der \"{\"{ü}}ber deren Opportunit\"{a}tskosten hinausgeht\footnote{Tollison (1982), S.577}. Anders ausgedr\"{\"{ü}}ckt kann der Eigent\"{\"{ü}}mer dank Privilegien einen h\"{o}heren Preis f\"{\"{ü}}r seine G\"{\"{ü}}ter oder Dienstleistungen auf dem Markt erzielen, als dies unter freien Marktbedingungen m\"{o}glich w\"{a}re.
+
+
+\paragraph{Sunk Costs}\label{sec:Sunk Costs}
+
+Kosten, die bereits entstanden sind und nicht mehr r\"{\"{ü}}ckg\"{a}ngig gemacht werden k\"{o}nnen, sind unter dem Begriff \textsl{Sunk Costs} zu verstehen. Zu diesen Kosten z\"{a}hlen bereits get\"{a}tigte Investitionen, deren Wert (nicht vollst\"{a}ndig) die nicht zur\"{\"{ü}}ckgewonnen werden kann, z. B. in intellektuelles Eigentum oder Fertigungsprozesse\footnote{siehe: Sutton (1992)}. Zuk\"{\"{ü}}nftige Kosten, welche unvermeidbar sind, werden auch zu diesen irreversiblen Kosten gerechnet\footnote{Baumol \& Willig (1981), S.406}. Entstehen bei industrieller Produktion beispielsweise Umweltsch\"{a}den, die per Gesetz durch Entsch\"{a}digungszahlungen oder Dekontaminierungsmaßnahmen kompensiert werden m\"{\"{ü}}ssen, so sind mit einem Marktaustritt eines Unternehmen solche in der Zukunft unwiderruflichen Kosten verbunden. Im Energiesektor entstehen irreversible Kosten bei der Projektindentifikation, -plannung und dem Bau von Infrastruktur\footnote{Hubert \& Suleyanova (2007), S.1}.
+
+
+
+
+
+%%%-------------------------------------------------------------------------------------------------------------------------
+ 
+\chapter{Literaturverzeichnis}
+
+
+
+\begin{compactitem}
+
+
+
+\sffamily
+
+
+\begin{small}
+
+
+	\item [\Rectsteel] \textbf{Aalto, Pami \& Dicle Korkmaz Temel (2013):} European Energy Security: Natural Gas And The Integration Process, in: \textsl{Journal of Common Market Studies}.
+
+
+	\item [\Rectsteel] \textbf{Aalto, Pami \& Kirsten Westphal (2008):} Introduction, in: \textsl{Aalto, Pami (Hrsg.)}: The EU-Russian 	Energy Dialogue: Europe's Future Energy Security, Aldershot, Hampshire, UK, S.1-22.
+
+
+	\item [\Rectsteel] \textbf{Abrams, Dominic \& Michael A. Hogg (1998):} Social Identity And Social Cognition, Hoboken, New Jersey, USA.
+
+
+	\item [\Rectsteel] \textbf{Aivazian, Varouj A.; Callen, Jeffrey L.; Chan, M.W. Luke; Dean C. Mountain (1987):} Economies Of Scale Versus Technological Change In The Natural Gas Transmission Industry, in: \textsl{The Review Of Economics And Statistics}, Vol.69 (3), S.556-561.
+
+
+	\item [\Rectsteel] \textbf{Aleklett, Kjell; Jakobsson, Kristofer \& Bengt S\"{o}derbergh (2010):} European Energy Security: An Analysis Of Future Russian Natural Gas Production And Exports, in: \textsl{Energy Policy}, Vol. 38, S.7827?7843.
+
+
+	\item [\Rectsteel] \textbf{American Embassy Moscow (2006):} Russian Oil To Lithuania: Mixing Revenge And Business, \textsl{Wikileaks}, Wikileaks cable: 06MOSCOW9482\_a, Moskau,  Russische F\"{o}rderation{} \textcolor{MidnightBlue}{\url{http://www.wikileaks.org/plusd/cables/06MOSCOW9482\_a.html}} -- Zugriff: 13.03.2014.
+
+
+	\item [\Rectsteel] \textbf{Arthur, W. Brian (1988):} Self-Reinforcing Mechanisms In Economics, in: \textsl{Anderson, Philip W.; Arrow, Kenneth J. \& David Pines (Hrsg.)}: The Economcy As An Evolving Complex System, Reading, Massachussetts, USA.
+
+
+
+	\item [\Rectsteel] \textbf{Arthur, W. Brian (1994):} Increasing Returns And Path Dependence In The Economy, Ann Arbor, Michigan, USA.
+
+
+	\item [\Rectsteel] \textbf{Azar, Christian; Hedenus, Fredrik \& Daniel J.A. Johansson (2010):} Energy Security Policies In The EU-25: The Expected Cost Of Oil Supply Disruptions, in: \textsl{Energy Policy}, Vol. 38, S. 1241?1250.
+
+
+	\item [\Rectsteel] \textbf{Bahgat, Gawdat (2006):} Europe's Energy Security: Challenges And Opportunities, in: \textsl{International Affairs}, Vol. 82 (5), S.961-975.
+
+
+	\item [\Rectsteel] \textbf{Bain, Joe, S. (1956):} Barriers To New Competition: Their Character And Consequences In Manufacturing Industries, Cambridge, Massachussetts, USA. 
+
+
+	\item [\Rectsteel] \textbf{Baldwin, Robert \& Martin Cave (1999):} Understanding Regulation: Theory, Strategy And Practice, Oxford, Oxfordshire, UK.
+
+
+	\item [\Rectsteel] \textbf{Balmaceda, Margarita M. (2008):} Corruption, Intermediary Companies, And Energy Security: Lithuania's Lessons For Central And Eastern Europe, in: \textsl{Problems of Post-Communism}, Vol.55 (4), S.16-28.
+
+
+	\item [\Rectsteel] \textbf{Balmaceda, Margarita M. (2013):} Politics Of Energy Dependency: Ukraine, Belarus, And Lithuania Between Domestic Oligarchs And Russian Pressure, Toronto, Kanada.
+
+
+	\item [\Rectsteel] \textbf{Baltic News Network (2011):} Gazprom and Itera not willing to abandon Incukalns gas storage, 23. Mai 2011.
+
+
+	\item [\Rectsteel] \textbf{Baltic News Network (2011):} Gazprom: government's attitude endangers Latvia's 2012 discount, 13. September 2011.
+
+
+	\item [\Rectsteel] \textbf{Barnett, Neill (2006):} From Poland To Hungary, Gazprom Takes Stealth Route To Domination, in: \textsl{The Independent}, 8. Januar 2006.
+
+
+	\item [\Rectsteel] \textbf{Baumol, William J. \& Robert D. Willig (1981):} Fixed Costs, Sunk Costs, Entry Barriers, And Sustainability Of Monopoly, in: \textsl{Quarterly Journal of Economics}, Vol.96 (3), S.405-431.
+
+
+	\item [\Rectsteel] \textbf{Becker, Gary S. (1983):} A Theory Of Competition Among Pressure Groups For Political Influence, in: \textsl{The Quarterly Journal of Economics}, Vol. 98 (3), S.371-400.
+
+
+	\item [\Rectsteel] \textbf{Bielecki, Jan (2002):} Energy Security: Is The Wolf At The Door, in: \textsl{The Quarterly Review Of Economics and Finance}, Vol.42 (2), S.235-250.
+
+
+	\item [\Rectsteel] \textbf{Belloc, Fillipo \& Antonio Nicita (2011):} Liberalization-Privatization Paths: Policies And Politics, \textsl{Working Paper n.2011-32}, X Milan European Economy Workshop, Mailand, Italien.
+
+
+	\item [\Rectsteel] \textbf{Belyi, Andrei (2003):} The New Dimensions Of Energy Security Of The Enlarging EU And Their Impact On Relations With Russia, in: \textsl{Journal for European Integration}, Vol. 25 (4), S.351-369.
+
+
+	\item [\Rectsteel] \textbf{Ben-Bassat, Avi (2011):} Conflicts, Interest Groups, And Politics In Structural Reforms, in: \textsl{Journal of Law and Economics}, Vol. 53 (4), S.937-952.
+
+
+	\item [\Rectsteel] \textbf{Bilesfky, Dan (2009):} Old Russian Ally Is Left Out In The Cold -- Russia Pledges To Restor Gas Flows, EU Says -- Bulgarians Go Without Heat After Moscow Cuts Gas Deliveries, in: \textsl{The International Herald Tribune}, 13. Januar 2009, S.2, Paris, Frankreich.
+
+
+	\item [\Rectsteel] \textbf{Bilgin, Mert (2011):} Energy Security And Russia's Gas Strategy: The Symbiotic Relationship Between The State And Firms, in: \textsl{Communist And Post-Communist Studies}, Vol.44 (2), S.119-127.
+
+
+	\item [\Rectsteel] \textbf{Bohi, Douglas R. \& Michael A. Toman (1996):} The Economics Of Energy Security, Boston, Massachussetts, USA.
+
+
+	\item [\Rectsteel] \textbf{Bowitz, Einar; Ellis, Andrew \& Kjell Roland (2000):} Structural Change In Europe's Gas Markets: Three Scenarios For The Development Of The European Gas Market To 2020, in: \textsl{Energy Policy}, Vol.28 (5), S.297-309.
+
+
+	\item [\Rectsteel] \textbf{\v{C}esnakas, Giedrius (2013):} Energy Security In The Baltic-Black Sea Region: Energy Insecurity Sources And Their Impact Upon States, in: \textsl{Lithuanian Annual Strategic Review}, Vol.10 (1), S.155-197.
+
+
+	\item [\Rectsteel] \textbf{Cezanne, Wolfgang (1995):} Volkswirtschaftslehre: Einf\"{\"{ü}}hrung, M\"{\"{ü}}nchen.
+
+
+	\item [\Rectsteel] \textbf{Christensen, Laurits R. \& William H. Greene (1976):} Economies Of Scale In The U.S. ELectric Power Generation, in: \textsl{Journal of Political Economy}, Vol. 84 (4), S.655-676.
+
+
+	\item [\Rectsteel] \textbf{Chyong, Chi Kong; Findlater, Sachi \& Pierre No\"{e}l (2010):} The Cost Of Improving Gas Supply Security In The Baltic States, \textsl{Working Paper 1203}, Electricity Policy Research Group, Cambridge, UK.
+
+
+	\item [\Rectsteel] \textbf{Coase, Ronald Harry (1960):} The Problem Of Social Cost, in: \textsl{Journal of Law and Economics}, Vol.3 (Oktober 1960), S.1-44.
+
+
+	\item [\Rectsteel] \textbf{Coase, Ronald Harry (1984):} The New Institutional Economics, in: \textsl{Journal of Institutional and Theoretical Economics}, Vol.140, S.229-231.
+
+
+	\item [\Rectsteel] \textbf{Correlj\'{e}, Aad F. \& Laurens J. De Vries (2006)} Hybrid Electricity Markets, \textsl{Papier vorbereitet f\"{\"{ü}}r 29th International Conference of the International Association for Energy Economics 24-27 September}, Ann Arbor, Michigan, USA.
+
+
+	\item [\Rectsteel] \textbf{Cottier, Thomas; Matteotti-Berkutova, Sofya \& Olga Nartova (2010):} Third Country Relation In EU Unbundling Of Natural Gas Markets: The 'Gazprom Clause' Of Directive 2009/73/EC And WTO Law, \textsl{NCCR Trade Regulation Working Paper}, 2010/06, May 2010 \textcolor{MidnightBlue}{\url{http://www.nccr-trade.org/fileadmin/user_upload/nccr-trade.ch/wp5/Access\%20to\%20gasgrids.pdf}} -- Zugriff: 03.02.2014. 
+
+
+	\item [\Rectsteel] \textbf{Crew, Michael A. \& Paul R. Kleindorfer (2002):} Regulatory Economics: Twenty Years Of Progress?. in: \textsl{Journal of Regulatory Economics}, Vol.11 (1), S.5-22.
+
+
+	\item [\Rectsteel] \textbf{Crotty, Michael (1998):} The Foundations Of Social Research: Meaning And Perspective In The Research Process, London, UK.
+
+
+	\item [\Rectsteel] \textbf{Dahlburg, John-Thor (1990):} Gorbachev Warns Lithuania: Back Down or Face Blockade : Secession: His ultimatum gives the republic two days to rescind its independence moves or face a cutoff of oil and other vital goods, in: \textsl{Los Angeles Times}, 14. April 1990.
+
+
+	\item [\Rectsteel] \textbf{David, Paul A. (1994):} Why Are Institutions 'Carriers Of History'?: Path Dependence And The Evolution Of Conventions, Organizations And Institutions, in: \textsl{Structural Change And Economic Dynamics}, Vol.5 (2), S.205-220.
+
+
+	\item [\Rectsteel] \textbf{David, Paul A. (1995):} Clio And The Economics Of QWERTY, in: \textsl{American Economic Review}, Vol. 75 (May), S.332-337.
+
+
+	\item [\Rectsteel] \textbf{De Bijl, Paul; van Damme, Eric \& Pierre Larouche (2006):} Regulating Access To Stimulate Competition In Postal Markets?, in: \textsl{Crew, Michael A. \& Paul R. Kleindorfer (Hrsg.)}: Progress Towards Liberalization Of The Postal And Delivery Sector, Northampton, Massachussetts, USA, S.153-172. 
+
+
+	\item [\Rectsteel] \textbf{De Jong, Jacques \& Coby van der Linde (2008):} EU Energy Policy In A Supply-Constrained World, in: \textsl{European Policy Analysis}, Issue 11-2008, S.1-9.
+
+
+	\item [\Rectsteel] \textbf{Delfi.lt (2011):} Maskva naftos u\v{c}iaup\k{u} neatsuka ir u\v{z} pinigus, 17. August 2011.
+
+
+	\item [\Rectsteel] \textbf{Demsetz, Harold (1982):} Barriers To Entry, in: \textsl{The American Economic Review}, Vol. 72 (1),  S. 47-57.
+
+
+	\item [\Rectsteel] \textbf{Devitt, Polina \& Katya Golubkova (2013):} Rosneft buys rest of Itera from founder for \$2.9 billion, in: \textsl{Reuters}, 02. Juli 2013.
+
+
+	\item [\Rectsteel] \textbf{De Vries, H.J.M.; Groenenberg, H.; Kruyt, Bert \& D.P. van Vuuren (2009):} Indicator For Energy Security, in:\textsl{Energy Policy}, Vol. 37, S.2166?2181.
+
+
+	\item [\Rectsteel] \textbf{Doty, Roxanne Lynn (1996):} Immigration And National Identity: Constructing The Nation, in: \textsl{Review of International Studies}, Vol. 22 (3), S.235-255.
+
+
+	\item [\Rectsteel] \textbf{Downs, Anthony (1957):} An Economic Theory Of Democracy, New York, USA.
+
+
+	\item [\Rectsteel] \textbf{Dudzi\'{n}ska, Kinga (2012):} Energy Policy In The Baltic States \textemdash{} United Or Separate?, \textsl{Policy Paper No.37}, Polski Instytut Spraw Mi\k{e}dzynarodowych, Warschau \textcolor{MidnightBlue}{\url{http://www.pism.pl/files/?id\_plik=11583}} -- Zugriff: 15.12.2013.
+
+
+	\item [\Rectsteel] \textbf{Duso, Tomaso (2002):} On The Politics Of Regulatory Reform: Econometric Evidence From The OECD Countries, \textsl{Discussion Paper}, Wissenschaftszentrum Berlin (WZB), No. FS IV 02-07.
+
+
+	\item [\Rectsteel] \textbf{Economides, Nicholas (1996):} The Economics Of Networks, in: \textsl{International Journal of Industrial Organization}, Vol.14 (6), S.673-699.
+
+
+	\item [\Rectsteel] \textbf{Energy Charter Secretariat (2013):} In-Depth Review Of The Investment Climate And Market Structure In The Energy Sector Of Lithuania, Br\"{\"{ü}}ssel, Belgium.
+
+
+	\item [\Rectsteel] \textbf{EurActiv (2010):} Gazprom's Push For Ukraine Merger Meets Resistance, ver\"{o}ffentlicht: 14. Mai 2010 \textcolor{MidnightBlue}{\url{http://www.euractiv.com/energy/gazprom-push-ukraine-merger-meet-news-494165}} -- Zugriff: 27.12.2013.
+
+
+	\item [\Rectsteel] \textbf{Europ\"{a}ische Kommission (2004):} Bericht der Kommission: J\"{a}hrlicher Bericht \"{\"{ü}}ber die Verwirklichung des Strom- und Erdgasbinnenmarktes [SEK(2004) 1720], Br\"{\"{ü}}ssel, Belgien.
+
+
+	\item [\Rectsteel] \textbf{Europ\"{a}ische Kommission (2005):} Mitteilung der Kommission an den Rat und das Europ\"{a}ische Parlament: Bericht \"{\"{ü}}ber die Fortschritte bei der Schaffung des Erdgas- und Elektrizit\"{a}tsbinnenmarktes [SEK(2005) 1448], Br\"{\"{ü}}ssel, Belgien.
+
+
+	\item [\Rectsteel] \textbf{Europ\"{a}ische Kommission (2007a):} Mitteilung der Kommission an den Rat und das Europ\"{a}ische Parlament: Aussichten f\"{\"{ü}}r den Erdgas- und Elektrizit\"{a}tsbinnenmarktes [SEK(2006) 1709] [SEK (2007) 12],	Br\"{\"{ü}}ssel, Belgien.
+
+
+	\item [\Rectsteel] \textbf{Europ\"{a}ische Kommission (2007b):} Vorschlag f\"{\"{ü}}r eine Richtlinie des Europ\"{a}ischen Parlaments und des Rates	zur \"{a}nderung der Richtlinie 2003/55/EG \"{\"{ü}}ber gemeinsame Vorschriften f\"{\"{ü}}r den Erdgasbinnenmarkt [SEK(2007) 1179] [SEK(2007) 1180], Br\"{\"{ü}}ssel, Belgien.
+
+
+	\item [\Rectsteel] \textbf{Europ\"{a}ische Kommission (2008):} Bericht der Kommission an das Europ\"{a}ische Parlament und den Rat: Die 	Fortschritte bei der Verwirklichung des Erdgas- und Elektrizit\"{a}tsbinnenmarktes [SEK(2008) 460], Br\"{\"{ü}}ssel, Belgien.
+
+
+	\item [\Rectsteel] \textbf{Europ\"{a}ische Kommission (2009):} Mitteilung der Kommission an den Rat und das Europ\"{a}ische Parlament: 		Bericht \"{\"{ü}}ber die Verwirklichung bei der Schaffung des Erdgas- und Elektrizit\"{a}tsbinnenmarktes [SEK(2009) 287], Br\"{\"{ü}}ssel, Belgien.
+
+
+	\item [\Rectsteel] \textbf{Europ\"{a}ische Kommission (2010):} Mitteilung der Kommission an den Rat und das Europ\"{a}ische Parlament: Bericht \"{\"{ü}}ber die Verwirklichung bei der Schaffung des Erdgas- und Elektrizit\"{a}tsbinnenmarktes [SEK(2010) 251], Br\"{\"{ü}}ssel, Belgien.
+
+
+	\item [\Rectsteel] \textbf{Europ\"{a}ische Kommission Directorate General Wettbewerb (2007):} Directorate General Competition Report On Energy Sector Inquiry [SEC(2006) 1724], Br\"{\"{ü}}ssel, Belgien.
+
+
+	\item [\Rectsteel] \textbf{Europ\"{a}ische Union (2014):} Europ\"{a}ische Energiecharta, \textsl{Zusammenfassungen der EU-Gesetzgebung} \textcolor{MidnightBlue}{\url{http://europa.eu/legislation_summaries/energy/external_dimension_enlargement/l27028_en.htm}} -- Zugriff: 27.02.2013.
+
+
+	\item [\Rectsteel] \textbf{Eurostat:} \textcolor{MidnightBlue}{\url{http://www.ec.europa.eu/eurostat}}
+
+
+	\item [\Rectsteel] \textbf{Finger, Matthias \& Dominique Finon (2010):} From The 'Public Service' Model To The 'Universal Service' Obligation, zu erscheinen in: \textsl{Finger, Matthias \& Rolf W. K\"{\"{ü}}nneke (Hrsg.)}: Handbook Of Liberalised Infrastructure Sectors, London, UK. 
+
+
+	\item [\Rectsteel] \textbf{Filippov, Sergey (2010):} Russian Companies: The Rise Of New Multinationals, in: \textsl{International Journal Of Emerging Markets}, Vol. 5 (3-4), S.307-332.
+
+
+	\item [\Rectsteel] \textbf{Flamos, A.; Psarras, J. \& C. Roupas (2011):} Comparative Analysis Of EU Member Countries Vulnerability In Oil And Gas, in: \textsl{Energy Sources}, Part B: Economics, Planning, and Policy, Vol.6 (4), S.348-356.
+
+
+	\item [\Rectsteel] \textbf{Frumkin, Peter \& Gabriel Kaplan (2000):} Institutional Theory And The Micro-Macro Link, \textsl{unver\"{o}ffentlichtes Forschungspapier}, Kennedy School Of Government, Harvard University \textcolor{MidnightBlue}{\url{http://www.ibrarian.net/navon/page.jsp?paperid=154995&searchTerm=micro+and}} -- Zugriff: 27.01.2014.
+
+
+	\item [\Rectsteel] \textbf{Gazprom}: \textcolor{MidnightBlue}{\url{http://www.gazprom.com/investors/stock/}} -- Zugriff: 31.01.2014.
+
+
+	\item [\Rectsteel] \textbf{Gelb, Bernard A.; Nichol, Jim \& Stephen Woehrel (2006):} Russia's Cutoff Of Natural Gas To Ukraine: Context And Implications, in: \textsl{Nichol, Ulric R. (Hrsg.)}: Focus On Politics And Economics Of Russia And Eastern Europe, New York, USA, S.59-64.
+
+
+	\item [\Rectsteel]\textbf{Goldthau, Andreas (2008):} Rhetoric Versus Reality: Russian Threats To European Energy Supply, in: \textsl{Energy Policy}, Vol.36 (2), S.686-692.
+
+
+	\item [\Rectsteel] \textbf{Gorst, Isabel (2009):} Russia Welcomes End To Turkmen Gas Dispute, in: \textsl{Financial Times}, 23. Dezember 2009.
+
+
+	\item [\Rectsteel] \textbf{Grigas, Agnias (2012a):} Legacies, Coercion, And Soft Power: Russian Influence In The Baltic States, \textsl{Briefing Paper -- The Means and Ends of Russian Influence Abroad Series}, Chatham House, London, UK.
+
+
+	\item [\Rectsteel] \textbf{Grigas, Agnias (2012b):} The Gas Relationship Between Baltic States And Russia: Politics And Commercial Realities, \textsl{Working Paper NG 67}, The Oxford Institute For Energy Policy, Oxford \textcolor{MidnightBlue}{\url{http://www.oxfordenergy.org/wpcms/wp-content/uploads/2012/10/NG\_67.pdf}} -- Zugriff: 11.12.2013.
+
+
+	\item [\Rectsteel] \textbf{Grigas, Agnias (2013):} The Politics Of Energy And Memory Between The Baltic States And Russia, Farnham, UK.
+
+
+	\item [\Rectsteel] \textbf{Groenewegen, John P.M. \& Rolf W. K\"{\"{ü}}nneke (2005):} Process Outcomes Of The Infrastructure Reform. An Evolutionary Perspective, in: \textsl{Correljé, Aad F., Groenewegen, John P.M. \& Rolf W. K\"{\"{ü}}nneke (Hrsg.)}: Institutional Reform, Regulation, And Privatization, Cheltenham, Gloucestershire, UK, S.1-38.
+
+
+	\item [\Rectsteel] \textbf{Grotz, Florian \& Till Weber (2011):} Regierungskoalitionen: Bildung und Dauerhaftigkeit, in: \textsl{Grotz, Florian \& Ferdinand M\"{\"{ü}}ller-Rommel (Hrsg.)}: Regierungssysteme in Mittel- \& Osteuropa: Die neuen EU-Staaten im Vergleich, Wiesbaden, S.184-216.
+
+
+	\item [\Rectsteel] \textbf{Growitsch, Christian \& Marcus Stronzik (2009):} Ownership Unbundling Of Gas Transmission Networks -- Theoretical Background And Empirical Evidence, Papier f\"{\"{ü}}r die Jahrestagung 2009 des Vereins f\"{\"{ü}}r Socialpolitik, Magdeburg.
+
+
+	\item [\Rectsteel] \textbf{Haase, Nadine (2008):} European Gas Market Liberalisation: Are Regulatory Regimes Moving Towards Convergence? \textsl{Working Paper NG 24}, The Oxford Institute For Energy Policy, Oxford, UK \textcolor{MidnightBlue}{\url{http://www.oxfordenergy.org/wpcms/wp-content/uploads/2010/11/NG24-EuropeanGasMarketLiberalisationArerRegulatoryRegimesMovingTowardsConvergence-NadineHaase-2008.pdf}}\\-- Zugriff: 20.11.2013.
+
+
+	\item [\Rectsteel]\textbf{Harding, Luke \& Ashley Seager (2007):} Gazprom Hints At British Acquisition By End Of Month, in: \textsl{The Guardian}, 11. Juni 2007.
+
+
+	\item [\Rectsteel] \textbf{Harrington, Joseph Emmett; Vernon, John Mitcham \& W. Kip Viscusi (2005):} Economics Of Regulation And Antitrust, Cambridge, Massachussetts, USA.
+
+
+	\item [\Rectsteel] \textbf{Hartle, D. G. (1983):} The Theory Of Rent-Seeking: Some Reflections, in: \textsl{Canadian Journal of Economics}, Vol.16 (4), S.539-554.
+
+
+	\item [\Rectsteel] \textbf{Heine, Klaus \& Wolfgang Kerber (2002):} European Corporate Laws, Regulatory Competition And Path Dependence, in: \textsl{European Journal of Law and Economics}, Vol.13 (1), S.47-71. 
+
+
+	\item [\Rectsteel] \textbf{Heinrich, Andreas (2006):} Gazprom -- A Reliable Partner For Europe's Energy Supply, in: \textsl{Russia Analytical Digest}, No.1 (Juni 2006), S.2-6.
+
+
+	\item [\Rectsteel] \textbf{Helm, Dieter (2007):} The New Energy Paradigm, Oxford, Oxfordshire, UK.
+
+
+	\item [\Rectsteel] \textbf{Hubert, Franz \& Irina Suleymanova (1998):} Strategic Investment In International Gas-Transport Systems:	A Dynamic Analysis Of The Hold-Up Problem, \textsl{DIW Discussion Paper 846}, Deutsches Institut f\"{\"{ü}}r Wirtschaftsforschung, Berlin, Bundesrepublik Deutschland \textcolor{MidnightBlue}{\url{http://ideas.repec.org/p/diw/diwwpp/dp846.html}} -- Zugriff: 01.02.2014.
+
+
+	\item [\Rectsteel] \textbf{Institut f\"{\"{ü}}r Energie- und Wettbewerbsrecht in der Kommunalen Wirtschaft e. V.:} \textcolor{MidnightBlue}{\url{http://www.ewerk.hu-berlin.de/Europ\%C3\%A4ische-Union-Drittes-Binnenmarktpaket-zur-Strom-und-Gasmarktliberalisierung-ist-verabschiedet+worden}} -- Zugriff: 29.01.2014.
+
+
+	\item [\Rectsteel] \textbf{International Energy Agency (2008):} Development Of Competitive Gas Trading In Continental Europe: How To Achieve Workable Competition In European Gas Markets?, Paris, Frankreich.
+
+
+	\item [\Rectsteel] \textbf{International Gas Union [Herausgeber](2006):} The Paradigm Change In International Gas Markets And The Impact On Regulation, International Gas Union/The Clingendael Institute, Den Haag, Niederlande. 
+
+
+	\item [\Rectsteel] \textbf{Jaag, Christian \& Urs Trinker (2011):} A General Framework For Regulation And Liberalization In Network Industries, in:  \textsl{Finger, Matthias \& Rolf W. K\"{\"{ü}}nneke (Hrsg.)}: International Handbook Of Network Industries, Cheltenham, Gloucestershire, UK, S.26-53.
+
+
+	\item [\Rectsteel] \textbf{Jacobsons, Andrejs (2012):} The Economic Dimension Of Bilateral Relationships Between Latvia, Russia And Belarus -- Past And Present, in: \textsl{Spr\={u}ds, Andris (Hrsg.)}: The Economic Presence Of Russia And Belarus In The Baltic States: Risks And Opportunities, Riga, Lettland, S.11-34.
+
+
+	\item [\Rectsteel] \textbf{Jamasb, Tooraj \& Michael Pollitt (2008):} Liberalisation And R \& D In Network Industries : The Case Of The Electricity Industry, in:  \textsl{Research Policy}, Vol.37 (6-7), S.995-1008.
+
+
+	\item [\Rectsteel] \textbf{Jones, Christopher W. \& Luc Werring [Hrsg.] (2006):} EU Energy Law: The Internal Energy Market, Band 1 \textsl{EU Energy Law Series}, Deventer, Niederlande.
+
+
+	\item [\Rectsteel] \textbf{Joskow, Paul L. (2013):} Incentive Regulation In Theory And Practice: Electricity Distribution And 		Transmission Networks, zu erscheinen in: \textsl{Rose, Nancy L. (Hrsg:)}: Economic Regulation And Its Reform: What Have We Learned, Chicago, USA. 
+
+	\item [\Rectsteel] \textbf{Kasekamp, Andres (2014):} The Politics Of Energy And Memory Between The Baltic States And Russia, in: \textsl{Journal of Baltic Studies}, Vol.45 (1), S.138-140.
+
+
+	\item [\Rectsteel] \textbf{Katz, Michael L. \& Carl Shapiro (1986):} Network Externalities, Competition, And Compatibility, in: \textsl{American Economic Review}, Vol.75 (3), S.424-440.
+
+
+	\item [\Rectsteel] \textbf{Kessides, Ioannis N. (1990):} Market Concentration, Contestability And Sunk Costs, in: \textsl{The Review of Economics and Statistics}, Vol. 72 (4), S.614-622.
+
+
+	\item [\Rectsteel] \textbf{Kessides, Ionnis N. \& Tang Li (2011):} Sunk Costs, Market Contestability, And The Size Distribution Of Firms, \textsl{Policy Research Working Paper 5540}, World Bank, Washington D.C., USA.
+
+
+	\item [\Rectsteel] \textbf{Kalotay, Kalman (2008):} Russian Transnationals And International Investment Paradigms, in: \textsl{Research in International Business and Finance}, Vol.22 (2), S.85-107.
+
+
+	\item [\Rectsteel] \textbf{Koshal, Rajindar K. (1972):} Economies Of Scale, in: \textsl{Journal of Transport Economics and Policy}, Vol. 6 (2), S.147-153. 
+
+
+	\item [\Rectsteel] \textbf{van Koten, S. \& A. Ortman (2008):} The Unbundling Regime For Elecricity Utilities In The EU: A Case Of Legislative And Regulatory Capture?, in: \textsl{Energy Policy}, Vol.30, S.3128-3140.
+
+
+	\item [\Rectsteel] \textbf{KPMG Global Energy Institute (2012):} Central And Eastern European Shale Gas Outlook, Amstelveen, Niederlande
+
+
+	\item [\Rectsteel] \textbf{Krozsner, Randall S. \& Philip E. Strahan (1999):} What Drives Deregulation? Economics And Politics Of The Relaxation Of Bank Branching Restrictions, in: Quarterly Journal Of Economics, Vol.144 (4), S.1437-1467.
+
+
+	\item [\Rectsteel] \textbf{Krueger, Anne O. (1974):} The Political Economy Of The Rent-Seeking Society, in: \textsl{American Economic Review}, Vol.64, S.291-303.
+
+
+	\item [\Rectsteel] \textbf{Laffont, Jean-Jacques \& Jean Tirole (1986):} Using Cost Observation To Regulate Firms, in: \textsl{Journal of Political Economy}, Vol. 94 (3) Part 1, S.614-641.
+
+
+	\item [\Rectsteel] \textbf{La Tribune (2011):} Nouveau bras de fer gazier en vue entre la Russie et l'Ukraine, 28. Dezember 2011, 	S.4, Paris, Frankreich
+
+
+	\item [\Rectsteel] \textbf{Latvijas G\={a}ze (2014):} \textcolor{MidnightBlue}{\url{http://www.lg.lv}}
+
+
+	\item [\Rectsteel] \textbf{Latvijas Republikas \={A}rlietu Ministrija [Außenministerium der Republik Lettland] (2014):} \textcolor{MidnightBlue}{\url{http://www.mfa.gov.lv}}
+
+
+	\item [\Rectsteel] \textbf{Latvijas Republikas Ekonomikas Ministrija [Wirtschaftsministerium der Republik Lettland] (2012):} Latvijas ener\v{g}\={e}tika skait\c{l}os  -- Latvian Energy In Figures, Riga, Lettland.
+
+
+	\item [\Rectsteel] \textbf{Latvijas Republikas Ekonomikas Ministrija [Wirtschaftsministerium der Republik Lettland] (2014):} \textcolor{MidnightBlue}{\url{http://www.em.gov.lv/em}}
+
+
+	\item [\Rectsteel] \textbf{Lietuvos Dujos (2012):} Consolidated Annual Report 2012, Vilnius, Litauen.
+
+
+	\item [\Rectsteel] \textbf{Lietuvos Respublikos energetikos ministerija [Energieministerium der Republik Litauen] (2012):} National Energy Independence Strategy of the Republic of Lithuania, Vilnius.
+
+
+	\item [\Rectsteel] \textbf{Lewis, David Kellogg (1969):} Conventions, A Philosophical Inquiry, Cambridge, Massachussetts, USA.
+
+
+	\item [\Rectsteel] \textbf{Lrtas.lt (2006):} Ma\v{z}eiki\k{u} naftos pardavimas Lenkijai - geopolitin\.{e}s reik\v{s}\.{e}s faktas, 5. September 2006.
+
+
+	\item [\Rectsteel] \textbf{Mackie, Diane M. \& David M. Messick (1989):} Intergroup Relations, in: Annual Review of Psychology, Vol.40, S.45-81.
+
+
+	\item [\Rectsteel] \textbf{Mole, Richard C. M. \& Jan Penrose (2008):} Nation States And National Identity; in: \textsl{Cox, Kevin R.; Low, Murray \& Jennifer Robinson (Hrsg.)}: The SAGE Handbook of Political Geography, London, UK.
+
+
+	\item [\Rectsteel] \textbf{Mole, Richard C. M. (2012):} The Baltic States From The Soviet Union To The European Union: Identity, Discourse And Power In The Post-Transition Of Estonia, Latvia And Lithuania, London, UK.
+
+
+	\item [\Rectsteel] \textbf{Molis, Ar\={unas} (2011):} Building Methodology, Assessing The Risks: The Case Of Energy Security In The Baltic States, in: \textsl{Baltic Journal of Economics}, Vol.11 (2), S.59-80.
+
+
+	\item [\Rectsteel] \textbf{Molle, Willem (2006):} The Economics of European Integration. Theory, Practice, Policy, Aldershot, Hampshire, UK.
+
+
+	\item [\Rectsteel] \textbf{Natural Gas Europe (2010):} Mr. Lukashenko -- please pay your bill (17.Juni 2010) \textcolor{MidnightBlue}{\url{http://www.naturalgaseurope.com/mr-lukashenko-please-pay-your-bill}} -- Zugriff: 28.02.2014.
+
+
+	\item [\Rectsteel] \textbf{Natural Gas Europe (2011):} Gazprom Finally Bags BelTransGaz (26.November 2011) \textcolor{MidnightBlue}	{\url{http://www.naturalgaseurope.com/gazprom-to-buy-belarusian-beltransgaz-3704}} -- Zugriff: 28.02.2014.
+
+
+	\item [\Rectsteel] \textbf{Newnham, Randall (2011):} Oil, Carrots And Sticks: Russia's Energy Resources As A Foreign Policy Tool, in: \textsl{Journal of Eurasian Policy Studies}, Vol.2, S.134-143.
+
+
+	\item [\Rectsteel] \textbf{North, Douglas C. (1990):} Institutions, Institutional Change And Economic Performance, Cambridge, 	Massachussetts, USA.
+
+
+	\item [\Rectsteel] \textbf{Olson, Mancur (1965):} The Logic Of Collective Action, Cambridge, Massachussetts, USA.
+
+
+	\item [\Rectsteel] \textbf{Oreskovic, Luka (2013):} Shopping In Europe: Gazprom Expands Southward, Welcomed By Croatian President, in: \textsl{The Moscow Times}, 24. Januar 2013.
+
+
+	\item [\Rectsteel]\textbf{Osipov, Oleg (2007):} Becoming An Energy Giant: An Overview Of Gazprom Expansion Into EU Energy Utilities And Networks Sector, in: \textsl{Russian Energy Sector Series}, Center for Applied Business Research in Energy and Environment:  University of Alberta School of Business, Edmonton, Kanada.
+
+
+	\item [\Rectsteel] \textbf{Peln\={e}ns, Gatis \& Di\={a}na Potjomkina (2012):} The Political Implications Of Latvia's Economic Relations With Russia And Belarus, in: \textsl{Spr\={u}ds, Andris (Hrsg.)}: The Economic Presence Of Russia And Belarus In The Baltic States: Risks And Opportunities, Riga, Lettland, S.179-204.
+
+
+	\item [\Rectsteel] \textbf{Peltzman, Sam (1976):} Toward A General Theory Of Regulation, in: Journal of Law and Economics, Vol.19 (2), S.211-240.
+
+
+	\item [\Rectsteel] \textbf{Pierson, Paul (1996):} The Path To European Integration: A Historical Institutionalist Analysis, in: \textsl{Comparative Political Studies}, Vol. 29 (2), S.123-163.
+
+
+	\item [\Rectsteel] \textbf{Pierson, Paul (2000):} Increasing Returns, Path Dependence, And The Study Of Politics, in: \textsl{American Political Science Review}, Vol. 94 (2), S.251-267.
+
+
+	\item [\Rectsteel] \textbf{Pipelines International (2006):} Russian oil pipelines struggling under pressure , 27. September 2006.
+
+
+	\item [\Rectsteel] \textbf{Raszewski, Slawomir (2012):} Security And Economics Of Energy In North-East Europe, in: \textsl{Belyi, Andrei, Goldthau, Andreas, Keating, Michael F. \& Caroline Kuzemko (Hrsg.)}: Dynamics Of Energy Governance In Europe And Russia, London, UK, S.130-148.
+
+
+	\item [\Rectsteel] \textbf{RiaNovosti (2008):} Medvedev outlines five main points of future foreign policy, 31. August 2008.
+
+
+	\item [\Rectsteel] \textsl{Richtlinie 98/30/EG des Europ\"{a}ischen Parlaments und des Rates vom 22.Juni 1998 \"{\"{ü}}ber gemeinsame Vorschriften f\"{\"{ü}}r den Erdgasbinnenmarkt}. Amtsblatt der Europ\"{a}ischen Gemeinschaften 1998 L 204/1, Br\"{\"{ü}}ssel, Belgien.
+
+
+	\item [\Rectsteel] \textsl{Richtlinie 2003/55/EG des Europ\"{a}ischen Parlaments und des Rates vom 26.Juni 2003 \"{\"{ü}}ber gemeinsame Vorschriften f\"{\"{ü}}r den Erdgasbinnenmarkt und zur Aufhebung der Richtlinie 98/30/EG}. Amtsblatt der Europ\"{a}ischen Gemeinschaften 2003 L 176/55, Br\"{\"{ü}}ssel, Belgien.
+
+
+	\item [\Rectsteel] \textsl{Richtlinie 2009/73/EG des Europ\"{a}ischen Parlaments und des Rates vom 13.Juli 2009 \"{\"{ü}}ber gemeinsame Vorschriften f\"{\"{ü}}r den Erdgasbinnenmarkt und zur Aufhebung der Richtlinie 2003/55/EG}. Amtsblatt der Europ\"{a}ischen Gemeinschaften 2009 L 211/94, Br\"{\"{ü}}ssel, Belgien.
+
+
+	\item [\Rectsteel] \textbf{Rowley, Charles Kershaw; Tollison, Robert D. \& Gordon Tullock (1988):} The Political Economy Of Rent-Seeking, New York, USA.
+
+
+	\item [\Rectsteel] \textbf{Sabiedrisko pakalpojumu regul\={e}\v{s}anas komisija [\textsl{The Public Utilities Commission and the Regulator -- Staatliche Kommission f\"{\"{ü}}r Versorgungsunternehmen und Regulierer der Republik Lettland}] (2012):} Annual Report 2012, Riga, Lettland.
+
+
+	\item [\Rectsteel] \textbf{Schmidt-Preuß, Matthias (2009):} OU? ISO? ITO: Die Unbundling-Optionen des 3. EU-Liberalisierungspakets, in: \textsl{Energiewirtschaftliche Tagesfragen}, Vol.9 (September), S.82-84.
+
+
+	\item [\Rectsteel] \textbf{\v{S}leivyte, Janina (2009):} Russia?s European Agenda And The Baltic States, London, UK.
+
+
+	\item [\Rectsteel] \textbf{Springer Gabler Verlag [Herausgeber] (2014a):} Gabler Wirtschaftslexikon, Stichwort: \textsl{Bruttoinlandsprodukt (BIP)}, online im Internet: \textcolor{MidnightBlue} {\url{http://wirtschaftslexikon.gabler.de/Archiv/57565/bruttoinlandsprodukt-bip-v6.html}} -- Zugriff: 30.01.2014
+
+
+
+	\item [\Rectsteel] \textbf{Springer Gabler Verlag [Herausgeber] (2014b):} Gabler Wirtschaftslexikon, Stichwort: \textsl{Nat\"{\"{ü}}rliches Monopol}, online im Internet: \textcolor{MidnightBlue} {\url{http://wirtschaftslexikon.gabler.de/Archiv/11015/natuerliches-monopol-v8.html}} -- Zugriff: 29.01.2014
+
+
+	\item [\Rectsteel] \textbf{Spr\={u}ds, Andris (2006):} Latvian-Russian Energy Relations: Between Economics And Politics, in: \textsl{Nils Mui\v{z}ieks (Hrsg.)}: Latvian-Russian Relations: Domestic And International Dimensions, Riga, S.110-118.
+
+
+	\item [\Rectsteel] \textbf{Statistas Latvija:} \textcolor{MidnightBlue}{\url{http://www.csb.gov.lv}}
+
+
+	\item [\Rectsteel] \textbf{Stauffer, Thomas (1990):} Blockades Teaches Lithuania Lesson About Dependence, in: \textsl{The Christian Science Monitor}, 3. Mai 1990.
+
+
+	\item [\Rectsteel] \textbf{Stern, Jonathan (2005):} Gas Pipeline Cooperation Between Political Adversaries: Examples From Europe, \textsl{Report Submission to the Korea Foundation}.
+
+
+	\item [\Rectsteel] \textbf{Stigler, George Joseph (1958):} The Economies Of Scale, in: \textsl{Journal of Law and Economics}, Vol. 1, S.54-71.
+
+
+	\item [\Rectsteel] \textbf{Stigler, George Joseph (1968):} Barriers To Entry, Economies Of Scale, in: \textsl{Stigler, George Joseph (Hrsg.)}: The Organization Of Industry, Chicago, USA, S.67-70.
+
+
+	\item [\Rectsteel] \textbf{Stigler, George Joseph (1971):} The Theory Of Economic Regulation, in: \textsl{The Bell Journal of Economics and Management Science}, Vol.2 (1), S.3-21.
+
+
+	\item [\Rectsteel] \textbf{\v{S}ulmane, Ilze (2006):} The Russian Language Media In Latvia, in: \textsl{Nils Mui\v{z}ieks (Hrsg.)}: Latvian-Russian Relations: Domestic And International Dimensions, Riga, S.64-73.
+
+
+	\item [\Rectsteel] \textbf{Sutton, John (1992):} Sunk Costs And Market Structure: Price Competition, Advertising, And The Evolution Of Concentration, Cambridge, Massachussetts, USA.
+
+
+	\item [\Rectsteel] \textbf{Teather, David (2010):} Russia cuts Belarus's gas supply and fuels EU fears: Moscow claims unpaid gas bill amounts to	£128m Gazprom to fulfil Europe's needs via Ukraine pipeline, in: \textsl{The Guardian}, 22. Juni 2010, S.26, London, UK.
+
+
+	\item [\Rectsteel] \textbf{Teece, David J. (1980):} Economies Of Scope And The Scope Of The Entreprise, in: \textsl{Journal of Economic Behavior \& Organization}, Vol.  1 (3), S.223-247.
+
+
+	\item [\Rectsteel] \textbf{The Economist Intelligence Unit (2006):} Lithuania Economy: Pole Vault?, \textsl{Viewswire}, London, UK.
+
+
+	\item [\Rectsteel] \textbf{Theiler, Tobias (2003):} Societal Security And Social Psychology, in: \textsl{Review of International Studies}, Vol.29 (2), S.249-268.
+
+
+	\item [\Rectsteel] \textbf{The Lithuania Tribune (2009):} Lithuania afraid of Gazprom?s influence if a Baltic LNG terminal built in Latvia, 07. Februar 2011.
+
+
+	\item [\Rectsteel] \textbf{Tollison, Robert D. (1982):} Rent Seeking: A Survey, in: \textsl{Kyklos}, Vol.35 (4), S.575-602.
+
+
+	\item [\Rectsteel] \textbf{Trenin, Dimitri (2006):} Russia Leaves The West, in: \textsl{Foreign Affairs}, Vol.85 (4), S.87-96.
+
+
+	\item [\Rectsteel] \textbf{Tschirhart, John (1995):} Monopsony Power And The Existence Of Natural Gas Monopoly In Energy Utilities, in: \textsl{Resource and Energy Economics}, Vol.17 (5), S.327-340.
+
+
+	\item [\Rectsteel] \textbf{Tsebelis, George (1995):} Decision Making In Political Systems: Veto Players In Presidentialism, Parliamentarism, Multicameralism, And Multipartyism, in: \textsl{British Journal of Political Science}, Vol.25 (4), S.289-325.
+
+
+	\item [\Rectsteel] \textbf{Tsebelis, George (2002):} Veto Players: How Political Institutions Works, New York, USA.
+
+
+	\item [\Rectsteel] \textbf{Tullock, Gordon (1967):} The Welfare Costs Of Tariffs, Monopolies And Theft, in: \textsl{Western Economic Journal}, Vol.5 (3), S.224-232.
+
+
+	\item [\Rectsteel] \textbf{United Nations Statistics Division:} \textcolor{MidnightBlue}{\url{http://www.data.un.org}}
+
+
+	\item [\Rectsteel] \textbf{Valstybin\.{e} kain\k{u} ir energetikos kontrol\.{e}s komisija [\textsl{National Control Commission for Prices and Energy -- Nationale \"{\"{ü}}berwachungskommission f\"{\"{ü}}r Preise und Energie}] (2012):} Annual Report On Electricity And Natural Gas Markets	Of The Republic Of Lithuania To The European Commission, Vilnius, Litauen.
+
+
+	\item [\Rectsteel] \textbf{Verslo \v{Z}inios (2011):} InterRAO Lietuva prekiaus Kaliningrado atomin\.{e}s elektrin\.{e}s energija, 3. M\"{a}rz 2011.
+
+
+	\item [\Rectsteel] \textbf{Vilpi\v{s}auskas, Ram\={u}nas (2013):} Lithuanian Forein Policy Since EU Accession: Torn Between History And Interdependence, in: \textsl{Baun, Michael \& Dan Marek (Hrsg.)}: The New Member States And The European Union: Foreign Policy And Europeanization, London, UK, S.127-141.
+
+
+	\item [\Rectsteel] \textbf{Volovoj, Vadim \& Liudas Zdanavi\v{c}ius (2012):} Lithuanian Economic Relations With Russia And Belarus,  in: \textsl{Spr\={u}ds, Andris (Hrsg.)}: The Economic Presence Of Russia And Belarus In The Baltic States: Risks And Opportunities, Riga, Lettland, S.205-248.
+
+
+	\item [\Rectsteel] \textbf{Wennerstein, Peter (1999):} The Politics Of Inclusion: The Case Of The Baltic States, in: \textsl{Cooperation and Conflict}, Vol.34 (3), S.272-296.
+
+
+	\item [\Rectsteel] \textbf{Williamson, Oliver E. (1975):} Markets And Hierarchies: Analysis And Antitrust Implications, New York, USA.
+
+
+	\item [\Rectsteel] \textbf{Williamson, Oliver E. (1985):} The Economic Institutions Of Capitalism, New York, USA.
+
+
+
+	\item [\Rectsteel] \textbf{Williamson, Oliver E. (1998):} Transaction Cost Economics: How It Works: Where It Is Headed, in: \textsl{De Economist}, Vol.146 (1), S.23-58.
+
+
+	\item [\Rectsteel] \textbf{Woehrel, Steven (2012):} Russian Energy Policy Toward Neighbouring Countries, in: \textsl{Current Politics \& Economics In Europe}, Vol.23 (3/4), S.403-433.
+
+
+	\item [\Rectsteel] \textbf{The World Bank:} \textcolor{MidnightBlue}{\url{http://www.worldbank.org}}
+
+
+	\item [\Rectsteel] \textbf{Yergin, Daniel (2006):} Ensuring Energy Security, in: \textsl{Foreign Affairs}, Vol.85 (2), S.69-82.
+
+
+	\item [\Rectsteel] \textbf{Ziegler, Charles E. (2012):} Energy Pipeline Networks And Trust: The European Union And Russia In Comparative Perspective, in: \textsl{International Relations}, Vol.27 (1), S.3-29.
+
+
+\end{small}	
+
+
+
+	\end{compactitem}
+
+
+
+\end{document}
