@@ -1,11 +1,11 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013) (format=pdflatex 2014.4.6)  10 APR 2014 21:50
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013) (format=pdflatex 2014.3.2)  10 APR 2014 22:55
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
 **Diplomarbeit_Pascal-Bernhard.tex
 (./Diplomarbeit_Pascal-Bernhard.tex
 LaTeX2e <2011/06/27>
-Babel <3.9f> and hyphenation patterns for 80 languages loaded.
+Babel <3.9f> and hyphenation patterns for 42 languages loaded.
 (/usr/share/texmf-dist/tex/latex/koma-script/scrreprt.cls
 Document Class: scrreprt 2012/07/29 v3.11b KOMA-Script document class (report)
 (/usr/share/texmf-dist/tex/latex/koma-script/scrkbase.sty
@@ -2101,13 +2101,13 @@ Package babel Info: Redefining ngerman shorthand "~
 (babel)             in language  on input line 735.
  [59]
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 737.
+(babel)             in language  on input line 743.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 737.
+(babel)             in language  on input line 743.
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 737.
+(babel)             in language  on input line 743.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 737.
+(babel)             in language  on input line 743.
  [60]
 Package babel Info: Redefining ngerman shorthand "|
 (babel)             in language  on input line 743.
@@ -3193,12 +3193,12 @@ anged.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 2258.
  ) 
 Here is how much of TeX's memory you used:
- 35913 strings out of 493301
- 785145 string characters out of 6142880
- 1003108 words of memory out of 5000000
- 37377 multiletter control sequences out of 15000+600000
+ 35913 strings out of 493853
+ 785145 string characters out of 6157278
+ 1001432 words of memory out of 5000000
+ 37203 multiletter control sequences out of 15000+600000
  183021 words of font info for 566 fonts, out of 8000000 for 9000
- 957 hyphenation exceptions out of 8191
+ 788 hyphenation exceptions out of 8191
  64i,12n,82p,2557b,886s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texmf-dist/fonts/enc/dvips/lm/lm-ts1.enc}{/usr/share/texmf-dist/f
 onts/enc/dvips/base/8r.enc}{/usr/share/texmf-dist/fonts/enc/dvips/lm/lm-rm.enc}
@@ -3219,7 +3219,7 @@ f-dist/fonts/type1/urw/palatino/uplbi8a.pfb></usr/share/texmf-dist/fonts/type1/
 urw/palatino/uplr8a.pfb></usr/share/texmf-dist/fonts/type1/urw/palatino/uplr8a.
 pfb></usr/share/texmf-dist/fonts/type1/urw/palatino/uplri8a.pfb></usr/share/tex
 mf-dist/fonts/type1/urw/zapfding/uzdr.pfb>
-Output written on Diplomarbeit_Pascal-Bernhard.pdf (150 pages, 1077273 bytes).
+Output written on Diplomarbeit_Pascal-Bernhard.pdf (150 pages, 1077226 bytes).
 PDF statistics:
  2134 PDF objects out of 2487 (max. 8388607)
  1921 compressed objects within 20 object streams
