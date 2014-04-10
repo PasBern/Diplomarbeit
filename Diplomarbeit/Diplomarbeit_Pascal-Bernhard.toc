@@ -72,15 +72,16 @@
 \contentsline {paragraph}{Ziele und Strategien}{102}{section*.32}
 \contentsline {section}{\numberline {11.2}Energiepolitischer Diskurs in Lettland}{106}{section.11.2}
 \contentsline {paragraph}{Quantifizierung der Energiepolitik}{107}{section*.33}
-\contentsline {paragraph}{Versorgungssicherheit}{108}{section*.34}
+\contentsline {paragraph}{Versorgungssicherheit}{109}{section*.34}
+\contentsline {paragraph}{Bin\"are Gegens\"atze}{110}{section*.35}
 \contentsline {chapter}{\numberline {12}Fazit}{113}{chapter.12}
 \contentsline {chapter}{\numberline {13}Literaturverzeichnis}{117}{chapter.13}
 \contentsline {chapter}{\numberline {14}Anhang}{139}{chapter.14}
 \contentsline {section}{\numberline {14.1}Erl\"auterungen}{139}{section.14.1}
-\contentsline {paragraph}{BIP}{139}{section*.35}
-\contentsline {paragraph}{Herfindahl-Hirschman--Index}{139}{section*.36}
-\contentsline {paragraph}{Nat\"urliches Monopol}{141}{section*.37}
-\contentsline {paragraph}{Rent-Seeking}{141}{section*.38}
-\contentsline {paragraph}{Sunk Costs}{142}{section*.39}
+\contentsline {paragraph}{BIP}{139}{section*.36}
+\contentsline {paragraph}{Herfindahl-Hirschman--Index}{139}{section*.37}
+\contentsline {paragraph}{Nat\"urliches Monopol}{141}{section*.38}
+\contentsline {paragraph}{Rent-Seeking}{141}{section*.39}
+\contentsline {paragraph}{Sunk Costs}{142}{section*.40}
 \contentsline {section}{\numberline {14.2}Koalitionen und Parteien in Lettland}{144}{section.14.2}
 \contentsline {section}{\numberline {14.3}Fragen f\"ur Interviews}{148}{section.14.3}
