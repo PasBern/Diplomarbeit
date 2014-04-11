@@ -89,4 +89,4 @@
 \contentsline {paragraph}{Sunk Costs}{144}{section*.44}
 \contentsline {paragraph}{Vertikal Integriertes Unternehmen}{145}{section*.45}
 \contentsline {section}{\numberline {14.2}Koalitionen und Parteien in Lettland}{146}{section.14.2}
-\contentsline {section}{\numberline {14.3}Fragen f\"ur Interviews}{150}{section.14.3}
+\contentsline {section}{\numberline {14.3}Fragen f\"ur Interviews}{151}{section.14.3}
