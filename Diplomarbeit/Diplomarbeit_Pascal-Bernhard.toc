@@ -5,9 +5,9 @@
 \contentsline {section}{\numberline {2.2}Quellenlage}{12}{section.2.2}
 \contentsline {chapter}{\numberline {3}Forschungsdesign}{15}{chapter.3}
 \contentsline {section}{\numberline {3.1}Ansatz der Pfadabh\"angigkeiten}{15}{section.3.1}
-\contentsline {subsection}{\numberline {3.1.a}Logik der Pfadabh\"angigkeiten}{16}{subsection.3.1.1}
+\contentsline {subsection}{\numberline {3.1-a}Logik der Pfadabh\"angigkeiten}{16}{subsection.3.1.1}
 \contentsline {paragraph}{Selbstverst\"arkende Mechanismen}{18}{section*.2}
-\contentsline {subsection}{\numberline {3.1.b}Institutioneller Wandel}{19}{subsection.3.1.2}
+\contentsline {subsection}{\numberline {3.1-b}Institutioneller Wandel}{19}{subsection.3.1.2}
 \contentsline {paragraph}{Relative Preise}{20}{section*.3}
 \contentsline {paragraph}{Nationale Gegebenheiten}{21}{section*.4}
 \contentsline {section}{\numberline {3.2}Transaction Cost Economics}{22}{section.3.2}
@@ -15,8 +15,8 @@
 \contentsline {paragraph}{Ebene 2}{24}{section*.6}
 \contentsline {paragraph}{Modellebene 3}{24}{section*.7}
 \contentsline {paragraph}{Ebene 4}{25}{section*.8}
-\contentsline {subsection}{\numberline {3.2.a}Kritik des Modells}{25}{subsection.3.2.1}
-\contentsline {subsection}{\numberline {3.2.b}Die Verwendung des Ansatzes}{27}{subsection.3.2.2}
+\contentsline {subsection}{\numberline {3.2-a}Kritik des Modells}{25}{subsection.3.2.1}
+\contentsline {subsection}{\numberline {3.2-b}Die Verwendung des Ansatzes}{27}{subsection.3.2.2}
 \contentsline {section}{\numberline {3.3}Variablen und Hypothesen}{28}{section.3.3}
 \contentsline {subsubsection}{Ausgangsbedingungen f\"ur Reformen}{29}{section*.9}
 \contentsline {paragraph}{Pfadabh\"angigkeiten durch Marktstrukturen}{29}{section*.10}
@@ -29,19 +29,19 @@
 \contentsline {paragraph}{Eintrittsbarrieren}{38}{section*.15}
 \contentsline {paragraph}{Skalenertr\"age}{39}{section*.16}
 \contentsline {paragraph}{Vertikale Integration}{40}{section*.17}
-\contentsline {subsection}{\numberline {4.1.a}Netzinfrastruktur}{41}{subsection.4.1.1}
+\contentsline {subsection}{\numberline {4.1-a}Netzinfrastruktur}{41}{subsection.4.1.1}
 \contentsline {section}{\numberline {4.2}Pfadabh\"angigkeiten}{43}{section.4.2}
 \contentsline {chapter}{\numberline {5}Liberalisierung und Regulierung}{44}{chapter.5}
 \contentsline {section}{\numberline {5.1}Energieversorgung als \"offentliches Gut}{44}{section.5.1}
 \contentsline {section}{\numberline {5.2}Die Liberalisierung von Gasm\"arkten}{46}{section.5.2}
-\contentsline {subsection}{\numberline {5.2.a}Marktregulierung}{47}{subsection.5.2.1}
+\contentsline {subsection}{\numberline {5.2-a}Marktregulierung}{47}{subsection.5.2.1}
 \contentsline {chapter}{\numberline {6}Gasmarktliberalisierung in Europa}{49}{chapter.6}
 \contentsline {section}{\numberline {6.1}Die erste Liberalisierungsrichtlinie}{49}{section.6.1}
 \contentsline {paragraph}{Ziele der Richtlinie}{49}{section*.18}
 \contentsline {section}{\numberline {6.2}Das zweite Liberalisierungspaket}{51}{section.6.2}
 \contentsline {paragraph}{Ergebnisse der Liberalisierung}{51}{section*.19}
 \contentsline {section}{\numberline {6.3}Drittes Liberalisierungspaket}{53}{section.6.3}
-\contentsline {subsection}{\numberline {6.3.a}Vertikale Entflechtung}{55}{subsection.6.3.1}
+\contentsline {subsection}{\numberline {6.3-a}Vertikale Entflechtung}{55}{subsection.6.3.1}
 \contentsline {paragraph}{Ownership Unbundling}{55}{section*.20}
 \contentsline {paragraph}{Independent System Operator}{55}{section*.21}
 \contentsline {paragraph}{Independent Transmission Operator}{56}{section*.22}
@@ -53,16 +53,16 @@
 \contentsline {chapter}{\numberline {9}Energiem\"arkte im Baltikum}{69}{chapter.9}
 \contentsline {section}{\numberline {9.1}Der Energiemarkt Lettlands}{70}{section.9.1}
 \contentsline {paragraph}{Verh\"altnis zu Russland}{70}{section*.23}
-\contentsline {subsection}{\numberline {9.1.a}Der Gasmarkt in Lettland}{73}{subsection.9.1.1}
+\contentsline {subsection}{\numberline {9.1-a}Der Gasmarkt in Lettland}{73}{subsection.9.1.1}
 \contentsline {subsubsection}{Privatisierung Latvijas G\={a}zes}{74}{section*.24}
 \contentsline {paragraph}{Russischer Einfluss?}{77}{section*.26}
 \contentsline {paragraph}{Monopole und Pfadabh\"angigkeiten}{78}{section*.27}
 \contentsline {section}{\numberline {9.2}Der litauische Energiemarkt}{81}{section.9.2}
-\contentsline {subsection}{\numberline {9.2.a}Der Gasmarkt in Litauen}{82}{subsection.9.2.1}
+\contentsline {subsection}{\numberline {9.2-a}Der Gasmarkt in Litauen}{82}{subsection.9.2.1}
 \contentsline {paragraph}{Versorgungssituation}{82}{section*.28}
 \contentsline {subsubsection}{Struktur und Akteure in Litauen}{83}{section*.29}
 \contentsline {paragraph}{Litauen vs. Gazprom}{88}{section*.31}
-\contentsline {subsection}{\numberline {9.2.b}Marktstrukturen und Pfadabh\"angigkeiten}{89}{subsection.9.2.2}
+\contentsline {subsection}{\numberline {9.2-b}Marktstrukturen und Pfadabh\"angigkeiten}{89}{subsection.9.2.2}
 \contentsline {chapter}{\numberline {10}Vergleich der Energiepolitik}{91}{chapter.10}
 \contentsline {section}{\numberline {10.1}Die Stillegung des Kernkraftwerks Ignalina}{92}{section.10.1}
 \contentsline {section}{\numberline {10.2}Politische Instabilit\"at in Lettland}{93}{section.10.2}
