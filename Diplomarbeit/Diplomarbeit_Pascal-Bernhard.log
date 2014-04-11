@@ -1,11 +1,11 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013) (format=pdflatex 2014.3.2)  11 APR 2014 00:34
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013) (format=pdflatex 2014.4.6)  11 APR 2014 09:50
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
 **Diplomarbeit_Pascal-Bernhard.tex
 (./Diplomarbeit_Pascal-Bernhard.tex
 LaTeX2e <2011/06/27>
-Babel <3.9f> and hyphenation patterns for 42 languages loaded.
+Babel <3.9f> and hyphenation patterns for 80 languages loaded.
 (/usr/share/texmf-dist/tex/latex/koma-script/scrreprt.cls
 Document Class: scrreprt 2012/07/29 v3.11b KOMA-Script document class (report)
 (/usr/share/texmf-dist/tex/latex/koma-script/scrkbase.sty
@@ -2101,13 +2101,13 @@ Package babel Info: Redefining ngerman shorthand "~
 (babel)             in language  on input line 735.
  [59]
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 743.
+(babel)             in language  on input line 737.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 743.
+(babel)             in language  on input line 737.
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 743.
+(babel)             in language  on input line 737.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 743.
+(babel)             in language  on input line 737.
  [60]
 Package babel Info: Redefining ngerman shorthand "|
 (babel)             in language  on input line 743.
@@ -2197,7 +2197,7 @@ Package babel Info: Redefining ngerman shorthand "|
 (babel)             in language  on input line 800.
 Package babel Info: Redefining ngerman shorthand "~
 (babel)             in language  on input line 800.
-<Pipelines.png, id=985, 624.83438pt x 558.58687pt>
+<Pipelines.png, id=987, 624.83438pt x 558.58687pt>
 File: Pipelines.png Graphic file (type png)
  <use Pipelines.png>
 Package pdftex.def Info: Pipelines.png used on input line 808.
@@ -3207,12 +3207,12 @@ anged.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 2273.
  ) 
 Here is how much of TeX's memory you used:
- 35914 strings out of 493853
- 785151 string characters out of 6157278
- 1000430 words of memory out of 5000000
- 37203 multiletter control sequences out of 15000+600000
+ 35915 strings out of 493301
+ 785164 string characters out of 6142880
+ 1002108 words of memory out of 5000000
+ 37377 multiletter control sequences out of 15000+600000
  183021 words of font info for 566 fonts, out of 8000000 for 9000
- 788 hyphenation exceptions out of 8191
+ 957 hyphenation exceptions out of 8191
  64i,12n,82p,2557b,886s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texmf-dist/fonts/enc/dvips/lm/lm-ts1.enc}{/usr/share/texmf-dist/f
 onts/enc/dvips/base/8r.enc}{/usr/share/texmf-dist/fonts/enc/dvips/lm/lm-rm.enc}
@@ -3233,10 +3233,10 @@ f-dist/fonts/type1/urw/palatino/uplbi8a.pfb></usr/share/texmf-dist/fonts/type1/
 urw/palatino/uplr8a.pfb></usr/share/texmf-dist/fonts/type1/urw/palatino/uplr8a.
 pfb></usr/share/texmf-dist/fonts/type1/urw/palatino/uplri8a.pfb></usr/share/tex
 mf-dist/fonts/type1/urw/zapfding/uzdr.pfb>
-Output written on Diplomarbeit_Pascal-Bernhard.pdf (151 pages, 1079171 bytes).
+Output written on Diplomarbeit_Pascal-Bernhard.pdf (151 pages, 1079412 bytes).
 PDF statistics:
- 2138 PDF objects out of 2487 (max. 8388607)
- 1924 compressed objects within 20 object streams
- 660 named destinations out of 1000 (max. 500000)
+ 2141 PDF objects out of 2487 (max. 8388607)
+ 1927 compressed objects within 20 object streams
+ 661 named destinations out of 1000 (max. 500000)
  91646 words of extra memory for PDF output out of 106986 (max. 10000000)
 
