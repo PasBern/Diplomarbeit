@@ -208,6 +208,9 @@ pdfmetalang={de-DE}
 
 \newpage
 
+\thispagestyle{empty}
+
+
 \textbf{Diese Diplomarbeit widme ich Frau Andrea Volmary und Herrn Kai-Uwe Christoph, ohne deren Hilfe mein Studienabschluss nicht möglich gewesen wäre.}
 
 \end{flushleft}
@@ -223,8 +226,14 @@ pdfmetalang={de-DE}
 \renewcommand\thesubsection{\thesection.\alph{subsection}}
 
 %%%Inhaltsverzeichnis----------------------------------------------------------------------
-\tableofcontents
 
+\cleardoublepage
+\begingroup
+\renewcommand*{\chapterpagestyle}{empty}
+\pagestyle{empty}
+\tableofcontents
+\clearpage
+\endgroup
 
 %%%----------------------------------------------------------------------
 \setlength{\parindent}{30pt}
@@ -487,7 +496,7 @@ Als Einstieg in das Thema sollen zu Beginn die Eigenschaften von Gasmärkten erlä
 
 Analytischer Ausgangspunkt dieses Kapitels sind Abweichungen des Gasmarktes von der Idee eines perfekten Marktes, deren Effekte aus ökonomischer und politischer Sicht unerwünscht sind. Hierbei sollen die Beweggründe für Regulierung thematisiert werden, zugleich will ich auch auf die Beschränkungen bisheriger Modelle von Monopolregulierung eingehen, die wiederum Anlass zu Liberalisierung gegeben hat. Dieser Schritt macht die Ziele des Dritten Liberalisierungspaketes nachvollziehbar und verdeutlicht, welche Überlegungen hinter den unterschiedlichen Umsetzungsoptionen stehen.
 
-
+% Gasmärkte können in drei Bereiche gegliedert werden: Erdgasförderung, auch als \glqq Upstream\grqq{} bezeichnet, Fernleitung mittels Pipelines und Verteilung an die Endverbraucher, \glqq Downstream\grqq{} genannt\footnote{Eine detailliertere Erläuterung der Begriffe kann im Anhang \textsf{\textcolor{MidnightBlue}{\nameref{sec:Up-Downstream}}} gefunden werden.}. 
 
 
 \section[Merkmale des Gassektors]{Besondere Eigenschaften von Gasmärkten}\label{sec:Gasmärkte}
@@ -496,8 +505,8 @@ Analytischer Ausgangspunkt dieses Kapitels sind Abweichungen des Gasmarktes von 
 %%%%%%%%Irreversible Kosten & Markteintrittsbarrieren
 
 \paragraph {Sunk Costs}
-Gasmärkte können in drei Bereiche gegliedert werden: Erdgasförderung, auch als \glqq Upstream\grqq{} bezeichnet, Fernleitung mittels Pipelines und Verteilung an die Endverbraucher, \glqq Downstream\grqq{} genannt. Nebst der kostenträchtigen Erforschung potentieller Erdgasvorkommen, erfordern die Förderung und der Transport von Erdgas Anlagen und Netzinfrastruktur. Entsprechende Investitionen sind stets langfristiger Natur und zugleich irreversibel, das heißt, die Kosten können später nicht durch Verkauf der Anlagen oder nur schwer zurückgewonnen werden\footnote{Spanjer (2009), S.3251}.  In der Fachliteratur wird diese Situation als \textsl{Sunk Costs} bezeichnet\footnote{Für eine ausführlichere Erläuterung siehe: \textsf{\textcolor{MidnightBlue}{\nameref{sec:Sunk Costs}}}}.
-Eine Pipeline beispielsweise verbindet ein Fördergebiet mit einem Abnehmer und ihr Verlauf ist nach dem Bau für ihre Lebensdauer festgelegt. Weder kann Netzwerkinfrastruktur geographisch versetzt werden, noch sind alternative Verwendungsmöglichkeiten außer dem Transport von Gas denkbar. Diese Besonderheit, \textsc{Spanjer} spricht von \glqq Asset Specifity \grqq{}\footnote{Spanjer (2009), S.3252}, ist auch bei Erdgaslagerstätten und ihren Förderanlagen gegeben.
+Neben der kostenintensiven Erforschung potentieller Erdgasvorkommen, erfordern auch die Förderung und der Transport von Erdgas hohe Ausgaben für Bohranlagen und die Netzinfrastruktur. Entsprechende Investitionen sind stets langfristiger Natur und zugleich irreversibel, das heißt, die Kosten können später nicht durch Verkauf der Anlagen oder nur schwer zurückgewonnen werden\footnote{Spanjer (2009), S.3251}.  In der Fachliteratur wird diese Situation als \textsl{Sunk Costs} bezeichnet\footnote{Für eine ausführlichere Erläuterung siehe: \textsf{\textcolor{MidnightBlue}{\nameref{sec:Sunk Costs}}}}.
+Eine Pipeline beispielsweise verbindet ein Fördergebiet mit einem Abnehmer und ihr Verlauf ist nach dem Bau für ihre Lebensdauer festgelegt. Weder kann Netzwerkinfrastruktur geographisch versetzt werden, noch sind alternative Verwendungsmöglichkeiten außer dem Transport von Gas denkbar. Diese Besonderheit, \textsc{Spanjer} spricht von \glqq Asset Specifity\grqq{}\footnote{Spanjer (2009), S.3252}, ist auch bei Erdgaslagerstätten und ihren Förderanlagen gegeben.
 
 
 %%%Markteintrittsbarrieren
@@ -2193,7 +2202,11 @@ Bereits am 17. September wurden vorgezogene Neuwahlen zur Saeima abgehalten, nac
 
 \newpage
 
-\thispagestyle{empty}
+\cleardoublepage
+\begingroup
+\renewcommand*{\chapterpagestyle}{empty}
+\pagestyle{empty}
+
 
 \section[Fragen für Interviews]{Anhang III -- Fragenkatalog für Experteninterviews}
 
@@ -2229,7 +2242,6 @@ Bereits am 17. September wurden vorgezogene Neuwahlen zur Saeima abgehalten, nac
 % -------------------------------------------------------------------------------------------------------------------------------------
 % Hier kommt die eidesstattliche Erklärung
 
-\thispagestyle{empty}
 
 \begin{center}
 \textsf{{\textbf{\large Eidesstattliche Erklärung zur Diplomarbeit}}}
@@ -2274,6 +2286,9 @@ dass ein Exemplar meiner Diplomarbeit in der Bibliothek ausgeliehen werden kann.
  Berlin, den \today{}     && Unterschrift
 \end{tabular}
 
+
+\clearpage
+\endgroup
 
 
 \end{document}
