@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013) (format=pdflatex 2014.4.6)  12 APR 2014 13:35
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013) (format=pdflatex 2014.4.6)  12 APR 2014 13:47
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1863,14 +1863,14 @@ Package babel Info: Redefining ngerman shorthand "|
 Package babel Info: Redefining ngerman shorthand "~
 (babel)             in language  on input line 547.
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 550.
+(babel)             in language  on input line 547.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 550.
-Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 550.
-Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 550.
+(babel)             in language  on input line 547.
  [43]
+Package babel Info: Redefining ngerman shorthand "|
+(babel)             in language  on input line 547.
+Package babel Info: Redefining ngerman shorthand "~
+(babel)             in language  on input line 547.
 Package babel Info: Redefining ngerman shorthand "|
 (babel)             in language  on input line 553.
 Package babel Info: Redefining ngerman shorthand "~
@@ -3233,7 +3233,7 @@ f-dist/fonts/type1/urw/palatino/uplbi8a.pfb></usr/share/texmf-dist/fonts/type1/
 urw/palatino/uplr8a.pfb></usr/share/texmf-dist/fonts/type1/urw/palatino/uplr8a.
 pfb></usr/share/texmf-dist/fonts/type1/urw/palatino/uplri8a.pfb></usr/share/tex
 mf-dist/fonts/type1/urw/zapfding/uzdr.pfb>
-Output written on Diplomarbeit_Pascal-Bernhard.pdf (153 pages, 1082528 bytes).
+Output written on Diplomarbeit_Pascal-Bernhard.pdf (153 pages, 1082607 bytes).
 PDF statistics:
  2159 PDF objects out of 2487 (max. 8388607)
  1943 compressed objects within 20 object streams
