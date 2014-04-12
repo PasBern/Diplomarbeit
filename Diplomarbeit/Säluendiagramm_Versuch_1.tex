@@ -1,0 +1,287 @@
+\documentclass[
+10pt,			%Schriftgröße
+paper=a4,		%Papierformat
+ngerman,		%Deutsche Silbentrennung
+BCOR=0pt,		%Bindekorrektureinstellung=AN (15mm) Bindekorrektureinstellung=AUS > 0pt
+%twoside,
+DIV=calc,		%Satzspiegelberechnung
+headinclude,	%Kopfzeile bei Satzspiegelberechnung mit einbeziehen
+headsepline,	%Trennlinie unter der Kopfzeile
+numbers=noenddot,
+]{scrreprt}
+\usepackage[T1]{fontenc}
+\usepackage{lmodern}
+\usepackage[sc]{mathpazo}
+
+% Satzspiegel wird neu berechnet
+\typearea[current]{calc}
+
+\usepackage[ansinew]{inputenc}
+
+% Paket für besseres Schriftbild
+\usepackage{microtype}
+
+
+% Allgemeine Pakete:
+
+\usepackage{xcolor}
+\usepackage[ngerman]{babel}
+\usepackage{relsize}
+\usepackage{paralist}
+\usepackage{mdwlist}
+\usepackage{typearea}
+\usepackage{setspace}
+%\usepackage{textcomp}
+\usepackage{marvosym}
+
+\usepackage{fancybox}
+\usepackage{array}
+\usepackage{amsfonts,amsmath,amssymb}
+\usepackage{pifont}
+\usepackage{calc}
+\usepackage{ifthen}
+\usepackage{tikz}
+\usepackage{pgf-pie}
+\usepackage{pgfplots}
+\pgfplotsset{compat=1.8}
+
+
+\usetikzlibrary{shapes,arrows,shadows}
+
+\usepackage{scrpage2}
+
+% Pakete für Abbildungen
+\usepackage{graphicx}
+\usepackage{floatrow}
+\usepackage{floatpag}
+
+
+
+% Fußnotengefrickel muss vor HYPERREF geladen werden
+\usepackage[bottom,flushmargin,hang,multiple]{footmisc}
+
+%Hyperxmp-Paket einbinden für PDF-Metadaten
+\usepackage{hyperxmp} 
+
+% Rahmen um Hyperlinks unterbinden
+\usepackage[bookmarks=true,pdftoolbar=true,pdfmenubar=true,pdfstartview={FitH},citecolor=magenta,hidelinks,breaklinks=true]{hyperref}
+
+\hypersetup{ %
+pdftitle={Gasmarktliberalisierung im Baltikum}
+pdfauthor={Pascal Bernhard}
+pdfproducer={Texlive-LaTeX 2013 on Sabayon GNU/Linux 3.12 & 3.13}
+pdfcopyright={Creative Commons 3.0 CC-BY}
+pdflicenseurl={https://creativecommons.org/licenses/by/3.0/de/legalcode}
+pdfmetalang={de-DE}
+}
+
+
+
+
+%%% Auf tatsächlichen Namen des Abschnitts verlinken
+\usepackage{titleref}
+\usepackage{nameref}
+
+
+
+% Abstände zwischen Überschrift und Textkörper modifizieren [PAKET NICHT INSTALLIERT!!!!]
+%\titlesec
+
+% Gleiche Schriftart für Hyperlinks
+\urlstyle{same}
+
+
+%  Gefrickel um URL-Links vernünftig umzubrechen
+\makeatletter
+\g@addto@macro\UrlBreaks{
+  \do\a\do\b\do\c\do\d\do\e\do\f\do\g\do\h\do\i\do\j
+  \do\k\do\l\do\m\do\n\do\o\do\p\do\q\do\r\do\s\do\t
+  \do\u\do\v\do\w\do\x\do\y\do\z\do\&\do\1\do\2\do\3
+  \do\4\do\5\do\6\do\7\do\8\do\9\do\0}
+% \def\do@url@hyp{\do\-}
+
+% Hiermit soll einer übervolle Box verhindert werden -- funktioniert sogar irgendwie
+\g@addto@macro\UrlSpecials{\do\/{\mbox{\UrlFont/}\hskip 0pt plus 1pt}}
+\makeatother
+
+% Hier kommen Optionen der KOMA-Klasse zu Überschriften
+\KOMAoptions{headings=small}
+
+% Einstellungen fpr Kopfzeilen
+\ihead{\leftmark} 
+\ohead{\rightmark} 
+\chead{} 
+\pagestyle{scrheadings} 
+\automark[section]{chapter}
+
+\setfootnoterule[0.8pt]{10cm} % Höhe und Länge des Trennstriches für Fußnoten anpassen
+\setkomafont{caption}{\sffamily} % Bezeichnungen von Bilder werden serifenlos und fett gesetzt
+\setkomafont{captionlabel}{\sffamily\bfseries} % Beschreibungen von Bilder werden serifenlos und fett gesetzt
+
+\renewcommand{\headfont}{\small\sffamily\mdseries} % Schriftart der Kopfzeile ändern
+
+
+
+%%%----------------------------------------------------------------------
+\definecolor{dunkelgrau}{gray}{0.20}
+\definecolor{hellgrau}{gray}{0.40}
+\definecolor{MidnightBlue}{RGB}{0,103,149}
+\definecolor{NavyBlue}{RGB}{0,110,184}
+\definecolor{MidBlue}{rgb}{0.173,0.212,0.597}
+\definecolor{Dschungel}{cmyk}{0.99,0,0.52,0.2}
+
+
+%%% Palatino benörtigt größeren Raum zwischen den Zeilen
+\linespread{1.05}
+
+
+\onehalfspacing
+\typearea[current]{calc}
+
+
+
+%%% Schriften umdefinieren:
+
+\newcommand{\changefont}[3]{
+\fontfamily{#1} \fontseries{#2} \fontshape{#3} \selectfont}
+
+\newcommand{\textemph}{\textsl{\textbf}}
+%%%----------------------------------------------------------------------
+\begin{document}
+
+\begin{spacing}{1}
+
+%%% Deckblatt Start
+\thispagestyle{empty}
+
+
+\begin{center}
+\Large{Freie Universit\"{a}t Berlin}\\
+\end{center}
+ 
+ 
+\begin{center}
+\Large{Fachbereich Politikwissenschaft}
+\end{center}
+\begin{verbatim}
+ 
+ 
+\end{verbatim}
+\begin{center}
+\textbf{\LARGE{\changefont{ppl}{b}{n}
+\sffamily{Diplomarbeit}}}
+\end{center}
+\begin{verbatim}
+ 
+ 
+\end{verbatim}
+\begin{center}
+\textbf{\changefont{ppl}{b}{n}
+\sffamily{im Studiengang Politik}}
+\end{center}
+\begin{verbatim}
+ 
+ 
+\end{verbatim}
+ 
+\begin{flushleft}
+\begin{tabular}{lll}
+
+\textbf{Thema:} & & Energiepolitik im Baltikum --\\
+& & Umsetzung des 3. EU-Liberalisierungspakets zum\\
+& & Gasbinnenmarkt in Litauen und Lettland\\
+& & \\
+& & \\
+& & \\
+
+
+
+\textbf{eingereicht von:} & & Pascal Bernhard \flq{}pascal.bernhard@belug.de\frq{}\\
+& & \\
+& & \\
+\textbf{eingereicht am:} & & 11. April 2014\\
+& & \\
+& & \\
+\textbf{Betreuer:} & & Herr Prof. Dr. Manfred Kerner\\
+\textbf{Betreuer:} & & Frau Prof. Dr. Miranda Schreurs
+\end{tabular}
+
+\newpage
+
+\thispagestyle{empty}
+
+
+\textbf{Diese Diplomarbeit widme ich Frau Andrea Volmary und Herrn Kai-Uwe Christoph, ohne deren Hilfe mein Studienabschluss nicht möglich gewesen wäre.}
+
+\end{flushleft}
+
+\end{spacing}
+ 
+%Deckblatt Ende
+
+
+%%%Palatino als Standardschrift
+\renewcommand{\rmdefault}{ppl}
+
+\renewcommand\thesubsection{\thesection.\alph{subsection}}
+
+%%%Inhaltsverzeichnis----------------------------------------------------------------------
+
+\cleardoublepage
+\begingroup
+\renewcommand*{\chapterpagestyle}{empty}
+\pagestyle{empty}
+\tableofcontents
+\clearpage
+\endgroup
+
+%%%----------------------------------------------------------------------
+\setlength{\parindent}{30pt}
+\setlength{\parskip}{0pt}
+
+
+\definecolor{myblue}{HTML}{92dcec}
+
+\begin{center}
+
+
+\begin{tikzpicture}
+ 
+  \draw (0cm,0cm) -- (15.5cm,0cm);  %Abzisse
+  \draw (0cm,0cm) -- (0cm,-0.1cm);  %linkes Ende der Abzisse
+  \draw (15.5cm,0cm) -- (15.5cm,-0.1cm);  %rechtes Ende der Abzisse
+  
+  \draw (-0.1cm,0cm) -- (-0.1cm,4.5cm);  %Ordinate
+  \draw (-0.1cm,0cm) -- (-0.2cm,0cm);  %unteres Ende der Ordinate
+  \draw (-0.1cm,4.5cm) -- (-0.2cm,4.5cm) node [left] {\%};  %oberes Ende der Ordinate
+
+  \foreach \x in {1,...,4}  %Hilfslinien
+    \draw[gray!50, text=black] (-0.2 cm,\x cm) -- (15.5 cm,\x cm) 
+      node at (-0.5 cm,\x cm) {\x};  %Beschriftung der Hilfslinien
+
+    \node at (7.5cm,5cm) {Wachstumsrate des realen BIP für die zehn
+                           Bevölkerungsreichsten Staaten der EU 2005};  %Überschrift
+
+  \foreach \x/\y/\country in {0.5/4.1/Rumänien,  %\x ist Anfang der Säulen
+                              2/3.7/Griechenland,  %\y ist Höhe der Säulen
+                              3.5/3.5/Spanien,
+                              5/3.5/Polen,
+                              6.5/1.9/Großbritannien,
+                              8/1.5/Niederlande,
+                              9.5/1.2/Frankreich,
+                              11/0.9/Deutschland,
+                              12.5/0.5/Portugal,
+                              14/0.1/Italien}
+    {
+     \draw[fill=myblue] (\x cm,0cm) rectangle (0.5cm+\x cm,\y cm) %die Säulen
+       node at (0.5cm + \x cm,\y cm + 0.3cm) {\y}; %die Prozente über den Säulen
+     \node[rotate=45, left] at (0.6 cm +\x cm,-0.1cm) {\country}; %Säulenbeschriftung
+    };
+
+\end{tikzpicture}
+
+
+\end{center}
+
+
+\end{document}
