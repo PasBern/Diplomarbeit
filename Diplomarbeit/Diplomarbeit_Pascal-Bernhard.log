@@ -1,11 +1,11 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013) (format=pdflatex 2014.4.6)  13 APR 2014 17:12
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013) (format=pdflatex 2014.3.2)  14 APR 2014 00:40
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
 **Diplomarbeit_Pascal-Bernhard.tex
 (./Diplomarbeit_Pascal-Bernhard.tex
 LaTeX2e <2011/06/27>
-Babel <3.9f> and hyphenation patterns for 80 languages loaded.
+Babel <3.9f> and hyphenation patterns for 42 languages loaded.
 (/usr/share/texmf-dist/tex/latex/koma-script/scrreprt.cls
 Document Class: scrreprt 2012/07/29 v3.11b KOMA-Script document class (report)
 (/usr/share/texmf-dist/tex/latex/koma-script/scrkbase.sty
@@ -1920,31 +1920,31 @@ Package babel Info: Redefining ngerman shorthand "|
 Package babel Info: Redefining ngerman shorthand "~
 (babel)             in language  on input line 579.
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 585.
+(babel)             in language  on input line 584.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 585.
+(babel)             in language  on input line 584.
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 585.
+(babel)             in language  on input line 584.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 585.
+(babel)             in language  on input line 584.
  [47]
 Package babel Info: Redefining ngerman shorthand "|
 (babel)             in language  on input line 587.
 Package babel Info: Redefining ngerman shorthand "~
 (babel)             in language  on input line 587.
+Package babel Info: Redefining ngerman shorthand "|
+(babel)             in language  on input line 591.
+Package babel Info: Redefining ngerman shorthand "~
+(babel)             in language  on input line 591.
+Package babel Info: Redefining ngerman shorthand "|
+(babel)             in language  on input line 591.
+Package babel Info: Redefining ngerman shorthand "~
+(babel)             in language  on input line 591.
+ [48]
 LaTeX Font Info:    Font shape `T1/pplx/bx/sl' in size <10> not available
 (Font)              Font shape `T1/pplx/b/sl' tried instead on input line 591.
 LaTeX Font Info:    Font shape `T1/pplx/b/sl' in size <10> not available
 (Font)              Font shape `T1/pplx/b/it' tried instead on input line 591.
-Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 592.
-Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 592.
-Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 592.
-Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 592.
- [48]
 Package babel Info: Redefining ngerman shorthand "|
 (babel)             in language  on input line 599.
 Package babel Info: Redefining ngerman shorthand "~
@@ -2189,7 +2189,7 @@ Package babel Info: Redefining ngerman shorthand "|
 (babel)             in language  on input line 784.
 Package babel Info: Redefining ngerman shorthand "~
 (babel)             in language  on input line 784.
-<Pipelines.png, id=1010, 624.83438pt x 558.58687pt>
+<Pipelines.png, id=1012, 624.83438pt x 558.58687pt>
 File: Pipelines.png Graphic file (type png)
  <use Pipelines.png>
 Package pdftex.def Info: Pipelines.png used on input line 792.
@@ -3212,12 +3212,12 @@ anged.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 2297.
  ) 
 Here is how much of TeX's memory you used:
- 35914 strings out of 493301
- 784633 string characters out of 6142880
- 1003102 words of memory out of 5000000
- 37357 multiletter control sequences out of 15000+600000
- 173270 words of font info for 555 fonts, out of 8000000 for 9000
- 957 hyphenation exceptions out of 8191
+ 35919 strings out of 493853
+ 784681 string characters out of 6157278
+ 1001424 words of memory out of 5000000
+ 37183 multiletter control sequences out of 15000+600000
+ 173555 words of font info for 559 fonts, out of 8000000 for 9000
+ 788 hyphenation exceptions out of 8191
  64i,12n,82p,2517b,886s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texmf-dist/fonts/enc/dvips/lm/lm-ts1.enc}{/usr/share/texmf-dist/f
 onts/enc/dvips/base/8r.enc}{/usr/share/texmf-dist/fonts/enc/dvips/lm/lm-rm.enc}
@@ -3239,10 +3239,10 @@ palatino/uplbi8a.pfb></usr/share/texmf-dist/fonts/type1/urw/palatino/uplr8a.pfb
 ></usr/share/texmf-dist/fonts/type1/urw/palatino/uplr8a.pfb></usr/share/texmf-d
 ist/fonts/type1/urw/palatino/uplri8a.pfb></usr/share/texmf-dist/fonts/type1/urw
 /zapfding/uzdr.pfb>
-Output written on Diplomarbeit_Pascal-Bernhard.pdf (154 pages, 1116546 bytes).
+Output written on Diplomarbeit_Pascal-Bernhard.pdf (154 pages, 1117103 bytes).
 PDF statistics:
- 2190 PDF objects out of 2487 (max. 8388607)
- 1972 compressed objects within 20 object streams
+ 2192 PDF objects out of 2487 (max. 8388607)
+ 1974 compressed objects within 20 object streams
  676 named destinations out of 1000 (max. 500000)
  86014 words of extra memory for PDF output out of 89155 (max. 10000000)
 
