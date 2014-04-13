@@ -26,11 +26,11 @@
 \contentsline {paragraph}{Normen als Erkl\"arungsvariable}{34}{section*.14}
 \contentsline {subsubsection}{Das Verh\"altnis zu Russland}{35}{section*.15}
 \contentsline {chapter}{\numberline {4}Gasm\"arkte}{38}{chapter.4}
-\contentsline {section}{\numberline {4.1}Merkmale des Gassektors}{38}{section.4.1}
-\contentsline {paragraph}{Sunk Costs}{38}{section*.16}
+\contentsline {section}{\numberline {4.1}Merkmale des Gassektors}{39}{section.4.1}
+\contentsline {paragraph}{Sunk Costs}{39}{section*.16}
 \contentsline {paragraph}{Eintrittsbarrieren}{39}{section*.17}
 \contentsline {paragraph}{Skalenertr\"age}{40}{section*.18}
-\contentsline {paragraph}{Vertikale Integration}{41}{section*.19}
+\contentsline {paragraph}{Vertikale Integration}{42}{section*.19}
 \contentsline {subsection}{\numberline {4.1.a}Netzinfrastruktur}{42}{subsection.4.1.1}
 \contentsline {section}{\numberline {4.2}Pfadabh\"angigkeiten}{44}{section.4.2}
 \contentsline {chapter}{\numberline {5}Liberalisierung und Regulierung}{45}{chapter.5}
