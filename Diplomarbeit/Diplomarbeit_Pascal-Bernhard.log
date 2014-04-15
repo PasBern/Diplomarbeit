@@ -1,11 +1,11 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013) (format=pdflatex 2014.3.2)  14 APR 2014 23:37
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013) (format=pdflatex 2014.4.6)  15 APR 2014 10:20
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
 **Diplomarbeit_Pascal-Bernhard.tex
 (./Diplomarbeit_Pascal-Bernhard.tex
 LaTeX2e <2011/06/27>
-Babel <3.9f> and hyphenation patterns for 42 languages loaded.
+Babel <3.9f> and hyphenation patterns for 80 languages loaded.
 (/usr/share/texmf-dist/tex/latex/koma-script/scrreprt.cls
 Document Class: scrreprt 2012/07/29 v3.11b KOMA-Script document class (report)
 (/usr/share/texmf-dist/tex/latex/koma-script/scrkbase.sty
@@ -3189,35 +3189,38 @@ Package babel Info: Redefining ngerman shorthand "|
 Package babel Info: Redefining ngerman shorthand "~
 (babel)             in language  on input line 2246.
  [153]
-Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 2296.
-Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 2296.
-Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 2296.
-Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 2296.
-Package atenddvi Info: Last page = 154.
+Overfull \hbox (0.64172pt too wide) in paragraph at lines 2293--2297
+[][] 
+ []
 
+Package babel Info: Redefining ngerman shorthand "|
+(babel)             in language  on input line 2299.
+Package babel Info: Redefining ngerman shorthand "~
+(babel)             in language  on input line 2299.
+Package babel Info: Redefining ngerman shorthand "|
+(babel)             in language  on input line 2299.
+Package babel Info: Redefining ngerman shorthand "~
+(babel)             in language  on input line 2299.
+Package atenddvi Info: Last page = 154.
 [154]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 2300.
-Package atveryend Info: Executing hook `AfterLastShipout' on input line 2300.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 2303.
+Package atveryend Info: Executing hook `AfterLastShipout' on input line 2303.
  (./Diplomarbeit_Pascal-Bernhard.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 2300.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 2300.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 2303.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 2303.
 
 Package rerunfilecheck Info: File `Diplomarbeit_Pascal-Bernhard.out' has not ch
 anged.
 (rerunfilecheck)             Checksum: 8EA6536841DBCC347C3759BB47716145;3456.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 2300.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 2303.
  ) 
 Here is how much of TeX's memory you used:
- 35911 strings out of 493853
- 784614 string characters out of 6157278
- 1001427 words of memory out of 5000000
- 37183 multiletter control sequences out of 15000+600000
+ 35911 strings out of 493301
+ 784614 string characters out of 6142880
+ 1003103 words of memory out of 5000000
+ 37357 multiletter control sequences out of 15000+600000
  172985 words of font info for 551 fonts, out of 8000000 for 9000
- 788 hyphenation exceptions out of 8191
+ 957 hyphenation exceptions out of 8191
  64i,12n,82p,2517b,886s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texmf-dist/fonts/enc/dvips/lm/lm-ts1.enc}{/usr/share/texmf-dist/f
 onts/enc/dvips/base/8r.enc}{/usr/share/texmf-dist/fonts/enc/dvips/lm/lm-rm.enc}
@@ -3239,7 +3242,7 @@ palatino/uplbi8a.pfb></usr/share/texmf-dist/fonts/type1/urw/palatino/uplr8a.pfb
 ></usr/share/texmf-dist/fonts/type1/urw/palatino/uplr8a.pfb></usr/share/texmf-d
 ist/fonts/type1/urw/palatino/uplri8a.pfb></usr/share/texmf-dist/fonts/type1/urw
 /zapfding/uzdr.pfb>
-Output written on Diplomarbeit_Pascal-Bernhard.pdf (154 pages, 1117840 bytes).
+Output written on Diplomarbeit_Pascal-Bernhard.pdf (154 pages, 1117831 bytes).
 PDF statistics:
  2195 PDF objects out of 2487 (max. 8388607)
  1977 compressed objects within 20 object streams
