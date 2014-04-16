@@ -1,11 +1,19 @@
+<<<<<<< HEAD
 This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013) (format=pdflatex 2014.4.6)  16 APR 2014 15:24
+=======
+<<<<<<< HEAD
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013) (format=pdflatex 2014.3.2)  16 APR 2014 13:38
+=======
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013) (format=pdflatex 2014.4.6)  16 APR 2014 11:22
+>>>>>>> e16e4c218d4cbfcc26e0b430f7ce71e71cd9c54b
+>>>>>>> de5d63b00b30b9cdca1123c4de3f89b8e31c0fe9
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
 **Diplomarbeit_Pascal-Bernhard.tex
 (./Diplomarbeit_Pascal-Bernhard.tex
 LaTeX2e <2011/06/27>
-Babel <3.9f> and hyphenation patterns for 80 languages loaded.
+Babel <3.9f> and hyphenation patterns for 42 languages loaded.
 (/usr/share/texmf-dist/tex/latex/koma-script/scrreprt.cls
 Document Class: scrreprt 2012/07/29 v3.11b KOMA-Script document class (report)
 (/usr/share/texmf-dist/tex/latex/koma-script/scrkbase.sty
@@ -3206,12 +3214,24 @@ anged.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 2311.
  ) 
 Here is how much of TeX's memory you used:
+<<<<<<< HEAD
  35887 strings out of 493301
  784042 string characters out of 6142880
+=======
+<<<<<<< HEAD
+ 35887 strings out of 493853
+ 784042 string characters out of 6157278
+ 1000427 words of memory out of 5000000
+ 37155 multiletter control sequences out of 15000+600000
+=======
+ 35884 strings out of 493301
+ 784003 string characters out of 6142880
+>>>>>>> de5d63b00b30b9cdca1123c4de3f89b8e31c0fe9
  1002103 words of memory out of 5000000
  37329 multiletter control sequences out of 15000+600000
+>>>>>>> e16e4c218d4cbfcc26e0b430f7ce71e71cd9c54b
  172852 words of font info for 552 fonts, out of 8000000 for 9000
- 957 hyphenation exceptions out of 8191
+ 788 hyphenation exceptions out of 8191
  64i,12n,82p,2517b,886s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texmf-dist/fonts/enc/dvips/base/8r.enc}{/usr/share/texmf-dist/fon
 ts/enc/dvips/lm/lm-rm.enc}{/usr/share/texmf-dist/fonts/enc/dvips/lm/lm-ec.enc}<
@@ -3232,7 +3252,15 @@ exmf-dist/fonts/type1/urw/palatino/uplbi8a.pfb></usr/share/texmf-dist/fonts/typ
 e1/urw/palatino/uplr8a.pfb></usr/share/texmf-dist/fonts/type1/urw/palatino/uplr
 8a.pfb></usr/share/texmf-dist/fonts/type1/urw/palatino/uplri8a.pfb></usr/share/
 texmf-dist/fonts/type1/urw/zapfding/uzdr.pfb>
+<<<<<<< HEAD
 Output written on Diplomarbeit_Pascal-Bernhard.pdf (154 pages, 1119538 bytes).
+=======
+<<<<<<< HEAD
+Output written on Diplomarbeit_Pascal-Bernhard.pdf (154 pages, 1119536 bytes).
+=======
+Output written on Diplomarbeit_Pascal-Bernhard.pdf (154 pages, 1118918 bytes).
+>>>>>>> e16e4c218d4cbfcc26e0b430f7ce71e71cd9c54b
+>>>>>>> de5d63b00b30b9cdca1123c4de3f89b8e31c0fe9
 PDF statistics:
  2201 PDF objects out of 2487 (max. 8388607)
  1983 compressed objects within 20 object streams
