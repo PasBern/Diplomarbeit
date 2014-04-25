@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013) (format=pdflatex 2014.4.20)  24 APR 2014 18:56
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013) (format=pdflatex 2014.4.20)  25 APR 2014 16:56
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -3217,7 +3217,7 @@ Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 2310.
 Here is how much of TeX's memory you used:
  35894 strings out of 493301
  784111 string characters out of 6142879
- 1004109 words of memory out of 5000000
+ 1003109 words of memory out of 5000000
  37329 multiletter control sequences out of 15000+600000
  173137 words of font info for 556 fonts, out of 8000000 for 9000
  957 hyphenation exceptions out of 8191
@@ -3241,7 +3241,7 @@ exmf-dist/fonts/type1/urw/palatino/uplbi8a.pfb></usr/share/texmf-dist/fonts/typ
 e1/urw/palatino/uplr8a.pfb></usr/share/texmf-dist/fonts/type1/urw/palatino/uplr
 8a.pfb></usr/share/texmf-dist/fonts/type1/urw/palatino/uplri8a.pfb></usr/share/
 texmf-dist/fonts/type1/urw/zapfding/uzdr.pfb>
-Output written on Diplomarbeit_Pascal-Bernhard.pdf (155 pages, 1121244 bytes).
+Output written on Diplomarbeit_Pascal-Bernhard.pdf (155 pages, 1121267 bytes).
 PDF statistics:
  2212 PDF objects out of 2487 (max. 8388607)
  1993 compressed objects within 20 object streams
