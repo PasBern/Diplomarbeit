@@ -9,7 +9,8 @@ DIV=calc,		%Satzspiegelberechnung
 headinclude,	%Kopfzeile bei Satzspiegelberechnung mit einbeziehen
 headsepline,	%Trennlinie unter der Kopfzeile
 numbers=noenddot,
-]{scrreprt}
+twocolumn,
+]{scrartcl}
 \usepackage[T1]{fontenc}
 \usepackage{lmodern}
 \usepackage[sc]{mathpazo}
@@ -68,7 +69,7 @@ numbers=noenddot,
 \usepackage[bookmarks=true,pdftoolbar=true,pdfmenubar=true,pdfstartview={FitH},citecolor=magenta,hidelinks,breaklinks=true]{hyperref}
 
 \hypersetup{ %
-pdftitle={Gasmarktliberalisierung im Baltikum}
+pdftitle={Ethnische Konflikte in Osteuropa}
 pdfauthor={Pascal Bernhard}
 pdfproducer={Texlive-LaTeX 2013 on Sabayon GNU/Linux 3.12 & 3.13}
 pdfcopyright={Creative Commons 3.0 CC-BY}
@@ -79,7 +80,7 @@ pdfmetalang={de-DE}
 
 
 
-%%% Auf tatsächlichen Namen des Abschnitts verlinken
+%% Auf tatsächlichen Namen des Abschnitts verlinken
 \usepackage{titleref}
 \usepackage{nameref}
 
@@ -123,7 +124,7 @@ pdfmetalang={de-DE}
 
 
 
-%%%----------------------------------------------------------------------
+%%----------------------------------------------------------------------
 \definecolor{dunkelgrau}{gray}{0.20}
 \definecolor{hellgrau}{gray}{0.40}
 \definecolor{MidnightBlue}{RGB}{0,103,149}
@@ -132,7 +133,7 @@ pdfmetalang={de-DE}
 \definecolor{Dschungel}{cmyk}{0.99,0,0.52,0.2}
 
 
-%%% Palatino benörtigt größeren Raum zwischen den Zeilen
+%% Palatino benörtigt größeren Raum zwischen den Zeilen
 \linespread{1.05}
 
 
@@ -141,109 +142,40 @@ pdfmetalang={de-DE}
 
 
 
-%%% Schriften umdefinieren:
+%% Schriften umdefinieren:
 
 \newcommand{\changefont}[3]{
 \fontfamily{#1} \fontseries{#2} \fontshape{#3} \selectfont}
 
 \newcommand{\textemph}{\textsl{\textbf}}
-%%%----------------------------------------------------------------------
+%%----------------------------------------------------------------------
 \begin{document}
 
-\begin{spacing}{1}
-
-%%% Deckblatt Start
-\thispagestyle{empty}
 
 
-\begin{center}
-\Large{Freie Universität Berlin}\\
-\end{center}
- 
- 
-\begin{center}
-\Large{Fachbereich Politikwissenschaft}
-\end{center}
-\begin{verbatim}
- 
- 
-\end{verbatim}
-\begin{center}
-\textbf{\LARGE{\changefont{ppl}{b}{n}
-\sffamily{Diplomarbeit}}}
-\end{center}
-\begin{verbatim}
- 
- 
-\end{verbatim}
-\begin{center}
-\textbf{\changefont{ppl}{b}{n}
-\sffamily{im Studiengang Politik}}
-\end{center}
-\begin{verbatim}
- 
- 
-\end{verbatim}
- 
-\begin{flushleft}
-\begin{tabular}{lll}
-
-\textbf{Thema:} & & Energiepolitik im Baltikum --\\
-& & Umsetzung des 3. EU-Liberalisierungspakets zum\\
-& & Gasbinnenmarkt in Litauen und Lettland\\
-& & \\
-& & \\
-& & \\
-
-
-
-\textbf{eingereicht von:} & & Pascal Bernhard \flq{}pascal.bernhard@belug.de\frq{}\\
-& & \\
-& & \\
-\textbf{eingereicht am:} & & 11. April 2014\\
-& & \\
-& & \\
-\textbf{Betreuer:} & & Herr Prof. Dr. Manfred Kerner\\
-\textbf{Betreuer:} & & Frau Prof. Dr. Miranda Schreurs
-\end{tabular}
-
-\newpage
-
-\thispagestyle{empty}
-
-
-\textbf{Diese Diplomarbeit widme ich Frau Andrea Volmary und Herrn Kai-Uwe Christoph, ohne deren Hilfe mein Studienabschluss nicht möglich gewesen wäre.}
-
-\end{flushleft}
-
-\end{spacing}
- 
-%Deckblatt Ende
-
-
-%%%Palatino als Standardschrift
+%%Palatino als Standardschrift
 \renewcommand{\rmdefault}{ppl}
 
 \renewcommand\thesubsection{\thesection.\alph{subsection}}
 
-%%%Inhaltsverzeichnis----------------------------------------------------------------------
+%%Inhaltsverzeichnis----------------------------------------------------------------------
 
 \cleardoublepage
 \begingroup
-\renewcommand*{\chapterpagestyle}{empty}
+%\renewcommand*{\chapterpagestyle}{empty}
 \pagestyle{empty}
 \tableofcontents
 \clearpage
 \endgroup
 
-%%%----------------------------------------------------------------------
+%%----------------------------------------------------------------------
 \setlength{\parindent}{30pt}
 \setlength{\parskip}{0pt}
 
 
-%%%-----------------------------------------------------------------------
+%%-----------------------------------------------------------------------
 
-%%%Einleitung
+%%Einleitung
 
 
 
@@ -274,7 +206,7 @@ Hierbei knüpft die Arbeit an bisherige Integrationsforschung zur Europäischen Un
 
 
 
-%%%----------------------------------------------------------------------------------------------------
+%%----------------------------------------------------------------------------------------------------
 
 
 \chapter[Fragestellung]{Untersuchungsgegenstand und Fragestellung}
@@ -437,12 +369,12 @@ Energieunternehmen haben wenig Interesse daran, den Status Quo ihrer dominanten 
 Die als institutionelle Beschränkungen wirkenden Eigenschaften von Netzwerkindustrien veranlassen die Gasversorger an den existierenden Besitzformen festzuhalten und Liberalisierungsbestrebungen mit Widerstand in Gestalt politischer Einflussnahme zu begegnen. Wie im Überblick zu den baltischen Gasmärkten zu zeigen sein wird, bilden sich aus den Marktstrukturen Anreizsysteme heraus, wonach die Unternehmen, der Logik von Pfadabhängigkeiten folgend, auf Veränderungen ihrer regulativen Umgebung handeln werden.
 
 
-%%%Hypothese I
+%%Hypothese I
 
 			\begin{quote}
 			\textit{%
 			\textsf{\textbf{Hypothese I:}\\
-			\nopagebreak %%Seitenumbruch verhindern
+			\nopagebreak %Seitenumbruch verhindern
 			Die Struktur des Gasmarktes als Folge der Merkmale einer Netzwerkindustrie führt zu Pfadabhängigkeiten für Gasversorger, die dementsprechend an bestehenden Geschäftsmodellen und vertikalen Strukturen festzuhalten wollen. Eine besitzrechtliche Entflechtung vertikal integrierter Energieunternehmen wird auf Widerstand stoßen angesichts der Anreizstrukturen auf Gasmärkten und diese werden versuchen über eine Konsolidierung vorhandener Marktstrukturen die Handlungsoption von Politik einzuschränken.}}
 			\end{quote}
 
@@ -460,12 +392,12 @@ Da in den baltischen Ländern das Thema Energieversorgung eng mit der sensiblen F
 Die Forschung zur europäischen Integration ist der Ansicht, die jeweilige nationale Umsetzung europäischer Richtlinien folge generell historischen Pfadabhängigkeiten\footnote{siehe: Pierson (1996), S.145; Heine \& Kerber (2002)}, die eigene Wege der Marktregulierung markieren. \textsc{Haase} betont, dass insbesondere Reformen von Energiemärkten, sehr stark von Verlaufsabhängigkeiten dieser Art bestimmt sind\footnote{Haase (2008), S.14}. Für den Fall der Gasmarktliberalisierung in Lettland und Litauen ist zu vermuten, dass landesspezifische Vorstellungen und Bedürfnisse nach nationaler Souveränität in Form von Versorgungssicherheit und Selbstbehauptung gegenüber Russland als Normen in den politischen Entscheidungsprozessen wirkten. Folgende Hypothese kann aus diesen Überlegungen zum Zusammenhang zwischen Werten und der Umsetzung des Dritten Liberalisierungspakets der EU entwickelt werden:
 
 
-%%%Hypothese II
+%%Hypothese II
 
 			\begin{quote}
 			\textit{%
 			\textsf{\textbf{Hypothese II:}\\
-			\nopagebreak %%Seitenumbruch verhindern
+			\nopagebreak %Seitenumbruch verhindern
 			Entscheidungen zur Liberalisierung von Gasmärkten in Form der Entflechtung vertikal integrierter Unternehmen wurden in Litauen und Lettland nicht ausschließlich aufgrund wettbewerbsökonomischer Überlegungen getroffen. Normenbezogene Pfadabhängigkeiten haben den politischen Akteuren einen Handlungsrahmen vorgegeben, welcher die Wahl eines bestimmten Entflechtungsmodells vorzeichnete.}}
 			\end{quote}
 
@@ -475,13 +407,13 @@ Die Forschung zur europäischen Integration ist der Ansicht, die jeweilige nation
 \subsubsection{Das Verhältnis zu Russland}
 In einer Analyse der nationalen Energiestrategien wird zu untersuchen sein, inwiefern insbesondere die Wahrnehmung russischer Außen- und Energiepolitik eine Norm darstellt, die politische Entscheidungen bedingt und nach \textsc{Williamson}s Modell auf dem ersten Level als erklärender Faktor wirkt. Eine eigenständige wissenschaftliche Untersuchung des Verhältnisses zwischen \emph{Gazprom} und der politischen Führung Russlands kann ich in meiner Arbeit nicht leisten, die Fragestellung orientiert sich am Prozess der Gasmarktliberalisierung in Litauen und Lettland. An dieser Stelle muss ich auf andere Literatur verweisen, welche sich auf jene Problematik konzentriert und sie entsprechend ausführlicher behandeln kann\footnote{siehe: Grigas (2012a)}. Für die Forschungsfrage ist es unerheblich, inwieweit die Einschätzung, Russland instrumentalisiere Energielieferungen für seine Außenpolitik begründet ist. Entscheidend für diese Arbeit ist, dass diese Sichtweise die zu untersuchenden politischen Prozesse beeinflusst. Aufgabe an dieser Stelle ist herauszufinden, inwiefern diese konstruierte Weltsicht die unterschiedlichen Liberalisierungsergebnisse erklären helfen. Diese Arbeit will selbst kein Urteil fällen, ob die Wahrnehmung russischer Energie- und Außenpolitik die Realität widerspiegelt. Dennoch sollen die Hintergründe dieser Sichtweise für das bessere Verständnis der Lesers im Abschnitt \textsf{\textcolor{MidnightBlue}{\nameref{sec:Russland}}} kurz dargestellt werden, um zu verdeutlichen, auf welchen Anhaltspunkten die Russland-skeptische Weltsicht gründet. Diese Haltung kann als Norm verstanden werden und bietet eine weitere mögliche Erklärungsvariable für die Forschungsfrage. Die zweite Arbeitshypothese kann in einem weiteren Schritt enger gefasst und wie folgt formuliert werden:
 
-				%%%Hypothese III
+				%%Hypothese III
 
 
 				\begin{quote}
 				\textit{%
 				\textsf{\textbf{Hypothese III:}\\
-				\nopagebreak %%Seitenumbruch verhindern
+				\nopagebreak %Seitenumbruch verhindern
 				Aus der Wahrnehmung, Gazproms Rolle auf dem Gasmarkt stelle die nationale Versorgungssicherheit in Frage, entstand für den politischen Entscheidungsprozess ein Handlungszwang. Aus dieser Pfadabhängigkeit ergab sich die Entscheidung für ein bestimmtes Entflechtungsmodell, um hierdurch die Versorgungssicherheit zu erhöhen.}}
  				\end{quote} 
 
@@ -489,8 +421,8 @@ In einer Analyse der nationalen Energiestrategien wird zu untersuchen sein, inwi
 Arbeitsthesen II und III werden Gegenstand der abschließenden Kapitel \textsf{\textcolor{MidnightBlue}{\nameref{sec:Diskurse}}} sein. Mit Hilfe einer Diskurs-theoretischen Herangehensweise soll an jener Stelle überprüft werden, ob Werte über Diskurse Bedeutungsstrukturen schaffen, die für Entscheidungen der Politik Pfadabhängigkeiten erzeugen. Sofern solche Diskurse soziale und politische Realitäten konstruieren, können sie bezogen auf Entscheidungen zur Gasmarktregulierung zu einer unterschiedlichen Einschätzung der Energiesituation und insbesondere der Versorgungssicherheit eines Landes führen\footnote{Milliken (1999), S.229}. Hierbei ist ausschlaggebend, welcher spezifische Diskurs die Energiepolitik beherrscht und Probleme definiert, bzw. sie erst subjektiv erschafft. Diskurse sind in diesem Zusammenhang als 'Hintergrund-Fähigkeiten' zu verstehen, im Sinne von Möglichkeiten und Techniken eine solche konstruierte Realität des Gasmarktes und der Energiesicherheit zu schaffen\footnote{Shapiro (1989), S.11}. Für die Beantwortung der Frage, weshalb in Lettland und Litauen die Liberalisierungsrichtlinie unterschiedlich umgesetzt wurde, ist zu untersuchen, welche Diskurse das Handeln von Politik bestimmt haben könnten.
 
 
-%%%-------------------------------------------------------------------------------------------------------------------------
-%%%Überblick zu Energiemärkten im Baltikum
+%%-------------------------------------------------------------------------------------------------------------------------
+%%Überblick zu Energiemärkten im Baltikum
 
 
 \chapter{Gasmärkte}
@@ -505,14 +437,14 @@ Analytischer Ausgangspunkt dieses Kapitels sind Abweichungen des Gasmarktes von 
 \section[Merkmale des Gassektors]{Besondere Eigenschaften von Gasmärkten}\label{sec:Gasmärkte}
 
 
-%%%%%%%%Irreversible Kosten & Markteintrittsbarrieren
+%%%%Irreversible Kosten & Markteintrittsbarrieren
 
 \paragraph {Sunk Costs}
 Neben der kostenintensiven Erforschung potentieller Erdgasvorkommen, erfordern auch die Förderung und der Transport von Erdgas hohe Ausgaben für Bohranlagen und die Netzinfrastruktur. Entsprechende Investitionen sind stets langfristiger Natur und zugleich irreversibel, das bedeutet, die Kosten können später nicht oder nur schwer durch Verkauf der Anlagen zurückgewonnen werden\footnote{Spanjer (2009), S.3251}. In der Fachliteratur wird dieses Phänomen als \textsl{Sunk Costs} bezeichnet\footnote{Für eine ausführlichere Erläuterung siehe: \textsf{\textcolor{MidnightBlue}{\nameref{sec:Sunk Costs}}}}.
 Eine Pipeline beispielsweise verbindet ein Fördergebiet mit einem Abnehmer und ihr Verlauf ist nach dem Bau für ihre Lebensdauer festgelegt. Weder kann Netzwerkinfrastruktur geographisch versetzt werden, noch sind alternative Verwendungsmöglichkeiten außer dem Transport von Gas denkbar. Diese Besonderheit, \textsc{Spanjer} spricht von \glqq Asset Specifity\grqq{}\footnote{Spanjer (2009), S.3252}, weisen auch Erdgaslagerstätten und ihre Förderanlagen auf.
 
 
-%%%Markteintrittsbarrieren
+%%Markteintrittsbarrieren
 
 \paragraph{Eintrittsbarrieren}
 Für potentielle Wettbewerber stellen diese irreversiblen Kosten beträchtliche Markteintrittsbarrieren\footnote{Nach Stigler (1967) kann eine Barriere für den Markteintritt definiert werden als: \textsl{\glqq als Produktionskosten (über einen Teil oder der gesamten Menge der Produktion), die von einem Unternehmen getragen werden müssen, welches in den Markt eintreten will, jedoch nicht von Firmen, die dort bereits tätig sind\grqq}, S.67} dar. Gegenüber den bereits auf dem Markt tätigen Unternehmen befinden sie sich eindeutig im Nachteil, denn sie sehen sich für den Markteintritt mit Kosten konfrontiert, welche jene bereits getätigt und zumeist schon amortisiert haben. Zusammen mit den allgemeinen unternehmerischen Risiken eines Markteintritts stellen diese Barrieren in Form irreversibler Kosten Hürden dar, die in vielen Fällen verhindern, dass neue Konkurrenten mit etablierten Firmen in den Wettbewerb treten werden. 
@@ -521,7 +453,7 @@ Basierend auf \textsc{Bains}\footnote{siehe: Bain (1958)} und \textsc{Stiglers}\
 
 
 
-%%%%%%%Skaleneträge
+%%%%Skaleneträge
 
 \paragraph{Skalenerträge}
 Führten schon 'Sunk Costs' und die resultierenden Eintrittshürden zu einer Marktkonzentration, forcieren beträchtliche Skalenerträge bei Förderung und Fernleitung von Erdgas diese Marktstruktur weiter. Neben den erwähnten irreversiblen Kosten zeichnet sich insbesondere Netzwerkinfrastruktur zudem durch wachsende Erträge im Laufe eines Investitionszykluses aus\footnote{Haase (2008), S.14}. Erst lange nach den anfänglichen Investitionen und ihrer Amortisierung können Gewinnen erwirtschaftet werden, und entsprechend bilden sich große Unternehmensstrukturen heraus, welche es ermöglichen, einen solchen Investitionszyklus finanziell zu tragen.
@@ -697,7 +629,7 @@ Personelle Doppelmandate in der Leitung der verschiedenen Geschäftsbereiche inne
 
 
 
-%%%----------------------------------------------------------------------------------------------------
+%%----------------------------------------------------------------------------------------------------
 
 
 \chapter[Umsetzung der EU-Direktive]{Umsetzung der EU-Richtlinien in den baltischen Staaten}
@@ -725,7 +657,7 @@ Das Ownership Unbundling Latvijas G\={a}zes soll unter zwei Bedingungen vor dem 
 
 
 
-%%%-----------------------------------------------------------------------------------
+%%-----------------------------------------------------------------------------------
 
 
 \chapter[Verhältnis zu Russland]{Das Verhältnis zu Russland}\label{sec:Russland}
@@ -788,7 +720,7 @@ Als Zusammenfassung der Diskussion über \emph{Gazprom}s Rolle für die russische 
 
 \begin{figure}[htb]
 
-\thisfloatpagestyle{empty} %%% Seitenzahl für Floating-Umgebung unterdrücken
+\thisfloatpagestyle{empty} %% Seitenzahl für Floating-Umgebung unterdrücken
 
   \begin{centering}
    \includegraphics[width=1\textwidth]{Pipelines.png} % Herausgenommen: [scale=0.8]
@@ -1017,13 +949,11 @@ Allerdings lässt sich anhand dieser institutionellen Gegebenheiten und Pfadabhän
 Nachdem bisher auf der dritten Analyseebene Akteure und Strukturen der Gasmärkte Litauens und Lettlands untersucht wurden und festzustellen war, dass die dortigen Pfadabhängigkeiten nur unzureichend die unterschiedliche Umsetzung der Europäischen Liberalisierungsrichtlinie erklären können, soll nun Energiepolitik selbst Aufmerksamkeit geschenkt werden. In einem ersten Schritt ist zu klären, unter welchen institutionellen Rahmenbedingungen Entscheidungen getroffen werden und welche informellen Regeln und Praktiken der jeweiligen politischen Kultur maßgebend sein könnten. Mit diesem institutionellen Kontext (Analyseniveau 2) soll mittels einer Textanalyse der jeweiligen Energiestrategien versucht werden, jene Werte zu identifizieren, die für Entscheidungen zur Energiepolitik in Litauen und Lettland Bedeutung haben. Hier stellt sich die Frage, welche Diskurse in der nationalen Energiepolitik geführt und wie diese durch Definition der Begriffe \emph{Versorgungssicherheit} und \emph{Unabhängigkeit} über politische Entscheidungen Werte transportieren, bzw. Pfadabhängigkeiten aufbauen, die bestimmte Optionen der Gasmarktliberalisierung ausschließen.
 
 
-In der Literatur zur Energiepolitik in Litauen und Lettland findet sich mehrfach die Aussage, es mangele an strategischem Denken und einer konsequenten Umsetzung von Entscheidungen\footnote{Janeli\={u}nas (2009), S.207; Spr\={u}ds (2009), S.113}. Auch in Experteninterviews wurde die Einschätzung geäußert, dass vielfach der politische Wille fehle, langfristige Aufgaben der Energieversorgung zu lösen\footnote{Rostoks (2014); Ab\={o}\c{l}t\={\i}ns (2014)}. Wie die folgenden Beispiele einerseits am speziellen Fall der Abschaltung des litauischen Atomkraftwerks Ignalina, bzw. des politischen Systems Lettlands verdeutlichen, haben beide Länder im vergangenen Jahrzehnt nur verhalten zur einer einheitlichen Energiestrategie gefunden. In Litauen führte diese zögerliche Entwicklung jedoch zu einer betont auf Versorgungssicherheit ausgerichteten Energiepolitik, während Lettland im Strategiepapier von 2012 seine Energiepolitik eindeutig in den Dienst der wirtschaftlichen Entwicklung stellt und Versorgungssicherheit nur als zweitrangiges Ziel betrachtet wird\footnote{siehe: Latvijas Republikas Ekonomikas Ministrija (2012b)}.
+In der Literatur zur Energiepolitik in Litauen und Lettland findet sich mehrfach die Aussage, es mangele an strategischem Denken und einer konsequenten Umsetzung von Entscheidungen\footnote{Janeli\={u}nas (2009), S.207; Spr\={u}ds (2009), S.113}. Auch in Experteninterviews wurde die Einschätzung geäußert, dass vielfach der politische Wille fehle, Aufgaben der Energieversorgung zu lösen\footnote{Rostoks (2014); Ab\={o}\c{l}t\={\i}ns (2014)}. Wie die folgenden Beispiele einerseits am speziellen Fall der Abschaltung des litauischen Atomkraftwerks Ignalina, bzw. des politischen Systems Lettlands verdeutlichen, haben beide Länder im vergangenen Jahrzehnt nur verhalten zur einer einheitlichen Energiestrategie gefunden. In Litauen führte diese zögerliche Entwicklung jedoch zu einer betont auf Versorgungssicherheit ausgerichteten Energiepolitik, während Lettland im Strategiepapier von 2012 seine Energiepolitik eindeutig in den Dienst der wirtschaftlichen Entwicklung stellt und Versorgungssicherheit nur als zweitrangiges Ziel betrachtet wird\footnote{siehe: Latvijas Republikas Ekonomikas Ministrija (2012b)}.
 
 
 \section{Die Stillegung des Kernkraftwerks Ignalina}
-Ein erstes Beispiel für inkonsistente Energiepolitik im Baltikum ist das Versäumnis Litauens, für die über Jahre absehbare Stillegung des Atomkraftwerks Ignalina Vorkehrungen zu treffen und Alternativen für die Stromerzeugung zu suchen. Bereits mit Abschluss der Verhandlungen zum EU-Beitritt des Landes im Jahre 2002 stand fest, dass mittelfristig auch der zweite Reaktorblock des Kraftwerkes abgeschaltet werden muss, nachdem der erste Block bereits 2004 vom Netz genommen werden sollte. 
-
-Die Premierminister Estlands, Lettlands und Litauens erkannten einerseits in der \emph{Gemeinsamen Erklärung zur Versorgungssicherheit der baltischen Staaten und der Gemeinsamen Europäischen Energie Politik} vom 27. Februar 2006 die endgültige Abschaltung Ignalinas als Problem für die Energiesicherheit aller baltischen Ländern an. Ein weiteres gemeinsames Communiqu\'{e} am \mbox{8. Dezember} des gleichen Jahres enthielt den Vorschlag, als Ersatz in Litauen ein neues Kernkraftwerk zu errichten\footnote{siehe: Baltic Council of Ministers (2006)}. Die Planung des Projektes kam in den folgenden Jahren jedoch nur schleppend voran und erforderliche Gesetze wurden vom litauischen Parlament nur mit minimalen Mehrheiten verabschiedet. Zeitgleich versuchte die Regierung Litauens, von der Europäischen Union Zustimmung für die Verlängerung der Laufzeit des zweiten Reaktorblocks zu erhalten. Zusammen mit den Parlamentswahlen am 12. Oktober 2008 wurde ein Referendum über einen längeren Betrieb des Atomkraftwerks abgehalten, welches jedoch mangels Beteiligung scheiterte. \textsc{Janeli\={u}nas} merkt in diesem Zusammenhang an, dass solche politischen Manöver wichtige Aufgaben der Energieversorgung (Modernisierung bestehender Kohle- und Gaskraftwerke oder der Anschluss an europäische Energienetze) in den Hintergrund schoben und von keiner durchdachten langfristigen Energiestrategie zu reden sei\footnote{Janeli\={u}nas (2009), S.210}. 
+Ein erstes Beispiel für inkonsistente Energiepolitik im Baltikum ist das Versäumnis Litauens, für die über Jahre absehbare Stillegung des Atomkraftwerks Ignalina Vorkehrungen zu treffen und Alternativen für die Stromerzeugung zu suchen. Bereits mit Abschluss der Verhandlungen zum EU-Beitritt des Landes im Jahre 2002 stand fest, dass mittelfristig auch der zweite Reaktorblock des Kraftwerkes abgeschaltet werden muss, nachdem der erste Block bereits 2004 vom Netz genommen werden sollte. Die Premierminister Estlands, Lettlands und Litauens erkannten einerseits in der \emph{Gemeinsamen Erklärung zur Versorgungssicherheit der baltischen Staaten und der Gemeinsamen Europäischen Energie Politik} vom 27. Februar 2006 die endgültige Abschaltung Ignalinas als Problem für die Energiesicherheit aller baltischen Ländern an. Ein weiteres gemeinsames Communiqu\'{e} am 8. Dezember des gleichen Jahres enthielt den Vorschlag, als Ersatz in Litauen ein neues Kernkraftwerk zu errichten \footnote{siehe: Baltic Council of Ministers (2006)}. Die Planung des Projektes kam in den folgenden Jahren jedoch nur schleppend voran, und erforderliche Gesetze wurden vom litauischen Parlament nur mit minimalen Mehrheiten verabschiedet. Zeitgleich versuchte die Regierung Litauens, von der Europäischen Union Zustimmung zur Verlängerung der Laufzeit des zweiten Reaktorblocks zu erhalten. Zusammen mit den Parlamentswahlen am 12. Oktober 2008 wurde ein Referendum über einen längeren Betrieb des Atomkraftwerks abgehalten, welches jedoch mangels Beteiligung scheiterte. \textsc{Janeli\={u}nas} merkt in diesem Zusammenhang an, dass solche politischen Manöver wichtige Aufgaben der Energieversorgung (Modernisierung bestehender Kohle- und Gaskraftwerke oder der Anschluss an europäische Energienetze) in den Hintergrund schoben und von keiner durchdachten langfristigen Energiestrategie zu reden sei\footnote{Janeli\={u}nas (2009), S.210}. 
 
 Litauen befasste sich all die Jahre nur zögerlich mit der vorhersehbaren Energieknappheit und versuchte vielmehr, das Problem mit einem Aufschub der Stillegung zu umgehen, als aktiv nach Alternativen für die Stromerzeugung zu suchen. Die insgesamt unstimmige Energiepolitik in den Jahren 2000 bis 2009 hatte keine Lösung für das Problem Energiesicherheit finden können und machte eine Betonung auf Versorgungssicherheit später umso dringlicher. Eine indirekte Ursache für Litauens Prioritätensetzung auf Unabhängigkeit von russischen Energielieferungen und in der Folge eine \emph{Gazprom}-feindliche Liberalisierungspolitik kann widersprüchlicherweise in jener inkohärenten Energiestrategie des vorherigen Jahrzehnts gesucht werden. Im Zusammenhang mit einem seit der nationalen Eigenständigkeit auf Abgrenzung zu Russland bedachten politischen Diskurs machte die problematische Energiesituation eine Neuausrichtung vielleicht nicht unausweichlich, so doch sehr naheliegend. 
 
@@ -1104,7 +1034,7 @@ Alle drei Zielsetzungen werden von der \emph{Nationalen Energieunabhängigkeitsst
 
 				\begin{quote}
 				\textsl{%
-				\nopagebreak %%Seitenumbruch verhindern
+				\nopagebreak %Seitenumbruch verhindern
 				\glqq Following the regain of its independence, Lithuania integrated (in political and economic terms) into the Transatlantic space, while energetically remained in the Eastern space by sticking to the baltic States and the Commonwealth of Independent States synchronised electricity system (henceforth IPS/UPS) controlled by Russia; the country totally relies on the single supplier both in respect of links to the energy resources infrastructure and the energy system regulation principals. This ambivalent situation, both in political and energy terms, threatens Lithuania's energy and national security. Therefore, Lithuania's integration in the EU energy systems following the implementation of the strategic energy projects and initiatives will not only help to develop market-based relations, but also reduce energy, economic and political threats posed to Lithuania.\grqq}
  				\end{quote} 
 
@@ -1136,7 +1066,7 @@ Das Strategiepapier versteht 'Versorgungssicherheit' nicht im neo-realistischen 
 
 				\begin{quote}
 				\textsl{%
-				\nopagebreak %%Seitenumbruch verhindern
+				\nopagebreak %Seitenumbruch verhindern
 				\glqq The other Strategy 2030 \textbf{sub-target} foresees increase of security of energy supply, thus ensuring \textbf{stable energy supply to energy consumers}, reducing geopolitical risks, diversifying supply routes, developing energy infrastructure, establishing reserves and engaging in improvement of international regulation.\grqq} {\small (Hervorhebungen hinzugefügt)}
  				\end{quote}
 
@@ -1145,7 +1075,7 @@ Diese Definition von Versorgungssicherheit zeigt auch beispielhaft das im Vergle
 
 				\begin{quote}
 				\textsl{%
-				\nopagebreak %%Seitenumbruch verhindern
+				\nopagebreak %Seitenumbruch verhindern
 				\glqq In order to ensure balanced energy policy that corresponds to economic and social interests, the main objective of the Strategy 2030 is to promote competitive economy by developing energy policy that is well-balanced, effective, as well as economically, socially, and ecologically reasonable and based on market principles. Energy policy should promote further development of the Latvian economy, its competitiveness both in the region and worldwide, and welfare of our society.\grqq}
  				\end{quote}
 
@@ -1158,7 +1088,7 @@ Der ökonomische Diskurs baut hingegen einen binären Gegensatz zur Energiepolitik
 
 				\begin{quote}
 				\textsl{%
-				\nopagebreak %%Seitenumbruch verhindern
+				\nopagebreak %Seitenumbruch verhindern
 				\glqq [P]revious renewable energy support [...] excessively intervened in the choice of technical solutions.\grqq}\footnote{ebenda (2012b), S.5}
  				\end{quote} 
 
@@ -1166,7 +1096,7 @@ Der ökonomische Diskurs baut hingegen einen binären Gegensatz zur Energiepolitik
 
 				\begin{quote}
 				\textsl{%
-				\nopagebreak %%Seitenumbruch verhindern
+				\nopagebreak %Seitenumbruch verhindern
 				\glqq The economic incentives at the state level have been promoted inadequately and improperly.\grqq}\footnote{ebenda (2012b), S.5}
  				\end{quote}
 
@@ -1178,7 +1108,7 @@ Zwar finden die Bestimmungen des Dritten Liberalisierungspaketes der Europäische
 
 
 
-%%%----------------------------------------------------------------------------------------------------
+%%----------------------------------------------------------------------------------------------------
 
 \chapter{Fazit}
 
@@ -1203,7 +1133,7 @@ An dieser Stelle muss eingeräumt werden, dass für keine drei entwickelten Hypoth
 
 
 
-%%%-----------------------------------------------------------------------------------
+%%-----------------------------------------------------------------------------------
 
 \chapter{Literaturverzeichnis}
 
@@ -2114,7 +2044,7 @@ An dieser Stelle muss eingeräumt werden, dass für keine drei entwickelten Hypoth
 
 \newpage
 
-%%%-----------------------------------------------------------------------------------
+%%-----------------------------------------------------------------------------------
 % Hier kommen Anhänge
 
 
