@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013) (format=pdflatex 2014.4.20)  29 APR 2014 11:41
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013) (format=pdflatex 2014.4.20)  29 APR 2014 17:01
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -2655,6 +2655,8 @@ Package babel Info: Redefining ngerman shorthand "|
 Package babel Info: Redefining ngerman shorthand "~
 (babel)             in language  on input line 1078.
  [102]
+Overfull \vbox (0.25627pt too high) has occurred while \output is active []
+
 Package babel Info: Redefining ngerman shorthand "|
 (babel)             in language  on input line 1084.
 Package babel Info: Redefining ngerman shorthand "~
@@ -2663,24 +2665,25 @@ Package babel Info: Redefining ngerman shorthand "|
 (babel)             in language  on input line 1084.
 Package babel Info: Redefining ngerman shorthand "~
 (babel)             in language  on input line 1084.
- [103]
+
+[103]
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 1096.
+(babel)             in language  on input line 1095.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 1096.
+(babel)             in language  on input line 1095.
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 1096.
+(babel)             in language  on input line 1095.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 1096.
+(babel)             in language  on input line 1095.
  [104]
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 1100.
+(babel)             in language  on input line 1099.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 1100.
+(babel)             in language  on input line 1099.
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 1100.
+(babel)             in language  on input line 1099.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 1100.
+(babel)             in language  on input line 1099.
  [105]
 Package babel Info: Redefining ngerman shorthand "|
 (babel)             in language  on input line 1104.
@@ -2748,8 +2751,7 @@ Package babel Info: Redefining ngerman shorthand "|
 (babel)             in language  on input line 1171.
 Package babel Info: Redefining ngerman shorthand "~
 (babel)             in language  on input line 1171.
-
-[112]
+ [112]
 Package babel Info: Redefining ngerman shorthand "|
 (babel)             in language  on input line 1177.
 Package babel Info: Redefining ngerman shorthand "~
@@ -3215,11 +3217,11 @@ anged.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 2314.
  ) 
 Here is how much of TeX's memory you used:
- 35899 strings out of 493301
- 784154 string characters out of 6142879
+ 35895 strings out of 493301
+ 784119 string characters out of 6142879
  1003112 words of memory out of 5000000
  37329 multiletter control sequences out of 15000+600000
- 173422 words of font info for 560 fonts, out of 8000000 for 9000
+ 173137 words of font info for 556 fonts, out of 8000000 for 9000
  957 hyphenation exceptions out of 8191
  64i,12n,82p,2530b,886s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texmf-dist/fonts/enc/dvips/base/8r.enc}{/usr/share/texmf-dist/fon
@@ -3241,10 +3243,10 @@ exmf-dist/fonts/type1/urw/palatino/uplbi8a.pfb></usr/share/texmf-dist/fonts/typ
 e1/urw/palatino/uplr8a.pfb></usr/share/texmf-dist/fonts/type1/urw/palatino/uplr
 8a.pfb></usr/share/texmf-dist/fonts/type1/urw/palatino/uplri8a.pfb></usr/share/
 texmf-dist/fonts/type1/urw/zapfding/uzdr.pfb>
-Output written on Diplomarbeit_Pascal-Bernhard.pdf (155 pages, 1121693 bytes).
+Output written on Diplomarbeit_Pascal-Bernhard.pdf (155 pages, 1122098 bytes).
 PDF statistics:
- 2212 PDF objects out of 2487 (max. 8388607)
- 1993 compressed objects within 20 object streams
- 684 named destinations out of 1000 (max. 500000)
+ 2216 PDF objects out of 2487 (max. 8388607)
+ 1997 compressed objects within 20 object streams
+ 685 named destinations out of 1000 (max. 500000)
  85502 words of extra memory for PDF output out of 89155 (max. 10000000)
 
