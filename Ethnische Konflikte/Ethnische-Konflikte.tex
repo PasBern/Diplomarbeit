@@ -13,7 +13,7 @@ headsepline,	%Trennlinie unter der Kopfzeile
 numbers=noenddot,
 twocolumn,
 ]{article} 
-\usepackage{latex8}
+
 
 \usepackage[T1]{fontenc}
 \usepackage{lmodern}
@@ -44,7 +44,53 @@ twocolumn,
 \usepackage{tikz}
 
 
-%\documentstyle[times,art10,twocolumn,latex8]{article}
+
+% Fußnotengefrickel muss vor HYPERREF geladen werden
+\usepackage[bottom,flushmargin,hang,multiple]{footmisc}
+
+%Hyperxmp-Paket einbinden für PDF-Metadaten
+\usepackage{hyperxmp} 
+
+% Rahmen um Hyperlinks unterbinden
+\usepackage[bookmarks=true,pdftoolbar=true,pdfmenubar=true,pdfstartview={FitH},citecolor=magenta,hidelinks,breaklinks=true]{hyperref}
+
+
+
+%%% Auf tatsächlichen Namen des Abschnitts verlinken
+\usepackage{titleref}
+\usepackage{nameref}
+
+
+
+% Gleiche Schriftart für Hyperlinks
+\urlstyle{same}
+
+
+
+%  Gefrickel um URL-Links vernünftig umzubrechen
+\makeatletter
+\g@addto@macro\UrlBreaks{
+  \do\a\do\b\do\c\do\d\do\e\do\f\do\g\do\h\do\i\do\j
+  \do\k\do\l\do\m\do\n\do\o\do\p\do\q\do\r\do\s\do\t
+  \do\u\do\v\do\w\do\x\do\y\do\z\do\&\do\1\do\2\do\3
+  \do\4\do\5\do\6\do\7\do\8\do\9\do\0}
+% \def\do@url@hyp{\do\-}
+
+% Hiermit soll einer übervolle Box verhindert werden -- funktioniert sogar irgendwie
+\g@addto@macro\UrlSpecials{\do\/{\mbox{\UrlFont/}\hskip 0pt plus 1pt}}
+\makeatother
+
+
+%%%----------------------------------------------------------------------
+% Farbdefinitionen
+\definecolor{dunkelgrau}{gray}{0.20}
+\definecolor{hellgrau}{gray}{0.40}
+\definecolor{MidnightBlue}{RGB}{0,103,149}
+\definecolor{NavyBlue}{RGB}{0,110,184}
+\definecolor{MidBlue}{rgb}{0.173,0.212,0.597}
+\definecolor{Dschungel}{cmyk}{0.99,0,0.52,0.2}
+
+
 
 %------------------------------------------------------------------------- 
 % take the % away on next line to produce the final camera-ready version 
@@ -126,54 +172,7 @@ approximately 1-5/8 inches (4.13 cm) from the bottom edge of the page.
 %------------------------------------------------------------------------- 
 \subsection{Type-style and fonts}
 
-Wherever Times is specified, Times Roman may also be used. If neither is 
-available on your word processor, please use the font closest in 
-appearance to Times that you have access to.
 
-MAIN TITLE. Center the title 1-3/8 inches (3.49 cm) from the top edge of 
-the first page. The title should be in Times 14-point, boldface type. 
-Capitalize the first letter of nouns, pronouns, verbs, adjectives, and 
-adverbs; do not capitalize articles, coordinate conjunctions, or 
-prepositions (unless the title begins with such a word). Leave two blank 
-lines after the title.
-
-AUTHOR NAME(s) and AFFILIATION(s) are to be centered beneath the title 
-and printed in Times 12-point, non-boldface type. This information is to 
-be followed by two blank lines.
-
-The ABSTRACT and MAIN TEXT are to be in a two-column format. 
-
-MAIN TEXT. Type main text in 10-point Times, single-spaced. Do NOT use 
-double-spacing. All paragraphs should be indented 1 pica (approx. 1/6 
-inch or 0.422 cm). Make sure your text is fully justified---that is, 
-flush left and flush right. Please do not place any additional blank 
-lines between paragraphs. Figure and table captions should be 10-point 
-Helvetica boldface type as in
-\begin{figure}[h]
-   \caption{Example of caption.}
-\end{figure}
-
-\noindent Long captions should be set as in 
-\begin{figure}[h] 
-   \caption{Example of long caption requiring more than one line. It is 
-     not typed centered but aligned on both sides and indented with an 
-     additional margin on both sides of 1~pica.}
-\end{figure}
-
-\noindent Callouts should be 9-point Helvetica, non-boldface type. 
-Initially capitalize only the first word of section titles and first-, 
-second-, and third-order headings.
-
-FIRST-ORDER HEADINGS. (For example, {\large \bf 1. Introduction}) 
-should be Times 12-point boldface, initially capitalized, flush left, 
-with one blank line before, and one blank line after.
-
-SECOND-ORDER HEADINGS. (For example, {\elvbf 1.1. Database elements}) 
-should be Times 11-point boldface, initially capitalized, flush left, 
-with one blank line before, and one after. If you require a third-order 
-heading (we discourage it), use 10-point Times, boldface, initially 
-capitalized, flush left, preceded by one blank line, followed by a period 
-and your text on the same line.
 
 %------------------------------------------------------------------------- 
 \subsection{Footnotes}
@@ -191,32 +190,11 @@ referenced. Use Times 8-point type, single-spaced.
 
 
 %------------------------------------------------------------------------- 
-\subsection{References}
+\subsection{Quellenverzeichnis}
 
-List and number all bibliographical references in 9-point Times, 
-single-spaced, at the end of your paper. When referenced in the text, 
-enclose the citation number in square brackets, for example~\cite{ex1}. 
-Where appropriate, include the name(s) of editors of referenced books.
+\input{Quellenverzeichnis.tex}
 
 %------------------------------------------------------------------------- 
-\subsection{Illustrations, graphs, and photographs}
-
-All graphics should be centered. Your artwork must be in place in the 
-article (preferably printed as part of the text rather than pasted up). 
-If you are using photographs and are able to have halftones made at a 
-print shop, use a 100- or 110-line screen. If you must use plain photos, 
-they must be pasted onto your manuscript. Use rubber cement to affix the 
-images in place. Black and white, clear, glossy-finish photos are 
-preferable to color. Supply the best quality photographs and 
-illustrations possible. Penciled lines and very fine lines do not 
-reproduce well. Remember, the quality of the book cannot be better than 
-the originals provided. Do NOT use tape on your pages!
-
-
-%------------------------------------------------------------------------- 
-\nocite{ex1,ex2}
-\bibliographystyle{latex8}
-\bibliography{latex8}
 
 \end{document}
 
