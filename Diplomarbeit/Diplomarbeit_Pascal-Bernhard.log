@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013) (format=pdflatex 2014.4.20)  30 APR 2014 12:00
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013) (format=pdflatex 2014.4.20)  30 APR 2014 15:40
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -2668,22 +2668,22 @@ Package babel Info: Redefining ngerman shorthand "~
 
 [103]
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 1096.
+(babel)             in language  on input line 1094.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 1096.
+(babel)             in language  on input line 1094.
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 1096.
+(babel)             in language  on input line 1094.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 1096.
+(babel)             in language  on input line 1094.
  [104]
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 1100.
+(babel)             in language  on input line 1098.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 1100.
+(babel)             in language  on input line 1098.
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 1100.
+(babel)             in language  on input line 1098.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 1100.
+(babel)             in language  on input line 1098.
  [105]
 Package babel Info: Redefining ngerman shorthand "|
 (babel)             in language  on input line 1104.
@@ -2726,13 +2726,13 @@ Package babel Info: Redefining ngerman shorthand "~
 (babel)             in language  on input line 1130.
  [109]
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 1137.
+(babel)             in language  on input line 1135.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 1137.
+(babel)             in language  on input line 1135.
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 1137.
+(babel)             in language  on input line 1135.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 1137.
+(babel)             in language  on input line 1135.
  [110]
 Package babel Info: Redefining ngerman shorthand "|
 (babel)             in language  on input line 1154.
@@ -3217,8 +3217,8 @@ anged.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 2314.
  ) 
 Here is how much of TeX's memory you used:
- 35893 strings out of 493301
- 784097 string characters out of 6142879
+ 35894 strings out of 493301
+ 784110 string characters out of 6142879
  1003112 words of memory out of 5000000
  37329 multiletter control sequences out of 15000+600000
  173036 words of font info for 555 fonts, out of 8000000 for 9000
@@ -3243,10 +3243,10 @@ exmf-dist/fonts/type1/urw/palatino/uplbi8a.pfb></usr/share/texmf-dist/fonts/typ
 e1/urw/palatino/uplr8a.pfb></usr/share/texmf-dist/fonts/type1/urw/palatino/uplr
 8a.pfb></usr/share/texmf-dist/fonts/type1/urw/palatino/uplri8a.pfb></usr/share/
 texmf-dist/fonts/type1/urw/zapfding/uzdr.pfb>
-Output written on Diplomarbeit_Pascal-Bernhard.pdf (155 pages, 1121956 bytes).
+Output written on Diplomarbeit_Pascal-Bernhard.pdf (155 pages, 1122372 bytes).
 PDF statistics:
- 2215 PDF objects out of 2487 (max. 8388607)
- 1996 compressed objects within 20 object streams
- 685 named destinations out of 1000 (max. 500000)
+ 2217 PDF objects out of 2487 (max. 8388607)
+ 1998 compressed objects within 20 object streams
+ 686 named destinations out of 1000 (max. 500000)
  85502 words of extra memory for PDF output out of 89155 (max. 10000000)
 

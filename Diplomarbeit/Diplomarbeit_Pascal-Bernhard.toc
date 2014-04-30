@@ -74,10 +74,10 @@
 \contentsline {section}{\numberline {11.1}Energiepolitischer Diskurs Litauens}{101}{section.11.1}
 \contentsline {paragraph}{Einsch\"atzung der Energiesituation}{102}{section*.35}
 \contentsline {paragraph}{Bedrohungsbilder}{103}{section*.36}
-\contentsline {paragraph}{Ziele und Strategien}{104}{section*.37}
+\contentsline {paragraph}{Ziele und Strategien}{105}{section*.37}
 \contentsline {section}{\numberline {11.2}Energiepolitischer Diskurs in Lettland}{108}{section.11.2}
 \contentsline {paragraph}{Quantifizierung der Energiepolitik}{109}{section*.38}
-\contentsline {paragraph}{Versorgungssicherheit}{110}{section*.39}
+\contentsline {paragraph}{Versorgungssicherheit}{111}{section*.39}
 \contentsline {paragraph}{Bin\"are Gegens\"atze}{112}{section*.40}
 \contentsline {chapter}{\numberline {12}Fazit}{115}{chapter.12}
 \contentsline {chapter}{\numberline {13}Literaturverzeichnis}{119}{chapter.13}
