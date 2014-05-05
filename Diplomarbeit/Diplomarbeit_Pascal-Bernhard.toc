@@ -86,7 +86,7 @@
 \contentsline {paragraph}{BIP}{143}{section*.41}
 \contentsline {paragraph}{Herfindahl-Hirschman--Index}{143}{section*.42}
 \contentsline {paragraph}{Nat\"urliches Monopol}{145}{section*.43}
-\contentsline {paragraph}{Rent-Seeking}{145}{section*.44}
+\contentsline {paragraph}{Rent-Seeking}{146}{section*.44}
 \contentsline {paragraph}{Sunk Costs}{146}{section*.45}
 \contentsline {paragraph}{Upstream- und Downstream}{147}{section*.46}
 \contentsline {paragraph}{Vertikal Integriertes Unternehmen}{147}{section*.47}
