@@ -81,14 +81,14 @@
 \contentsline {paragraph}{Bin\"are Gegens\"atze}{112}{section*.40}
 \contentsline {chapter}{\numberline {12}Fazit}{115}{chapter.12}
 \contentsline {chapter}{\numberline {13}Literaturverzeichnis}{119}{chapter.13}
-\contentsline {chapter}{\numberline {14}Anhang}{143}{chapter.14}
-\contentsline {section}{\numberline {14.1}Erl\"auterungen}{143}{section.14.1}
-\contentsline {paragraph}{BIP}{143}{section*.41}
-\contentsline {paragraph}{Herfindahl-Hirschman--Index}{143}{section*.42}
-\contentsline {paragraph}{Nat\"urliches Monopol}{145}{section*.43}
-\contentsline {paragraph}{Rent-Seeking}{146}{section*.44}
-\contentsline {paragraph}{Sunk Costs}{146}{section*.45}
-\contentsline {paragraph}{Upstream- und Downstream}{147}{section*.46}
-\contentsline {paragraph}{Vertikal Integriertes Unternehmen}{147}{section*.47}
-\contentsline {section}{\numberline {14.2}Koalitionen und Parteien in Lettland}{148}{section.14.2}
-\contentsline {section}{\numberline {14.3}Fragen f\"ur Interviews}{153}{section.14.3}
+\contentsline {chapter}{\numberline {14}Anhang}{144}{chapter.14}
+\contentsline {section}{\numberline {14.1}Erl\"auterungen}{144}{section.14.1}
+\contentsline {paragraph}{BIP}{144}{section*.41}
+\contentsline {paragraph}{Herfindahl-Hirschman--Index}{144}{section*.42}
+\contentsline {paragraph}{Nat\"urliches Monopol}{146}{section*.43}
+\contentsline {paragraph}{Rent-Seeking}{147}{section*.44}
+\contentsline {paragraph}{Sunk Costs}{147}{section*.45}
+\contentsline {paragraph}{Upstream- und Downstream}{148}{section*.46}
+\contentsline {paragraph}{Vertikal Integriertes Unternehmen}{148}{section*.47}
+\contentsline {section}{\numberline {14.2}Koalitionen und Parteien in Lettland}{149}{section.14.2}
+\contentsline {section}{\numberline {14.3}Fragen f\"ur Interviews}{154}{section.14.3}
